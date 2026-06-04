@@ -43,7 +43,7 @@ Every bot/strategy flows into a unified **Trade History** with win-rate, profit 
 ## AI
 
 **What can the AI do?**
-Rank trade ideas (AI Advisor), generate setups (Trade Genius), turn a chart screenshot or sentence into a plan (Trade Vision), write sourced research (Research RAG-LLM), and answer/act in chat (FORA). Important calls can be cross-checked across multiple models (Multi-AI Consensus). See **[AI Advisor](smart-trading.md)** and **[FORA](fora.md)**.
+Rank trade ideas (AI Advisor), turn a chart screenshot or sentence into a plan (Trade Vision), write sourced research (Research RAG-LLM), and answer/act in chat (FORA). Important calls can be cross-checked across multiple models (Multi-AI Consensus). See **[AI Advisor](smart-trading.md)** and **[FORA](fora.md)**.
 
 **Is the AI giving financial advice?**
 No. AI output is analysis and education. You stay in control — nothing executes unless you set up a bot or confirm a trade.

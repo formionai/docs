@@ -16,7 +16,7 @@ The platform spans three surfaces:
 
 ## ⚡️ What you can do
 
-* 🤖 **AI trading assistance** — FORA chat, AI Advisor, Trade Genius (AI trade ideas), Trade Vision (chart-image → trade), and a Research RAG-LLM engine.
+* 🤖 **AI trading assistance** — FORA chat, AI Advisor (ranked trade ideas), Trade Vision (chart-image → trade), and a Research RAG-LLM engine.
 * 📊 **Deep market data** — multi-exchange screeners, open-interest / funding / long-short analytics, order-flow & footprint, GEX / options, on-chain events and whale tracking.
 * 🦾 **Automate trading** — DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **TradingView webhook automation** that executes your alerts on your connected CEX or DEX.
 * 🧪 **Build & backtest strategies** — no-code Strategy Builder, 5-year backtests, walk-forward validation and a prop-firm simulator.

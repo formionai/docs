@@ -38,7 +38,7 @@ Try Formion with no commitment: link 2 exchanges, run unlimited **paper** bots, 
 
 ## 💎 Pro — $89/mo
 
-Full retail trading: unlimited exchanges & wallets with direct execution on all 4 DEX, **5 live bots**, the complete AI stack (Advisor, Trade Vision, Trade Genius, Research RAG, Multi-AI Consensus), backtesting + Strategy Lab, full charting (all indicators, SMC, replay), unlimited journal with AI auto-tag, and **TradingView webhook automation**.
+Full retail trading: unlimited exchanges & wallets with direct execution on all 4 DEX, **5 live bots**, the complete AI stack (Advisor, Trade Vision, Research RAG, Multi-AI Consensus), backtesting + Strategy Lab, full charting (all indicators, SMC, replay), unlimited journal with AI auto-tag, and **TradingView webhook automation**.
 
 ## 🏛️ Institutional — $499/mo
 
