@@ -1,55 +1,25 @@
-# 🧠 AI Bots
+# 🧠 AI Bots (curated copy-trading)
 
-#### Overview of AI Bots 🤖
+**Formion AI Bots** are Formion's own curated strategies that you can **copy-trade** on your exchange — the platform runs the strategy and mirrors its trades into your account, proportionally to your balance.
 
-Formion's AI Bots utilize advanced artificial intelligence to automate trading strategies, analyze market trends, and make data-driven decisions. These bots are designed to operate on various exchanges, including Binance and Bybit, offering users seamless integration and enhanced trading performance.
+### How they work
 
-#### Automated Trading ⚙️
+* The strategy logic runs on Formion's side and adapts to market conditions.
+* When it opens or closes, your connected account mirrors the trade — sized to your capital, with your own risk limits.
+* Fully transparent metrics: **P/L, drawdown, win-rate and risk** are visible before and while you copy.
+* **No custody** — funds stay on your own exchange; Formion only places trades via API.
 
-Our AI Bots are equipped to handle automated trading based on predefined strategies. Users can set their preferences, including risk tolerance and investment goals, and let the bots execute trades automatically. This ensures that trading opportunities are not missed due to human limitations.
+### Availability
 
-#### AI-Driven Insights 📊
+* AI Bots copy-trading runs on **Bybit (Unified Trading Account)** today; Binance support is on the roadmap.
+* Included with an active **Pro** or **Institutional** plan (Pro: 5 copy slots · Institutional: unlimited).
+* Manage them from **app.formion.ai → Bots** and track every trade in **[Trade History](journal.md)**.
 
-Formion's AI Bots are powered by sophisticated algorithms that continuously analyze market data to provide actionable insights. These insights help users make informed decisions, enhancing their trading strategies and maximizing returns. The AI analyzes various indicators, including moving averages, RSI, and market sentiment.
+### Related
 
-#### Customizable Settings 🛠️
+* Want to build and run **your own** automated strategies (DCA, Grid, Indicator, Trailing, Funding-arb)? See **[Bots & Automation](bots.md)**.
+* Want to fire your **TradingView** alerts onto your exchange? See **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
-Users can customize their AI Bot settings according to their preferences. The settings include options such as allowing others to copy trades, using LIMIT orders for TP/SL, mimicking the master's trade size, and more.
-
-#### Copy Trading 📈
-
-Users can view and select bots to copy from the Copy Trading section. This section displays the performance of various bots, including PNL, copy fees, and risk levels.
-
-#### Getting Started with AI Bots 🚀
-
-1. **Create an Account:** Sign up on Formion to start using AI Bots.
-2. **Choose a License:** Select a suitable license or opt for a 7-day trial available after registration.
-3. **Set Preferences:** Customize your AI Bot settings according to your preferences and trading strategies.
-4. **Start Trading:** Activate your AI Bot and let it execute trades based on your preferences and market conditions.
-
-#### Fees and Subscriptions 💳
-
-* **Monthly Fee:** Formion AI Bots are free for users with at least a Premium License. Other bots or users not directly associated with Formion can charge for their bots or offer them for free.
-
-#### FAQ ❓
-
-* **What are Formion AI Bots?** Formion AI Bots are advanced trading bots using machine learning algorithms to optimize trades.
-* **Where do I find AI Bots?** AI Bots are found in the copy trading section on the Copy Trading page and are marked with a 🤖 icon. They are always free as they are included in the license (minimum Premium, also Pro available).
-* **Can I customize AI Bot settings?** Yes, settings like risk parameters and trade execution preferences can be customized.
-* **What risk management features do AI Bots offer?** AI Bots include stop-loss and take-profit levels.
-* **How can I monitor AI Bot performance?** Performance can be tracked on the Formion Copy Trading page.
-* **Are AI Bots for spot or futures trading?** Formion AI Bots are specifically designed for futures trading.
-* **Which bot should I use?** Choose based on goals, risk tolerance, and capital. AI Bots offer advanced, automated functionalities tailored to your strategy.
-* **Can I run multiple bots at once?** Yes, with a valid license for each. It's recommended to use separate subaccounts for each bot.
-* **What is the recommended investment amount? Are there any limits?** A minimum of $500 is suggested. Premium licenses are best for single bots, while Pro licenses offer all advanced features. Investing over 2,000 USDT is generally profitable monthly.
-* **Is there a performance guarantee for the trading bots?** No performance guarantees are provided as trading involves inherent risks.
-* **When can I turn off the bot?** You can turn off the bot anytime, but it is advised to follow recommended trading periods for optimal performance.
-* **Do the bots operate independently, or do I need to configure settings?** AI Bots are fully automated and pre-configured.
-
-For additional questions, refer to our [FAQ page](https://docs.formion.ai/faq).
-
-#### Conclusion 🏁
-
-Formion 's AI Bots provide traders with the tools and insights needed to automate their trading strategies intelligently. Whether you are new to trading or an experienced investor, our AI Bots offer advanced features to enhance your market performance. Join Formion today and take advantage of AI-driven trading.
-
-For more details, please visit our [Dashboard](https://formion.ai/ai-bots).
+{% hint style="info" %}
+Copy-trading mirrors another strategy's trades into your account — it carries market risk like any trading. Past performance doesn't guarantee future results.
+{% endhint %}

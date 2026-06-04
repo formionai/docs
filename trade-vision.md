@@ -1,112 +1,22 @@
-# 👾 Formion Trade Vision
+# 👾 Trade Vision
 
-## **Trade with a Vision of Future - Formion Trade Vision 🚀**
+**Trade Vision** turns a picture or a sentence into a structured trade plan.
 
-✨ **Formion Vision Trade** is a revolutionary feature that brings a new level of speed, simplicity, and flexibility to the trading process. This feature allows users to trade directly from images of their trading analysis. Imagine being able to upload or forward an image of a chart or trading setup, and our system will automatically recognize key levels, like entry points, stop-loss, and take-profit targets, and then execute trades based on your preferences. It’s a game-changer for traders who rely on visual analysis and want to speed up their trading process.
+Drop in a **chart screenshot** — or just type a free-form idea like *"long BTC around 62k, stop under 60k, targets 65k/68k"* — and the AI extracts a clean setup: direction, entry (or entry zone), stop-loss, multiple take-profit levels and an optional DCA ladder, with a short rationale.
 
-📱 **But that’s not all**—Formion VisionTrade also supports **text-based commands**. You can send trade instructions in different formats and languages directly through the platform or via our **Telegram bot**.
+### How it works
 
-💡 **Formion VisionTrade** processes these commands and executes trades according to your predefined settings, making sure everything is done accurately and with no human errors.
+1. Open **app.formion.ai → AI Advisor → Trade Vision** (or send an image to the FORA Telegram bot).
+2. Upload a chart image or describe the idea in text.
+3. The AI returns the parsed plan (entry / stop / TPs / DCA) plus reasoning.
+4. **Confirm** to act on it — turn it into an alert, a bot, or place the order on your connected exchange.
 
-🎯 We’re also planning to introduce more advanced trading strategies, like **DCA (Dollar-Cost Averaging)** and **grid trading**, to give users more options to customize their trading approach. These strategies will be easy to set up and manage, even for those who might not be familiar with complex trading systems.
+### Good to know
 
-🤖 Another big update to look forward to is our **AI-driven analysis and recommendations**. This feature will provide personalized insights based on market trends and your trading history, helping you make more informed decisions. Whether you’re focusing on long-term investments or short-term trades, our AI will be there to guide you.
+* **Multilingual** — describe trades in your own language; the parser handles 10+ languages.
+* **You stay in control** — Trade Vision proposes; nothing executes until you confirm (or wire it to a bot).
+* Works across crypto, forex, stocks and commodities.
 
-These updates are designed to make trading on Formion even more powerful and user-friendly. We’re excited to roll them out and believe they’ll significantly enhance the functionality of the platform, making it easier for you to trade smarter and more efficiently. 💪
-
-#### 🔍 How It Works:
-
-1. **Image Commands:**
-   *   📸 **Image-Based Trading**: Users can either upload images of their trading charts or send text-based trading commands directly to the Formion platform or through the Formion Telegram bot. This flexibility allows traders to use the method that best suits their style, whether they prefer visual analysis or text-based commands.
-
-       \
-       Examples include:
-
-<figure><img src=".gitbook/assets/chart1 (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/chart3 (2).jpg" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/chart2 (1).jpg" alt=""><figcaption></figcaption></figure>
-
-2. ⌨️ **Text Commands**: Formion VisionTrade supports various templates in different languages.\
-   \
-   Examples include:
-
-* 📈 "Buy BTC at 57499 for $100 size, DCA at 56000 for 30%, 54000 for 40%, 52000 for 30%, SL at 48322, TP at 59300 for 50%, 60100 for 10%, and the rest at 61300."
-* 💹 "XRPUSDT Short Leverage x10 Entry 0.5929, Targets: 0.5797, 0.5525, 0.5243, SL 0.6162."
-* 🔄 "Buy Bitcoin futures at $58200, stop loss at 56300, TP at 61000 and 63140."
-
-To use text-based commands you need to go on Telegram bot **@formiontradingbot** and type command /trade like\
-\
-\&#xNAN;**`/trade buy btc at 57k for 100$ size, sl 55k, tp at 60k`**
-
-**3. Combining Images and Text**
-
-📝 Formion VisionTrade allows you to combine both **images and text commands** for a more detailed trading strategy. For example, you can upload a chart for visual analysis and include a text command for precise TP/SL levels.
-
-* **Example**: Send an Ethereum chart and a text command like "Buy ETH at $1,800, SL at $1,750, TP at $2,000 for 50%, $2,100 for the rest." The system will combine the data from both sources and execute the trade.
-
-#### 🎯 **Advanced Trading Strategies**
-
-Formion VisionTrade supports **advanced trading strategies** like:
-
-**1. DCA (Dollar-Cost Averaging)**
-
-DCA allows you to **split your trade** into multiple levels, helping to lower your average entry price.
-
-* **Example**:\
-  "Buy BTC at $28,500 for 5%, then at $28,000 for $200, and finally at $27,500 for 3%."
-
-**2. Take-Profit (TP) Strategies**
-
-You can set multiple TP levels to optimize your exits, giving you better control over your profits.
-
-* If you don’t specify percentages, Formion will automatically distribute the exits evenly across the TP levels.
-* You can customize your TP distribution to fit your strategy.
-* **Example**:\
-  "Set TP at $30,000 for 50%, $31,500 for 25%, and $32,000 for the remaining portion."
-
-**Trade Configuration:**
-
-* ⚙️ Before using Formion VisionTrade, users set up their trading preferences. These include:
-  * **Trade Amount**: 💵 Choose a fixed amount or a percentage of the portfolio.
-  * **Leverage**: 📊 Define the leverage you want to apply to your trades.
-  * **Take-Profit Strategy (TP Strategy)**: 🎯 Opt for a conservative approach (evenly distributed TP levels) or customize the distribution (e.g., different percentages at various TP levels).
-
-1. **Automated Trade Execution:**
-   * 🔄 Once the system processes the image or text command, Formion VisionTrade extracts the necessary trading information—like entry levels, stop-loss, and take-profit targets—and automatically places the trades according to the user’s settings. This automation helps ensure precision and reduces the likelihood of human error.
-
-#### ⭐ Benefits for Users:
-
-1. **Efficiency and Speed:**
-   * ⏱️ **Formion Vision Trade** automates the entire process, saving you time. Whether you send an image or a text command, your trades are executed in seconds—ensuring you never miss a profitable trade.
-2. **Seamless Integration with Telegram:**
-   * 📱 Formion Vision Trade is fully integrated with **Telegram**, allowing you to send commands or images from your mobile device. You can trade on the go without accessing a desktop, making the process fast and convenient.
-3. **Error Reduction:**
-   * 🚫 By automating trades based on precise analysis, Formion Vision Trade minimizes the risk of mistakes that can occur during manual trading, such as incorrect entry points or missed trades.
-4. **Customization and Flexibility:**
-   * 🎛️ The platform offers a high degree of customization. Whether you prefer a **conservative** approach with balanced TP levels or a **more aggressive** strategy with custom TP percentages, Formion Vision Trade can accommodate your preferences.
-5. **Enhanced Decision-Making:**
-   * 🌍 Formion Vision Trade understands **multiple languages**, allowing users worldwide to interact with the system easily. Whether you send commands in English, German, Chinese, or any other language, Formion processes them accurately.
-6. **Staking and Rewards:**
-   * 🎁 **Formion Vision Trade** will soon offer staking options for **FOM tokens**. Users will be able to stake their tokens to earn rewards while actively using the platform, creating a further incentive to engage and participate in the Formion ecosystem.
-
-🤖 **Upcoming Features**\
-Formion Vision Trade is continuously evolving, with several exciting features planned:
-
-1. **AI-Driven Insights**
-   * 🤖 Formion will soon introduce AI-powered analysis that provides personalized recommendations based on trading history and market trends. These insights will help you make informed decisions whether you're focused on long-term investments or short-term trades.
-2. **DeFi Integration and DEX Trading**
-   * 🌐 Formion Vision Trade will integrate with **DeFi platforms** and decentralized exchanges (DEX), allowing users to trade directly on platforms like **Uniswap** and **PancakeSwap**. This will open up new opportunities in **yield farming** and **decentralized finance**.
-3. **Altcoin Tracking and AI-Based Analysis**
-   * 🔍 AI tools will help track altcoin opportunities by analyzing market sentiment and trends. This will allow users to take advantage of emerging trends in the altcoin market, backed by data-driven insights.
-4. **TradingView Integration**
-   * 📊 Formion Vision Trade will support integration with TradingView, enabling users to execute their personal indicators and strategies directly from TradingView onto Formion, making the trading experience even more seamless.
-5. **Personalized Bots**
-   * 🤖 You will soon be able to create customized trading bots powered by FOM tokens. These bots can be trained to follow your specific trading strategies, automating your trades even further and running 24/7 without manual input.
-6. **Forex and Commodities Trading (e.g., XAU, XAG, EURUSD)**
-   * 🌍 Formion Vision Trade will expand beyond crypto markets to include Forex trading as EURUSD, GPBUSD and commodities like gold (XAU) and silver (XAG). This will allow users to trade across multiple asset classes, diversifying their portfolios with traditional financial markets.
-
-#### 🎉 Conclusion:
-
-**Formion Vision Trade** offers an innovative, flexible, and automated trading solution for both beginners and experienced traders. By supporting **image-based analysis**, **text commands**, and **multiple trading strategies**, the system makes trading faster, smarter, and more efficient. With upcoming features like **Forex, stocks, commodities**, **DeFi integration**, **staking**, and **personalized bots**, Formion Vision Trade is well on its way to becoming a versatile, all-in-one trading platform. 🚀
+{% hint style="info" %}
+Trade Vision is part of the AI suite — included on **Pro** and **Institutional**, and usable on the free tier within your AI budget or via **BYOK**.
+{% endhint %}

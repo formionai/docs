@@ -1,44 +1,27 @@
-# 🤖 Formion AI Smart Trading
+# 🤖 AI Advisor & Smart Trading
 
-### Formion AI Smart Trading
+Formion's AI turns a live market snapshot into ranked, actionable trade ideas — and explains its reasoning. Three tools work together:
 
-Formion Smart Trading is an AI-powered tool that enables users to leverage various approaches to advanced trading and investment assistance using AI.
+### AI Advisor
 
-#### Components of the Formion Smart Trading System
+Pick your **style** (scalp / swing / position), **risk** and **asset class**, and the AI ranks tradeable setups from a live screener snapshot — each with a direction, suggested entry / stop / take-profit and a written rationale referencing the indicators that triggered it. A **Track Record** view keeps the advisor honest by logging its historical calls against realized outcomes.
 
-**1. Formion** **AI Trade Genius 🤖**
+It also includes free-form **AI Chat**: ask anything, attach a chart or file, pick the model, and toggle extended thinking for harder questions.
 
-* **Formion AI**: Users can utilize Formion AI for advanced analyses that include instructions, suggestions, explanations, and strategies based on artificial intelligence.
-* **Indicators**: Analyses can be conducted using various indicators such as **Formion indicators**, **CoinGlass** analytics, Private Formion indicators, or indicators from the user's TradingView account.
-* **Personalized Bots**: Users will have the ability to create and train personalized trading bots based on their analyses and strategies.
+### Trade Genius
 
-**2. Formion TrendWatch 📈**
+AI-generated trade ideas for a specific symbol: multi-level entry, stop-loss and take-profit targets, plus the reasoning and the indicators behind them (RSI, moving averages, Bollinger, MACD, Fibonacci, the proprietary **FormionTSI**, and liquidation data).
 
-* **Display of Trend Tokens**: Display tokens that are in trend with a _**Bullish score**_. There are plans to display 10 tokens with a Screener option.
+### Daily Strategy
 
-**3. Formion Research Tokens - Long Catcher Indicator AI 🕵️‍♂️**
+An auto-generated, personalized daily trade plan delivered each morning, aware of the day's scheduled macro events.
 
-* **Long Catcher Indicator AI**: A tool that helps traders identify and capitalize on trending tokens. It aggregates data from social networks, Twitter, CoinGecko, CoinMarketCap, and other sources to provide a comprehensive analysis of popular tokens using 20 different indicators.
-* **Technical Analysis (TA)**: Provides robust analysis of trending tokens, helping traders make informed decisions based on technical data and market sentiment.
-* **Some of the indicators**:
-  * **Relative Strength Index (RSI)**: Measures the speed and change of price movements.
-  * **Moving Averages (MA)**: Provides smoothed price data to identify trends.
-  * **Bollinger Bands**: Indicates volatility and potential overbought or oversold conditions.
-  * **MACD (Moving Average Convergence Divergence)**: Shows the relationship between two moving averages of a token's price.
-  * **Fibonacci Retracement Levels**: Identifies potential support and resistance levels.
-* **Integration of Indicators**: The Long Catcher Indicator AI provides traders with robust analysis of trending tokens, helping them make informed trading decisions based on comprehensive technical data and market sentiment.
+***
 
-**4. Formion VisionTrade (in development) 👁️**
+* **AI budget:** every plan includes an AI allowance (Neural ~$2/mo · Pro $5/day · Institutional $30/day with priority). Connect your own key (**BYOK**) on any tier for effectively unlimited usage.
+* **Multi-model:** important calls can be cross-checked across several AI models — see **[FORA & Multi-AI Consensus](fora.md)**.
+* Open it from **app.formion.ai → AI Advisor**.
 
-* **Advanced Trading Options**: Formion VisionTrade enables the use of advanced trading options such as DCA (Dollar-Cost Averaging) with this system.
-* **Automated Trading Based on Images**: Users can send images of their trading analyses directly to the bot, which will automatically execute trades based on the analysis.
-* **How It Works**:
-  1. **Prepare the Analysis Image**: Create or obtain a trading analysis with key information such as entry price, stop-loss (SL), and take-profit (TP) levels.
-  2. **Send the Image**: Send the image with the trading analysis to the Formion bot via Telegram or another supported platform.
-  3. **Signal Recognition**: Formion VisionTrade uses advanced image recognition technology to identify key trading signals from the image.
-  4. **Automatic Trade Execution**: The bot automatically executes the trade on your account, using the identified levels for entry, stop-loss, and take-profit.
-  5. **Tracking and Confirmation**: Receive confirmation of the executed trade and monitor the status through the Formion platform or Telegram.
-
-### Conclusion
-
-**Formion Smart Trading** is a comprehensive solution that combine advanced artificial intelligence, personalized bots, trend analyses, and innovative features such as automated trading based on images to enable users to trade cryptocurrencies more efficiently and informedly. "**Formion AI Trade Genius**" provides users with advanced AI analyses and indicators for making informed trading decisions. The Long Catcher Indicator AI helps traders identify and capitalize on trending tokens using 20 different indicators for comprehensive technical analysis. "Formion TrendWatch" displays trending tokens with a Bullish score, helping users stay informed about the current market trends.
+{% hint style="warning" %}
+AI output is analysis and education, not financial advice. You stay in control — nothing executes unless you set up a bot or confirm a trade.
+{% endhint %}
