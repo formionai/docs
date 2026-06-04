@@ -40,9 +40,3 @@ FOM is the native utility token of the Formion ecosystem (subscription discounts
 * Want the full app tour? See **[The App](the-app.md)**.
 * Pricing & plans: **[Pricing & Tiers](pricing.md)**.
 * Automate TradingView alerts: **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
-
-***
-
-### How Formion compares
-
-<table><thead><tr><th width="279">Functionality</th><th width="115">Formion AI</th><th>Mizar</th><th width="117">3Commas</th><th width="112">SpectreAI</th><th width="115">XPlusAI</th><th>Cornix</th><th>CryptoHopper</th></tr></thead><tbody><tr><td><strong>Multi-asset (crypto/forex/stocks/options/PM)</strong></td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td><strong>AI tools (advisor, vision, research)</strong></td><td>✅</td><td>❌</td><td>❌</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td></tr><tr><td><strong>Automated trading bots</strong></td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td><td>✅</td><td>✅</td></tr><tr><td><strong>Copy trading</strong></td><td>✅</td><td>✅</td><td>✅</td><td>❌</td><td>❌</td><td>✅</td><td>✅</td></tr><tr><td><strong>Backtest + walk-forward</strong></td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr><tr><td><strong>TradingView webhook automation</strong></td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>✅</td></tr><tr><td><strong>Trade via Telegram + AI assistant</strong></td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td><td>❌</td></tr><tr><td><strong>Prediction markets (Polymarket/Kalshi)</strong></td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr></tbody></table>

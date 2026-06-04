@@ -1,8 +1,9 @@
 redirects:
+  ai-bots: bots.md
   how-to-start-with-hemera-api-connection: how-to-start-api-connection.md
   hemera-smart-trading: smart-trading.md
   hemera-trade-vision: trade-vision.md
   hemera-research-ai-rag-llm: research-ai-rag-llm.md
   how-to-automate-your-trades-with-tradingview-alerts-on-hemera: how-to-automate-trades-tradingview-alerts.md
   hem-token: fom-token.md
-  smart-bots: ai-bots.md
+  smart-bots: bots.md

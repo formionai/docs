@@ -8,7 +8,6 @@
 * [💬 FORA — AI Assistant](fora.md)
 * [👾 Trade Vision](trade-vision.md)
 * [🌐 Research AI (RAG-LLM)](research-ai-rag-llm.md)
-* [🧠 AI Bots (copy-trading)](ai-bots.md)
 * [🦾 Bots & Automation](bots.md)
 * [💡 TradingView Automation](how-to-automate-trades-tradingview-alerts.md)
 * [📓 Trading Journal](journal.md)
