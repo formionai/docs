@@ -1,93 +1,71 @@
 # 💡 How to Automate Your Trades with TradingView Alerts on Formion 📈🔔
 
-Automating your trades on Formion using TradingView alerts is a seamless and powerful way to execute your trading strategies without manual intervention. Follow these steps to set up and start automating your trades efficiently.
+Connect a TradingView alert to your own exchange and let Formion execute the trade for you — on **CEX and DEX**. You create a **TradingView Bot**, copy its webhook URL and alert messages, and paste them into a TradingView alert. When the alert fires, Formion places the order on your connected account.
 
-#### Step-by-Step Guide
+{% hint style="info" %}
+🚧 **Rolling out.** Live execution is being enabled gradually. You can create and configure bots now; they stay **paused** until automation is switched on for your account.
+{% endhint %}
 
-#### 1. Access the TradingView Bot Page on Formion 🌐
+#### 1. Connect your exchange 🔑
 
-Navigate to the TradingView bot page on Formion to set up your bot:
+First connect the account you want to trade on (one-time):
 
-1. **Login** to your Formion account.
-2. Go to the **TradingView Bot** section (`twbot.php`).
+* Go to **[formion.ai](https://formion.ai) → Profile → Connections**.
+* Under **Exchanges** (CEX) or the DEX cards, link your account with API keys / signing key. See [How to Start — API Connection](how-to-start-api-connection.md).
+* Supported today: **CEX** — Binance, Bybit, KuCoin, Gate, BingX, MEXC, Blofin, Bitget. **DEX** — Hyperliquid, Asterdex, Bluefin, Extended. (Venues are enabled for automation progressively.)
 
-#### 2. Create a New TradingView Bot 🤖
+#### 2. Create a TradingView Bot 🤖
 
-Click on the **Create TradingView Bot** button to set up a new bot:
+* In **Profile → Connections**, open the **TradingView Automation** card and click **New bot**.
+* Fill in:
+  * **Exchange** — any account you've connected (CEX or DEX).
+  * **Market** — Futures or Spot.
+  * **Symbol** — e.g. `BTCUSDT`.
+  * **Direction** — Long or Short (the side this bot opens).
+  * **Sizing** — Fixed USDT amount, or % of balance.
+  * **Amount** / **Leverage** (futures) / optional **Label**.
+* Click **Create bot**. The bot is created **paused** with two private tokens.
 
-1. **Symbol:** Enter the trading pair symbol (e.g., BTCUSDT, LINKUSDT).
-2. **Exchange:** Select your preferred exchange (e.g., Binance, Bybit).
-3. **Trading Type:**
-   * **Choose between `SPOT` and `USD-M`.**
-   * **Bybit Users:**
-     * `USD-M` refers to Futures trading on the Unified Trading Account (UTA).
-     * `SPOT` refers to spot trading on the UTA.
-4. **Position:** Select `BUY` for long positions or `SELL` for short positions.
-5. **Leverage:** Set your leverage if you choose `USD-M`.
-6. **Investment Amount:** Enter the amount you want to invest per trade.
+#### 3. Copy the webhook + alert messages 🔗
 
-After filling in the details, click on the **Create Bot** button. Formion will automatically generate the necessary UUIDs for opening and closing positions.
+Each bot shows three things — copy them with the buttons:
 
-#### 3. Configure the Webhook URL on TradingView 🔗
+* **Webhook URL** — `https://fora.formion.ai/tv/hook`
+* **Open — alert message** — e.g. `{"token":"<your-open-token>"}`
+* **Close — alert message** — e.g. `{"token":"<your-close-token>"}`
 
-To automate your trades, you'll need to configure alerts on TradingView using Formion's webhook URL.
+The token is the only secret; keep it private. Open opens the position, Close closes it (reduce-only).
 
-1. **Open TradingView:**
-   * Go to [TradingView](https://www.tradingview.com/).
-2. **Set Up Alerts:**
-   * Click on the `Alert` icon or right-click on your chart and select `Add Alert`.
-   * Choose the condition based on your strategy (e.g., `Crossing`, `Moving Up`).
-   * On message field put _<mark style="color:orange;">**`{{strategy.order.alert_message}}`**</mark>_
-3.  **Webhook URL:**
+#### 4. Set up the alert on TradingView 🔔
 
-    * In the alert creation menu, find the `Webhook URL` field.
-    * Enter the Formion webhook URL: `https://formion.ai/webhookformion.php`.
+1. On [TradingView](https://www.tradingview.com/), open your chart/strategy and click **Create Alert**.
+2. Set your condition (indicator cross, strategy order, price, etc.).
+3. Open the **Notifications** tab → enable **Webhook URL** → paste the **Webhook URL** from step 3.
+4. In the **Message** field, paste the **Open** alert message (to open) — or the **Close** message (for a separate close alert).
+5. Save. Repeat with the **Close** message for a second alert if you want automated exits.
 
+{% hint style="success" %}
+Tip: in a Pine **strategy**, you can also use `{{strategy.order.alert_message}}` and set the order's `alert_message` to your Open/Close token, so one alert handles entries and exits.
+{% endhint %}
 
+#### 5. Activate ⚙️
 
-<figure><img src=".gitbook/assets/99999.png" alt=""><figcaption></figcaption></figure>
+* Back in **TradingView Automation**, toggle the bot to **Active**.
+* When automation is enabled for your account, the next matching TradingView alert will place the order on your connected exchange. Every fire is logged with status (filled / skipped / error).
 
-#### 4. Use Generated UUIDs in Alerts 🔑
+#### Safety 🔒
 
-Each bot has unique UUIDs for opening and closing trades, generated when the bot is created. Follow these steps to use them:
-
-1. **Find UUIDs:**
-   * In the `twbot.php` page, locate your newly created bot.
-   * Note down the **Open UUID** and **Close UUID** for the bot.
-2. **Set Up Alerts on TradingView:**
-   *   **Open/Close Long/Short Alerts:**
-
-       * In the alert message, include the Open UUID.
-       * Example: `{"Open Long Command": "YOUR_OPEN_UUID"}`.
-       * In the alert message, include the Close UUID.
-       * Example: `{"Close Long Command": "YOUR_CLOSE_UUID"}`.
-
-       The same is with Short commands ( Both Open Short and Close Short UUID fields are required!)
-
-#### 5. Activate and Test Your Bot ⚙️
-
-1. **Activate Bot:**
-   * Ensure your bot is set to `Active` on the `twbot.php` page.
-2. **Test Your Alerts:**
-   * Trigger alerts on TradingView to test if the bot executes trades as expected.
-
-#### 6. Repeat for Short Positions 📉
-
-To automate short positions, create a separate bot for short trades:
-
-1. **Repeat Steps 2-5:** Create a new bot with `SELL` as the position, and set up corresponding alerts with the new UUIDs for short positions.
+* Tokens are random and per-bot; rotate by deleting and recreating a bot.
+* A bot only ever trades the **one symbol and direction** you configured. **Close** orders are **reduce-only** (they can't open or flip a position).
+* Duplicate alerts with the same id are ignored (no double-fills).
+* You can pause or delete a bot at any time. Formion never withdraws funds — it only places trades on your connected account.
 
 #### Emoji Recap 📌
 
-* 🌐 Access the TradingView Bot Page
-* 🤖 Create a New TradingView Bot
-* 🔗 Configure the Webhook URL on TradingView
-* 🔑 Use Generated UUIDs in Alerts
-* ⚙️ Activate and Test Your Bot
-* 📉 Repeat for Short Positions
+* 🔑 Connect your exchange (CEX or DEX)
+* 🤖 Create a TradingView Bot
+* 🔗 Copy the webhook URL + Open/Close messages
+* 🔔 Paste them into a TradingView alert
+* ⚙️ Activate
 
-By following these steps, you'll be able to automate your trades seamlessly using Formion and TradingView alerts. Happy trading! 🚀\
-\
-Here is some images how it works.
-
-<div><figure><img src=".gitbook/assets/twbot1.png" alt=""><figcaption><p>Avax Long TradingView Bot</p></figcaption></figure> <figure><img src=".gitbook/assets/twbot2.png" alt=""><figcaption><p>Executed alert for close order on binance</p></figcaption></figure> <figure><img src=".gitbook/assets/twbot3.png" alt=""><figcaption><p>Telegram information about trade.</p></figcaption></figure></div>
+Happy automating! 🚀
