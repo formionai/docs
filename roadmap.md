@@ -11,7 +11,6 @@ Roadmap for Formion AI
    * **AI Portfolio Builder:** Construct diverse, profitable portfolios using AI insights. (In development, coming soon 🔜).
    * **AI Risk Management:** Implement intelligent strategies to safeguard investments. (In development, coming soon 🔜).
 3. **More Trading Bots:**
-   * **Smart Bots:** Pre-built trading bots with high-probability strategies (In development, coming soon 🔜).
    * **Custom Bots:** Enable traders to create and personalize their own strategies. (In development, coming soon 🔜).
 4. **User Experience Improvements:**
    * Enhance the Telegram trading bot interface for seamless navigation.

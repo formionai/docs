@@ -8,7 +8,7 @@ description: Frequently Asked Questions (FAQ)
 
 ### **What is** Formio&#x6E;**?**
 
-*   Formion AI is a comprehensive ecosystem that offers automated and copy trading services on Binance and Bybit. We provide a range of AI trading bots designed for all levels of traders to maximize portfolio efficiency. Our services include Copy Trading, Smart Trading, Crypto Signals, AI Bots, Smart Bots, and Advanced Analysis.
+*   Formion AI is a comprehensive ecosystem that offers automated and copy trading services on Binance and Bybit. We provide a range of AI trading bots designed for all levels of traders to maximize portfolio efficiency. Our services include Copy Trading, Smart Trading, Crypto Signals, AI Bots, and Advanced Analysis.
 
     In addition, the **FOM Token** is the native utility token of the Formion ecosystem. It provides access to staking, farming, exclusive AI tools and AI analysis, and referral rewards.
 
@@ -32,13 +32,8 @@ Formion is constantly evolving. Current features in development include:
 
 * Formion ensures the accuracy of its AI tools through continuous learning and adaptation. Our AI models are regularly updated with the latest market data and trends. We also conduct extensive backtesting and validation to ensure reliable performance.
 
-{% hint style="success" %}
-~~Note: **FOM TOKEN IS NOW LIVE ON CETUS!**~~\
-~~**Pair on:****&#x20;**_<mark style="color:orange;">**0x00**</mark>_~~
-{% endhint %}
-
-{% hint style="success" %}
-FOM token is launched on the SUI blockchain, ensuring compatibility with SUI-based wallets.
+{% hint style="info" %}
+FOM is not yet live. The launch chain and tokenomics are still being finalized and will be announced here. 🚧 Coming soon.
 {% endhint %}
 
 ### Other Relevant Questions
@@ -90,12 +85,9 @@ FOM token is launched on the SUI blockchain, ensuring compatibility with SUI-bas
 
 1. **What types of trading bots does Formion offer?**
    * **Custom Bots:** Create and personalize your own trading strategies. ( In development, coming soon 🔜)
-   * **Smart Bots:** Pre-built trading bots with high-probability strategies. ( In development, coming soon 🔜)
    * **AI Bots:** Bots utilizing machine learning for optimized execution. ✅
 2. **Can I automate my own strategies with Formion?**
    * Yes, you can automate your own strategies on TradingView or you can use our Formion Indicator v1 with TradingView alerts.
-3. **What is the difference between Smart Bots and AI Bots?**
-   * Smart Bots use TradingView indicators for trading, while AI Bots continuously learn and optimize strategies for enhanced performance.
 4. **Is there a performance guarantee for the trading bots?**
    * Yes, if a user purchases a bot license ( Premium ) and does not achieve a 10% profit relative to the license cost by the end of the license period, the license will be extended by 3 days until the target is met.
 5. **How often are the trading bots updated or improved?**
@@ -123,7 +115,6 @@ FOM token is launched on the SUI blockchain, ensuring compatibility with SUI-bas
         **AI Bots:**
 
         1. **AI Bots:** Uses AI to optimize entry and exit points for trading. Ideal for users who want precision and automation in their trading.
-        2. **Smart Bots:** Predefined bots that use TradingView indicators for automated trading. Suitable for those who want a simple solution with some customization.
 
         You can track the performance of each bot live on our page: [Formion Copy Trading](https://formion.ai/copytrading).\
         \
@@ -151,16 +142,16 @@ FOM token is launched on the SUI blockchain, ensuring compatibility with SUI-bas
    * **AI Tools:** Unlock advanced AI features like Portfolio Builder and Risk Management.
    * **Higher Referral Rewards:** Earn additional referral rewards.
 3. **How can I buy FOM Tokens?**
-   * You can buy FOM Tokens on decentralized exchanges like Cetus or Turbos Finance or through our Pre-Sale event.
+   * FOM is not yet live. Once launched, where and how to buy will be announced here.
 4. **What is the total supply of FOM Tokens?**
-   * The total supply of FOM Tokens is 1,000,000,000.
+   * Tokenomics, including total supply, will be announced at launch.
 5. **Is there a buy/sell fee for FOM Tokens?**
    * **Sell Fee (0%): Ownership renounced**
    * **Buy Fee:** None
 6. **What exchanges will list FOM Tokens after the pre-sale?**
-   * FOM Tokens will initially be available on decentralized exchanges like Cetus/Turbos Finance, with plans to list on centralized exchanges in the future.
+   * Listing venues will be announced closer to launch.
 7. **Is the FOM Token audited?**
-   * Yes, the FOM Token smart contract has been audited to ensure security and compliance.
+   * Audit details will be shared at launch.
 
 **Referral Program:**
 

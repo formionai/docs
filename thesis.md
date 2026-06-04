@@ -25,7 +25,6 @@ The Formion Ecosystem provides solutions to these challenges with the following 
 **Automated Crypto Trading Bots:**
 
 * _Custom Bots:_ Build, configure, and automate your own trading strategies. (In development, coming soon🔜 )
-* _Smart Bots:_ Trade using pre-built, high-probability trading strategies. (In development, coming soon 🔜)
 * _AI Bots:_ Trade with machine learning-optimized execution. (Available)
 
 **Copy Trading:**

@@ -4,13 +4,6 @@
 
 Formion's AI Bots utilize advanced artificial intelligence to automate trading strategies, analyze market trends, and make data-driven decisions. These bots are designed to operate on various exchanges, including Binance and Bybit, offering users seamless integration and enhanced trading performance.
 
-#### Difference Between AI Bots and Smart Bots 🔍
-
-While both AI Bots and Smart Bots are designed to enhance trading efficiency, they operate in fundamentally different ways:
-
-* **AI Bots:** Use advanced machine learning algorithms and real-time data analysis to make autonomous trading decisions. These bots are capable of learning, adapting to market conditions, and providing highly optimized trading strategies. AI Bots can be trained and upgraded over time.
-* **Smart Bots:** Implement pre-defined trading strategies based on user inputs and TradingView indicators. They offer a simpler, rule-based approach to trading, making them suitable for traders who prefer a more hands-on strategy setup. Smart Bots do not use AI, cannot learn, and can only have their settings adjusted by the Formion team.
-
 #### Automated Trading ⚙️
 
 Our AI Bots are equipped to handle automated trading based on predefined strategies. Users can set their preferences, including risk tolerance and investment goals, and let the bots execute trades automatically. This ensures that trading opportunities are not missed due to human limitations.
@@ -41,18 +34,17 @@ Users can view and select bots to copy from the Copy Trading section. This secti
 #### FAQ ❓
 
 * **What are Formion AI Bots?** Formion AI Bots are advanced trading bots using machine learning algorithms to optimize trades.
-* **How do AI Bots differ from Smart Bots?** AI Bots use adaptive algorithms for trading, while Smart Bots rely on pre-defined TradingView strategies.
-* **How do I know which bots are AI Bots and which are Smart Bots?** AI Bots are found in the copy trading section on the Copy Trading page and are marked with a 🤖 icon. They are always free as they are included in the license (minimum Premium, also Pro available). Smart Bots have a separate page and instructions on how to use them.
+* **Where do I find AI Bots?** AI Bots are found in the copy trading section on the Copy Trading page and are marked with a 🤖 icon. They are always free as they are included in the license (minimum Premium, also Pro available).
 * **Can I customize AI Bot settings?** Yes, settings like risk parameters and trade execution preferences can be customized.
 * **What risk management features do AI Bots offer?** AI Bots include stop-loss and take-profit levels.
 * **How can I monitor AI Bot performance?** Performance can be tracked on the Formion Copy Trading page.
 * **Are AI Bots for spot or futures trading?** Formion AI Bots are specifically designed for futures trading.
-* **Which bot should I use?** Choose based on goals, risk tolerance, and capital. AI Bots offer advanced functionalities, while Smart Bots are simpler and use TradingView indicators.
+* **Which bot should I use?** Choose based on goals, risk tolerance, and capital. AI Bots offer advanced, automated functionalities tailored to your strategy.
 * **Can I run multiple bots at once?** Yes, with a valid license for each. It's recommended to use separate subaccounts for each bot.
 * **What is the recommended investment amount? Are there any limits?** A minimum of $500 is suggested. Premium licenses are best for single bots, while Pro licenses offer all advanced features. Investing over 2,000 USDT is generally profitable monthly.
 * **Is there a performance guarantee for the trading bots?** No performance guarantees are provided as trading involves inherent risks.
 * **When can I turn off the bot?** You can turn off the bot anytime, but it is advised to follow recommended trading periods for optimal performance.
-* **Do the bots operate independently, or do I need to configure settings?** AI Bots are fully automated and pre-configured, while Smart Bots may require some initial setup based on user preferences.
+* **Do the bots operate independently, or do I need to configure settings?** AI Bots are fully automated and pre-configured.
 
 For additional questions, refer to our [FAQ page](https://docs.formion.ai/faq).
 

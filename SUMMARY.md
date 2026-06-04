@@ -6,7 +6,6 @@
 * [👾 Formion Trade Vision](trade-vision.md)
 * [🌐 Formion Research AI RAG - LLM](research-ai-rag-llm.md)
 * [🧠 AI Bots](ai-bots.md)
-* [💹 Smart Bots](smart-bots.md)
 * [💡 How to Automate Your Trades with TradingView Alerts on Formion 📈🔔](how-to-automate-trades-tradingview-alerts.md)
 * [🪙 FOM token](fom-token.md)
 * [📄 FAQ](faq.md)
