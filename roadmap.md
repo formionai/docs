@@ -1,47 +1,36 @@
 # 🚩 Roadmap
 
-Roadmap for Formion AI
+Where Formion is today and where it's going. (Updated 2026.)
 
-**2025 Q3-Q4: Expansion and Advanced Features**
+## ✅ Delivered
 
-1. **Exchange Support Expansion:**
-   * **Bybit Integration:** Full support for Bybit trading, for smart manual trading.
-   * **Additional Exchanges:** Evaluate and add more exchanges based on user demand.
-2. **AI Tools Launch:**
-   * **AI Portfolio Builder:** Construct diverse, profitable portfolios using AI insights. (In development, coming soon 🔜).
-   * **AI Risk Management:** Implement intelligent strategies to safeguard investments. (In development, coming soon 🔜).
-3. **More Trading Bots:**
-   * **Custom Bots:** Enable traders to create and personalize their own strategies. (In development, coming soon 🔜).
-4. **User Experience Improvements:**
-   * Enhance the Telegram trading bot interface for seamless navigation.
-   * Provide in-depth analytics for individual bots and copy trading performance.
-5. **Staking and Farming Improvements:**
-   * Introduce more farming pools and rewards.
-   * Provide exclusive access to AI research and Hidden Gems insights.
+* **Multi-asset platform** — 8 CEX, 4 DEX, EVM/Solana/Sui/TON wallets, prediction markets.
+* **Quantum Terminal** ([app.formion.ai](https://app.formion.ai)) — screeners, Chart Pro, Data Hub, Coins Hub, 12+ analytics tools, Signals, News, Trade, Bots, Journal.
+* **AI suite** — FORA assistant (web + Telegram), AI Advisor, Trade Genius, Trade Vision, Research RAG-LLM, Multi-AI Consensus.
+* **Bots & automation** — DCA, Grid, Indicator, Trailing, Funding-arb, Alarm bots; **TradingView webhook automation** (CEX + DEX); 35+ live/paper strategy trackers.
+* **Backtesting** — 5-year backtests, walk-forward optimizer, prop-firm simulator, Strategy Lab + no-code builder, Pine generator.
+* **Copy trading** — curated strategies + cross-exchange mirroring.
+* **Markets** — crypto, forex (MT5), stocks (US + international), commodities (gold/silver/oil), options (Deribit), prediction markets (Polymarket/Kalshi/Limitless).
+* **Accounts** — 3-tier pricing, 14-day Pro trial, BYOK, 2FA, referrals, portfolio aggregation, trading journal with AI auto-tag.
 
-**2025 Q1-Q2: Community Empowerment and Feature Expansion**
+## 🔜 2026 — Next up
 
-1. **User-Created Strategies and Indicators:**
-   * **Custom Indicators:** Allow users to build, backtest, and automate their own strategies using Formion advanced AI tools.
-2. **AI Technical Analysis v2 (TA):**
-   * Launch comprehensive market analysis and trends detection using AI models version 2
-3. **Referral Program Expansion:**
-   * Introduce tiered referral rewards with exclusive bonuses for high-performing users.
+* **FOM token launch** — finalize chain + tokenomics, then staking & yield (utility live across the platform). 🚧
+* **Auto-discovery of new listings** — mini-backtest new perps and promote the ones that pass.
+* **Mandatory walk-forward validation** before any strategy is published.
+* **Live signal logger** — score every signal against realized forward outcomes.
+* **Custom Strategy Marketplace** — list, buy and sell strategies.
+* **Compliance hardening** — audit-log export, IP allowlist, mandatory team 2FA.
 
-**2025 and Beyond: Continuous Innovation and Global Reach**
+## 🌅 2027 and beyond
 
-1. **Global Exchange Support:**
-   * Expand to support global exchanges, providing localized trading experiences.
-2. **AI and DeFi Integration:**
-   * **DeFi Trading Bots:** Integrate DeFi protocols for seamless yield farming.
-   * **AI-Powered Prediction Models:** Refine AI models for predictive market analysis.
-3. **Decentralization and Governance:**
-   * Introduce decentralized governance using the FOM Token.
-   * Enable community-driven development through DAO structures.
-4. **Smart Contracts and Trustless Trading:**
-   * Utilize smart contracts for transparent, trustless trading and fee distribution.
-5. **Continuous Improvement of AI Algorithms:**
-   * Stay at the forefront of AI and machine learning research for automated trading.
-6. **Trading Tools Development:**
-   * **Trading Journal:** Develop a comprehensive trading journal for users to track and analyze their trading activities.
-   * **Expert Advisor (EA) for Forex:** Develop an EA for Forex trading to automate strategies and improve trading efficiency.
+* **Personalized bots** trained on your own trade history.
+* **Native mobile app** (iOS + Android).
+* **Full multilingual UI**.
+* **DEX-only execution mode** for restricted jurisdictions.
+* **DAO governance** via FOM.
+* **Institutional OEMS** — FIX gateway and prime-broker integration.
+
+{% hint style="info" %}
+Roadmap items are directional and can change. For what's live **right now**, see **[The App](the-app.md)** and **[Pricing & Tiers](pricing.md)**.
+{% endhint %}

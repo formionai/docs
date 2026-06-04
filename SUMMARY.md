@@ -1,12 +1,24 @@
 # Table of contents
 
+## Getting Started
+
 * [📖 Formion AI Ecosystem](README.md)
-* [🔑 How to Start with Formion AI? API Connection?](how-to-start-api-connection.md)
+* [🖥️ The App](the-app.md)
+* [🔑 How to Start — API Connection](how-to-start-api-connection.md)
+* [💳 Pricing & Tiers](pricing.md)
+
+## Trading & AI
+
 * [🤖 Formion AI Smart Trading](smart-trading.md)
 * [👾 Formion Trade Vision](trade-vision.md)
-* [🌐 Formion Research AI RAG - LLM](research-ai-rag-llm.md)
+* [🌐 Research AI RAG - LLM](research-ai-rag-llm.md)
 * [🧠 AI Bots](ai-bots.md)
-* [💡 How to Automate Your Trades with TradingView Alerts on Formion 📈🔔](how-to-automate-trades-tradingview-alerts.md)
+* [🦾 Bots & Automation](bots.md)
+* [💡 TradingView Automation](how-to-automate-trades-tradingview-alerts.md)
+* [📓 Trading Journal](journal.md)
+
+## Token & Company
+
 * [🪙 FOM token](fom-token.md)
 * [📄 FAQ](faq.md)
 * [👨‍🔬 Thesis](thesis.md)
