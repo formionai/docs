@@ -29,7 +29,7 @@ Bring Your Own Key — connect your own AI provider key (Anthropic / OpenAI / Op
 ## Trading & bots
 
 **What bots can I run?**
-DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **TradingView webhook automation** and curated **AI Bots** copy-trading. Live bots need Pro (5) or Institutional (unlimited); the free tier runs unlimited **paper** bots. See **[Bots & Automation](bots.md)**.
+DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **TradingView webhook automation**. Live bots need Pro (5) or Institutional (unlimited); the free tier runs unlimited **paper** bots. For copy trading you can use your exchange's native copy trading today (e.g. Bybit); native Formion bot copy-trading is **coming soon**. See **[Bots & Automation](bots.md)**.
 
 **Can I automate my TradingView alerts?**
 Yes — create a TradingView Bot, copy its webhook URL + tokens into your alert, and it executes on your connected CEX/DEX. See **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.

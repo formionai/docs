@@ -20,7 +20,7 @@ The platform spans three surfaces:
 * 📊 **Deep market data** — multi-exchange screeners, open-interest / funding / long-short analytics, order-flow & footprint, GEX / options, on-chain events and whale tracking.
 * 🦾 **Automate trading** — DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **TradingView webhook automation** that executes your alerts on your connected CEX or DEX.
 * 🧪 **Build & backtest strategies** — no-code Strategy Builder, 5-year backtests, walk-forward validation and a prop-firm simulator.
-* 🤝 **Copy trading** — mirror curated strategies and top traders on supported exchanges.
+* 🤝 **Copy trading** — copy traders today through your exchange's native copy trading (e.g. Bybit); native Formion copy-trading for selected bots is **coming soon**.
 * 📓 **Trading journal** — auto-import, AI auto-tagging and full performance analytics.
 * 🔌 **Connect everything** — 8 CEX, 4 DEX, on-chain wallets (EVM/Solana/Sui/TON) and prediction markets (Polymarket/Kalshi/Limitless).
 

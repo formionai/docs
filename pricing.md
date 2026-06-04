@@ -18,7 +18,6 @@ You can pay with **card** or **crypto** (40+ assets). Paying in crypto gets a **
 | **Sub-account slots** | 0 | 3 | 6 |
 | **Live bots** | 0 (paper only) | 5 | Unlimited |
 | **Paper bots** | Unlimited | Unlimited | Unlimited |
-| **Copy-trading slots** | 0 | 5 | Unlimited |
 | **Watchlist symbols** | 25 | Unlimited | Unlimited |
 | **Chart** | 5 symbols · 4 TFs · 2 indicators | All symbols/TFs/indicators · SMC · replay | Same as Pro |
 | **Screener** | crypto, delayed | real-time, all markets | real-time, all markets |
@@ -43,7 +42,7 @@ Full retail trading: unlimited exchanges & wallets with direct execution on all 
 
 ## 🏛️ Institutional — $499/mo
 
-Everything in Pro, plus **unlimited** bots and copy-trading, **live execution** of prediction-market bots (Polymarket scalp, latency arb, Kalshi cross-arb), **MT5 master replication**, white-label REST/WebSocket API, 5 team seats with role-based access, priority AI queue, and a 99.9% uptime SLA.
+Everything in Pro, plus **unlimited** bots, **live execution** of prediction-market bots (Polymarket scalp, latency arb, Kalshi cross-arb), **MT5 master replication**, white-label REST/WebSocket API, 5 team seats with role-based access, priority AI queue, and a 99.9% uptime SLA.
 
 ## 🔑 BYOK — Bring Your Own Key
 
