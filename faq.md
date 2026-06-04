@@ -16,7 +16,7 @@ description: Frequently Asked Questions (FAQ)
 
 ### **How do I connect my exchange to** Formio&#x6E;**?**
 
-* To connect your exchange to Formion, please follow the detailed instructions provided here: [How to Start with Formion API Connection](how-to-start-with-hemera-api-connection.md).
+* To connect your exchange to Formion, please follow the detailed instructions provided here: [How to Start with Formion API Connection](how-to-start-api-connection.md).
 
 ### **What features are currently in development for** Formio&#x6E;**?**
 

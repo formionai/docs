@@ -16,7 +16,7 @@ You will get **API keys** but you need now to edit it and put a **whitelisted IP
 
 <figure><img src=".gitbook/assets/binance3.png" alt=""><figcaption></figcaption></figure>
 
-Now go to **Formion** [Settings page ](https://hemeratrading.net/user/settings)choose **Binance** as exchange and copy **whitelist IPs:**
+Now go to **Formion** [Settings page ](https://formion.ai/user/settings)choose **Binance** as exchange and copy **whitelist IPs:**
 
 <figure><img src=".gitbook/assets/binance1 (1).png" alt=""><figcaption></figcaption></figure>
 
