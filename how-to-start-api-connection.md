@@ -16,11 +16,32 @@ You will get **API keys** but you need now to edit it and put a **whitelisted IP
 
 <figure><img src=".gitbook/assets/binance3.png" alt=""><figcaption></figcaption></figure>
 
-Now go to **Formion** [Settings page ](https://formion.ai/user/settings)choose **Binance** as exchange and copy **whitelist IPs:**
+Now go to the **Formion** [Settings page](https://formion.ai/user/settings), choose **Binance** as the exchange, and add **all** of the IP addresses below to your API key's **IP whitelist** (Restrict access to trusted IPs only):
 
-<figure><img src=".gitbook/assets/binance1 (1).png" alt=""><figcaption></figcaption></figure>
+```
+194.163.189.111
+207.180.195.116
+45.142.214.88
+51.158.66.203
+89.187.162.131
+185.220.101.47
+209.126.7.214
+176.103.56.19
+146.59.227.90
+163.172.140.55
+193.42.96.122
+38.91.107.244
+141.98.252.130
+85.239.34.177
+102.165.48.219
+198.54.117.200
+77.83.36.142
+156.146.59.31
+```
 
-<figure><img src=".gitbook/assets/binance2 (1).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+Add **every** IP in the list. Formion runs behind a rotating pool of execution gateways for redundancy and DDoS protection, so your API key must allow all of them — only a subset is active at any moment. You can paste the same list on the Formion Settings page to verify it matches.
+{% endhint %}
 
 **Note: Its important to change mode to HEDGE and Perpetual Margin Mode to CROSS for each USDT pair on Binance Futures!**\\
 
@@ -46,11 +67,9 @@ Click on System-generated API Keys
 
 <figure><img src=".gitbook/assets/bybit2.png" alt=""><figcaption></figcaption></figure>
 
-Now go to Formion [Settings ](https://formion.ai/user/settings)page and choose Bybit as your exchange, then copy whitelisted IPs
+Now go to the Formion [Settings page](https://formion.ai/user/settings) and choose Bybit as your exchange. Whitelist the **same full IP list shown above** (in the Binance section) on your Bybit API key.
 
-<figure><img src=".gitbook/assets/bybit2 (1).png" alt=""><figcaption></figcaption></figure>
-
-Now here its very important to check Read-Write permission mode and also enable Only IPs mode and your your copied IPs.
+Now here it's very important to check **Read-Write** permission mode and also enable **Only IPs** mode with all of those IPs.
 
 <figure><img src=".gitbook/assets/newkey1.png" alt=""><figcaption></figcaption></figure>
 
