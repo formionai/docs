@@ -15,6 +15,8 @@
 * [🪙 FOM token](fom-token.md)
 * [📄 FAQ](faq.md)
 * [🔐 Security](security.md)
+* [🛠️ Troubleshooting](troubleshooting.md)
+* [📖 Glossary](glossary.md)
 * [👨‍🔬 Thesis](thesis.md)
 * [🪄 Vision](vision.md)
 * [🚩 Roadmap](roadmap.md)
