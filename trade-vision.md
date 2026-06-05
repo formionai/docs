@@ -1,5 +1,7 @@
 # 👾 Trade Vision
 
+<figure><img src=".gitbook/assets/trade-vision.jpg" alt=""><figcaption></figcaption></figure>
+
 **Trade Vision** turns a picture or a sentence into a structured trade plan.
 
 Drop in a **chart screenshot** — or just type a free-form idea like *"long BTC around 62k, stop under 60k, targets 65k/68k"* — and the AI extracts a clean setup: direction, entry (or entry zone), stop-loss, multiple take-profit levels and an optional DCA ladder, with a short rationale.

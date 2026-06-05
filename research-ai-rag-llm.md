@@ -1,5 +1,7 @@
 # 🌐 Research AI (RAG-LLM)
 
+<figure><img src=".gitbook/assets/research.jpg" alt=""><figcaption></figcaption></figure>
+
 The **Research AI** engine produces long-form, sourced research on any asset — pulling from market data, news, social sentiment and on-chain signals into a single report.
 
 ### Report templates

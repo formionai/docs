@@ -1,5 +1,7 @@
 # 💬 FORA — your AI trading assistant
 
+<figure><img src=".gitbook/assets/fora-hero.jpg" alt=""><figcaption></figcaption></figure>
+
 **FORA** is Formion's conversational AI. Talk to it in plain language on **Telegram (`@formiontradingbot`)** or on the web at **fora.formion.ai**, and it works across your whole account.
 
 ```mermaid

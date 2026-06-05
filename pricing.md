@@ -1,5 +1,7 @@
 # 💳 Pricing & Tiers
 
+<figure><img src=".gitbook/assets/pricing.jpg" alt=""><figcaption></figcaption></figure>
+
 Formion has three plans. Every new signup gets **14 days of Pro free — no card required**; if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
 
 {% hint style="info" %}

@@ -1,5 +1,7 @@
 # 🔑 How to Start with Formion AI? API Connection?
 
+<figure><img src=".gitbook/assets/how-to-start.jpg" alt=""><figcaption></figcaption></figure>
+
 **It's important to have some USDT balance ( 10$ at least) on your Futures account on Binance ( or UTA on Bybit ) for Formion to be able to check your API keys properly!**
 
 ```mermaid

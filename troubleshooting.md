@@ -1,5 +1,7 @@
 # 🛠️ Troubleshooting
 
+<figure><img src=".gitbook/assets/troubleshooting.jpg" alt=""><figcaption></figcaption></figure>
+
 Quick fixes for the most common issues. Still stuck? Email **support@formion.ai**.
 
 ### My exchange won't connect / "API check failed"

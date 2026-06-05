@@ -1,5 +1,7 @@
 # 🦾 Bots & Automation
 
+<figure><img src=".gitbook/assets/bots-hero.jpg" alt=""><figcaption></figcaption></figure>
+
 Formion runs a large catalog of automated strategies. Some are **live** on real or demo accounts, some run **paper-first** for validation. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 
 {% hint style="info" %}

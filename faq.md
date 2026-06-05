@@ -4,6 +4,8 @@ description: Frequently Asked Questions (FAQ)
 
 # 📄 FAQ
 
+<figure><img src=".gitbook/assets/faq.jpg" alt=""><figcaption></figcaption></figure>
+
 ## General
 
 **What is Formion AI?**

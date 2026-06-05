@@ -1,5 +1,7 @@
 # 🪙 FOM token
 
+<figure><img src=".gitbook/assets/fom-token.jpg" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 🚧 **Coming soon.**
 

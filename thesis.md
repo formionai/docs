@@ -1,5 +1,7 @@
 # 👨‍🔬 Thesis
 
+<figure><img src=".gitbook/assets/thesis.jpg" alt=""><figcaption></figcaption></figure>
+
 ### The problem
 
 Serious trading is fragmented. Charts live in one tool, screeners in another, bots in a third, your journal in a spreadsheet, and "AI" is usually a chatbot bolted on the side that never touches your actual positions or gets measured against real outcomes. Retail traders rarely get institutional-grade depth, and the tools that do exist are single-asset and desktop-bound.

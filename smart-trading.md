@@ -1,5 +1,7 @@
 # 🤖 AI Advisor
 
+<figure><img src=".gitbook/assets/ai-advisor.jpg" alt=""><figcaption></figcaption></figure>
+
 The **AI Advisor** (app.formion.ai → AI Advisor) is Formion's decision-support hub. It has four surfaces under one tab:
 
 ### Quick Advisor — "What can I trade?"

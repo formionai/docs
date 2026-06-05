@@ -1,5 +1,7 @@
 # 📓 Trading Journal
 
+<figure><img src=".gitbook/assets/journal.jpg" alt=""><figcaption></figcaption></figure>
+
 The Journal is your single record of every trade — across exchanges, bots and manual entries — with full performance analytics.
 
 ## What it does

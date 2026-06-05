@@ -1,5 +1,7 @@
 # 🚩 Roadmap
 
+<figure><img src=".gitbook/assets/roadmap.jpg" alt=""><figcaption></figcaption></figure>
+
 Where Formion is today and where it's going. (Updated 2026.)
 
 ## ✅ Delivered

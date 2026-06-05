@@ -1,5 +1,7 @@
 # 🪄 Vision
 
+<figure><img src=".gitbook/assets/vision.jpg" alt=""><figcaption></figcaption></figure>
+
 A world where a retail trader and an institutional desk work from the **same toolset** — where AI amplifies judgment instead of replacing it, execution friction disappears, and a strategy you sketch on Tuesday can be backtested, walk-forward-validated, paper-traded and run live without writing code.
 
 ### Principles

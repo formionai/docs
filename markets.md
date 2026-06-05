@@ -1,5 +1,7 @@
 # 🌍 Markets
 
+<figure><img src=".gitbook/assets/markets.jpg" alt=""><figcaption></figcaption></figure>
+
 Formion is multi-asset by design — the same AI tools, screeners, bots and journal work across every market below.
 
 ```mermaid
