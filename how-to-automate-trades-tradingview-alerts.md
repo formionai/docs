@@ -6,6 +6,14 @@ Connect a TradingView alert to your own exchange and let Formion execute the tra
 🚧 **Rolling out.** Live execution is being enabled gradually. You can create and configure bots now; they stay **paused** until automation is switched on for your account.
 {% endhint %}
 
+```mermaid
+flowchart LR
+  TV["📈 TradingView alert<br/>(your strategy fires)"] -->|"webhook URL + token"| H["Formion /tv/hook"]
+  H --> M{"match token<br/>to your bot"}
+  M -->|"Open token"| O["place market order<br/>on your CEX / DEX"]
+  M -->|"Close token"| C["reduce-only close"]
+```
+
 #### 1. Connect your exchange 🔑
 
 First connect the account you want to trade on (one-time):

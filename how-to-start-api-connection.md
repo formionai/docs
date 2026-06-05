@@ -2,6 +2,14 @@
 
 **It's important to have some USDT balance ( 10$ at least) on your Futures account on Binance ( or UTA on Bybit ) for Formion to be able to check your API keys properly!**
 
+```mermaid
+flowchart LR
+  E["Your exchange<br/>Binance / Bybit / …"] -->|"create trade-only key<br/>+ whitelist Formion IPs"| K["API key + secret"]
+  K -->|"paste into Settings"| F(("Formion AI"))
+  F -->|"places trades only"| E
+  F -. "cannot withdraw — funds stay on your exchange" .-> E
+```
+
 ## For Binance:
 
 For [Binance](https://binance.com) go to User icon 👤 and [API Managament](https://www.binance.com/en/my/settings/api-management)

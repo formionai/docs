@@ -2,6 +2,16 @@
 
 Formion is multi-asset by design — the same AI tools, screeners, bots and journal work across every market below.
 
+```mermaid
+flowchart TD
+  F(("Formion AI")) --> C["🪙 Crypto<br/>8 CEX · 4 DEX"]
+  F --> X["💱 Forex<br/>MT5"]
+  F --> S["📈 Stocks<br/>US + international"]
+  F --> M["🥇 Commodities<br/>gold · silver · oil · copper"]
+  F --> O["📐 Options<br/>Deribit"]
+  F --> P["🎲 Prediction markets<br/>Polymarket · Kalshi · Limitless"]
+```
+
 ## 🪙 Crypto
 
 The core market. Connect your accounts and trade spot or perps with full data, signals and bots.

@@ -2,6 +2,15 @@
 
 **FORA** is Formion's conversational AI. Talk to it in plain language on **Telegram (`@formiontradingbot`)** or on the web at **fora.formion.ai**, and it works across your whole account.
 
+```mermaid
+flowchart TD
+  U["💬 You — Telegram or web"] --> FO(("FORA"))
+  FO --> Q["📊 Portfolio Q&A"]
+  FO --> S["💹 Quotes & analysis"]
+  FO --> R["🔎 Research & ideas"]
+  FO --> X["⚡ Trade commands<br/>(with confirmation)"]
+```
+
 ### What you can ask FORA
 
 * **Portfolio Q&A** — *"how's my portfolio doing?"*, *"what are my open positions?"*, *"my biggest loser today?"*

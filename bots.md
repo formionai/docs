@@ -6,6 +6,14 @@ Formion runs a large catalog of automated strategies. Some are **live** on real 
 **Live execution** requires a **Pro** plan (5 live bots) or **Institutional** (unlimited). The free tier runs unlimited **paper** bots. You can build your own bot from a strategy, and automate TradingView alerts — see **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
 {% endhint %}
 
+```mermaid
+flowchart LR
+  S["Strategy / signal"] --> E["Execute<br/>(paper or live)"]
+  E --> TH["Unified Trade History"]
+  TH --> AN["Analytics<br/>win-rate · profit factor · equity"]
+  AN -.->|"learn & tune"| S
+```
+
 ## Bot building blocks
 
 | Bot | What it does |
