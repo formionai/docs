@@ -48,9 +48,13 @@ Real-time multi-exchange market data: open interest, long/short ratio, top-trade
 
 ### 🪙 Coins Hub
 
+<figure><img src=".gitbook/assets/sec-coinshub.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
+
 Trend watch (top gainers/losers by timeframe), a full coin listing with detail cards, and a **GMGN smart-money** inflow panel.
 
 ### 🧠 Analytics
+
+<figure><img src=".gitbook/assets/sec-analytics.jpg" alt="Analytics Hub"><figcaption></figcaption></figure>
 
 A hub of 12+ standalone tools: **Signal Stream** & **Edge Map** (per-signal expectancy), **HL Whale Tracker** / **HL TP-SL** / **HL Fills**, **Correlation** (BTC vs Nasdaq/S&P/Gold/Oil), **Mechanical Analysis**, **VWAP Bubble**, **RSI Heatmap**, **Funding Arb**, and **Polymarket** browser + leaderboard.
 
@@ -66,9 +70,13 @@ A hub with many sub-tabs: the **Backtester**, **All Trades** ([trades-history](#
 
 ### 🔔 Signals
 
+<figure><img src=".gitbook/assets/sec-signals.jpg" alt="Signals"><figcaption></figcaption></figure>
+
 A dense live stream of signals from every provider (webhooks + polling), with win/loss coloring, audio + browser notifications, and a **My Alerts** builder for custom price/RSI/SMC/liquidation rules delivered to browser, sound or Telegram.
 
 ### 📰 News
+
+<figure><img src=".gitbook/assets/sec-news.jpg" alt="News"><figcaption></figcaption></figure>
 
 Economic calendar (impact-colored), AI-scored impact news (bullish/bearish/neutral), crypto event calendar and a headline feed.
 
