@@ -1,5 +1,7 @@
 # 📖 Formion AI Ecosystem
 
+<figure><img src=".gitbook/assets/hero-ecosystem.jpg" alt="Formion AI — multi-asset AI trading ecosystem"><figcaption></figcaption></figure>
+
 ## 👀 Overview
 
 {% hint style="success" %}
@@ -7,6 +9,14 @@
 {% endhint %}
 
 **Formion AI** is a multi-asset, AI-powered trading platform that unifies professional-grade tools into a single ecosystem you can drive from the web app or from Telegram. It combines AI analysis, automated bots, deep market data, backtesting and copy trading — without ever taking custody of your funds (your keys stay on your own exchange).
+
+```mermaid
+flowchart LR
+  A["🖥️ app.formion.ai<br/>(Quantum Terminal)"] --> F(("Formion AI"))
+  D["📊 formion.ai<br/>(Dashboard)"] --> F
+  T["💬 Telegram · FORA"] --> F
+  F -->|"trade-only API · never withdraws"| K["🔐 Your exchange / wallet<br/>(funds stay here)"]
+```
 
 The platform spans three surfaces:
 
