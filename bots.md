@@ -16,6 +16,16 @@ flowchart LR
   AN -.->|"learn & tune"| S
 ```
 
+## Build your own — Strategy Lab → Bots Hub → Marketplace
+
+You're not limited to Formion's catalog. The full creator flow, **no code required**:
+
+1. **Strategy Lab** — build a strategy from rules, indicators and conditions, then validate it in the **Backtester** (multi-year history) with **walk-forward** testing. The **Edge Finder** (AutoML) goes further: give it just a symbol and it searches for the best-fitting strategy class (DCA / grid / mean-reversion / breakout…) for the current market regime.
+2. **Bots Hub** — turn any strategy into a live bot that runs on **your own** connected account — paper-first, then promoted to live. Multi-tenant by design: your bots, your keys, your account.
+3. **Marketplace** — publish your strategy or bot; other traders subscribe; **you earn**, and the platform takes a fee. Subscriptions and performance-lab access are handled in-app.
+
+Every strategy and bot — Formion's and yours — streams into the unified **Trade History** with the same analytics suite, so a community strategy is judged on the exact same KPIs as a flagship engine.
+
 ## Bot building blocks
 
 | Bot | What it does |

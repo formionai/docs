@@ -20,14 +20,16 @@ The core market. Connect your accounts and trade spot or perps with full data, s
 
 * **CEX:** Binance, Bybit, KuCoin, MEXC, OKX, Bitget, Coinbase, Bitfinex.
 * **DEX (perps):** Hyperliquid, AsterDex, Bluefin, Extended.
+* **On-chain swaps:** trade spot directly from your connected wallet across **EVM, Solana and Sui**, with aggregated best-price routing.
 * **Wallets:** EVM, Solana, Sui, TON — read-only or full (encrypted).
 * Deep data: open interest, funding, long/short, liquidations, order-flow / footprint, on-chain events and whale tracking.
 
-## 💱 Forex (MT5)
+## 💱 Forex (MT5 + cTrader)
 
-Institutional-grade forex via **MetaTrader 5** (FP Markets master).
+Institutional-grade forex via **MetaTrader 5** (FP Markets master) and per-user **cTrader** broker connect.
 
 * Major / minor / cross pairs.
+* **Connect your own broker:** link your **cTrader** account (FP Markets, IC Markets…) via secure **OAuth** — demo & live — for manual and automated execution from inside Formion.
 * Telegram signal bridges + manual `/forex` commands route to MT5 orders.
 * **Master-trade replication** (Formion's master → your MT5) is an **Institutional** feature; **Pro** can link MT5 for viewing and alerting.
 
