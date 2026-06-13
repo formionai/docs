@@ -2,6 +2,7 @@
 
 * [📖 Formion AI Ecosystem](README.md)
 * [🖥️ The App](the-app.md)
+* [📈 Screener](screener.md)
 * [🔑 How to Start — API Connection](how-to-start-api-connection.md)
 * [💳 Pricing & Tiers](pricing.md)
 * [🤖 AI Advisor & Smart Trading](smart-trading.md)
@@ -9,6 +10,7 @@
 * [👾 Trade Vision](trade-vision.md)
 * [🌐 Research AI (RAG-LLM)](research-ai-rag-llm.md)
 * [📡 Formion Pulse](pulse.md)
+* [🧪 Strategy Lab & Marketplace](strategy-lab.md)
 * [🦾 Bots & Automation](bots.md)
 * [💡 TradingView Automation](how-to-automate-trades-tradingview-alerts.md)
 * [📓 Trading Journal](journal.md)

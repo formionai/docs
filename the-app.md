@@ -67,7 +67,7 @@ Pick a style/risk/asset class and the AI ranks tradeable ideas from a live scree
 
 ### 🧪 Backtest
 
-A hub with many sub-tabs: the **Backtester**, **All Trades** ([trades-history](#)) unified across every engine, **Strategy Lab** (no-code builder + **Edge Finder** AutoML + **Marketplace** to publish your strategy and earn — see **[Bots & Automation](bots.md)**), **My Strategies** (your Pine), **All Sources**, plus dedicated trackers for **GEX**, **TP/SL strategies**, **Gold DCA**, **Stocks DCA**, **Polymarket**, **AI Consensus**, **Confluence**, **Liqra** (liquidations) and **Footprint**.
+A hub with many sub-tabs: the **Backtester**, **All Trades** ([trades-history](#)) unified across every engine, **[Strategy Lab](strategy-lab.md)** (no-code builder + **Edge Finder** AutoML + **Marketplace** to publish your strategy and earn), **My Strategies** (your Pine), **All Sources**, plus dedicated trackers for **GEX**, **TP/SL strategies**, **Gold DCA**, **Stocks DCA**, **Polymarket**, **AI Consensus**, **Confluence**, **Liqra** (liquidations) and **Footprint**.
 
 ### 🔔 Signals
 
