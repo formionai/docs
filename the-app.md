@@ -14,6 +14,7 @@ flowchart TD
   APP --> C["📊 Chart Pro"]
   APP --> D["🛰️ Data Hub"]
   APP --> CH["🪙 Coins Hub"]
+  CH --> PU["📡 Pulse"]
   APP --> AN["🧠 Analytics"]
   APP --> AI["🤖 AI Advisor"]
   APP --> BT["🧪 Backtest"]
@@ -50,7 +51,7 @@ Real-time multi-exchange market data: open interest, long/short ratio, top-trade
 
 <figure><img src=".gitbook/assets/sec-coinshub.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
 
-Trend watch (top gainers/losers by timeframe), a full coin listing with detail cards, and a **GMGN smart-money** inflow panel.
+Trend watch (top gainers/losers by timeframe), a full coin listing with detail cards, and a **GMGN smart-money** inflow panel. Plus **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score, with an accuracy leaderboard that scores each voice against real price moves.
 
 ### 🧠 Analytics
 
