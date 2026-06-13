@@ -1,5 +1,7 @@
 # 💡 How to Automate Your Trades with TradingView Alerts on Formion 📈🔔
 
+<figure><img src=".gitbook/assets/tradingview-automation.jpg" alt="Automate TradingView alerts with Formion"><figcaption></figcaption></figure>
+
 Connect a TradingView alert to your own exchange and let Formion execute the trade for you — on **CEX and DEX**. You create a **TradingView Bot**, copy its webhook URL and alert messages, and paste them into a TradingView alert. When the alert fires, Formion places the order on your connected account.
 
 {% hint style="info" %}
