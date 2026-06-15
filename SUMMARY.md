@@ -6,7 +6,7 @@
 * [🔑 How to Start — API Connection](how-to-start-api-connection.md)
 * [💳 Pricing & Tiers](pricing.md)
 * [🤖 AI Advisor & Smart Trading](smart-trading.md)
-* [💬 FORA — AI Assistant](fora.md)
+* [💬 FORA — Trading Intelligence](fora.md)
 * [👾 Trade Vision](trade-vision.md)
 * [🌐 Research AI (RAG-LLM)](research-ai-rag-llm.md)
 * [📡 Formion Pulse](pulse.md)
