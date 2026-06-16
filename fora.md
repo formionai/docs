@@ -20,6 +20,75 @@ flowchart LR
 
 ***
 
+## System architecture
+
+FORA is not a single prompt — it is a society of **~25 specialized modules** organized into six cognitive layers, orchestrated by a model-routing brain. Many run continuously in the background, measuring and improving even while you sleep.
+
+```mermaid
+flowchart TB
+  U(["💬 You — Telegram / Web"]) <--> BRAIN{{"🧠 Brain<br/>model routing · multi-model consensus"}}
+
+  subgraph PE["👁️ PERCEPTION"]
+    direction LR
+    p1["Market Data Router"]
+    p2["Capability Discovery"]
+    p3["External Services"]
+    p4["Token Intelligence"]
+    p5["Theory-of-Mind"]
+    p6["On-chain &amp; Social"]
+  end
+
+  subgraph RE["🧠 REASONING"]
+    direction LR
+    r1["Self-Verification"]
+    r2["Deliberation Desk"]
+    r3["Causal Engine"]
+    r4["Provenance / Audit"]
+  end
+
+  subgraph ME["📚 MEMORY"]
+    direction LR
+    m1["Persistent"]
+    m2["Episodic"]
+    m3["Semantic Recall"]
+    m4["Aggregate"]
+  end
+
+  subgraph LE["📈 LEARNING"]
+    direction LR
+    l1["Outcome Calibration"]
+    l2["Autonomous Research"]
+    l3["Goal Campaigns"]
+    l4["Coaching / Teaching"]
+  end
+
+  subgraph AC["⚡ ACTION"]
+    direction LR
+    a1["Paper Autopilot"]
+    a2["Intraday Manager"]
+    a3["Gated Execution"]
+    a4["DEX Swap"]
+    a5["Watchlist &amp; Alerts"]
+  end
+
+  subgraph SI["🧬 AUTONOMY &amp; SELF-IMPROVEMENT"]
+    direction LR
+    s1["Self-Trader"]
+    s2["Self-Tuner"]
+    s3["Genetic Discovery"]
+    s4["Proactive Briefing"]
+  end
+
+  BRAIN --> PE --> RE --> ME --> LE --> AC --> SI
+  SI -. "feeds back" .-> PE
+  AC -->|"measured trades"| LE
+  SI -->|"new strategies + tuned knobs"| LE
+```
+
+Every module writes to one measured ledger, so nothing is opaque: data has provenance, calls have outcomes, trades have equity curves, and the system's changes to *itself* are logged for review.
+
+***
+
 ## I. Perception — it reads the whole market
 
 Most "AI assistants" see a single chart. FORA ingests the full market state across **spot, perpetual futures, on-chain tokens, prediction markets, forex, metals and indices**, reasoning over dozens of dimensions at once: multi-timeframe trend and regime, open interest, funding, taker flow, long/short positioning, cumulative delta, footprint, depth imbalance, liquidation clusters, capital flow, sentiment, narrative, and — for emerging tokens — an on-chain safety read, lifecycle stage and entry timing.
