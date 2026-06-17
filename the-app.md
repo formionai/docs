@@ -35,29 +35,31 @@ The home view: a ranked, sortable table of crypto and stock pairs scored by nati
 * **Radar** — TradingView preset feeds as filterable cards.
 * **Hunt / Consensus** — advanced multi-filter and multi-timeframe consensus screening.
 
+**[Full guide → Screener](screener.md)**
+
 ### 📊 Chart Pro (Quantum Terminal)
 
 <figure><img src=".gitbook/assets/sec-chart.jpg" alt="Chart Pro"><figcaption></figcaption></figure>
 
-A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (incl. the proprietary **FormionTSI**), custom Pine scripts via the **User Indicator Studio**, drawing tools, **replay mode**, multi-chart split view, saved layouts, and an order-flow **Workspace** (volume profile, footprint, DOM ladder, orderbook heatmap, large trades, spoofing/iceberg detection).
+A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (incl. the proprietary **FormionTSI**), custom Pine scripts via the **User Indicator Studio**, drawing tools, **replay mode**, multi-chart split view, saved layouts, and an order-flow **Workspace** (volume profile, footprint, DOM ladder, orderbook heatmap, large trades, spoofing/iceberg detection). **[Full guide → Chart Pro](chart-pro.md)**
 
 ### 🛰️ Data Hub
 
 <figure><img src=".gitbook/assets/sec-datahub.jpg" alt="Data Hub"><figcaption></figcaption></figure>
 
-Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding across OKX, Binance, Bybit, Gate and HTX. Plus scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options (Deribit)**, **Gamma/GEX**, on-chain **Events** and **US Stocks**.
+Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding across OKX, Binance, Bybit, Gate and HTX. Plus scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options (Deribit)**, **Gamma/GEX**, on-chain **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
 
 ### 🪙 Coins Hub
 
 <figure><img src=".gitbook/assets/sec-coinshub.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
 
-Trend watch (top gainers/losers by timeframe), a full coin listing with detail cards, and a **GMGN smart-money** inflow panel. Plus **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score, with an accuracy leaderboard that scores each voice against real price moves.
+Trend watch (top gainers/losers by timeframe), a full coin listing with detail cards, and a **GMGN smart-money** inflow panel. Plus **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score, with an accuracy leaderboard that scores each voice against real price moves. **[Full guide → Coins Hub](coins-hub.md)**
 
 ### 🧠 Analytics
 
 <figure><img src=".gitbook/assets/sec-analytics.jpg" alt="Analytics Hub"><figcaption></figcaption></figure>
 
-A hub of 12+ standalone tools: **Signal Stream** & **Edge Map** (per-signal expectancy), **HL Whale Tracker** / **HL TP-SL** / **HL Fills**, **Correlation** (BTC vs Nasdaq/S&P/Gold/Oil), **Mechanical Analysis**, **VWAP Bubble**, **RSI Heatmap**, **Funding Arb**, and **Polymarket** browser + leaderboard.
+A hub of 12+ standalone tools: **Signal Stream** & **Edge Map** (per-signal expectancy), **HL Whale Tracker** / **HL TP-SL** / **HL Fills**, **Correlation** (BTC vs Nasdaq/S&P/Gold/Oil), **Mechanical Analysis**, **VWAP Bubble**, **RSI Heatmap**, **Funding Arb**, and **Polymarket** browser + leaderboard. **[Full guide → Analytics](analytics.md)**
 
 ### 🤖 AI Advisor
 

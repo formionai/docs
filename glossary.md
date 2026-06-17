@@ -44,3 +44,12 @@ Plain-English definitions of terms used across Formion.
 * **Prop-firm simulator** — estimates the pass-rate of a strategy against funded-account (FTMO-style) rules.
 * **Win rate** — % of trades that are profitable. **Profit factor** — gross profit ÷ gross loss.
 * **Expectancy** — average profit/loss per trade. **Equity curve** — your balance over time.
+
+### Formion-specific
+
+* **Pulse Score** — Formion Pulse's 0–100 narrative-sentiment reading, blending X & YouTube influencers, crowd chatter, Fear & Greed and BTC bias. 50 = balanced; higher = more bullish. See **[Formion Pulse](pulse.md)**.
+* **Bias Map** — the Screener's market-wide confluence heatmap across 5 timeframes (5m→1d) with an anchor score; green = long bias, red = short.
+* **Edge Finder** — AutoML in the Strategy Lab: enter only a symbol and it searches strategy families + parameters for what historically had an edge.
+* **Edge Map** — per-signal expectancy view in Analytics — does this signal actually pay?
+* **CHART READ** — a Pulse label for a stance derived by a vision model *reading the chart inside a screenshot*, not the post's text.
+* **Accuracy Leaderboard** — Pulse's scoreboard of influencers, each call checked against real price at +24h / +72h / +7d.

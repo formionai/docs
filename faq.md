@@ -60,6 +60,22 @@ AES-256-GCM encryption at rest, TLS in transit, 2FA, IP-whitelisting and session
 **Is FOM live?**
 Not yet. FOM is the native utility token (subscription discounts, AI-quota boosts, staking, referral bonuses, and later a strategy marketplace and governance). The launch chain and tokenomics are being finalized — **🚧 coming soon**, see **[FOM token](fom-token.md)**.
 
+## Sentiment & influencers
+
+**What is Formion Pulse?**
+A market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one **Pulse Score (0–100)** — and scores each voice against real price moves on an **accuracy leaderboard**, so you can see who actually calls it right. You can add your own accounts and filter the score to only the voices you trust. See **[Formion Pulse](pulse.md)**.
+
+**Can I track my own X / YouTube accounts?**
+Yes — add them in Pulse → **My Watchlist** (an `@handle`, a link, or a channel ID). They get the same AI scoring on a personal desk, and you can mute any source to reshape your Pulse Score.
+
+## Strategies & earning
+
+**Can I sell a strategy I build?**
+Yes. Build and prove it in the **[Strategy Lab](strategy-lab.md)**, then publish to the **Marketplace** — others subscribe (paid or free) and you earn from subscriptions. Subscribers see your **live** track record, and payouts settle on-chain with KYC built in.
+
+**Do I need to code to build a strategy?**
+No. Use the no-code **Builder**, describe it to the **AI Strategist**, or let **Edge Finder** (AutoML) find an edge from just a symbol. See **[Build & publish a strategy](usecase-build-strategy.md)**.
+
 ## Support
 
 **How do I get help?**
