@@ -38,7 +38,7 @@ You request payouts any time from **Profile → Referrals**. There's no fixed sc
 Anyone can start instantly with the standard 10% — just grab your link. If you have an established audience and want a **custom commission rate or co-marketing**, reach out:
 
 * **Partner page:** [formion.ai/partners](https://formion.ai/partners)
-* **Email:** partners@formion.ai
+* **Email:** support@formion.ai
 
 {% hint style="info" %}
 A future **FOM**-token payout path with a bonus is planned — see **[FOM token](fom-token.md)**.
