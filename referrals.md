@@ -19,4 +19,4 @@ Commissions are recurring: as your referrals keep paying, you keep earning. Trac
 * Crypto payouts — no card or bank needed.
 * A future **FOM**-token payout path with a bonus is planned — 🚧 see **[FOM token](fom-token.md)**.
 
-Building a community or running a channel? The referral program turns your audience into recurring income while giving them a genuinely useful multi-market terminal.
+Building a community or running a channel? See the **[Partner Program](partners.md)** — same engine, plus custom commission rates and co-marketing for established creators.

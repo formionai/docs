@@ -7,6 +7,7 @@
 * [🔌 Brokers & Connections](brokers.md)
 * [💳 Pricing & Tiers](pricing.md)
 * [🎁 Referral Program](referrals.md)
+* [🤝 Partner Program](partners.md)
 * [📈 Screener](screener.md)
 * [📊 Chart Pro](chart-pro.md)
 * [🛰️ Data Hub](data-hub.md)
