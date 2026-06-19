@@ -50,6 +50,15 @@ Everything in Pro, plus **unlimited** bots, **live execution** of prediction-mar
 
 On any tier you can connect your own AI provider keys (Anthropic, OpenAI, OpenRouter, Google Gemini). Keys are **AES-256-GCM encrypted at rest**, and when connected your AI usage is effectively unlimited (billed by your own provider, not Formion).
 
+## 💸 Payment methods
+
+When you upgrade (from the **[Pricing](https://app.formion.ai/pricing)** page or **Profile → License**), pick how you want to pay:
+
+* **💎 Telegram (Crypto Pay) — 0% fee.** Pay in seconds straight from your Telegram wallet in **USDT / TON / BTC** via [@CryptoBot](https://t.me/CryptoBot). Your license **activates instantly**. You can start it from the checkout page (**Pay with Telegram**) or directly inside **[@formiontradingbot](https://t.me/formiontradingbot)** with `/license`. Your Telegram just needs to be linked to your Formion account (**Profile → Connections → Connect Telegram**); if it isn't, the bot links it first.
+* **💳 Card or crypto (40+ assets).** The standard checkout accepts card and 40+ cryptocurrencies. Paying in crypto gets a **−3% bonus**.
+
+Both methods activate the **same** license — Pro or Institutional, instantly on confirmation — and longer billing periods are cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%).
+
 ## 🪙 Paying with FOM
 
 A discounted **FOM-token** payment path (and staking-for-access) is part of the token roadmap — **🚧 coming soon**, see **[FOM token](fom-token.md)**.

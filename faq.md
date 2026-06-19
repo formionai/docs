@@ -23,7 +23,7 @@ No. Formion is **non-custodial** — it connects to your exchange via API keys (
 There's a free **Neural** tier, **Pro** at $89/mo and **Institutional** at $499/mo. Every new signup gets **14 days of Pro free** (no card). Full breakdown: **[Pricing & Tiers](pricing.md)**.
 
 **Can I pay with crypto?**
-Yes — card or crypto (40+ assets), with a small crypto-payment bonus and discounts for longer billing periods. A discounted **FOM-token** payment path is coming — see **[FOM token](fom-token.md)**.
+Yes — three ways: **Telegram (Crypto Pay)** straight from your Telegram wallet in USDT/TON/BTC with **0% fee** and instant activation (via the checkout page or `/license` in [@formiontradingbot](https://t.me/formiontradingbot)); **card**; or **crypto (40+ assets)** at checkout. Crypto payments get a small bonus and longer billing periods are discounted. A discounted **FOM-token** payment path is coming — see **[FOM token](fom-token.md)**.
 
 **What is BYOK?**
 Bring Your Own Key — connect your own AI provider key (Anthropic / OpenAI / OpenRouter / Gemini) on any tier for effectively unlimited AI. Keys are encrypted at rest.
