@@ -4,6 +4,7 @@
 * [🚀 Quick Start](quick-start.md)
 * [🖥️ The App](the-app.md)
 * [🔑 How to Start — API Connection](how-to-start-api-connection.md)
+* [🧩 Developer API](developer-api.md)
 * [🔌 Brokers & Connections](brokers.md)
 * [💳 Pricing & Tiers](pricing.md)
 * [🎁 Referral Program](referrals.md)
