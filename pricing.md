@@ -5,7 +5,7 @@
 Formion has three plans. Every new signup gets **7 days of Pro free — no card required**; if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
 
 {% hint style="info" %}
-Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, or **BTC** / **SOL** — or with **PayPal** on the same checkout page. You can also pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount** (Crypto Pay only). Card payments are not available. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
+Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, **USDT on Tron (TRC20)**, or **BTC** / **SOL** / **LTC** — or with **PayPal** on the same checkout page. You can also pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount** (Crypto Pay only). Card payments are not available. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
 {% endhint %}
 
 ## Plans at a glance
@@ -54,7 +54,7 @@ On any tier you can connect your own AI provider key — Anthropic, OpenAI, Goog
 
 When you upgrade (from the **[Pricing](https://formion.ai/pricing)** page or **Profile → License**), pick how you want to pay:
 
-* **Crypto checkout on formion.ai.** Choose **USDT or USDC** on **Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana**, or pay in **BTC** or **SOL**, straight to Formion's wallet. Send the exact amount on the exact network shown; the licence activates automatically once the payment is confirmed on-chain.
+* **Crypto checkout on formion.ai.** Choose **USDT or USDC** on **Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana**, **USDT on Tron (TRC20)**, or pay in **BTC**, **SOL** or **LTC**, straight to Formion's wallet. Send the exact amount on the exact network shown; the licence activates automatically once the payment is confirmed on-chain.
 * **PayPal** — on the same formion.ai checkout page.
 * **Telegram Crypto Pay.** Use `/license` in [@formiontradingbot](https://t.me/formiontradingbot) (link Telegram in **Profile → Connections** first). Crypto Pay gets an **extra 3% discount**. Follow the asset and amount shown in that invoice.
 
