@@ -40,5 +40,5 @@ flowchart LR
 Every symbol carries its asset logo, and rows update live. Click any row to open its full chart and analysis in **Chart Pro**.
 
 {% hint style="info" %}
-The Screener is usable on the free **Neural** tier with a 15-minute delay, up to 50 symbols and crypto markets. **Pro** and **Institutional** get the real-time screener, unlimited symbols and crypto, stocks, commodities and forex — see **[Pricing & Tiers](pricing.md)**.
+On the free **Neural** tier the Screener is **real-time** for crypto, covering the top 50 symbols. **Pro** and **Institutional** get the real-time screener on all markets — crypto, stocks, commodities and forex — see **[Pricing & Tiers](pricing.md)**.
 {% endhint %}

@@ -20,7 +20,7 @@ No. Formion is **non-custodial** — it connects to your exchange via API keys (
 ## Account & plans
 
 **How much does it cost?**
-There's a free **Neural** tier, **Pro** at $89/mo and **Institutional** at $499/mo. Every new signup gets **7 days of Pro free** (no card required). Full breakdown: **[Pricing & Tiers](pricing.md)**.
+There's a free **Neural** tier, **Pro** at $89/mo and **Institutional** at $499/mo. New accounts get **7 days of Pro free** (no card required) once the email address is confirmed — one trial per person and device. Full breakdown: **[Pricing & Tiers](pricing.md)**.
 
 **How can I pay? Crypto, PayPal, card?**
 At the formion.ai checkout you can pay in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, **USDT on Tron (TRC20)**, or **BTC** / **SOL** / **LTC** — or with **PayPal** on the same checkout page. You can also pay with **Telegram Crypto Pay** via `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an extra 3% discount. Card payments are not available. Licences are priced in USD and paid one-time per period (no auto-renewal); see **[Pricing](pricing.md)**.
@@ -40,7 +40,7 @@ In the app's **Bots** hub you can follow Formion's catalog bots and create paper
 Yes — in **Profile → Connections → TradingView Automation** create a bot, copy its webhook URL and Open/Close messages into your alert, and it executes on your connected CEX/DEX. New bots start paused and live execution is being rolled out account by account; a linked Telegram is required. See **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
 **Can I build and backtest my own strategy?**
-Yes (Pro and Institutional) — the no-code **Builder** in Strategy Lab with backtests on historical data, the **AI Agent** that turns a plain-language idea into a backtested strategy, and **Edge Finder**, which scans a symbol and brute-forces entry/stop/R:R variants with a locked holdout. Published strategies are forward-tracked, and you can attach them to a demo or live account from the Marketplace.
+Yes — on every plan (Neural 3 backtests a day, Pro 50, Institutional unlimited): the no-code **Builder** in Strategy Lab with backtests on historical data, the **AI Agent** that turns a plain-language idea into a backtested strategy, and **Edge Finder**, which scans a symbol and brute-forces entry/stop/R:R variants with a locked holdout. Published strategies are forward-tracked, and you can attach them to a demo or live account from the Marketplace.
 
 **How do I track performance?**
 Formion's tracked bots, signals and published strategies are consolidated in **[Trades History](trades-history.md)** with win rate, profit factor, expectancy and equity curves; your own trades go in the **[Journal](journal.md)**.
@@ -82,7 +82,7 @@ No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Edge 
 Email **support@formion.ai**, open a ticket at [formion.ai/support](https://formion.ai/support) or message [@FormionSupportBot](https://t.me/FormionSupportBot), or join our Telegram community [t.me/formionai](https://t.me/formionai). Documentation lives at **docs.formion.ai**.
 
 **Can I talk to FORA by voice?**
-Yes. Live two-way voice with FORA is available by plan, and its daily limits depend on your plan. On every plan you can type to FORA, and in the chart chat you can turn on microphone dictation and read-aloud replies, which use your browser's speech features. [Command Center](command-center.md) offers suggested commands, attachments and chat on the dashboard.
+Yes. Live two-way voice with FORA is available on every plan: Neural 3 sessions a day × 3 minutes and Pro 25 × 15 minutes on gpt-realtime-2.1-mini, Institutional 80 × 30 minutes on the full gpt-realtime-2.1. On every plan you can type to FORA, and in the chart chat you can turn on microphone dictation and read-aloud replies, which use your browser's speech features. [Command Center](command-center.md) offers suggested commands, attachments and chat on the dashboard.
 
 **Where do I find news and trader ideas?**
 Use [News](news.md) for economic and crypto events and headlines, and [Swarm](swarm.md) for trader posts, signals and contributor review. [Funding Carry](funding-carry.md) has a separate venue-spread research workflow.

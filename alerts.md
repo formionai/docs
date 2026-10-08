@@ -21,7 +21,7 @@ Never miss a setup. Formion delivers alerts across **five channels** and lets yo
 * **Market events** — funding thresholds, open-interest changes, GEX flips, smart-money (whale) flows, economic-calendar releases and crypto-calendar events
 
 {% hint style="info" %}
-Free **Neural** includes 3 custom alerts; **Pro** and **Institutional** are unlimited and add email alerts. You can also ask [FORA](fora.md) to prepare an alert for you to confirm.
+Active custom alerts: **Neural 3**, **Pro 100**, **Institutional unlimited**; Pro and Institutional add email alerts. See **[Pricing & Tiers](pricing.md#daily-limits)**. You can also ask [FORA](fora.md) to prepare an alert for you to confirm.
 {% endhint %}
 
 The **Signals** tab collects every provider's signals into one live feed, and **app.formion.ai/signals/alerts** is where you create and manage your own alert rules. Telegram delivery needs your Telegram linked in profile → Connections with Telegram notifications on in profile → Account → Preferences.

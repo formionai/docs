@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/strategy-lab.jpg" alt="Formion Strategy Lab — no-code strategy builder, AI strategy agent, Edge Finder and the marketplace"><figcaption>Build a strategy with no code, test it honestly, then publish it to the marketplace.</figcaption></figure>
 
-The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you turn an idea into a tested strategy — without writing code — and optionally **publish it to the marketplace**. Strategy Lab is part of the **Pro** and **Institutional** plans.
+The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you turn an idea into a tested strategy — without writing code — and optionally **publish it to the marketplace**. Strategy Lab is on every plan: **Neural** gets the Builder and **3 backtests per day**, **Pro 50 per day**, **Institutional unlimited** (per UTC day, reset 00:00 UTC). See **[Pricing & Tiers](pricing.md#daily-limits)**.
 
 ```mermaid
 flowchart LR

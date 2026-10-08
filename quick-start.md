@@ -30,7 +30,7 @@ Open the **[AI Advisor](smart-trading.md)**, pick a style / risk / asset class, 
 
 * **Watch it:** add the symbol to your **Watchlist** and set an **[alert](alerts.md)** (browser, sound or Telegram).
 * **Log it:** record the trade in the **[Trading Journal](journal.md)** for full performance analytics.
-* **Automate it:** build a rule in the **[Strategy Lab](strategy-lab.md)** (Pro) and forward-test it as a paper **[bot](bots.md)** before attaching anything to your connected account.
+* **Automate it:** build a rule in the **[Strategy Lab](strategy-lab.md)** (3 backtests a day on Neural, more on Pro) and forward-test it as a paper **[bot](bots.md)** before attaching anything to your connected account.
 
 {% hint style="success" %}
 That's the loop: **screen → read → confirm with AI → act → track**. Everything else in Formion makes one of those five steps sharper.
@@ -45,5 +45,5 @@ That's the loop: **screen → read → confirm with AI → act → track**. Ever
 On the formion.ai dashboard, use [Command Center](command-center.md) to ask FORA, attach a chart or document, or start with a suggested research command. For forex/CFDs, connect a cTrader demo account before moving to live trading. Review tracked outcomes in [Trades History](trades-history.md) and upcoming catalysts in [News](news.md).
 
 {% hint style="info" %}
-The 7-day Pro trial (no card required) returns to Neural unless you upgrade. Paid licences are paid in crypto or with PayPal at the formion.ai checkout, or with Telegram Crypto Pay (no card payments); [FOM on Base](fom-token.md) provides a separate phased agent utility model.
+The 7-day Pro trial (no card required) starts once your email address is confirmed and returns to Neural unless you upgrade; daily limits per plan are on [Pricing & Tiers](pricing.md#daily-limits). Paid licences are paid in crypto or with PayPal at the formion.ai checkout, or with Telegram Crypto Pay (no card payments); [FOM on Base](fom-token.md) provides a separate phased agent utility model.
 {% endhint %}

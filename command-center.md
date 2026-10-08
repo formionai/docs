@@ -23,7 +23,7 @@ When account chat is enabled, **Chat** opens a conversation inside the card. Com
 
 Ask “show my balance” for account context, “compare strategies #1 vs #2” for strategy review, or “alert me when BTC crosses 70k” for an alert task. The examples describe requests you can make; successful execution depends on the available tool, licence and account connection.
 
-The in-card Chat is text only. **Live two-way voice** with FORA is available by plan, and its daily limits depend on your plan (see [Plans & Pricing](pricing.md)). In the chart chat you can also turn on read-aloud replies and microphone dictation, which use your browser's speech features. Keep instrument names and sizing explicit either way. See [FORA](fora.md) for the cognitive loop and conversation modes.
+The in-card Chat is text only. **Live two-way voice** with FORA is available on every plan, with daily session limits per plan (see [Plans & Pricing](pricing.md#daily-limits)). In the chart chat you can also turn on read-aloud replies and microphone dictation, which use your browser's speech features. Keep instrument names and sizing explicit either way. See [FORA](fora.md) for the cognitive loop and conversation modes.
 
 {% hint style="info" %}
 An attachment supplies context. Include the question you want answered rather than sending an unexplained file. Suggested trading commands are editable examples, not completed orders.

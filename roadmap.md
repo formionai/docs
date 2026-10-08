@@ -12,7 +12,7 @@ Where Formion is today and where it's going. (Updated 2026.)
 * **Bots & automation** — DCA, Grid, Indicator, Trailing, Funding-arb, Alarm bots; **chart-alert webhook automation** (CEX + DEX); tracked live and paper strategies.
 * **Backtesting** — multi-year backtests, walk-forward optimizer, prop-firm simulator, Strategy Lab + no-code builder, Pine generator.
 * **Markets** — crypto, forex and CFDs (cTrader), stocks (US + international), commodities (gold/silver/oil), options (major crypto options venues), prediction markets (Polymarket/Kalshi/Limitless).
-* **Accounts** — 3-tier pricing, 7-day Pro trial, BYOK, 2FA, referrals, portfolio aggregation, trading journal with AI auto-tag.
+* **Accounts** — 3-tier pricing, 7-day Pro trial, BYOK, 2FA, referrals, portfolio aggregation, trading journal with AI review.
 * **Unified trade history** — every bot, strategy and signal engine streams into one analytics hub (KPIs, equity curve, per-symbol/session/hour breakdowns), each signal scored against its realized forward outcome.
 * **Alerts** — multi-channel notifications across in-app, sound, Telegram, email and webhook, with per-strategy routing.
 

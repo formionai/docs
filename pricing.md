@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/pricing.jpg" alt=""><figcaption></figcaption></figure>
 
-Formion has three plans. Every new signup gets **7 days of Pro free — no card required**; if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
+Formion has three plans. New accounts get **7 days of Pro free — no card required** — once the email address is confirmed (see [7-day Pro trial](#7-day-pro-trial)); if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
 
 {% hint style="info" %}
 Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, **USDT on Tron (TRC20)**, or **BTC** / **SOL** / **LTC** — or with **PayPal** on the same checkout page. You can also pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount** (Crypto Pay only). Card payments are not available. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
@@ -20,31 +20,58 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **cTrader broker accounts** | 1 | 5 | Unlimited |
 | **Annual total (USD)** | $0 | $853 | $4,790 |
 | **Sub-account slots** | 0 | 3 | 6 |
-| **Live bots** | 0 (paper only) | 5 (auto-execute) | Unlimited |
+| **Live bots** | 0 (demo/paper unlimited) | 5 (auto-execute) | Unlimited |
 | **Paper bots** | Unlimited | Unlimited | Unlimited |
 | **Watchlist symbols** | 25 | Unlimited | Unlimited |
 | **Chart** | 5 symbols · 4 TFs · 2 indicators | All symbols/TFs/indicators · SMC · replay | Same as Pro |
-| **Screener** | crypto only, 15-min delay, 50 symbols | real-time: crypto, stocks, commodities, forex | Same as Pro |
-| **AI signals stack** | Trade Vision on BTC | Full (RAG, Trade Vision on every symbol, RF, Multi-AI Consensus, all signals) | Same as Pro, priority AI queue |
-| **Backtesting + Strategy Lab** | — | ✅ | ✅ |
+| **Screener** | real-time, crypto, top 50 | real-time: all markets (crypto, stocks, commodities, forex) | Same as Pro |
+| **AI signals stack** | Trade Vision + RAG Research within daily limits | Full (RAG, Trade Vision, RF, Multi-AI Consensus, all signals) | Same as Pro, priority AI queue |
+| **FORA realtime voice** | ✅ (mini model) | ✅ (mini model) | ✅ (full model) |
+| **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
 | **Trading Journal** | 30 days, 10 image uploads | Unlimited history + uploads + exchange auto-import | Same as Pro |
-| **Custom alerts** | 3 | Unlimited + email alerts | Unlimited + email alerts |
+| **Custom alerts (active)** | 3 | 100 + email alerts | Unlimited + email alerts |
 | **Prediction-market bots live execution** (PolyScalp, latency arb, Kalshi cross-arb) | — | — | ✅ |
 | **White-label REST + WebSocket SDK** | — | — | ✅ |
 | **Team seats** | 1 | 1 | 5 |
 | **Uptime SLA** | — | — | 99.9% |
 
+## 📊 Daily limits
+
+Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app shows how much you have used (for example *"used 2/3 today"*) with an upgrade option when you reach a limit.
+
+| | 🆓 Neural (Free) | 💎 Pro | 🏛️ Institutional |
+|---|---|---|---|
+| **Trade Vision analyses** | 3 / day | 30 / day | 200 / day |
+| **RAG Research reports** | 1 / day | 10 / day | 50 / day |
+| **Strategy Lab backtests** | 3 / day (+ Builder) | 50 / day | Unlimited |
+| **Custom alerts (active)** | 3 | 100 | Unlimited |
+| **Live bots** | 0 (demo/paper unlimited) | 5 | Unlimited |
+| **Screener** | Real-time, crypto, top 50 | All markets, real-time | All markets, real-time |
+| **FORA realtime voice** | 3 sessions/day × 3 min (gpt-realtime-2.1-mini) | 25 sessions/day × 15 min (gpt-realtime-2.1-mini) | 80 sessions/day × 30 min (full gpt-realtime-2.1) |
+| **FORA text chat (AI budget)** | $2 / month | $5 / day | $30 / day |
+| **Coins Hub (public cards)** | ✅ | ✅ | ✅ |
+
+With your own AI key (**BYOK**), FORA text chat runs on your provider without the platform AI budget cap.
+
+## 🎁 7-day Pro trial
+
+* **7 days of Pro, no card required.**
+* The trial starts only **after your email address is confirmed**. Google sign-ups are confirmed automatically; if you signed up with Telegram, add and confirm an email in your profile to receive it.
+* **One trial per person and device.**
+* Sign-ups from datacenter or VPN networks are not eligible for the trial.
+* When the 7 days end, the account returns to the free **Neural** tier unless you upgrade.
+
 ## 🆓 Neural — Free forever
 
-Try Formion with no commitment: link 2 exchanges, 2 wallets, 1 DEX and 1 cTrader broker account, use Binance and Bybit demo (testnet) accounts, run unlimited **paper** bots, talk to the AI within a $2/month budget, and use the core screener and charts. The path to unlimited AI on the free tier is **BYOK** (connect your own AI provider key or your ChatGPT account).
+Try Formion with no commitment: link 2 exchanges, 2 wallets, 1 DEX and 1 cTrader broker account, use Binance and Bybit demo (testnet) accounts, run unlimited **paper** bots, talk to the AI within a $2/month budget, use FORA realtime voice (3 sessions a day, 3 minutes each), Trade Vision (3 a day), one RAG Research report a day, the Strategy Lab builder with 3 backtests a day, the real-time crypto screener (top 50) and core charts. The path to unlimited AI on the free tier is **BYOK** (connect your own AI provider key or your ChatGPT account).
 
 ## 💎 Pro — $89/mo
 
-Full retail trading: unlimited exchanges, wallets and DEX accounts, 5 cTrader broker accounts, 3 sub-account slots, **5 live bots** with auto-execute, the complete AI stack (Trade Vision on every symbol, Research RAG, RF predictor, Multi-AI Consensus) with a $5/day AI budget, all signal feeds, real-time screener on every market, backtesting + Strategy Lab, and full charting (all symbols, timeframes and indicators, SMC zones, replay).
+Full retail trading: unlimited exchanges, wallets and DEX accounts, 5 cTrader broker accounts, 3 sub-account slots, **5 live bots** with auto-execute, the complete AI stack (Trade Vision 30/day, Research RAG 10/day, RF predictor, Multi-AI Consensus) with a $5/day AI budget, FORA realtime voice (25 sessions a day, 15 minutes each), 100 active custom alerts, all signal feeds, real-time screener on every market, backtesting + Strategy Lab (50 backtests a day), and full charting (all symbols, timeframes and indicators, SMC zones, replay).
 
 ## 🏛️ Institutional — $499/mo
 
-Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots (PolyScalp, latency arb, Kalshi cross-arb), a $30/day AI budget with a priority queue and team-shared BYOK, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
+Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots (PolyScalp, latency arb, Kalshi cross-arb), a $30/day AI budget with a priority queue and team-shared BYOK, FORA realtime voice on the full model (80 sessions a day, 30 minutes each), Trade Vision 200/day and Research RAG 50/day, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
 
 ## 🔑 BYOK — Bring Your Own Key
 
