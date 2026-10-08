@@ -12,7 +12,7 @@ flowchart LR
 
 ## 1 · Sign up
 
-Go to **[app.formion.ai](https://app.formion.ai)** and create an account (email or Google). You land in the **Quantum Terminal**. Nothing to connect yet — data is live out of the box.
+Go to **[app.formion.ai](https://app.formion.ai)** and create an account (email, Google or Telegram). You land in the **Quantum Terminal**. Nothing to connect yet — data is live out of the box.
 
 ## 2 · Open the Screener
 
@@ -28,9 +28,9 @@ Open the **[AI Advisor](smart-trading.md)**, pick a style / risk / asset class, 
 
 ## 5 · Track or automate
 
-* **Watch it:** add the symbol to your **Watchlist** and set a **[Signal alert](smart-trading.md)** (browser, sound or Telegram).
+* **Watch it:** add the symbol to your **Watchlist** and set an **[alert](alerts.md)** (browser, sound or Telegram).
 * **Log it:** record the trade in the **[Trading Journal](journal.md)** for full performance analytics.
-* **Automate it:** build a rule in the **[Strategy Lab](strategy-lab.md)** and run it as a **[bot](bots.md)** on your connected account.
+* **Automate it:** build a rule in the **[Strategy Lab](strategy-lab.md)** (Pro) and forward-test it as a paper **[bot](bots.md)** before attaching anything to your connected account.
 
 {% hint style="success" %}
 That's the loop: **screen → read → confirm with AI → act → track**. Everything else in Formion makes one of those five steps sharper.
@@ -42,8 +42,8 @@ That's the loop: **screen → read → confirm with AI → act → track**. Ever
 
 ## Continue from Command Center
 
-On the dashboard, use [Command Center](command-center.md) to ask FORA by text or realtime voice, attach a chart or document, or start with a suggested research command. For forex/CFDs, connect a cTrader demo account before moving to live trading. Review tracked outcomes in [Trades History](trades-history.md) and upcoming catalysts in [News](news.md).
+On the formion.ai dashboard, use [Command Center](command-center.md) to ask FORA, attach a chart or document, or start with a suggested research command. For forex/CFDs, connect a cTrader demo account before moving to live trading. Review tracked outcomes in [Trades History](trades-history.md) and upcoming catalysts in [News](news.md).
 
 {% hint style="info" %}
-The 7-day Pro trial (no card required) returns to Neural unless you upgrade. Paid licences are paid in crypto (formion.ai checkout or Telegram Crypto Pay); [FOM on Base](fom-token.md) provides a separate phased agent utility model.
+The 7-day Pro trial (no card required) returns to Neural unless you upgrade. Paid licences are paid in crypto or with PayPal at the formion.ai checkout, or with Telegram Crypto Pay (no card payments); [FOM on Base](fom-token.md) provides a separate phased agent utility model.
 {% endhint %}

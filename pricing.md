@@ -5,7 +5,7 @@
 Formion has three plans. Every new signup gets **7 days of Pro free — no card required**; if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
 
 {% hint style="info" %}
-Payments are **crypto only**: pay at formion.ai checkout with **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, or with **BTC** or **SOL** — or pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount**. Card payments are not offered. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
+Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, or **BTC** / **SOL** — or with **PayPal** on the same checkout page. You can also pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount** (Crypto Pay only). Card payments are not available. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
 {% endhint %}
 
 ## Plans at a glance
@@ -16,51 +16,57 @@ Payments are **crypto only**: pay at formion.ai checkout with **USDT or USDC** o
 | **AI budget** | ~$2 / month | $5 / day | $30 / day (priority queue) |
 | **Exchanges (CEX)** | 2 | Unlimited | Unlimited |
 | **Wallets** | 2 | Unlimited | Unlimited |
-| **DEX** | 1 | All 4 | All 4 |
+| **DEX accounts** | 1 | Unlimited | Unlimited |
 | **cTrader broker accounts** | 1 | 5 | Unlimited |
 | **Annual total (USD)** | $0 | $853 | $4,790 |
 | **Sub-account slots** | 0 | 3 | 6 |
-| **Live bots** | 0 (paper only) | 5 | Unlimited |
+| **Live bots** | 0 (paper only) | 5 (auto-execute) | Unlimited |
 | **Paper bots** | Unlimited | Unlimited | Unlimited |
 | **Watchlist symbols** | 25 | Unlimited | Unlimited |
 | **Chart** | 5 symbols · 4 TFs · 2 indicators | All symbols/TFs/indicators · SMC · replay | Same as Pro |
-| **Screener** | crypto, delayed | real-time, all markets | real-time, all markets |
-| **AI signals stack** | — | Full (RAG, Trade Vision, RF, Signals) | Full + priority |
+| **Screener** | crypto only, 15-min delay, 50 symbols | real-time: crypto, stocks, commodities, forex | Same as Pro |
+| **AI signals stack** | Trade Vision on BTC | Full (RAG, Trade Vision on every symbol, RF, Multi-AI Consensus, all signals) | Same as Pro, priority AI queue |
 | **Backtesting + Strategy Lab** | — | ✅ | ✅ |
-| **Trading Journal** | 30 days, manual | Unlimited + AI auto-tag + auto-import + tax export | + team journal |
-| **Alerts** | 3 | Unlimited | Unlimited |
-| **Chart-alert automation** | — | ✅ | ✅ |
-| **Polymarket / Kalshi live execution** | — | signals only | ✅ live execution |
-| **White-label API / SDK** | — | — | ✅ |
-| **Team seats** | 1 | 1 | 5 (+$50 each) |
+| **Trading Journal** | 30 days, 10 image uploads | Unlimited history + auto-import + AI auto-tag + tax export | Same as Pro |
+| **Custom alerts** | 3 | Unlimited + email alerts | Unlimited + email alerts |
+| **Prediction-market bots live execution** (PolyScalp, latency arb, Kalshi cross-arb) | — | — | ✅ |
+| **White-label REST + WebSocket SDK** | — | — | ✅ |
+| **Team seats** | 1 | 1 | 5 |
 | **Uptime SLA** | — | — | 99.9% |
 
 ## 🆓 Neural — Free forever
 
-Try Formion with no commitment: link 2 exchanges, run unlimited **paper** bots, talk to the AI within a small monthly budget, and use the core screener and charts. Best path for unlimited AI on the free tier is **BYOK** (connect your own Anthropic/OpenAI/Gemini key).
+Try Formion with no commitment: link 2 exchanges, 2 wallets, 1 DEX and 1 cTrader broker account, use Binance and Bybit demo (testnet) accounts, run unlimited **paper** bots, talk to the AI within a $2/month budget, and use the core screener and charts. The path to unlimited AI on the free tier is **BYOK** (connect your own AI provider key or your ChatGPT account).
 
 ## 💎 Pro — $89/mo
 
-Full retail trading: unlimited exchanges & wallets with direct execution on all 4 DEX, **5 live bots**, the complete AI stack (Advisor, Trade Vision, Research RAG, Multi-AI Consensus), backtesting + Strategy Lab, full charting (all indicators, SMC, replay), unlimited journal with AI auto-tag, and **chart-alert webhook automation**.
+Full retail trading: unlimited exchanges, wallets and DEX accounts, 5 cTrader broker accounts, 3 sub-account slots, **5 live bots** with auto-execute, the complete AI stack (Trade Vision on every symbol, Research RAG, RF predictor, Multi-AI Consensus) with a $5/day AI budget, all signal feeds, real-time screener on every market, backtesting + Strategy Lab, and full charting (all symbols, timeframes and indicators, SMC zones, replay).
 
 ## 🏛️ Institutional — $499/mo
 
-Everything in Pro, plus **unlimited** bots, **live execution** of prediction-market bots (Polymarket scalp, latency arb, Kalshi cross-arb), white-label REST/WebSocket API, 5 team seats with role-based access, priority AI queue, and a 99.9% uptime SLA.
+Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots (PolyScalp, latency arb, Kalshi cross-arb), a $30/day AI budget with a priority queue and team-shared BYOK, FORA realtime voice and the 3D FORA robot, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
 
 ## 🔑 BYOK — Bring Your Own Key
 
-On any tier you can connect your own AI provider keys (Anthropic, OpenAI, OpenRouter, Google Gemini). Keys are **AES-256-GCM encrypted at rest**, and when connected your AI usage is billed by your own provider and subject to its limits.
+On any tier you can connect your own AI provider key — Anthropic, OpenAI, Google Gemini, xAI (Grok), DeepSeek, Moonshot (Kimi), Zhipu (GLM), MiniMax or OpenRouter — in **Profile → License → AI keys**, or connect your ChatGPT subscription. Keys are tested before saving and **AES-256-GCM encrypted at rest**; your AI usage is then billed by your own provider and subject to its limits.
 
 ## 💸 Payment methods
 
-When you upgrade (from the **[Pricing](https://app.formion.ai/pricing)** page or **Profile → License**), pick how you want to pay:
+When you upgrade (from the **[Pricing](https://formion.ai/pricing)** page or **Profile → License**), pick how you want to pay:
 
-* **Crypto checkout on formion.ai.** Choose **USDT or USDC** on **Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana**, or pay in **BTC** or **SOL**. Confirm the asset, network and amount before sending; checkout confirms activation.
-* **Telegram Crypto Pay.** Link Telegram through **Profile → Connections**, then use `/license` in [@formiontradingbot](https://t.me/formiontradingbot). Crypto Pay gets an **extra 3% discount**. Follow the asset and amount shown in that invoice.
+* **Crypto checkout on formion.ai.** Choose **USDT or USDC** on **Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana**, or pay in **BTC** or **SOL**, straight to Formion's wallet. Send the exact amount on the exact network shown; the licence activates automatically once the payment is confirmed on-chain.
+* **PayPal** — on the same formion.ai checkout page.
+* **Telegram Crypto Pay.** Use `/license` in [@formiontradingbot](https://t.me/formiontradingbot) (link Telegram in **Profile → Connections** first). Crypto Pay gets an **extra 3% discount**. Follow the asset and amount shown in that invoice.
 
-Payments are crypto only — card payments are not offered.
+Card payments are not available.
 
-These methods activate the **same** license — Pro or Institutional, instantly on confirmation — and longer billing periods are cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%).
+Payments are one-time for the period you choose (1, 3, 6 or 12 months) — nothing renews automatically. Every method activates the **same** licence (Pro or Institutional) as soon as the payment is confirmed, and longer periods are cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). A promo code and a referral discount don't stack — the larger one applies. When you upgrade, the unused paid part of your current plan is credited.
+
+## ↩️ Refunds
+
+A licence (Pro or Institutional) is refunded within **7 days** of the payment if the paid features did not work for you because of a problem on our side, or if you were charged by mistake (renewals and upgrades: within 72 hours). Duplicate payments and overpaid amounts are always refunded; trading results are never a reason for a refund. Full rules: [formion.ai/refunds](https://formion.ai/refunds).
+
+Request a refund at [formion.ai/refunds](https://formion.ai/refunds) or support@formion.ai (payments older than 30 days are not refunded); a decision follows within 5 business days. Crypto refunds are sent in **USDC or USDT** to the wallet you give us (on the same network you paid on), minus the network fee. **PayPal payments are refunded through PayPal.** When a refund is approved, access to the purchase ends immediately.
 
 ## 🪙 Paying with FOM
 
