@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
-*A repeatable workflow for "what should I look at today?" — using only the free-tier tools.*
+*A repeatable workflow for "what should I look at today?" — most steps work on the free Neural tier, within its limits (delayed crypto-only screener, 5 chart symbols, Trade Vision on BTC).*
 
 ## The flow
 
@@ -20,7 +20,7 @@ Open the **[Screener](screener.md)**, sort by **Score**, filter to your asset cl
 
 ### 2 · Confirm the direction
 
-Switch to the **Bias Map**. If a pair scores long on the Screener *and* the multi-timeframe heatmap is green across 5m→1d with a high anchor score, that's confluence. If timeframes disagree (mixed colors), it's a lower-quality setup — skip or wait.
+Switch to the **Bias Map** (Screener → Bias Map). If a pair scores long on the Screener *and* its bias is green across the timeframes you trade, that's confluence. If timeframes disagree (mixed colors), it's a lower-quality setup — skip or wait.
 
 ### 3 · Read the actual level
 
@@ -28,11 +28,11 @@ Click the pair into **[Chart Pro](chart-pro.md)**. Use the order-flow **Workspac
 
 ### 4 · Get a second opinion
 
-Send it to the **[AI Advisor](smart-trading.md)** or drop a screenshot into **[Trade Vision](trade-vision.md)** for an independent entry / stop / take-profit read. Cross-check sentiment on **[Pulse](pulse.md)** — is the crowd already all-in the same direction (crowded), or are the accounts that actually *call it right* leaning your way?
+Send it to the **[AI Advisor](smart-trading.md)** or drop a screenshot into **[Trade Vision](trade-vision.md)** for an independent entry / stop / take-profit read. Cross-check sentiment on **[Pulse](pulse.md)** — is the crowd already all-in the same direction (crowded), or is the narrative still against the move?
 
 ### 5 · Commit & track
 
-Set a **[Signal alert](smart-trading.md)** so you don't have to babysit the chart, and log the idea in the **[Journal](journal.md)**. Over time the Journal tells you which setups *you* actually make money on.
+Set an **[alert](alerts.md)** so you don't have to babysit the chart, and log the idea in the **[Journal](journal.md)**. Over time the Journal tells you which setups *you* actually make money on.
 
 {% hint style="info" %}
 The point isn't more signals — it's **fewer, higher-confluence** ones. Each step above is a filter that removes a weak setup before it costs you.
@@ -40,4 +40,4 @@ The point isn't more signals — it's **fewer, higher-confluence** ones. Each st
 
 ***
 
-**Related:** [Build & publish a strategy](usecase-build-strategy.md) · [Follow the voices that call it right](usecase-follow-voices.md)
+**Related:** [Build & publish a strategy](usecase-build-strategy.md) · [Follow the right voices](usecase-follow-voices.md)

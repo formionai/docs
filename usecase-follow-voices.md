@@ -1,41 +1,41 @@
-# 📡 Use Case — Follow the Voices That Actually Call It Right
+# 📡 Use Case — Follow the Right Voices
 
 <figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
-*Crypto X and YouTube are full of confident calls. Formion turns that noise into a measurable signal — and shows you who to ignore.*
+*Crypto X and YouTube are full of confident calls. Formion Pulse turns that noise into one readable score — and lets you decide whose voice counts.*
 
 ## The flow
 
 ```mermaid
 flowchart LR
-  P["📡 Pulse<br/>read the narrative"] --> L["🏆 Leaderboard<br/>who's accurate"]
-  L --> W["⭐ My Watchlist<br/>keep the good ones"]
-  W --> F["🔇 Filter<br/>your own Pulse Score"]
-  F --> C["🎯 Contrarian check"]
+  P["📡 Pulse<br/>read the narrative"] --> D["🗂️ Desks<br/>who is saying what"]
+  D --> F["🔇 Source filter<br/>your own Pulse Score"]
+  F --> H["📈 History<br/>narrative vs price"]
+  H --> C["🎯 Contrarian check"]
 ```
 
 ### 1 · Read the narrative
 
-Open **[Formion Pulse](pulse.md)**. The **Pulse Score** blends X traders, YouTube influencers, social chatter and BTC bias into one 0–100 read. Even bare chart screenshots get **read by a vision model** ("CHART READ") so a picture-only post still counts.
+Open **[Formion Pulse](pulse.md)** (app.formion.ai → Analytics → Pulse). The **Pulse Score** blends X traders, YouTube influencers, crowd and social chatter, Fear & Greed and BTC bias into one 0–100 read. Even bare chart screenshots get **read by a vision model** ("CHART READ") so a picture-only post still counts.
 
-### 2 · See who's actually right
+### 2 · See who is saying what
 
-Scroll to the **Accuracy Leaderboard**. Every bull/bear call is checked against real price at +24h / +72h / +7d. The loudest account isn't the best — the **hit-rate and average edge** columns are. The crowd screaming "crash to 50k" while price recovers shows up as a column of misses.
+Scroll through the **X desk**, the **YouTube influencer desk** and the **Crowd** card. Each post is read for a bull/bear stance, the asset and the thesis, so you can see whether the score is driven by a few loud accounts or a broad shift.
 
-### 3 · Keep the good ones
+### 3 · Make it *your* sentiment
 
-Add your favourites to **My Watchlist** (`@handle` or a YouTube channel) — they get the same AI scoring on a personal desk. Let **auto-discovery** (🔍) surface new candidates from mentions and an AI-vetted X-search sweep, and **+ Track** the ones worth watching.
+Use the **Source filter** to mute anyone you don't rate. The Pulse Score and desks **recompute instantly for you** — so the number reflects only the voices you trust, not a generic average. Your selection is remembered on your device.
 
-### 4 · Make it *your* sentiment
+### 4 · Check it against price
 
-Use the **Source filter** to mute anyone you don't rate. The Pulse Score, desks and leaderboard **recompute instantly for you** — so the number reflects only the voices you trust, not a generic average.
+The **Sentiment-vs-Price history** plots the Pulse Score against the BTC price over the last 30 days, and the **BTC Bias** card shows price momentum. Does the narrative lead the market, or just chase it?
 
 ### 5 · Trade the disagreement
 
-The biggest edge is often *contrarian*: extreme fear in the narrative while price holds = the crowd is offside. Pulse runs a transparent **contrarian paper strategy** on exactly this, tracked in **[Trade History](journal.md)**, so you can see whether fading the consensus actually pays.
+The biggest edge is often *contrarian*: extreme fear in the narrative while price holds can mean the crowd is offside. Treat that as a hypothesis to check with the [Screener](screener.md) and your own analysis — not as a signal on its own.
 
 {% hint style="info" %}
-Sentiment is context, not a trigger. Pair Pulse with the [Screener](screener.md) and your own analysis — and trust the leaderboard over the loudest voice.
+Sentiment is context, not a trigger. Pair Pulse with the [Screener](screener.md) and your own analysis before trusting any voice.
 {% endhint %}
 
 ***

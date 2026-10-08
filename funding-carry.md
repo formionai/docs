@@ -1,4 +1,4 @@
-# Funding Carry
+# ⚖️ Funding Carry
 
 <figure><img src=".gitbook/assets/analytics.jpg" alt="Funding Carry"><figcaption><p>Formion — Funding Carry</p></figcaption></figure>
 

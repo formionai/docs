@@ -21,25 +21,25 @@ flowchart LR
 The platform spans three surfaces:
 
 * **[app.formion.ai](https://app.formion.ai)** — the Quantum Terminal trading app: screeners, charts, analytics, AI advisor, backtesting, signals, bots and journal.
-* **[formion.ai](https://formion.ai)** — your account dashboard: portfolio aggregation, exchange/wallet connections, pricing & profile.
-* **Telegram (`@formiontradingbot`)** + **FORA** — a conversational AI assistant that mirrors the platform and can place trades, run scans and answer portfolio questions.
+* **[formion.ai](https://formion.ai)** — your account dashboard: portfolio aggregation, the Command Center, exchange/wallet/broker connections, pricing & profile.
+* **Telegram (`@formiontradingbot`)** + **FORA** — a conversational AI assistant that mirrors the platform: it runs scans, answers portfolio questions and places trades after you confirm them.
 
 ## ⚡️ What you can do
 
-* 🤖 **AI trading assistance** — FORA chat, AI Advisor (ranked trade ideas), Trade Vision (chart-image → trade), and a Research RAG-LLM engine.
+* 🤖 **AI trading assistance** — FORA chat, AI Advisor (ranked trade ideas), Trade Vision (chart-image → trade plan), and a Research RAG-LLM engine.
 * 📊 **Deep market data** — multi-exchange screeners, open-interest / funding / long-short analytics, order-flow & footprint, GEX / options, on-chain events and whale tracking.
-* 🦾 **Automate trading** — DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **chart alert webhook automation** that executes your alerts on your connected CEX or DEX.
-* 🧪 **Build, backtest & explore strategies** — no-code Strategy Builder, **Edge Finder** (AutoML), historical backtests, walk-forward validation, a prop-firm simulator, and a **Strategy Marketplace** to publish your strategies and review outcomes.
+* 🦾 **Automate trading** — follow Formion's catalog bots, run paper bots, set up DCA, Grid, Trailing, Alarm, indicator-signal and funding bots in `@formiontradingbot`, and use **TradingView webhook bots** that execute your alerts on your connected CEX or DEX (rolling out).
+* 🧪 **Build, backtest & explore strategies** *(Pro)* — no-code Strategy Builder, an AI strategy agent, **Edge Finder**, historical backtests, and a **Strategy Marketplace** to publish strategies and review their forward record.
 * 🤝 **Copy trading** — copy traders today through your exchange's native copy trading (e.g. Bybit); native Formion copy-trading for selected bots is **coming soon**.
-* 📓 **Trading journal** — auto-import, AI auto-tagging and full performance analytics.
+* 📓 **Trading journal** — manual entries, read-only exchange import with auto-sync, webhook push, an AI review of your trading and full performance analytics.
 * 🔌 **Connect cTrader forex/CFD brokers alongside crypto venues** — see [Brokers](brokers.md).
-* 🔌 **Connect everything** — 8 CEX, 4 DEX, on-chain wallets (EVM/Solana/Sui/TON) and prediction markets (Polymarket/Kalshi/Limitless).
+* 🔌 **Connect everything** — 8 CEX, 4 DEX perps venues, on-chain wallets (EVM, Solana, Sui and TON) and prediction markets (Polymarket/Kalshi/Limitless).
 
 ## 🔐 Security & custody
 
 * Formion **never holds your funds** — it connects to your exchange via API keys (trade-only, no withdrawal) and your funds stay on the exchange.
 * All API keys and sensitive data are **AES-256-GCM encrypted at rest**.
-* **2FA**, session management and IP-whitelisting are supported.
+* **2FA** with backup codes, an optional trading password, session management and sign-in alerts are supported.
 
 ## 🪙 FOM Token
 
@@ -52,7 +52,7 @@ The platform spans three surfaces:
 * Pricing & plans: **[Pricing & Tiers](pricing.md)**.
 * Automate chart alerts: **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
-* Ask FORA by text or realtime voice: [Command Center](command-center.md).
+* Ask FORA from the dashboard: [Command Center](command-center.md).
 * Follow events and headlines: [News 24/7 & Macro](news.md).
 * Review trader ideas and graded calls: [Swarm](swarm.md).
 * Research venue funding spreads: [Funding Carry](funding-carry.md).

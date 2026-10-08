@@ -12,7 +12,7 @@ flowchart LR
 
 ## 1 · Sign up
 
-Go to **[app.formion.ai](https://app.formion.ai)** and create an account (email, Google or Telegram). You land in the **Quantum Terminal**. Nothing to connect yet — data is live out of the box.
+Go to **[app.formion.ai](https://app.formion.ai)** — it sends you to formion.ai to sign in or create an account (email, Google or Telegram), then back to the **Quantum Terminal**. Nothing to connect yet — data is live out of the box.
 
 ## 2 · Open the Screener
 
@@ -20,7 +20,7 @@ The home view is the **[Screener](screener.md)** — every market ranked by Form
 
 ## 3 · Read a setup
 
-Click any pair to open **[Chart Pro](chart-pro.md)** with the full order-flow workspace, or hover the row to see *why* it scored — the signals driving it (RSI, VWAP, funding, OI, long/short). Check the **[Bias Map](screener.md)** to see if the whole market agrees with that direction.
+Click any pair to open **[Chart Pro](chart-pro.md)** with the full order-flow workspace, or read the row's strongest signals to see *why* it scored. Check the **[Bias Map](screener.md)** (Screener → Bias Map) to see if the whole market agrees with that direction.
 
 ## 4 · Ask the AI
 

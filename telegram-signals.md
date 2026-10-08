@@ -5,7 +5,7 @@
 Follow a paid signal channel? **Connect your own Telegram account, point Formion at the groups you're already in, and Formion turns their messages into tracked, backtested trades** — so you finally know whether a channel is actually worth your money.
 
 {% hint style="info" %}
-This is a **Pro / Institutional** feature, and it's **per-user and private** — you connect *your* Telegram, and only *you* see the results. Formion reads messages (read-only); it never posts or trades on your behalf.
+This is a **Pro / Institutional** feature, and it's **per-user and private** — you connect *your* Telegram, and only *you* see the results. Formion reads messages (read-only) and never sends anything from your account. It does not trade unless you switch on **Auto-execute** for a group (see below).
 {% endhint %}
 
 ```mermaid
@@ -26,7 +26,7 @@ Link your own account with the standard phone → code → 2FA login. Your sessi
 Formion lists the groups, channels and chats you're a member of. Choose the signal channel you want to evaluate.
 
 ### 3. Preview the parsing
-Formion pulls recent messages and shows you, side by side, the **raw message → the parsed signal** (side, symbol, entry, stop-loss, take-profits, confidence). The parser is **regex-first** for clean formats and falls back to **AI** for free-form messages ("buy gold on the breakout above 2040, stop 2030, targets 2060/2080") — so free-form formats can be reviewed alongside structured messages.
+Formion pulls the group's recent history (the last 400 messages, with at most 120 parsed by AI) and shows you, side by side, the **raw message → the parsed signal** (side, symbol, entry, stop-loss, take-profits, confidence). The parser is **regex-first** for clean formats and falls back to **AI** for free-form messages ("buy gold on the breakout above 2040, stop 2030, targets 2060/2080") — so free-form formats can be reviewed alongside structured messages.
 
 ### 4. Backtest the available history
 Before you risk a cent, run the available **10-day backtest window** and inspect which parsed signals have price coverage:
@@ -42,7 +42,9 @@ Subscribe and Formion listens in real time — every new signal is parsed, de-du
 
 ## Manage tracking
 
-Subscribed groups appear in your tracked list. Review recent signal statuses and unsubscribe to stop monitoring. A simulation is not the channel's brokerage record, and tracking does not establish a live fill on your account. Compare raw messages with symbol interpretation, especially for forex and metals.
+Subscribed groups appear in your tracked list. Review recent signal statuses and unsubscribe to stop monitoring.
+
+**Auto-execute (optional):** in **formion.ai → Profile → Connections → Telegram Signals**, each subscribed group has an **Auto-execute** switch that turns its signals into trades on your connected **cTrader** or **Bybit** account, with a lot size you set. It is **demo only for now**; live execution is gated for safety. A simulation is not the channel's brokerage record, and tracking does not establish a live fill on your account. Compare raw messages with symbol interpretation, especially for forex and metals.
 
 Use [FORA](fora.md) to discuss your findings and [Alerts](alerts.md) for notification workflows.
 

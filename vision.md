@@ -14,11 +14,11 @@ A world where a retail trader and an institutional desk work from the **same too
 
 ### Where we're going
 
-* **Native mobile app** and full feature parity across web, mobile and Telegram.
+* **Closer parity across web, mobile and Telegram** — today Formion runs in your phone's browser (add it to your home screen) and FORA works in Telegram.
 * **Native Formion copy-trading** for selected bots (today you can copy via your exchange, e.g. Bybit).
 * **A strategy marketplace** where builders list and monetize strategies.
 * **Community programme governance** via the FOM token, once governance ships (never a vote on Formion as a company).
-* **Broader execution** — DEX-only mode for restricted regions and an institutional OEMS for desks.
+* **The FORA Agent** — FOM-unlocked agent levels, from a browser agent that drives the chart up to autonomous trading on your own accounts within your risk caps (see [FOM](fom-token.md)).
 
 This is directional — for what's live today, see **[The App](the-app.md)**; for the sequence, see the **[Roadmap](roadmap.md)**.
 

@@ -27,11 +27,11 @@ Formion connects to on-chain perp venues alongside your CEX accounts:
 
 * **Hyperliquid**, **AsterDex**, **Bluefin**, **Extended**
 
-Order entry, positions and fills sit in the same terminal as your centralized accounts — and Hyperliquid whale tracking + copy lives in **[Copy Trading & Whale Tracking](copy-trading.md)**.
+Order entry, positions and fills sit in the same terminal as your centralized accounts — and Hyperliquid whale tracking lives in **[Copy Trading & Whale Tracking](copy-trading.md)**.
 
 ## Wallets
 
-Link **EVM, Solana, Sui and TON** wallets — read-only for tracking, or trade-ready for swaps. Wallet balances feed your unified portfolio view, and on-chain smart-money / token discovery lives in **Coins Hub** (see **[The App](the-app.md)**).
+Link **EVM, Solana, Sui and TON** wallets (MetaMask, Phantom, Trust Wallet, Sui Wallet, Tonkeeper) — view-only for tracking, or trade-ready for swaps. Wallet balances feed your unified portfolio view, and on-chain smart-money / token discovery lives in **Coins Hub** (see **[The App](the-app.md)**).
 
 {% hint style="success" %}
 Tip: you can also trigger swaps and check on-chain flow conversationally through **[FORA](fora.md)**.

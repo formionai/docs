@@ -8,7 +8,7 @@ Plain-English definitions of terms used across Formion.
 
 * **FORA** — Formion's conversational AI assistant (Telegram + web) that can analyze, scan and place trades on your connected accounts. See **[FORA](fora.md)**.
 * **AI Advisor** — the in-app AI hub: Quick Advisor (ranked ideas), AI Chat, Track Record and Trade Vision. See **[AI Advisor](smart-trading.md)**.
-* **Multi-AI Consensus** — cross-checking a question across several AI models (Claude, GPT, Gemini, Kimi) and surfacing agreement/disagreement.
+* **Multi-AI Consensus** — a multi-agent AI pipeline that analyses a symbol from several angles and returns a combined BUY / HOLD / SELL view.
 * **BYOK** — *Bring Your Own Key*: connect your own AI provider key for AI usage billed by your provider.
 * **Non-custodial** — Formion never holds your funds; it connects via API and can't withdraw.
 * **Paper trading** — simulated trading with no real money, used to validate a strategy.

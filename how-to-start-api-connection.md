@@ -6,11 +6,10 @@ Choose the account and market you intend to use. Keep enough available margin fo
 
 ```mermaid
 flowchart LR
-  E[Choose exchange and market] --> K[Create trade-only API key]
-  K --> W[Copy current allowlist from Connections]
-  W --> P[Save permissions and whitelist]
-  P --> F[Submit key in Formion]
-  F --> B[Verify portfolio and position mode]
+  E[Choose exchange and market] --> K[Create read + trade API key]
+  K --> P[Save permissions, withdrawals off]
+  P --> F[Link key in Profile → Connections]
+  F --> B[Verify balance and position mode]
 ```
 
 ## For Binance:
@@ -23,14 +22,14 @@ Then click on **Create API** button and choose **System generated**, put any nam
 
 <figure><img src=".gitbook/assets/binance2.png" alt=""><figcaption></figcaption></figure>
 
-You will get **API keys** but you need now to edit it and put a **whitelisted IPs** from Formion settings page and then check **Enable Futures** and **Enable Spot & Margin Trading,** save it and copy both **API key** and **Secret key** and put into **Settings** page on **Formion**, fill your **password** and click on **Submit.**
+You will get **API keys**. Edit the restrictions: enable **Futures** and **Read Info**, and leave **Withdrawals** off. Save, then copy both the **API key** and the **Secret key** — Binance hides the Secret after this page.
 
 <figure><img src=".gitbook/assets/binance3.png" alt=""><figcaption></figcaption></figure>
 
-Now open **Profile → Connections** on [formion.ai](https://formion.ai), choose **Binance**, and copy the current IP allowlist shown there into the exchange's **Restrict access to trusted IPs only** field.
+Now open **Profile → Connections** on [formion.ai](https://formion.ai), click to link an exchange, choose **Binance**, paste the **API key** and **Secret**, and click **Link exchange**.
 
 {% hint style="info" %}
-Use the addresses displayed in your connection form. Save the whitelist before testing the key, and keep withdrawal permissions disabled. The screenshots illustrate the workflow; exchange labels may change.
+The Formion connection form asks only for the key and secret (plus a passphrase on KuCoin, Bitget and Blofin). It does not show an IP allowlist. Keep withdrawal permissions disabled. The screenshots illustrate the workflow; exchange labels may change.
 {% endhint %}
 
 **For a bot configured for hedge positions and cross margin, match those settings on Binance Futures before starting it. Verify the intended market and mode in the bot form.**\\
@@ -45,7 +44,7 @@ Use the addresses displayed in your connection form. Save the whitelist before t
 
 ## For Bybit:
 
-For Bybit the situation is the same but here if you want to use multiple bots our advice is to create each subaccount for each new bot! Also make sure your account type is UTA ( Unified Trading Account )
+For Bybit the situation is the same but here if you want to use multiple bots our advice is to create each subaccount for each new bot! Each subaccount needs its own API key and uses one Formion subaccount slot (Pro 3, Institutional 6; Neural links main accounts only). Also make sure your account type is UTA ( Unified Trading Account )
 
 <figure><img src=".gitbook/assets/subacc.png" alt=""><figcaption></figcaption></figure>
 
@@ -57,9 +56,7 @@ Click on System-generated API Keys
 
 <figure><img src=".gitbook/assets/bybit2.png" alt=""><figcaption></figcaption></figure>
 
-Now go to the Formion [Settings page](https://formion.ai/user/settings) and choose Bybit as your exchange. Copy the **current IP allowlist displayed in the Bybit connection form** to your Bybit API key.
-
-Now here it's very important to check **Read-Write** permission mode and also enable **Only IPs** mode with all of those IPs.
+Choose **System-generated → API Transaction**, set **Read-Write**, and enable **Derivatives** (Read + Trade).
 
 <figure><img src=".gitbook/assets/newkey1.png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +64,7 @@ Enable only the read and trading permissions required for your selected market. 
 
 <figure><img src=".gitbook/assets/bybit4.png" alt=""><figcaption></figcaption></figure>
 
-Now you will get API key and API Secret and copy both and paste to Formion Settings page, fill with your password and Submit it!
+Now you will get the API key and API Secret. Copy both immediately — Bybit only shows the Secret on this confirmation screen. Then open **Profile → Connections** on [formion.ai](https://formion.ai), choose **Bybit**, paste them and click **Link exchange**.
 
 <figure><img src=".gitbook/assets/newkey23.png" alt=""><figcaption></figcaption></figure>
 
@@ -84,8 +81,7 @@ For a hedge/cross bot, verify that the corresponding Bybit contract uses Hedge M
 
 Use Apply to all USDT pairs only if that is the mode you intend for every affected contract.\
 \
-To test everything is passed well go to Formion Portfolio Settings\
-and you will see something like this for Binance\\
+To test that everything worked, check the **Exchanges** card in **Profile → Connections**: it shows the live balance and health of each linked account. It will look something like this for Binance\\
 
 <figure><img src=".gitbook/assets/portfolio.png" alt=""><figcaption></figcaption></figure>
 
@@ -101,4 +97,4 @@ For forex and CFDs, open **Profile → Connections → cTrader** and use the bro
 
 ## Troubleshoot before starting a bot
 
-If balances do not appear, check the key, selected exchange, account type, permissions and current whitelist. Verify that the API secret was copied when created; do not send it to support or put it into a chat. For a connected account with rejected orders, inspect the order's market, margin, size and position mode separately. See [Troubleshooting](troubleshooting.md).
+If balances do not appear, check the key, selected exchange, account type (live or demo), permissions and any IP restriction you set on the key. Verify that the API secret was copied when created; do not send it to support or put it into a chat. For a connected account with rejected orders, inspect the order's market, margin, size and position mode separately. See [Troubleshooting](troubleshooting.md).

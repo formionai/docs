@@ -23,11 +23,13 @@ First connect the account you want to trade on (one-time):
 * Go to **[formion.ai](https://formion.ai) → Profile → Connections**.
 * Under **Exchanges** (CEX) or the DEX cards, link your account with API keys / signing key. See [How to Start — API Connection](how-to-start-api-connection.md).
 * Supported today: **CEX** — Binance, Bybit, KuCoin, Gate, BingX, MEXC, Blofin, Bitget. **DEX** — Hyperliquid, Asterdex, Bluefin, Extended. (Venues are enabled for automation progressively.)
+* **Link your Telegram** in **Profile → Connections** too — TradingView bots sync through **@formiontradingbot**, so the **New bot** button stays disabled until Telegram is linked.
 
 #### 2. Create a TradingView Bot 🤖
 
 * In **Profile → Connections**, open the **TradingView Automation** card and click **New bot**.
 * Fill in:
+  * **Account type** — Live or Demo. Demo runs on Bybit only (real prices, demo funds).
   * **Exchange** — any account you've connected (CEX or DEX).
   * **Market** — Futures or Spot.
   * **Symbol** — e.g. `BTCUSDT`.
@@ -67,7 +69,7 @@ Tip: in a Pine **strategy**, you can also use `{{strategy.order.alert_message}}`
 
 * Tokens are random and per-bot; rotate by deleting and recreating a bot.
 * A bot only ever trades the **one symbol and direction** you configured. **Close** orders are **reduce-only** (they can't open or flip a position).
-* Duplicate alerts with the same id are ignored (no double-fills).
+* Duplicate alerts with the same id are ignored (no double-fills). To use this, include an `id`, `alert_id`, `nonce` or `timenow` field in the alert message JSON.
 * You can pause or delete a bot at any time. Formion never withdraws funds — it only places trades on your connected account.
 
 #### Emoji Recap 📌

@@ -4,7 +4,7 @@
 
 **FORA** began as a conversational assistant and has grown into something closer to a cognitive system. It perceives the whole market, reasons from retrieved evidence, remembers, learns from measured outcomes, trades autonomously to prove its own edge, and even *evolves* new strategies — all under strict, non-custodial safety.
 
-Talk to it in plain language on **Telegram (`@formiontradingbot`)** or at **fora.formion.ai**. It works across your entire account, in your language, and review its evidence and measured track record alongside each answer.
+Talk to it in plain language on **Telegram (`@formiontradingbot`)**, in the FORA chat on formion.ai and app.formion.ai, or at **fora.formion.ai**. It works across your account and replies in your interface language (English, Serbian, Croatian, Russian, German, French, Spanish, Italian, Portuguese, Polish or Turkish).
 
 ```mermaid
 flowchart LR
@@ -117,7 +117,7 @@ It also learns from aggregate, privacy-preserving base rates across the platform
 
 ## V. Autonomy — it trades to prove itself
 
-Talk is cheap, so FORA puts itself on the line. In a **simulated, risk-free account** it autonomously selects the strongest setups, opens positions with predefined risk, and **measures its own accuracy in public** — win-rate, expectancy and equity curve, exactly like any other strategy in Formion.
+Talk is cheap, so FORA puts itself on the line. In a **simulated paper account** it selects setups, opens positions with predefined risk, and **measures its own results** — win-rate, expectancy and equity curve, the same metrics used for any other strategy in Formion.
 
 <figure><img src=".gitbook/assets/fora-track-record.png" alt=""><figcaption><p>Tracked FORA decisions are evaluated through measured outcomes — win-rate, expectancy, equity curve.</p></figcaption></figure>
 
@@ -126,6 +126,8 @@ When you want it to act on your real account, it does so **only through hard saf
 $$
 \text{execute}(o)\iff \underbrace{A}_{\text{armed}}\,\wedge\,\underbrace{C}_{\text{you confirm}}\,\wedge\,\underbrace{E}_{\text{opted-in}}\,\wedge\,\underbrace{B}_{\text{your broker}}\,\wedge\,\bigl(\,\text{notional}(o)\le N_{\max}\,\bigr)\,\wedge\,\bigl(\,n_{\text{open}}<K_{\max}\,\bigr)
 $$
+
+By default FORA only **proposes** an order with a real quote (size, price, fee); nothing executes until you confirm and enter your trading password. Hands-free execution happens only if you switch on **FORA Autotrade** yourself (Pro; profile → Connections) for your linked cTrader account — every order is capped by your max per order, max trades per day and max total per day, and the kill-switch stops it instantly.
 
 FORA is **non-custodial** — it connects to your own exchange or broker, never holds or withdraws funds, and defaults to *fail-closed*: if anything is unset, nothing trades.
 
@@ -153,7 +155,7 @@ $$
 
 — stricter when it slips, bolder when it is on form. Larger structural changes are *proposed for human review*; it never rewrites itself unattended.
 
-**Evolutionary strategy discovery.** FORA runs a **genetic search** over the space of complete strategy specifications $s=(\text{archetype},\text{entry},\text{stop},\text{targets},\text{trailing},\dots)$. A population is bred, each member backtested out-of-sample, the fittest selected, then crossed and mutated across generations. Fitness rewards only genuine, risk-adjusted, out-of-sample edge:
+**Evolutionary strategy discovery.** FORA runs a **genetic search** over the space of complete strategy specifications $s=(\text{archetype},\text{entry},\text{stop},\text{targets},\text{trailing},\dots)$. A population is bred, each member backtested on a search window that excludes a locked holdout, the fittest selected, then crossed and mutated across generations. Fitness rewards risk-adjusted return on that search window:
 
 $$
 F(s)=R_{\text{net}}(s)+4\,\mathrm{Sharpe}(s)+3\min\!\big(\mathrm{PF}(s),4\big)-0.3\,\lvert\mathrm{DD}(s)\rvert
@@ -162,14 +164,14 @@ $$
 
 ```mermaid
 flowchart LR
-  G0["🎲 Population of strategies"] --> BT["🔬 Backtest out-of-sample"]
+  G0["🎲 Population of strategies"] --> BT["🔬 Backtest on search window"]
   BT --> SEL["🏆 Select fittest F(s)"]
   SEL --> XO["🧬 Crossover + mutate"]
   XO --> G0
-  SEL --> W["💎 Survivors → saved + tracked"]
+  SEL --> W["💎 Winner → locked holdout → saved only on EDGE"]
 ```
 
-Strategies that beat passive holding out-of-sample are saved and walk-forward tracked. FORA is **discovering** edges, not selecting from a fixed menu.
+The single winner is then scored once on the locked holdout of unseen data; only an **EDGE** verdict is saved as a FORA-built strategy and tracked. Most runs end with nothing saved — that is the filter working. FORA is **searching** for edges, not selecting from a fixed menu.
 
 ***
 
@@ -178,10 +180,12 @@ Strategies that beat passive holding out-of-sample are saved and walk-forward tr
 * **Ask anything** — *"how's my portfolio?"*, *"analyze SOL on the 4h"*, *"which tokens are trending?"*, *"who's trapped here?"*
 * **Research, scans and guided wizards** — all from a sentence.
 * **Trade commands** on your connected exchange / broker — always with confirmation.
-* **Smart model routing** — each request is matched to the right model tier, so simple questions are fast and hard analysis gets deeper thinking. Bring your own key (**BYOK**) for provider-billed usage subject to that provider’s limits.
-* **Multi-AI consensus** *(Pro & Institutional)* — for high-stakes calls, FORA cross-checks across leading models — **Claude (Anthropic), GPT (OpenAI), Gemini (Google), Kimi (Moonshot)** — and shows where they agree and disagree.
+* **Smart model routing** — fast models for short answers and stronger reasoning models from Anthropic (Claude) and OpenAI for analysis. Bring your own key (**BYOK** — Anthropic, OpenAI, Gemini, Grok, DeepSeek, Kimi, GLM, MiniMax or OpenRouter) on any plan, or connect your ChatGPT Plus account (profile → License), so calls run on your provider with no platform budget cap.
+* **AI budget** — Neural $2 per month, Pro $5 per day, Institutional $30 per day with priority queue; daily budgets reset at 00:00 UTC. One AI request runs at a time on Neural, three on Pro, ten on Institutional.
+* **What each plan adds** — on every plan FORA can chat, explain, read prices, indicators, news, signals and your portfolio, and propose orders and alerts. **Pro** adds web search, deep research, backtests, Edge Finder, social sentiment, chart screenshots and premium platform analytics. **Institutional** adds the 3D robot and live voice.
+* **Compare models** — in AI Advisor → AI Chat you can run the same prompt on 2–4 models side by side and see where they agree and disagree (premium models need a paid plan).
 
-<figure><img src=".gitbook/assets/fora-consensus.png" alt=""><figcaption><p>Multi-model consensus — never trusting a single model's blind spot.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/fora-consensus.png" alt=""><figcaption><p>Comparing models side by side — never trusting a single model's blind spot.</p></figcaption></figure>
 
 ***
 
@@ -195,11 +199,11 @@ Link your Telegram from **formion.ai → Profile → Connections** to talk to FO
 
 ## Text, realtime voice and Command Center
 
-On the dashboard, [Command Center](command-center.md) lets you choose suggested commands or type your own request. Use **Commands** to launch a floating FORA conversation, or **Chat** to converse inside the card when available. Attach images, PDFs, documents, text or CSV files for context; inspect and remove an attachment before sending if it is not relevant.
+On the dashboard, [Command Center](command-center.md) lets you choose suggested commands or type your own request. Use **Commands** to launch a floating FORA conversation, or **Chat** to converse inside the card when available. Attach images, PDFs, DOC/DOCX, text or CSV files (up to 12 MB per file) for context; inspect and remove an attachment before sending if it is not relevant. FORA can also generate reports as PDF, DOCX, TXT or Markdown, draw levels on your Formion chart and, on the chart page, read a snapshot of the chart you are on or a shared screen.
 
-FORA also offers **realtime voice conversation** alongside text. Allow microphone access when requested and describe the instrument, timeframe and intended task clearly. Use a follow-up to refine the analysis and inspect the written context before authorising a trade. Voice is another conversation mode; it does not bypass account permissions or risk controls.
+**Live two-way voice** with FORA is available by plan, and its daily limits depend on your plan (see [Plans & Pricing](pricing.md)). In the chart chat you can also turn on read-aloud replies and microphone dictation from its settings gear, using your browser's built-in speech features. Describe the instrument, timeframe and intended task clearly, and inspect the written context before authorising a trade. Voice is another conversation mode; it does not bypass account permissions or risk controls.
 
-Try “analyse BTC on the 4h”, “compare strategies #1 and #2” or “show my open positions”. The command examples are starting points; a successful action still depends on the available tool, connected account and licence. Connect crypto venues through [Brokers](brokers.md), or authorise **cTrader** for forex and CFDs. [Trades History](trades-history.md) and [Journal](journal.md) help separate evaluated calls, paper trades and your actual account outcomes.
+Try “analyse BTC on the 4h”, “compare strategies #1 and #2” or “show my open positions”. The command examples are starting points; a successful action still depends on the available tool, connected account and licence. Connect crypto venues through [Brokers](brokers.md), or authorise **cTrader** for forex and CFDs. Manage what FORA remembers in profile → Connections → FORA Memory, and pin standing rules (for example “I never use more than 3x leverage”) with **Teach FORA**. [Trades History](trades-history.md) and [Journal](journal.md) help separate evaluated calls, paper trades and your actual account outcomes.
 
 ## Reading the scientific model in practice
 

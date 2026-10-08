@@ -1,4 +1,4 @@
-# News 24/7 & Macro
+# 📰 News 24/7 & Macro
 
 <figure><img src=".gitbook/assets/sec-news.jpg" alt="News 24/7 & Macro"><figcaption><p>Formion — News 24/7 & Macro</p></figcaption></figure>
 

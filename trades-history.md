@@ -1,4 +1,4 @@
-# Trades History
+# 🧾 Trades History
 
 <figure><img src=".gitbook/assets/journal.jpg" alt="Trades History"><figcaption><p>Formion — Trades History</p></figcaption></figure>
 
@@ -6,7 +6,7 @@
 
 ## What you see
 
-The source tabs include **All Bots**, **cTrader**, **AI Consensus**, **Research Ledger**, **AI Advisor**, **Screener**, **Telegram Signals** and **Funding Carry**, among other available strategy sources. Each source has a description; review it to understand the record’s scope.
+The source tabs include **All Bots**, **cTrader**, **Research Ledger**, **AI Advisor**, **Screener**, **Telegram Signals** and **Funding Carry**, among other available strategy sources. Each source has a description; review it to understand the record’s scope.
 
 The workspace provides trade rows and statuses, equity and performance metrics, with available breakdowns by symbol, side, session or hour. Coverage depends on the source and recorded trades. An empty source is not evidence that a trade was placed and lost.
 

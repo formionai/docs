@@ -1,4 +1,4 @@
-# Formion Swarm
+# 🐝 Formion Swarm
 
 <figure><img src=".gitbook/assets/pulse.jpg" alt="Formion Swarm"><figcaption><p>Formion — Formion Swarm</p></figcaption></figure>
 
@@ -6,7 +6,7 @@
 
 ## What you see
 
-Feed tabs include **Following**, **Global**, **Trending**, **Saved**, **Copied** and **Lists**. Header shortcuts lead to Profile, Chat, Rooms, Explore, Bookmarks, **My signals**, **Studio** and **Leaderboard**, alongside verification and settings controls. Cashtag and topic views help focus on an instrument or theme.
+Feed tabs include **Following**, **Global**, **Trending**, **Saved**, **Copied** and **Lists**. Header shortcuts lead to Profile, Chat, Rooms, Explore, Bookmarks, **My signals**, **Studio** and **Leaderboard**, alongside **Get verified** and settings controls. Cashtag and topic views help focus on an instrument or theme.
 
 ## Research a contributor or call
 
@@ -19,7 +19,7 @@ Feed tabs include **Following**, **Global**, **Trending**, **Saved**, **Copied**
 
 ## Participate and review your work
 
-Use **Post an idea** to compose a contribution. Creator Studio provides engagement and activity views including followers, views, likes, comments, reposts, top posts and symbol performance. Some additional profile-view panels are tier-dependent; use the interface’s access labels.
+Use **Post an idea** to compose a contribution. **Creator Studio** (Pro and Institutional) provides engagement views including followers, views, likes, comments, reposts, follower growth, top posts and performance by symbol; Institutional adds who viewed your profile, recent followers and reach. On Neural the Studio shows an upgrade prompt.
 
 {% hint style="info" %}
 A social call is a starting point for research. Review its context and graded sample, then compare your own execution in the journal. A contributor’s ranking does not determine the next call’s result.

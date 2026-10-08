@@ -2,7 +2,7 @@
 
 The Formion Data API gives programmatic access to the same signals you see in the app — the ranked screener, calibrated win-probabilities, and more — over a simple authenticated REST endpoint. It is designed for quants, bot builders and desks who want Formion's edge inside their own systems.
 
-> **Status:** available on request. The API is billed separately from the app licence — contact **support@formion.ai** to get a key and discuss a plan.
+> **Status:** available on request. Keys are issued manually by the Formion team. Self-serve personal API tokens are on the roadmap — the API access card in **Profile → License** shows *Coming soon*. Contact **support@formion.ai** to request a key.
 
 ## Authentication
 
@@ -20,13 +20,13 @@ curl "https://app.formion.ai/api/v1/screener?tf=1d&limit=25" \
 If your key is missing, wrong or revoked you get:
 
 ```json
-{ "ok": false, "error": "unauthorized" }
+{ "ok": false, "error": "unauthorized", "hint": "Send a valid key as 'Authorization: Bearer fom_live_…'. Request access at support@formion.ai." }
 ```
 with HTTP `401`.
 
 ## Rate limits
 
-Each key has a per-minute budget by tier:
+Each key has a per-minute budget set by the key's API tier (assigned when the key is issued):
 
 | Tier | Requests / minute |
 |---|---|
@@ -42,7 +42,7 @@ X-RateLimit-Remaining: 594
 X-RateLimit-Reset: 1789200000     # unix seconds when the window resets
 ```
 
-Over budget returns HTTP `429` with a `Retry-After` header (seconds). Back off and retry.
+Over budget returns HTTP `429` with `{ "ok": false, "error": "rate_limited", "tier": "…" }` and a `Retry-After` header (seconds). Back off and retry.
 
 ## Versioning
 
@@ -67,8 +67,10 @@ curl https://app.formion.ai/api/v1/meta -H "Authorization: Bearer fom_live_…"
   "key": { "tier": "pro", "rate_per_min": 600, "label": "Acme backtest bot" },
   "endpoints": [
     { "path": "/api/v1/meta", "method": "GET", "desc": "This key's tier + endpoint list." },
-    { "path": "/api/v1/screener", "method": "GET", "desc": "Ranked multi-market screener with Formion score + P(win)." }
-  ]
+    { "path": "/api/v1/screener", "method": "GET", "desc": "Ranked multi-market screener with Formion score + P(win). Query: tf, limit, minScore." }
+  ],
+  "docs": "https://docs.formion.ai/api",
+  "support": "support@formion.ai"
 }
 ```
 
@@ -119,7 +121,7 @@ curl "https://app.formion.ai/api/v1/screener?tf=4h&limit=5&minScore=60" \
 | Field | Meaning |
 |---|---|
 | `symbol` | Exchange pair or ticker |
-| `asset_class` | `crypto`, `stock`, `index`, `commodity` |
+| `asset_class` | Asset class of the row (for example `crypto`, `stock`, `index`, `commodity`) |
 | `category` | Setup class (`bull`, `bear-rally`, `sweep-confirmed`, …) |
 | `direction` | `long`, `short`, or `null` |
 | `score` | Composite Formion score, 0–100 |
@@ -128,7 +130,7 @@ curl "https://app.formion.ai/api/v1/screener?tf=4h&limit=5&minScore=60" \
 | `tags` | Structural + momentum tags (FVG, BoS/CHoCH, VWAP, Adaptive-RSI turns, …) |
 | `scanned_at` | Unix ms of the underlying scan (data can be up to a few minutes old) |
 
-More endpoints (trade history, patterns, order-book aggregates) are added on request as demand grows — tell us what you need.
+These two endpoints (`/meta` and `/screener`) are the whole v1 API today. If you need other data, tell us what — there is no commitment to further endpoints yet.
 
 ---
 
@@ -136,8 +138,8 @@ More endpoints (trade history, patterns, order-book aggregates) are added on req
 
 - **Cache and poll sensibly.** The screener re-scans every few minutes; polling faster than that just burns your rate budget for identical data. Read `scanned_at` and skip if unchanged.
 - **One key per system.** Don't share a key across clients — per-key metering is how we (and you) reason about usage.
-- **Never ship a key to a browser or public repo.** If a key leaks, email us and we'll rotate it immediately.
+- **Never ship a key to a browser or public repo.** If a key leaks, email us so we can revoke it and issue a new one.
 
 ## Getting a key
 
-Email **support@formion.ai** with your use case and expected volume. We'll issue a key, set the right tier, and help you get the first call working.
+Email **support@formion.ai** with your use case and expected volume. We'll issue a key, set its tier, and help you get the first call working.

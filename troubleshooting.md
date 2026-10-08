@@ -6,10 +6,10 @@ Quick fixes for the most common issues. Still stuck? Email **support@formion.ai*
 
 ### My exchange won't connect / "API check failed"
 
-* Keep a small balance on the account (≈ **$10 USDT** on Binance Futures / Bybit UTA) so Formion can verify the key.
+* Formion verifies a new key with a balance call, so the key needs **read** permission.
 * Add **every** IP from the whitelist to your API key — see **[How to Start — API Connection](how-to-start-api-connection.md)**.
 * Enable **trading** permission; keep **withdrawals disabled**.
-* **Binance Futures:** set **Hedge** mode + **Cross** margin for USDT pairs. **Bybit:** use a **Unified Trading Account (UTA)**.
+* **Binance Futures:** Formion detects hedge or one-way position mode itself; if you get a *position-mode mismatch* error, switch to one-way mode (or disable hedge) on the exchange. **Bybit:** use a **Unified Trading Account (UTA)**.
 * Use a **fresh key** if you rotated it on the exchange.
 
 ### "Telegram not linked"
@@ -18,7 +18,7 @@ Some features (and the FORA bot) require a linked Telegram. Link it in **formion
 
 ### My balance shows $0 or "—"
 
-* A momentary "—" means a balance read is being retried — it should refresh on the next tick. Formion never shows a false $0; an unreadable venue is marked, not zeroed.
+* A momentary "—" usually means a balance read is being retried — it should refresh on the next tick.
 * If it persists, re-check the API key's **read** permission and IP whitelist.
 
 ### My bot isn't trading
@@ -27,7 +27,7 @@ Some features (and the FORA bot) require a linked Telegram. Link it in **formion
 * **Live** bots require a **Pro** (5) or **Institutional** (unlimited) plan; the free tier runs **paper** bots only.
 * Confirm the bot's exchange is still connected and funded.
 
-### My chart alert alert didn't fire a trade
+### My chart alert didn't fire a trade
 
 * The alert's **Webhook URL** must be set to the Formion webhook, and the **Message** must contain the bot's exact **Open**/**Close** token.
 * The bot must be **Active**, and the exchange connected. See **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.

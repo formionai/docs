@@ -2,29 +2,35 @@
 
 <figure><img src=".gitbook/assets/polymarket.jpg" alt="Polymarket hot markets, analytics and whale tracking"><figcaption></figcaption></figure>
 
-Formion brings prediction markets — led by **Polymarket** — into the same terminal as your charts and bots: browse markets, track the whales, read the analytics, connect a wallet and trade, and let Formion's engines hunt mispricings.
+Formion brings prediction markets — led by **Polymarket** — into the same terminal as your charts and bots: browse markets, see the top traders, read the price history, link your own account and place bets, and follow Formion's prediction-market bots.
 
 {% hint style="info" %}
-Browsing and analytics are open to everyone. **Live execution** of prediction-market strategies is an **Institutional** feature.
+Browsing and analytics are included on every plan, and so are manual bets from your own linked account. **Live auto-execution** of the PolyScalp, latency-arb and Kalshi cross-arb engines is an **Institutional** feature.
 {% endhint %}
 
 ## Browse & analyze (Polymarket hub)
 * **Sort & rank** markets by **24h volume**, **movers (1h)**, **ending soon**, **liquidity** or **lifetime $**
 * **Filter by category** — Crypto · Sports · Politics · Economy · Entertainment · Science · Other
-* Each market shows **YES probability**, volume and liquidity; open a market for a **detail page** (price history, order book, your position)
-* **Leaderboard** and **whale ledger** — who's positioned where, and how they've done
-* **Prediction analytics** — odds movement and mispricing vs fair value
+* Each market shows **YES/NO probability**, 24h volume, 1h/24h price change, time to resolution and liquidity, with a **price history** chart
+* Open a market for its **detail page**: YES/NO order book, recent trades tape, top holders per outcome, and a preview form that opens the trade on polymarket.com
+* **Top Traders** — the Polymarket leaderboard by profit or volume (1 day, 1 week, 1 month, all time)
 
 ## Connect & trade
-On the **Predictions** desk you can connect a wallet, read the live **order book**, place positions and track your **open bets** alongside the rest of your portfolio.
+On **formion.ai → Profile → Connections** (or the dashboard), the **Prediction markets** card links your **Polymarket**, **Kalshi** or **Limitless** account. From there you can search markets, place a bet in USD, and review your open positions and resting orders (with cancel).
+
+{% hint style="warning" %}
+The **Predictions** tab in app.formion.ai is marked **Soon**. It is planned as an AI price-projection panel, not a betting desk.
+{% endhint %}
 
 ## In-house engines
-Formion runs its own prediction-market engines (tracked in **[Trade History](journal.md)**):
+Formion runs its own prediction-market bots (tracked in **[Trade History](journal.md)**):
 
-| Engine | What it does |
-|---|---|
-| **Polymarket Edge** | Black-Scholes / IV fair-value vs market YES price — trades the mispricing (**live, real funds**) |
-| **Hourly crypto arb** | BTC hourly markets across Polymarket / Kalshi, oracle-band tuned |
-| **PolyScalp / Latency / Kalshi cross-arb** | Order-book mispricing, exchange-latency and cross-venue event arbitrage |
+| Bot | Pool | What it does |
+|---|---|---|
+| **Polymarket Edge** | live | Black-Scholes fair value (from Deribit IV) vs the market YES price on BTC/ETH/SOL close and touch markets; buys the mispriced side |
+| **BTC Hourly Arb** | paper + live | Hourly BTC/ETH/SOL up-or-down markets across Polymarket and Kalshi; buys both opposite legs when their combined cost is under $1 |
+| **PolyScalp v1** | paper + live | Up/down scalper on Polymarket crypto minute markets |
+| **Poly Solo Directional** | live | Bets the Polymarket leg of low-risk arb-scanner signals; you can attach it to your own linked Polymarket wallet (counts as a live bot) |
+| **PolyTracker — Whale Copy** | paper | Paper copy of selected Polymarket whales |
 
-These are the same verified, auditable engines documented in **[Bots & Automation](bots.md)** — prediction markets are a first-class market in Formion, not an afterthought.
+The same bots appear in **[Bots & Automation](bots.md)**, with their pool shown on each card.

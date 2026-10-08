@@ -8,7 +8,7 @@ Never miss a setup. Formion delivers alerts across **five channels** and lets yo
 
 | Channel | Use |
 |---|---|
-| **In-app** | Toast + alert bell while you're on the platform |
+| **Browser** | Browser notification + on-page toast while the app is open |
 | **Sound** | Audio ping for hands-off monitoring |
 | **Telegram** | Push to your Telegram so you're alerted with the browser closed — see **[Telegram Signals](telegram-signals.md)** for linking |
 | **Email** | Inbox delivery |
@@ -16,15 +16,15 @@ Never miss a setup. Formion delivers alerts across **five channels** and lets yo
 
 ## What you can alert on
 
-* **Custom rules** — price, RSI, moving-average cross, SMC events, liquidation clusters
+* **Custom rules** — price, % change, RSI, MACD cross, EMA alignment, SMC order-block / FVG events, divergences, liquidation clusters, your drawn zones, custom-indicator conditions and multi-condition confluence
 * **Per-strategy / per-bot** — get pinged when any tracked engine fires a signal (contextual 🔔 on Trade History, Strategy Lab and indicator panels)
-* **Market events** — funding extremes, OI surges, GEX flips, whale prints
+* **Market events** — funding thresholds, open-interest changes, GEX flips, smart-money (whale) flows, economic-calendar releases and crypto-calendar events
 
 {% hint style="info" %}
-Free **Neural** includes a few alerts; **Pro** and **Institutional** are unlimited. Rich formatting (levels, meters, context) is included.
+Free **Neural** includes 3 custom alerts; **Pro** and **Institutional** are unlimited and add email alerts. You can also ask [FORA](fora.md) to prepare an alert for you to confirm.
 {% endhint %}
 
-The live **Signals** stream shows every provider's alerts in one feed with win/loss coloring, and the **My Alerts** builder is where you create and manage your own rules.
+The **Signals** tab collects every provider's signals into one live feed, and **app.formion.ai/signals/alerts** is where you create and manage your own alert rules. Telegram delivery needs your Telegram linked in profile → Connections with Telegram notifications on in profile → Account → Preferences.
 
 
 

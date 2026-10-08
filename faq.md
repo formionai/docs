@@ -40,10 +40,10 @@ In the app's **Bots** hub you can follow Formion's catalog bots and create paper
 Yes — in **Profile → Connections → TradingView Automation** create a bot, copy its webhook URL and Open/Close messages into your alert, and it executes on your connected CEX/DEX. New bots start paused and live execution is being rolled out account by account; a linked Telegram is required. See **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
 **Can I build and backtest my own strategy?**
-Yes (Pro and Institutional) — the no-code **Builder** in Strategy Lab with backtests on historical data, the **AI Agent** that turns a plain-language idea into a backtested strategy, and **Edge Finder**, which searches strategy families for a symbol. Strategies can then run as paper bots.
+Yes (Pro and Institutional) — the no-code **Builder** in Strategy Lab with backtests on historical data, the **AI Agent** that turns a plain-language idea into a backtested strategy, and **Edge Finder**, which scans a symbol and brute-forces entry/stop/R:R variants with a locked holdout. Published strategies are forward-tracked, and you can attach them to a demo or live account from the Marketplace.
 
 **How do I track performance?**
-Every bot/strategy flows into a unified **Trade History** with win-rate, profit factor, expectancy and equity curves, plus the per-trade **[Journal](journal.md)**.
+Formion's tracked bots, signals and published strategies are consolidated in **[Trades History](trades-history.md)** with win rate, profit factor, expectancy and equity curves; your own trades go in the **[Journal](journal.md)**.
 
 ## AI
 
@@ -71,10 +71,10 @@ A market-narrative hub that reads X & YouTube influencers, social chatter, Fear 
 ## Strategies & earning
 
 **Can I sell a strategy I build?**
-Yes. Build and prove it in the **[Strategy Lab](strategy-lab.md)**, then publish to the **Marketplace** — others subscribe (paid or free) and you earn from subscriptions. Review the listing’s available forward record, author options, subscription terms and checkout before subscribing or publishing.
+Yes. Build and prove it in the **[Strategy Lab](strategy-lab.md)**, pass the publish gate, then list it on the **Marketplace** for free or — once your Partner (KYC) application is approved — as a paid listing. Subscribers pay Formion; you receive your share after a 25% platform fee and a 14-day hold, paid monthly in USDC/USDT. Review the listing’s forward record, subscription terms and checkout before subscribing or publishing.
 
 **Do I need to code to build a strategy?**
-No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Edge Finder** (AutoML) search for an edge from just a symbol. See **[Build & publish a strategy](usecase-build-strategy.md)**.
+No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Edge Finder** search for an edge from just a symbol. See **[Build & publish a strategy](usecase-build-strategy.md)**.
 
 ## Support
 
@@ -82,7 +82,7 @@ No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Edge 
 Email **support@formion.ai**, open a ticket at [formion.ai/support](https://formion.ai/support) or message [@FormionSupportBot](https://t.me/FormionSupportBot), or join our Telegram community [t.me/formionai](https://t.me/formionai). Documentation lives at **docs.formion.ai**.
 
 **Can I talk to FORA by voice?**
-Live two-way voice conversation with FORA (and the 3D FORA robot) is part of the **Institutional** plan. On every plan you can type to FORA, and in the chart chat you can turn on microphone dictation and read-aloud replies, which use your browser's speech features. [Command Center](command-center.md) offers suggested commands, attachments and chat on the dashboard.
+Yes. Live two-way voice with FORA is available by plan, and its daily limits depend on your plan. On every plan you can type to FORA, and in the chart chat you can turn on microphone dictation and read-aloud replies, which use your browser's speech features. [Command Center](command-center.md) offers suggested commands, attachments and chat on the dashboard.
 
 **Where do I find news and trader ideas?**
 Use [News](news.md) for economic and crypto events and headlines, and [Swarm](swarm.md) for trader posts, signals and contributor review. [Funding Carry](funding-carry.md) has a separate venue-spread research workflow.
