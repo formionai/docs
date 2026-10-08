@@ -10,7 +10,7 @@ Connect a TradingView alert to your own exchange and let Formion execute the tra
 
 ```mermaid
 flowchart LR
-  TV["📈 TradingView alert<br/>(your strategy fires)"] -->|"webhook URL + token"| H["Formion /tv/hook"]
+  TV["📈 TradingView alert<br/>(your strategy fires)"] -->|"webhook URL + token"| H["Formion webhook receiver"]
   H --> M{"match token<br/>to your bot"}
   M -->|"Open token"| O["place market order<br/>on your CEX / DEX"]
   M -->|"Close token"| C["reduce-only close"]
@@ -40,7 +40,7 @@ First connect the account you want to trade on (one-time):
 
 Each bot shows three things — copy them with the buttons:
 
-* **Webhook URL** — `https://fora.formion.ai/tv/hook`
+* **Webhook URL** — copy the URL displayed on your bot card
 * **Open — alert message** — e.g. `{"token":"<your-open-token>"}`
 * **Close — alert message** — e.g. `{"token":"<your-close-token>"}`
 

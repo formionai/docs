@@ -41,5 +41,5 @@ Anyone can start instantly with the standard 10% — just grab your link. If you
 * **Email:** support@formion.ai
 
 {% hint style="info" %}
-A future **FOM**-token payout path with a bonus is planned — see **[FOM token](fom-token.md)**.
+For Formion's token, see **[FOM token](fom-token.md)**.
 {% endhint %}

@@ -1,5 +1,7 @@
 # 🎯 Use Case — Find a Trade Setup
 
+<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+
 *A repeatable workflow for "what should I look at today?" — using only the free-tier tools.*
 
 ## The flow

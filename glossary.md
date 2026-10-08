@@ -9,10 +9,10 @@ Plain-English definitions of terms used across Formion.
 * **FORA** — Formion's conversational AI assistant (Telegram + web) that can analyze, scan and place trades on your connected accounts. See **[FORA](fora.md)**.
 * **AI Advisor** — the in-app AI hub: Quick Advisor (ranked ideas), AI Chat, Track Record and Trade Vision. See **[AI Advisor](smart-trading.md)**.
 * **Multi-AI Consensus** — cross-checking a question across several AI models (Claude, GPT, Gemini, Kimi) and surfacing agreement/disagreement.
-* **BYOK** — *Bring Your Own Key*: connect your own AI provider key for unlimited AI usage.
+* **BYOK** — *Bring Your Own Key*: connect your own AI provider key for AI usage billed by your provider.
 * **Non-custodial** — Formion never holds your funds; it connects via API and can't withdraw.
 * **Paper trading** — simulated trading with no real money, used to validate a strategy.
-* **FOM** — the Formion ecosystem's native utility token (🚧 coming soon).
+* **FOM** — Formion's ERC-20 token on Base, fixed supply of 1,000,000,000 (minted once); used for FORA Agent levels, agent credits and add-ons, separate from USD platform licences. See [FOM](fom-token.md).
 
 ### Markets & venues
 
@@ -53,3 +53,8 @@ Plain-English definitions of terms used across Formion.
 * **Edge Map** — per-signal expectancy view in Analytics — does this signal actually pay?
 * **CHART READ** — a Pulse label for a stance derived by a vision model *reading the chart inside a screenshot*, not the post's text.
 * **Accuracy Leaderboard** — Pulse's scoreboard of influencers, each call checked against real price at +24h / +72h / +7d.
+
+* **cTrader** — broker connection for forex and CFD accounts through OAuth.
+* **Command Center** — the dashboard launcher for FORA text and voice.
+* **Funding Carry** — research into paired perpetual funding across venues.
+* **Permit** — ERC-20 approval by signature supported by FOM.

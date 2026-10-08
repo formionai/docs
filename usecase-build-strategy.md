@@ -1,5 +1,7 @@
 # 🧱 Use Case — Build, Prove & Publish a Strategy
 
+<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+
 *Turn a trading idea into a tested, automated strategy — and optionally earn from it — without writing code.*
 
 ## The flow
@@ -35,7 +37,7 @@ Happy with the forward record? Run it as a **[bot](bots.md)** on your own connec
 
 ### 5 · Publish & earn
 
-Publish to the **Marketplace**: other users subscribe (paid or free) and you earn from subscriptions. Subscribers see your **live** track record, payouts settle on-chain, and KYC/payout rails are built in.
+Review the **Marketplace** and author view for available publication options, listing terms and subscription pricing. Compare historical tests with forward outcomes before choosing a strategy.
 
 {% hint style="warning" %}
 Backtests describe the past. Forward-test before risking capital, size for the drawdown you saw — not the average — and let the live record speak louder than any curve.

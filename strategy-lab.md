@@ -22,11 +22,11 @@ flowchart LR
 
 ## Test before you trust
 
-Every strategy runs through the same **Backtester** the native engines use — equity curve, profit factor, win-rate, max drawdown, expectancy, by-session/by-hour breakdowns. The **Sweep** tool grid-searches parameters, and **Compare** puts candidates side by side. Results are honest: net of fees, with **vs-HODL** and drawdown shown, never a cherry-picked curve.
+Every strategy runs through the same **Backtester** the native engines use — equity curve, profit factor, win-rate, max drawdown, expectancy, by-session/by-hour breakdowns. The **Sweep** tool grid-searches parameters, and **Compare** puts candidates side by side. Inspect the configured fees, **vs-HODL** comparison and drawdown. Keep the optimisation window separate from validation and forward-test the selected candidate.
 
 ## Run it & My Strategies
 
-Validated strategies live under **📂 My Strategies**. From there you can run a strategy live on **your own connected account** as a bot (see **[Bots & Automation](bots.md)**) or keep forward-testing it on paper — every paper signal flows into **[Trade History](journal.md)** with full analytics.
+Validated strategies live under **📂 My Strategies**. From there you can run a strategy live on **your own connected account** as a bot (see **[Bots & Automation](bots.md)**) or keep forward-testing it on paper — every paper signal flows into **[Trades History](trades-history.md)** with full analytics.
 
 ## 🛒 Marketplace — publish & earn
 
@@ -34,7 +34,7 @@ Confident in a strategy? **Publish it** to the Strategy Marketplace:
 
 * Other users **subscribe** to your strategy (paid or free); you earn from subscriptions.
 * Performance is tracked transparently — subscribers see the real forward record, not a backtest screenshot.
-* Payouts settle on-chain; KYC and payout rails are built in.
+* Check each listing’s subscription and checkout terms. Author and subscription views help manage publications; purchase and execution availability depend on your account and the listing.
 
 So the Lab closes the full loop: **build → prove → run → publish → earn**.
 

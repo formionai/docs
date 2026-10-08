@@ -2,15 +2,15 @@
 
 <figure><img src=".gitbook/assets/markets.jpg" alt=""><figcaption></figcaption></figure>
 
-Formion is multi-asset by design — the same AI tools, screeners, bots and journal work across every market below.
+Formion is multi-asset by design — research and trading workflows span the markets below; coverage and execution vary by venue and tool.
 
 ```mermaid
 flowchart TD
   F(("Formion AI")) --> C["🪙 Crypto<br/>8 CEX · 4 DEX"]
-  F --> X["💱 Forex<br/>MT5"]
+  F --> X["💱 Forex<br/>cTrader"]
   F --> S["📈 Stocks<br/>US + international"]
   F --> M["🥇 Commodities<br/>gold · silver · oil · copper"]
-  F --> O["📐 Options<br/>Deribit"]
+  F --> O["📐 Options<br/>Crypto options"]
   F --> P["🎲 Prediction markets<br/>Polymarket · Kalshi · Limitless"]
 ```
 
@@ -24,18 +24,18 @@ The core market. Connect your accounts and trade spot or perps with full data, s
 * **Wallets:** EVM, Solana, Sui, TON — read-only or full (encrypted).
 * Deep data: open interest, funding, long/short, liquidations, order-flow / footprint, on-chain events and whale tracking.
 
-## 💱 Forex (MT5 + cTrader)
+## 💱 Forex and CFDs
 
-Institutional-grade forex via **MetaTrader 5** (FP Markets master) and per-user **cTrader** broker connect.
+Connect your own **cTrader** broker account through OAuth for supported forex, indices, metals and CFDs.
 
-* Major / minor / cross pairs.
-* **Connect your own broker:** link your **cTrader** account (FP Markets, IC Markets…) via secure **OAuth** — demo & live — for manual and automated execution from inside Formion.
-* Telegram signal bridges + manual `/forex` commands route to MT5 orders.
-* **Master-trade replication** (Formion's master → your MT5) is an **Institutional** feature; **Pro** can link MT5 for viewing and alerting.
+* Major, minor and cross pairs depend on your broker’s instrument list.
+* Authorise the intended demo or live account in **Profile → Connections**.
+* Verify balances, positions and the symbol’s contract details before placing an order.
+* Availability and account limits depend on the broker and your licence; see [Brokers](brokers.md) and [Pricing](pricing.md).
 
 ## 📈 Stocks
 
-Equities data and signals across regions (Yahoo + TradingView data):
+Equities data and signals across regions:
 
 * **US:** NASDAQ, NYSE, major indices (SPY, QQQ).
 * **EMEA:** BIST (Turkey), EGX (Egypt).
@@ -44,9 +44,9 @@ Equities data and signals across regions (Yahoo + TradingView data):
 ## 🥇 Commodities
 
 * **Gold (XAU)** — dedicated scanner + Gold DCA bots + tokenized gold (XAUT / PAXG) cross-venue.
-* **Silver (XAG)**, **Oil (WTI / Brent)**, **Copper (HG)** — via MT5.
+* **Silver (XAG)**, **Oil (WTI / Brent)**, **Copper (HG)** — where offered by your cTrader broker.
 
-## 📐 Options (Deribit)
+## 📐 Options
 
 BTC / ETH / SOL options:
 

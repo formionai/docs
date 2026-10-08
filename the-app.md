@@ -32,7 +32,7 @@ flowchart TD
 The home view: a ranked, sortable table of crypto and stock pairs scored by native signals (RSI, VWAP, funding, OI delta, top-trader long/short). Sub-tools:
 
 * **Bias Map** — confluence heatmap across 5 timeframes (5m → 1d) with an anchor score.
-* **Radar** — TradingView preset feeds as filterable cards.
+* **Radar** — market-screening presets as filterable tiles.
 * **Hunt / Consensus** — advanced multi-filter and multi-timeframe consensus screening.
 
 **[Full guide → Screener](screener.md)**
@@ -47,13 +47,13 @@ A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (in
 
 <figure><img src=".gitbook/assets/sec-datahub.jpg" alt="Data Hub"><figcaption></figcaption></figure>
 
-Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding across OKX, Binance, Bybit, Gate and HTX. Plus scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options (Deribit)**, **Gamma/GEX**, on-chain **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
+Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding across OKX, Binance, Bybit, Gate and HTX. Plus scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options**, **Gamma/GEX**, on-chain **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
 
 ### 🪙 Coins Hub
 
 <figure><img src=".gitbook/assets/sec-coinshub.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
 
-Trend watch (top gainers/losers by timeframe), a full coin listing with detail cards, and a **GMGN smart-money** inflow panel. Plus **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score, with an accuracy leaderboard that scores each voice against real price moves. **[Full guide → Coins Hub](coins-hub.md)**
+Trend watch (top gainers/losers by timeframe), a full coin listing with detail tiles, and a **Formion smart-money** inflow panel. Plus **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score, with an accuracy leaderboard that scores each voice against real price moves. **[Full guide → Coins Hub](coins-hub.md)**
 
 ### 🧠 Analytics
 
@@ -69,7 +69,7 @@ Pick a style/risk/asset class and the AI ranks tradeable ideas from a live scree
 
 ### 🧪 Backtest
 
-A hub with many sub-tabs: the **Backtester**, **All Trades** ([trades-history](#)) unified across every engine, **[Strategy Lab](strategy-lab.md)** (no-code builder + **Edge Finder** AutoML + **Marketplace** to publish your strategy and earn), **My Strategies** (your Pine), **All Sources**, plus dedicated trackers for **GEX**, **TP/SL strategies**, **Gold DCA**, **Stocks DCA**, **Polymarket**, **AI Consensus**, **Confluence**, **Liqra** (liquidations) and **Footprint**.
+A hub with many sub-tabs: the **Backtester**, **All Trades** ([Trades History](trades-history.md)) unified across every engine, **[Strategy Lab](strategy-lab.md)** (no-code builder + **Edge Finder** AutoML + **Marketplace** to publish your strategy and earn), **My Strategies** (your Pine), **All Sources**, plus dedicated trackers for **GEX**, **TP/SL strategies**, **Gold DCA**, **Stocks DCA**, **Polymarket**, **AI Consensus**, **Confluence**, **Liqra** (liquidations) and **Footprint**.
 
 ### 🔔 Signals
 
@@ -91,7 +91,7 @@ A live order-entry dock: symbol search, size calculator, entry/stop/TP brackets,
 
 <figure><img src=".gitbook/assets/sec-bots.jpg" alt="Bots"><figcaption></figcaption></figure>
 
-The catalog of 35+ live and paper bots (crypto perps, gold, forex, options, prediction markets…) plus your own user-built bots. See **[Bots & Automation](bots.md)**.
+The catalog of live and paper bots (crypto perps, gold, forex, options, prediction markets…) plus your own user-built bots. See **[Bots & Automation](bots.md)**.
 
 ### 📓 Journal
 
@@ -99,4 +99,10 @@ Per-trade journaling with notes, charts and full performance review — with AI 
 
 ### 🔜 Coming soon
 
-**Predictions**, **Arbitrage** and **Academy** tabs are in progress.
+**Predictions** and **Academy** are marked coming soon. Funding Carry and spread research are available through the Screener and Analytics workflows.
+
+## Current workflow additions
+
+Use [Command Center](command-center.md) for FORA text and realtime voice, [News](news.md) for macro and crypto events, [Swarm](swarm.md) for trader calls, [Funding Carry](funding-carry.md) for cross-venue research, and [Trades History](trades-history.md) for tracked outcomes. Connect **cTrader forex/CFD brokers** alongside crypto exchanges.
+
+Academy and Predictions are marked **coming soon** in the public navigation.

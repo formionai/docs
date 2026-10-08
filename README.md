@@ -28,10 +28,11 @@ The platform spans three surfaces:
 
 * 🤖 **AI trading assistance** — FORA chat, AI Advisor (ranked trade ideas), Trade Vision (chart-image → trade), and a Research RAG-LLM engine.
 * 📊 **Deep market data** — multi-exchange screeners, open-interest / funding / long-short analytics, order-flow & footprint, GEX / options, on-chain events and whale tracking.
-* 🦾 **Automate trading** — DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **TradingView webhook automation** that executes your alerts on your connected CEX or DEX.
-* 🧪 **Build, backtest & sell strategies** — no-code Strategy Builder, **Edge Finder** (AutoML), 5-year backtests, walk-forward validation, a prop-firm simulator, and a **Strategy Marketplace** to publish your strategies and earn.
+* 🦾 **Automate trading** — DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **chart alert webhook automation** that executes your alerts on your connected CEX or DEX.
+* 🧪 **Build, backtest & explore strategies** — no-code Strategy Builder, **Edge Finder** (AutoML), historical backtests, walk-forward validation, a prop-firm simulator, and a **Strategy Marketplace** to publish your strategies and review outcomes.
 * 🤝 **Copy trading** — copy traders today through your exchange's native copy trading (e.g. Bybit); native Formion copy-trading for selected bots is **coming soon**.
 * 📓 **Trading journal** — auto-import, AI auto-tagging and full performance analytics.
+* 🔌 **Connect cTrader forex/CFD brokers alongside crypto venues** — see [Brokers](brokers.md).
 * 🔌 **Connect everything** — 8 CEX, 4 DEX, on-chain wallets (EVM/Solana/Sui/TON) and prediction markets (Polymarket/Kalshi/Limitless).
 
 ## 🔐 Security & custody
@@ -42,11 +43,17 @@ The platform spans three surfaces:
 
 ## 🪙 FOM Token
 
-FOM is the native utility token of the Formion ecosystem (subscription discounts, AI-quota boosts, marketplace fee discounts, referral bonuses and governance). **The launch chain and tokenomics are being finalized — see the [FOM token](fom-token.md) page. 🚧 Coming soon.**
+**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, launching on Uniswap (Base) on **Wed 14 Oct 2026**. USD platform licences and FOM Agent levels serve separate purposes. See [FOM token](fom-token.md) for launch details, allocation, vesting and utility.
 
 ## 🗺️ Where to go next
 
 * New here? Start with **[How to Start — API Connection](how-to-start-api-connection.md)**.
 * Want the full app tour? See **[The App](the-app.md)**.
 * Pricing & plans: **[Pricing & Tiers](pricing.md)**.
-* Automate TradingView alerts: **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
+* Automate chart alerts: **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
+
+* Ask FORA by text or realtime voice: [Command Center](command-center.md).
+* Follow events and headlines: [News 24/7 & Macro](news.md).
+* Review trader ideas and graded calls: [Swarm](swarm.md).
+* Research venue funding spreads: [Funding Carry](funding-carry.md).
+* Review tracked outcomes: [Trades History](trades-history.md).

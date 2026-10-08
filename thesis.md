@@ -21,3 +21,7 @@ Three convictions drive the product:
 Retail participation, algorithmic tooling and capable LLMs have all arrived at once. The opportunity is to wire them together into a workflow a trader can actually run — from a phone or Telegram — rather than another dashboard to babysit.
 
 See where this is heading on the **[Roadmap](roadmap.md)** and **[Vision](vision.md)**.
+
+## Current product context
+
+The workflow includes cTrader forex/CFD broker accounts alongside crypto venues, and FORA text and realtime voice from the dashboard Command Center. FOM access levels are a phased utility model on Base; USD platform licences remain separate. See [The App](the-app.md) and [FOM](fom-token.md).

@@ -17,7 +17,11 @@ A world where a retail trader and an institutional desk work from the **same too
 * **Native mobile app** and full feature parity across web, mobile and Telegram.
 * **Native Formion copy-trading** for selected bots (today you can copy via your exchange, e.g. Bybit).
 * **A strategy marketplace** where builders list and monetize strategies.
-* **Community governance** via the FOM token.
+* **Community programme governance** via the FOM token, once governance ships (never a vote on Formion as a company).
 * **Broader execution** — DEX-only mode for restricted regions and an institutional OEMS for desks.
 
 This is directional — for what's live today, see **[The App](the-app.md)**; for the sequence, see the **[Roadmap](roadmap.md)**.
+
+## Current product context
+
+The workflow includes cTrader forex/CFD broker accounts alongside crypto venues, and FORA text and realtime voice from the dashboard Command Center. FOM access levels are a phased utility model on Base; USD platform licences remain separate. See [The App](the-app.md) and [FOM](fom-token.md).

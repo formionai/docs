@@ -15,26 +15,26 @@ A multi-asset, AI-powered trading platform — crypto, forex, stocks, commoditie
 No. Formion is **non-custodial** — it connects to your exchange via API keys (trade-only, no withdrawal) and your funds stay on your own exchange. See **[Security](security.md)**.
 
 **Which exchanges and markets are supported?**
-8 CEX (Binance, Bybit, KuCoin, MEXC, OKX, Bitget, Coinbase, Bitfinex), 4 DEX (Hyperliquid, AsterDex, Bluefin, Extended), forex via MT5, stocks (US + international), commodities, Deribit options and prediction markets (Polymarket, Kalshi, Limitless). See **[Markets](markets.md)**.
+8 CEX (Binance, Bybit, KuCoin, MEXC, OKX, Bitget, Coinbase, Bitfinex), 4 DEX (Hyperliquid, AsterDex, Bluefin, Extended), forex and CFDs through cTrader broker accounts, stocks (US + international), commodities, Crypto options and prediction markets (Polymarket, Kalshi, Limitless). See **[Markets](markets.md)**.
 
 ## Account & plans
 
 **How much does it cost?**
-There's a free **Neural** tier, **Pro** at $89/mo and **Institutional** at $499/mo. Every new signup gets **14 days of Pro free** (no card). Full breakdown: **[Pricing & Tiers](pricing.md)**.
+There's a free **Neural** tier, **Pro** at $89/mo and **Institutional** at $499/mo. Every new signup gets **7 days of Pro free** (no card required). Full breakdown: **[Pricing & Tiers](pricing.md)**.
 
 **Can I pay with crypto?**
-Yes — three ways: **Telegram (Crypto Pay)** straight from your Telegram wallet in USDT/TON/BTC with **0% fee** and instant activation (via the checkout page or `/license` in [@formiontradingbot](https://t.me/formiontradingbot)); **card**; or **crypto (40+ assets)** at checkout. Crypto payments get a small bonus and longer billing periods are discounted. A discounted **FOM-token** payment path is coming — see **[FOM token](fom-token.md)**.
+Yes — payments are **crypto only**. On formion.ai checkout you can pay **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, or **BTC** / **SOL**. You can also pay with **Telegram Crypto Pay** via `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an extra 3% discount. Card payments are not offered. Licences are priced in USD; see **[Pricing](pricing.md)** and **[FOM token](fom-token.md)**.
 
 **What is BYOK?**
-Bring Your Own Key — connect your own AI provider key (Anthropic / OpenAI / OpenRouter / Gemini) on any tier for effectively unlimited AI. Keys are encrypted at rest.
+Bring Your Own Key — connect your own AI provider key (Anthropic / OpenAI / OpenRouter / Gemini) on any tier for AI usage billed by that provider and subject to its limits. Keys are encrypted at rest.
 
 ## Trading & bots
 
 **What bots can I run?**
-DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **TradingView webhook automation**. Live bots need Pro (5) or Institutional (unlimited); the free tier runs unlimited **paper** bots. For copy trading you can use your exchange's native copy trading today (e.g. Bybit); native Formion bot copy-trading is **coming soon**. See **[Bots & Automation](bots.md)**.
+DCA, Grid, Indicator, Trailing, Funding-arb and Alarm bots, plus **chart-alert webhook automation**. Live bots need Pro (5) or Institutional (unlimited); the free tier runs unlimited **paper** bots. For copy trading you can use your exchange's native copy trading today (e.g. Bybit); native Formion bot copy-trading is **coming soon**. See **[Bots & Automation](bots.md)**.
 
-**Can I automate my TradingView alerts?**
-Yes — create a TradingView Bot, copy its webhook URL + tokens into your alert, and it executes on your connected CEX/DEX. See **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
+**Can I automate my chart alerts?**
+Yes — create a chart-alert bot, copy its webhook URL + tokens into your alert, and it executes on your connected CEX/DEX. See **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
 **Can I build and backtest my own strategy?**
 Yes — a no-code Strategy Builder with 5-year backtests, walk-forward validation and a prop-firm simulator. Strategies can be paper-traded then deployed as bots.
@@ -58,7 +58,7 @@ AES-256-GCM encryption at rest, TLS in transit, 2FA, IP-whitelisting and session
 ## FOM token
 
 **Is FOM live?**
-Not yet. FOM is the native utility token (subscription discounts, AI-quota boosts, staking, referral bonuses, and later a strategy marketplace and governance). The launch chain and tokenomics are being finalized — **🚧 coming soon**, see **[FOM token](fom-token.md)**.
+FOM is Formion's ERC-20 token on **Base** (Ethereum L2) with a fixed supply of **1,000,000,000**, minted once. There is no presale, no ICO and no public sale. It launches on **Uniswap (Base) on Wed 14 Oct 2026**; the contract address is published at launch — only trust the address from official Formion channels. Agent access levels, credits, eligible add-ons and marketplace uses roll out in phases. USD licences are separate. See **[FOM token](fom-token.md)** for launch, allocation, vesting and audit details.
 
 ## Sentiment & influencers
 
@@ -71,7 +71,7 @@ Yes — add them in Pulse → **My Watchlist** (an `@handle`, a link, or a chann
 ## Strategies & earning
 
 **Can I sell a strategy I build?**
-Yes. Build and prove it in the **[Strategy Lab](strategy-lab.md)**, then publish to the **Marketplace** — others subscribe (paid or free) and you earn from subscriptions. Subscribers see your **live** track record, and payouts settle on-chain with KYC built in.
+Yes. Build and prove it in the **[Strategy Lab](strategy-lab.md)**, then publish to the **Marketplace** — others subscribe (paid or free) and you earn from subscriptions. Review the listing’s available forward record, author options, subscription terms and checkout before subscribing or publishing.
 
 **Do I need to code to build a strategy?**
 No. Use the no-code **Builder**, describe it to the **AI Strategist**, or let **Edge Finder** (AutoML) find an edge from just a symbol. See **[Build & publish a strategy](usecase-build-strategy.md)**.
@@ -80,3 +80,12 @@ No. Use the no-code **Builder**, describe it to the **AI Strategist**, or let **
 
 **How do I get help?**
 Email **support@formion.ai** or join our Telegram community. Documentation lives at **docs.formion.ai**.
+
+**Can I talk to FORA by voice?**
+Yes. FORA supports text and realtime voice conversation. [Command Center](command-center.md) offers suggested commands, attachments and chat on the dashboard.
+
+**Where do I find news and trader ideas?**
+Use [News](news.md) for economic and crypto events and headlines, and [Swarm](swarm.md) for trader posts, signals and contributor review. [Funding Carry](funding-carry.md) has a separate venue-spread research workflow.
+
+**Is Academy available?**
+Academy and the Predictions entry are marked coming soon in the public app. Other prediction-market research surfaces have their own availability; see [Prediction Markets](prediction-markets.md).

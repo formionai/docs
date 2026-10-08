@@ -32,7 +32,7 @@ flowchart LR
 * **Divergences** — price vs RSI/OI/funding disagreements
 * **Patterns** — geometric chart formations (triangles, wedges, H&S…)
 * **Volatility** — squeeze and expansion candidates
-* **Options / Gamma (GEX)** — Deribit options structure and dealer gamma
+* **Options / Gamma (GEX)** — Crypto options structure and dealer gamma
 * **On-chain Events** — token unlocks, large transfers, contract events
 * **US Stocks** — the same flow lens applied to equities
 

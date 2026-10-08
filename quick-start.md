@@ -39,3 +39,11 @@ That's the loop: **screen → read → confirm with AI → act → track**. Ever
 ***
 
 **Next:** [Connect a broker or exchange](brokers.md) · [Pricing & tiers](pricing.md) · [Use cases](usecase-find-a-setup.md)
+
+## Continue from Command Center
+
+On the dashboard, use [Command Center](command-center.md) to ask FORA by text or realtime voice, attach a chart or document, or start with a suggested research command. For forex/CFDs, connect a cTrader demo account before moving to live trading. Review tracked outcomes in [Trades History](trades-history.md) and upcoming catalysts in [News](news.md).
+
+{% hint style="info" %}
+The 7-day Pro trial (no card required) returns to Neural unless you upgrade. Paid licences are paid in crypto (formion.ai checkout or Telegram Crypto Pay); [FOM on Base](fom-token.md) provides a separate phased agent utility model.
+{% endhint %}

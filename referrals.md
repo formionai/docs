@@ -1,5 +1,7 @@
 # 🎁 Referral Program
 
+<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+
 Earn from everyone you bring to Formion. Share your referral link, and when someone subscribes you get a **recurring commission** — paid in crypto.
 
 ## How it works
@@ -16,7 +18,7 @@ Commissions are recurring: as your referrals keep paying, you keep earning. Trac
 ## Good to know
 
 * Works on every paid tier (Pro and Institutional).
-* Crypto payouts — no card or bank needed.
-* A future **FOM**-token payout path with a bonus is planned — 🚧 see **[FOM token](fom-token.md)**.
+* Crypto payouts are available.
+* For the separate FOM utility model, see **[FOM token](fom-token.md)**.
 
 Building a community or running a channel? See the **[Partner Program](partners.md)** — same engine, plus custom commission rates and co-marketing for established creators.

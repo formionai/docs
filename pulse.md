@@ -49,3 +49,7 @@ Pulse runs a transparent **paper strategy** that fades crowd extremes — e.g. *
 {% hint style="info" %}
 Pulse reads what people *say*. It is a sentiment and research tool, not a signal to act on blindly — pair it with your own analysis and the Accuracy Leaderboard before trusting any voice.
 {% endhint %}
+
+## Use Pulse with the current workspace
+
+Compare narrative context with [News and macro events](news.md), ask [FORA](fora.md) to explain the market context, and review trader calls in [Swarm](swarm.md). Pulse sentiment is an analytical input, not an instruction to execute.

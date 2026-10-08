@@ -1,5 +1,7 @@
 # 📡 Use Case — Follow the Voices That Actually Call It Right
 
+<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+
 *Crypto X and YouTube are full of confident calls. Formion turns that noise into a measurable signal — and shows you who to ignore.*
 
 ## The flow

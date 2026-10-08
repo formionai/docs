@@ -29,7 +29,7 @@ flowchart LR
 ```
 
 * **🗺️ Bias Map** — a market-wide **confluence heatmap** across 5 timeframes (5m → 1d) with an anchor score. Green = long bias, red = short, yellow = neutral. Multiple views (mosaic, matrix, grid, treemap, sector, sunburst) and a Min-Score slider let you read the whole market's lean at a glance.
-* **📡 Radar** — curated TradingView preset feeds (breakouts, oversold bounces, volume spikes…) rendered as filterable cards.
+* **📡 Radar** — curated market-screening presets (breakouts, oversold bounces, volume spikes…) rendered as filterable tiles.
 * **🎯 Hunt** — advanced multi-filter screening: stack precise conditions (e.g. RSI < 30 *and* funding negative *and* above VWAP) to surface exactly the setup you want.
 * **🤝 Consensus** — multi-timeframe agreement screening: only pairs where several timeframes confirm the same direction.
 * **⭐ Watchlist** — pin the symbols you care about for a focused, always-on view.

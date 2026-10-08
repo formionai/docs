@@ -24,3 +24,9 @@ The Journal is your single record of every trade — across exchanges, bots and 
 | Team-shared journal | — | — | ✅ (role-based) |
 
 Open it from **[app.formion.ai](https://app.formion.ai) → Journal**.
+
+
+
+## Journal and tracked strategies
+
+The Journal reviews your trading decisions. [Trades History](trades-history.md) separately consolidates strategy and signal outcomes; check whether a source represents paper tracking or live fills. cTrader connections extend account workflows to forex and CFDs.

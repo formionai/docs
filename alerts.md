@@ -25,3 +25,9 @@ Free **Neural** includes a few alerts; **Pro** and **Institutional** are unlimit
 {% endhint %}
 
 The live **Signals** stream shows every provider's alerts in one feed with win/loss coloring, and the **My Alerts** builder is where you create and manage your own rules.
+
+
+
+## Current workflow
+
+Use alerts alongside [News](news.md), [Telegram Signals](telegram-signals.md) and your market views. An alert notification is distinct from an authorised trading action. Check the destination and rule before enabling it.

@@ -27,10 +27,10 @@ Some features (and the FORA bot) require a linked Telegram. Link it in **formion
 * **Live** bots require a **Pro** (5) or **Institutional** (unlimited) plan; the free tier runs **paper** bots only.
 * Confirm the bot's exchange is still connected and funded.
 
-### My TradingView alert didn't fire a trade
+### My chart alert alert didn't fire a trade
 
 * The alert's **Webhook URL** must be set to the Formion webhook, and the **Message** must contain the bot's exact **Open**/**Close** token.
-* The bot must be **Active**, and the exchange connected. See **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
+* The bot must be **Active**, and the exchange connected. See **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
 ### "Order rejected" (min size / insufficient margin)
 

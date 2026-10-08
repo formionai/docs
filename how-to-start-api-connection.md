@@ -2,14 +2,15 @@
 
 <figure><img src=".gitbook/assets/how-to-start.jpg" alt=""><figcaption></figcaption></figure>
 
-**It's important to have some USDT balance ( 10$ at least) on your Futures account on Binance ( or UTA on Bybit ) for Formion to be able to check your API keys properly!**
+Choose the account and market you intend to use. Keep enough available margin for the order size you configure; a successful connection check does not mean an order can be funded.
 
 ```mermaid
 flowchart LR
-  E["Your exchange<br/>Binance / Bybit / …"] -->|"create trade-only key<br/>+ whitelist Formion IPs"| K["API key + secret"]
-  K -->|"paste into Settings"| F(("Formion AI"))
-  F -->|"places trades only"| E
-  F -. "cannot withdraw — funds stay on your exchange" .-> E
+  E[Choose exchange and market] --> K[Create trade-only API key]
+  K --> W[Copy current allowlist from Connections]
+  W --> P[Save permissions and whitelist]
+  P --> F[Submit key in Formion]
+  F --> B[Verify portfolio and position mode]
 ```
 
 ## For Binance:
@@ -22,38 +23,17 @@ Then click on **Create API** button and choose **System generated**, put any nam
 
 <figure><img src=".gitbook/assets/binance2.png" alt=""><figcaption></figcaption></figure>
 
-You will get **API keys** but you need now to edit it and put a **whitelisted IPs** from Formion settings page and then check **Enable Futures** and **Enable Spot & Margin Trading,** save it and copy both **APY key** and **Secret key** and put into **Settings** page on **Formion**, fill your **password** and click on **Submit.**
+You will get **API keys** but you need now to edit it and put a **whitelisted IPs** from Formion settings page and then check **Enable Futures** and **Enable Spot & Margin Trading,** save it and copy both **API key** and **Secret key** and put into **Settings** page on **Formion**, fill your **password** and click on **Submit.**
 
 <figure><img src=".gitbook/assets/binance3.png" alt=""><figcaption></figcaption></figure>
 
-Now go to the **Formion** [Settings page](https://formion.ai/user/settings), choose **Binance** as the exchange, and add **all** of the IP addresses below to your API key's **IP whitelist** (Restrict access to trusted IPs only):
-
-```
-194.163.189.111
-207.180.195.116
-45.142.214.88
-51.158.66.203
-89.187.162.131
-185.220.101.47
-209.126.7.214
-176.103.56.19
-146.59.227.90
-163.172.140.55
-193.42.96.122
-38.91.107.244
-141.98.252.130
-85.239.34.177
-102.165.48.219
-198.54.117.200
-77.83.36.142
-156.146.59.31
-```
+Now open **Profile → Connections** on [formion.ai](https://formion.ai), choose **Binance**, and copy the current IP allowlist shown there into the exchange's **Restrict access to trusted IPs only** field.
 
 {% hint style="info" %}
-Add **every** IP in the list. Formion runs behind a rotating pool of execution gateways for redundancy and DDoS protection, so your API key must allow all of them — only a subset is active at any moment. You can paste the same list on the Formion Settings page to verify it matches.
+Use the addresses displayed in your connection form. Save the whitelist before testing the key, and keep withdrawal permissions disabled. The screenshots illustrate the workflow; exchange labels may change.
 {% endhint %}
 
-**Note: Its important to change mode to HEDGE and Perpetual Margin Mode to CROSS for each USDT pair on Binance Futures!**\\
+**For a bot configured for hedge positions and cross margin, match those settings on Binance Futures before starting it. Verify the intended market and mode in the bot form.**\\
 
 <figure><img src=".gitbook/assets/sett1.png" alt=""><figcaption></figcaption></figure>
 
@@ -77,13 +57,13 @@ Click on System-generated API Keys
 
 <figure><img src=".gitbook/assets/bybit2.png" alt=""><figcaption></figcaption></figure>
 
-Now go to the Formion [Settings page](https://formion.ai/user/settings) and choose Bybit as your exchange. Whitelist the **same full IP list shown above** (in the Binance section) on your Bybit API key.
+Now go to the Formion [Settings page](https://formion.ai/user/settings) and choose Bybit as your exchange. Copy the **current IP allowlist displayed in the Bybit connection form** to your Bybit API key.
 
 Now here it's very important to check **Read-Write** permission mode and also enable **Only IPs** mode with all of those IPs.
 
 <figure><img src=".gitbook/assets/newkey1.png" alt=""><figcaption></figcaption></figure>
 
-Make sure you have checked all those, just Account Transfer and Subaccount Transfer is not required!
+Enable only the read and trading permissions required for your selected market. Leave withdrawals, Account Transfer and Subaccount Transfer disabled.
 
 <figure><img src=".gitbook/assets/bybit4.png" alt=""><figcaption></figcaption></figure>
 
@@ -92,7 +72,7 @@ Now you will get API key and API Secret and copy both and paste to Formion Setti
 <figure><img src=".gitbook/assets/newkey23.png" alt=""><figcaption></figcaption></figure>
 
 \
-Also make sure its Hedge Mode and Cross Margin mode enabled for all USDT pairs!\\
+For a hedge/cross bot, verify that the corresponding Bybit contract uses Hedge Mode and Cross Margin before running it.\\
 
 <figure><img src=".gitbook/assets/cross0.png" alt=""><figcaption></figcaption></figure>
 
@@ -102,7 +82,7 @@ Also make sure its Hedge Mode and Cross Margin mode enabled for all USDT pairs!\
 
 <figure><img src=".gitbook/assets/hedge2.png" alt=""><figcaption></figcaption></figure>
 
-Please check Apply to all USDT pairs!\
+Use Apply to all USDT pairs only if that is the mode you intend for every affected contract.\
 \
 To test everything is passed well go to Formion Portfolio Settings\
 and you will see something like this for Binance\\
@@ -114,3 +94,11 @@ Or for Bybit
 <figure><img src=".gitbook/assets/port2.png" alt=""><figcaption></figcaption></figure>
 
 ### If you are able to see your portfolio, congrats! You are now ready to use Formion Trading App!
+
+## cTrader broker accounts
+
+For forex and CFDs, open **Profile → Connections → cTrader** and use the broker authorisation flow. Select the intended demo or live account and verify that its balance and positions appear before trading. cTrader uses account authorisation rather than the exchange API-key steps above. Neural supports one broker account, Pro five, and Institutional unlimited; see [Brokers](brokers.md) and [Pricing](pricing.md).
+
+## Troubleshoot before starting a bot
+
+If balances do not appear, check the key, selected exchange, account type, permissions and current whitelist. Verify that the API secret was copied when created; do not send it to support or put it into a chat. For a connected account with rejected orders, inspect the order's market, margin, size and position mode separately. See [Troubleshooting](troubleshooting.md).

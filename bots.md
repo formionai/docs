@@ -5,7 +5,7 @@
 Formion runs a large catalog of automated strategies. Some are **live** on real or demo accounts, some run **paper-first** for validation. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 
 {% hint style="info" %}
-**Live execution** requires a **Pro** plan (5 live bots) or **Institutional** (unlimited). The free tier runs unlimited **paper** bots. You can build your own bot from a strategy, and automate TradingView alerts — see **[TradingView Automation](how-to-automate-trades-tradingview-alerts.md)**.
+**Live execution** requires a **Pro** plan (5 live bots) or **Institutional** (unlimited). The free tier runs unlimited **paper** bots. You can build your own bot from a strategy, and automate chart alerts — see **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 {% endhint %}
 
 ```mermaid
@@ -32,15 +32,15 @@ Every strategy and bot — Formion's and yours — streams into the unified **Tr
 |---|---|
 | **DCA** | Dollar-cost-averages into a position on a schedule / multi-level entry ladder. |
 | **Grid** | Places a grid of orders within a price range (optional martingale). |
-| **Indicator** | Triggers from a TradingView alert or built-in indicator (long / close-long / short / close-short). |
+| **Indicator** | Triggers from a chart alert alert or built-in indicator (long / close-long / short / close-short). |
 | **Trailing** | Trailing stop with multi-step ratchet. |
 | **Funding-arb** | Scans cross-CEX funding and captures delta-neutral carry (long spot + short perp). |
 | **Alarm** | Conditional alerts (price / RSI / MA cross) → push, no execution. |
-| **TradingView webhook** | Your TradingView alert → a real order on your connected CEX/DEX. |
+| **chart alert webhook** | Your chart alert alert → a real order on your connected CEX/DEX. |
 
 ## Strategy catalog
 
-The platform tracks 35+ curated strategies. Highlights by category:
+The platform tracks curated strategies. Highlights by category:
 
 ### Crypto perps & screener
 
@@ -52,7 +52,7 @@ The platform tracks 35+ curated strategies. Highlights by category:
 | **Funding Fade** | Fades overheated funding spikes (mean-reversion). |
 | **Divergence** | RSI/MACD/OBV regular + hidden divergences on top perps. |
 | **OI Surge** | Open-interest spike + price continuation. |
-| **GMGN Smart Money** | Smart-money cluster signals (paper → live after validation). |
+| **Formion Smart Money** | Smart-money cluster signals (paper → live after validation). |
 | **HL TP/SL** | Hyperliquid whale TP/SL engine (imbalance bias, stop-hunt, TP-magnet, whale-conviction). |
 | **Confluence** | BTC 1m strong-spike fader (transfer + liquidation + volume-delta). |
 
@@ -68,7 +68,7 @@ The platform tracks 35+ curated strategies. Highlights by category:
 
 | Strategy | Summary |
 |---|---|
-| **Options · Deribit** | 10 options structures (iron condor, strangle, calendar, spreads…) scored from DVOL + IV-RV + term structure. |
+| **Options · Crypto** | 10 options structures (iron condor, strangle, calendar, spreads…) scored from DVOL + IV-RV + term structure. |
 | **Polymarket Edge** | Black-Scholes fair-value vs market YES price; trades the mispricing (paper + live). |
 | **PolyScalp / Latency / Kalshi cross-arb** | Order-book mispricing, exchange-latency and cross-venue event arbitrage. |
 
@@ -76,7 +76,6 @@ The platform tracks 35+ curated strategies. Highlights by category:
 
 | Strategy | Summary |
 |---|---|
-| **Lorin** | MT5 master forex crossovers on FP Markets via signal bridge. |
 | **Neurix Crypto / Stocks** | Elite RSI 70/30 + 4h-trend + ADX setups on crypto perps and US equities. |
 | **Liqra v1 / v2** | Liquidation-cluster signal executors. |
 | **DCA MUSDT / GRID-DCA MUSDT** | Position-scaling DCA and grid-DCA strategies. |
