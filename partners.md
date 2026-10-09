@@ -2,29 +2,30 @@
 
 Turn your audience into a partnership with Formion. The Partner Program is for **creators, communities and tools** — YouTubers, newsletters, Telegram/Discord admins and complementary trading sites — who send traders to Formion.
 
-It's built on the same engine as the [Referral Program](referrals.md), but designed for partners who drive real volume: tracked links, a stats dashboard, crypto payouts and — for approved partners — a **partner portal** and commission terms set in a **partner agreement**.
+The Partner Program **requires approval**. Apply through the [partner page](https://formion.ai/partners) ("Contact partnerships"); once approved you get tracked partner links and the **partner dashboard** at [formion.ai/partner](https://formion.ai/partner). It's separate from the open [Referral Program](referrals.md), which any user can join without approval.
 
 ## What you earn
 
-* **Approved partners:** commission **per your partner agreement**. [Get in touch](#become-a-partner).
-* **Everyone else** starts on the standard [Referral Program](referrals.md): 20% of each referred user's first real payment, credited after the 14-day refund window.
+* **Approved partners:** **10% of every cleared payment** your customers make, for **as long as the customer stays subscribed**.
+* A payment **clears after the 14-day refund window**. Refunded or charged-back payments earn nothing.
 * Your audience gets **5% off** their first payment through your link.
-* Payouts in crypto (see [Payouts](#payouts)).
+* Paid in **USDC on Base**, **$20 minimum** payout (see [Payouts](#payouts)).
+* **Everyone else (no approval needed):** the regular [Referral Program](referrals.md) in **Profile → License → Referrals** — **20% of a referred user's first payment**, credited after the 14-day refund window, $20 minimum payout.
+
+{% hint style="warning" %}
+The earnings calculator on the partner page is plain arithmetic (customers × price × 10%), not a promise. Only cleared payments count.
+{% endhint %}
 
 ## How it works
 
-1. Create a free account on [formion.ai](https://formion.ai) and grab your unique link from **Profile → License → Referrals**: `https://formion.ai/r/YOURCODE`
-2. Share it — in your video description, newsletter, Telegram or Discord. Add `?s=<where-you-posted>` to see which placement works best. Anyone who signs up through it is tied to you, even if they subscribe later.
-3. Earn commission under the [Referral Program](referrals.md) rules, or per your partner agreement if you are an approved partner.
-4. Once your balance passes **$20**, request a payout to your crypto address.
+1. **Apply and get approved.** Tell us about your channel or community via the [partner page](https://formion.ai/partners) or support@formion.ai. Approved partners get the partner dashboard at **formion.ai/partner**.
+2. **Share your partner link** — in your video description, newsletter, Telegram or Discord. Add `?s=<where-you-posted>` to see which placement works best. Anyone who signs up through it is tied to you, even if they subscribe later.
+3. **Earn 10% of every cleared payment**, every month the customer stays subscribed. Each payment clears after the 14-day refund window; refunds and chargebacks earn nothing.
+4. Once your cleared balance reaches **$20**, request a payout in **USDC on Base** (2FA required).
 
 ## Payouts
 
-{% hint style="info" %}
-**Standard referral payouts:** request from **Profile → License → Referrals** in **USDT (TRC-20 or BEP-20), USDC (ERC-20), BTC or ETH**. Processed **within 48 hours — usually within 24 hours**. Minimum payout is **$20**.
-{% endhint %}
-
-**Approved partners** request payouts from the partner portal at **formion.ai/partner** instead. Partner payouts are sent in **USDC on Base** to the Base wallet saved in the portal, and a withdrawal requires **2FA**. Changing the payout wallet needs your password or 2FA and locks payouts for **48 hours** as a safety measure. Partner payouts are usually processed within 24 hours (one business day), at most 72.
+**Approved partners** request payouts from the partner dashboard at **formion.ai/partner**. Partner payouts are sent in **USDC on Base** to the Base wallet saved in the dashboard, the minimum is **$20**, and a withdrawal requires **2FA**. Changing the payout wallet needs your password or 2FA and **locks payouts for 48 hours** as a safety measure. Only cleared payments (past the 14-day refund window) count toward your balance. Partner payouts are usually processed within 24 hours (one business day), at most 72.
 
 There's no fixed schedule — request whenever you pass the $20 minimum.
 
@@ -37,7 +38,7 @@ There's no fixed schedule — request whenever you pass the $20 minimum.
 
 ## Become a partner
 
-Anyone can start instantly on the standard Referral Program — just grab your link. Approved partners also get the portal at formion.ai/partner with live links, clicks, sign-ups and commission, a marketing kit, and per-post tracked links. Promote Formion honestly — never promise profits or returns. If you have an established audience and want a **partner agreement or co-marketing**, reach out:
+The Partner Program requires approval. Approved partners get the dashboard at formion.ai/partner with live links, clicks, sign-ups and commission, a marketing kit, and per-post tracked links. Promote Formion honestly — never promise profits or returns. To apply, reach out with your audience and links:
 
 * **Partner page:** [formion.ai/partners](https://formion.ai/partners)
 * **Email:** support@formion.ai

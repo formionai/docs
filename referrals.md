@@ -25,4 +25,4 @@ Cash payouts come only from the 20% first-payment share; tier-up bonuses are alw
 * Referral clicks and sign-ups are checked for fraud. Self-referrals and fake sign-ups aren't credited.
 * For the separate FOM utility model, see **[FOM token](fom-token.md)**.
 
-Building a community or running a channel? See the **[Partner Program](partners.md)** — a partner portal, tracked links and terms set in your partner agreement.
+Building a community or running a channel? See the **[Partner Program](partners.md)** — it requires approval and pays approved partners **10% of every cleared payment** for as long as the customer stays subscribed (USDC on Base, $20 minimum).
