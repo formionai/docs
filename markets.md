@@ -32,6 +32,7 @@ Connect your own **cTrader** broker account through OAuth for supported forex, i
 * Authorise the intended demo or live account in **Profile → Connections**.
 * Verify balances, positions and the symbol’s contract details before placing an order.
 * Availability and account limits depend on the broker and your licence; see [Brokers](brokers.md) and [Pricing](pricing.md).
+* **Lorin forex signals:** Lorin runs on **MT4** (an FP Trading account, monitored read-only). Formion does not offer MT5. Signals are information, not a promise of results.
 
 ## 📈 Stocks
 
