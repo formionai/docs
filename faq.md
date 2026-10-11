@@ -62,6 +62,15 @@ AES-256-GCM encryption at rest, TLS in transit, 2FA with backup codes, an option
 **Is FOM live?**
 FOM is Formion's ERC-20 token on **Base** (Ethereum L2) with a fixed supply of **1,000,000,000**, minted once. There is no presale, no private sale, no ICO and no launchpad; the launch is funded by the founder's own funds. It launches on **Uniswap (Base) on Wed 14 Oct 2026**; the contract address is published at launch — only trust the address from official Formion channels. Agent access levels, credits, eligible add-ons and marketplace uses roll out in phases. USD licences are separate. See **[FOM token](fom-token.md)** for launch, allocation, vesting and audit details.
 
+**Who is the Core contributor?**
+An external partner who works with Formion on growth — marketing, trader-focused campaigns and advisory. The 54,400,000 FOM line is compensation for that work, not a purchase: nothing was paid for these tokens, and there is no private sale.
+
+**Why isn't the Core contributor part of the Team line?**
+The Team line covers the people who build and run Formion day to day. The Core contributor is an external partner with a separate agreement, so the allocation is shown as its own line with its own public schedule rather than folded into Team.
+
+**Why does the Core contributor receive tokens before the team?**
+Their work — marketing and bringing traders to Formion — starts at launch, so a small part of their allocation starts at launch too: 1% of the line (544,000 FOM, about 2,980 FOM a day) over the first 6 months. The other 99% unlocks linearly from month 6 to month 25. The team waits 12 months. Both schedules sit on public vesting contracts that nobody can speed up.
+
 ## Sentiment & influencers
 
 **What is Formion Pulse?**
