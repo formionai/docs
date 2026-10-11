@@ -1,6 +1,6 @@
 # 📓 Trading Journal
 
-<figure><img src=".gitbook/assets/ill-journal.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s3-j-trades.jpg" alt="Trading Journal — trades table with KPIs"><figcaption><p>Journal → Trades: KPIs, risk & performance tiles and every closed trade.</p></figcaption></figure>
 
 The Journal is your own record of trades — from connected exchanges, webhook pushes and manual entries — with full performance analytics.
 
@@ -12,6 +12,36 @@ The Journal is your own record of trades — from connected exchanges, webhook p
 * **Analytics** — P/L, win rate, equity curve, risk metrics, MAE/MFE, and breakdowns by symbol, side and session, plus Compare, Mindset (tags and emotions) and a P/L Calendar.
 * **AI Review** — an on-demand AI review of your edge, leaks and behaviour.
 * **Export & share** — CSV download, or send the CSV to your email or Telegram; shareable trade cards.
+
+{% hint style="info" %}
+The screenshots on this page use **sample data**: the closed positions of a public Hyperliquid wallet, loaded into a demo account. Your Journal shows only your own trades.
+{% endhint %}
+
+## Analytics
+
+The **Analytics** tab turns your history into charts — no setup needed.
+
+<figure><img src=".gitbook/assets/s3-j-analytics-cum.jpg" alt="Journal analytics — win/loss and long/short split, cumulative P&L, strategy radar"><figcaption><p>Status and long/short split, cumulative P&amp;L and a strategy radar.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s3-j-analytics-equity.jpg" alt="Journal analytics — equity curve, drawdown, P&L distribution, rolling performance"><figcaption><p>Equity curve, underwater drawdown, P&amp;L distribution and rolling performance.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s3-j-analytics-treemap.jpg" alt="Journal analytics — P&L by symbol treemap"><figcaption><p>P&amp;L by symbol as a treemap — green made money, red lost it — plus monthly activity.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s3-j-analytics-heat.jpg" alt="Journal analytics — hour × day heatmap and performance by symbol, day and session"><figcaption><p>Hour × day heatmap, performance by symbol, long vs short, day of week and session.</p></figcaption></figure>
+
+## Calendar and Compare
+
+<figure><img src=".gitbook/assets/s3-j-calendar.jpg" alt="Journal P&L calendar"><figcaption><p>The P&amp;L Calendar — each day coloured by its net result, with daily net P&amp;L bars.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s3-j-compare.jpg" alt="Journal Compare — strategy equity vs HODL BTC"><figcaption><p>Compare: your equity curve against buy-and-hold BTC, with return, max drawdown, Sharpe, profit factor and win rate.</p></figcaption></figure>
+
+## P&L cards
+
+<figure><img src=".gitbook/assets/s3-j-cards.jpg" alt="Journal P&L cards — card styles"><figcaption><p>Shareable P&amp;L cards: pick a style, choose what the card shows, then send it or post it.</p></figcaption></figure>
+
+## Accounts
+
+<figure><img src=".gitbook/assets/s3-j-accounts.jpg" alt="Journal accounts — manual and connected accounts"><figcaption><p>Accounts: a manual account for hand-logged trades plus any connected exchange, DEX wallet or webhook.</p></figcaption></figure>
 
 ## By plan
 

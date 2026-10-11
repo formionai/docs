@@ -57,7 +57,7 @@ Real-time multi-exchange market data: open interest, long/short ratio, top-trade
 
 ### 🪙 Coins Hub
 
-<figure><img src=".gitbook/assets/s2-the-app-coinshub.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s3-coins-grid.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
 
 Trend watch (top gainers/losers by timeframe) and a full coin listing with detail pages, plus Sniper, DEX Swaps, GMGN, Token Scanner, Smart Wallets, Graduation/Listing Radar and Presale Watch (Coins Hub is labelled **BETA**). Also **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score. **[Full guide → Coins Hub](coins-hub.md)**
 
