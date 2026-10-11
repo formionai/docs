@@ -20,6 +20,12 @@ flowchart LR
   CH --> PW["🛡️ Presale Watch"]
 ```
 
+<figure><img src=".gitbook/assets/s4-ch-sniper.jpg" alt="Sniper — new pairs multi-chain"><figcaption><p>Sniper — new pairs across chains with liquidity, market cap and security flags.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-ch-listing.jpg" alt="Listing Radar"><figcaption><p>Listing Radar — CoinGecko trending and newly detected listings.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-ch-grad.jpg" alt="Graduation Radar — just graduated"><figcaption><p>Graduation Radar — tokens that just graduated from their bonding curve.</p></figcaption></figure>
+
 * **📋 Overview** — **Trend Watch** (top gainers / losers by timeframe), a full coin listing with detail pages (price, market cap, supply, links, socials), and the GMGN panel below it.
 * **🎯 Sniper** — launch tracking: **New Pairs** (on-chain observations), **Presale Radar** (PinkSale), **CEX Listings** (exchange listing announcements) and an **IDO Calendar**.
 * **🔄 DEX Swaps** — server-signed on-chain swaps from the wallet you connect in the Telegram bot (`/wallet`), routed via Jupiter (Solana), 7K (Sui) and LI.FI / deBridge (EVM and cross-chain), with a ledger of your swaps.

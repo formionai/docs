@@ -8,6 +8,8 @@
 
 The source tabs include **All Bots**, **cTrader**, **Research Ledger**, **AI Advisor**, **Screener**, **Telegram Signals** and **Funding Carry**, among other available strategy sources. Each source has a description; review it to understand the record’s scope.
 
+<figure><img src=".gitbook/assets/s4-th-source.jpg" alt="Trades History — performance by source"><figcaption><p>Performance by source, status distribution and top strategies by P&amp;L.</p></figcaption></figure>
+
 The workspace provides trade rows and statuses, equity and performance metrics, with available breakdowns by symbol, side, session or hour. Coverage depends on the source and recorded trades. An empty source is not evidence that a trade was placed and lost.
 
 ## Review a record

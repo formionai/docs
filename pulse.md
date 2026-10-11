@@ -25,10 +25,14 @@ flowchart LR
 * **📣 Crowd & Social** — recent market headlines and social chatter, synthesised into a short read with a bull/bear split and a mood (fearful → euphoric).
 * **😨 Fear & Greed** and **₿ BTC Bias** — global mood plus BTC price and multi-horizon momentum (24h / 7d / vs 50-period SMA).
 
+<figure><img src=".gitbook/assets/s4-pu-desk.jpg" alt="X Influencer Desk"><figcaption><p>The X Influencer Desk — tracked posts, each classified bullish, bearish or neutral.</p></figcaption></figure>
+
 ## Sentiment history & filtering
 
 * **Sentiment-vs-Price history** — the Pulse Score plotted against the BTC price over the last 30 days, so you can see how the narrative moved relative to the market.
 * **Source filter** — mute or un-mute any account or channel. The **Pulse Score and desks recompute instantly for you** — so you can see the market through only the voices *you* trust. Your selection is remembered on your device.
+
+<figure><img src=".gitbook/assets/s4-pu-history.jpg" alt="Pulse vs market history"><figcaption><p>Pulse vs market — the Pulse Score plotted against BTC over time.</p></figcaption></figure>
 
 {% hint style="info" %}
 Pulse reads what people *say*. It is a sentiment and research tool, not a signal to act on blindly — pair it with your own analysis before trusting any voice.

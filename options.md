@@ -16,6 +16,10 @@ On the free **Neural** tier options analytics cover BTC with a basic scorer. **P
 * **Term structure** (contango / backwardation) and DVOL
 * **Vol phase** — expansion, compression, coiling or consolidation, from IV percentile, DVOL velocity and term slope
 
+<figure><img src=".gitbook/assets/s4-op-top.jpg" alt="Options dashboard — spot, IV, skew and signals"><figcaption><p>Options for BTC: spot, implied volatility, skew, term structure and signal performance measured against a control.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-op-strat.jpg" alt="Options strategy ranking"><figcaption><p>Strategy ranking — each options structure scored for the current volatility regime.</p></figcaption></figure>
+
 ### Flow & positioning
 * Crypto **options flow** and block trades
 * **Put/Call** ratios, open interest by strike

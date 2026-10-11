@@ -30,6 +30,10 @@ flowchart TD
 
 <figure><img src=".gitbook/assets/s2-analytics.jpg" alt="Correlation — BTC vs Nasdaq 100, S&P 500, Gold, Oil and Silver"><figcaption><p>Correlation — BTC vs Nasdaq 100, S&#x26;P 500, Gold, Oil and Silver.</p></figcaption></figure>
 
+<figure><img src=".gitbook/assets/s4-an-sentiment.jpg" alt="Sentiment & Calendar"><figcaption><p>Sentiment — composite score and a 60-day sentiment calendar.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-an-etf.jpg" alt="ETF Flows"><figcaption><p>ETF Flows — daily spot ETF inflows and outflows with the cumulative line.</p></figcaption></figure>
+
 {% hint style="info" %}
 These are research tools, not signals to trade blindly. The most useful pairing is **Edge Map** (does this signal pay?) with the **[Screener](screener.md)** (is it firing now?).
 {% endhint %}

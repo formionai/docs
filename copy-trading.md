@@ -8,6 +8,10 @@ Follow smart money instead of guessing. Formion tracks the biggest on-chain trad
 
 A live window into the largest Hyperliquid traders:
 
+<figure><img src=".gitbook/assets/s4-ct-whales.jpg" alt="Hyperliquid Whale Tracker"><figcaption><p>Hyperliquid Whale Tracker — top traders, their aggregate positioning and the leaderboard.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-ct-compass.jpg" alt="HL Whale Compass"><figcaption><p>HL Whale Compass — live trades from labelled wallets, with a forward test of which combinations work.</p></figcaption></figure>
+
 * **HL Whales** — whale leaderboard (sortable by PnL, ROI, account value, notional) with cohort and per-asset long/short breakdowns
 * **HL Fills** — live fills tape
 * **Wallet drill-down** — open positions, history and PnL per address

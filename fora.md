@@ -185,6 +185,8 @@ The single winner is then scored once on the locked holdout of unseen data; only
 * **What each plan adds** — on every plan FORA can chat, explain, read prices, indicators, news, signals and your portfolio, and propose orders and alerts. **Pro** adds web search, deep research, backtests, Edge Finder, social sentiment, chart screenshots and premium platform analytics. **Institutional** adds the 3D robot. Realtime voice is on every plan (see below).
 * **Compare models** — in AI Advisor → AI Chat you can run the same prompt on 2–4 models side by side and see where they agree and disagree (premium models need a paid plan).
 
+<figure><img src=".gitbook/assets/s4-fo-caps.jpg" alt="FORA page in app.formion.ai"><figcaption><p>The FORA page in the app: what FORA knows, how it reasons, learns and trades, and the strategies it has discovered.</p></figcaption></figure>
+
 <figure><img src=".gitbook/assets/fora-consensus.png" alt=""><figcaption><p>Comparing models side by side — never trusting a single model's blind spot.</p></figcaption></figure>
 
 ***

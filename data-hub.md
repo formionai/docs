@@ -28,6 +28,12 @@ flowchart LR
   D --> OF["🌊 Order flow & depth"]
 ```
 
+<figure><img src=".gitbook/assets/s4-dh-funding.jpg" alt="Funding Extremes scanner"><figcaption><p>Funding Extremes — perps ranked by funding rate, with mark price, premium and next funding.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-dh-oi.jpg" alt="OI Surge scanner"><figcaption><p>OI Surge — biggest open-interest changes and whether positions are building or unwinding.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/s4-dh-div.jpg" alt="Divergences scanner"><figcaption><p>Divergences — price vs indicator divergences with the move since the pivot.</p></figcaption></figure>
+
 * **Funding** — Binance USDT perps sorted by funding-rate magnitude (who is paying to hold the position)
 * **OI Surge** — open-interest buildups and unwinds on Binance USDT perps
 * **Divergences** — RSI-vs-price divergences on Binance USDT perps, with distance to the pivot

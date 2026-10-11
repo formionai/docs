@@ -24,6 +24,8 @@ flowchart LR
 
 Backtests report win rate, profit factor, expectancy, max drawdown and an equity curve, with your fee setting applied. **Compare** puts catalog strategies side by side. The separate Strategy Lab **Backtest** report and **Brute force** sweep tabs are marked **Soon**. Keep the optimisation window separate from validation and forward-test the selected candidate.
 
+<figure><img src=".gitbook/assets/s4-sl-backtest.jpg" alt="Backtest — symbol-level results"><figcaption><p>The Backtester — trades, win rate, expectancy and profit factor per symbol, with a whitelist of symbols that passed.</p></figcaption></figure>
+
 ## Publish, subscribe & run
 
 <figure><img src=".gitbook/assets/ill-strategy-gate.jpg" alt="Marketplace publish gate"><figcaption><p>A strategy reaches the marketplace only after passing the publish gate.</p></figcaption></figure>

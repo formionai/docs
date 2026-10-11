@@ -16,6 +16,8 @@ flowchart TD
 
 ## 🪙 Crypto
 
+<figure><img src=".gitbook/assets/s4-mk-overview.jpg" alt="Market Overview — top gainers, losers and most traded"><figcaption><p>Market Overview — top gainers, top losers and most-traded coins, live.</p></figcaption></figure>
+
 The core market. Connect your accounts and trade spot or perps with full data, signals and bots.
 
 * **CEX:** Binance, Bybit, KuCoin, MEXC, Bitget, Gate.io, Blofin, BingX. OKX, Coinbase and Kraken are listed as coming soon.
