@@ -1,5 +1,7 @@
 # 🤝 Partner Program
 
+<figure><img src=".gitbook/assets/ill-partners.jpg" alt="Formion Partner Program"><figcaption></figcaption></figure>
+
 Turn your audience into a partnership with Formion. The Partner Program is for **creators, communities and tools** — YouTubers, newsletters, Telegram/Discord admins and complementary trading sites — who send traders to Formion.
 
 The Partner Program **requires approval**. Apply through the [partner page](https://formion.ai/partners) ("Contact partnerships"); once approved you get tracked partner links and the **partner dashboard** at [formion.ai/partner](https://formion.ai/partner). It's separate from the open [Referral Program](referrals.md), which any user can join without approval.

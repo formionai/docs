@@ -1,6 +1,6 @@
 # 📖 Glossary
 
-<figure><img src=".gitbook/assets/glossary.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-glossary.jpg" alt=""><figcaption></figcaption></figure>
 
 Plain-English definitions of terms used across Formion.
 

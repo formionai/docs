@@ -1,6 +1,6 @@
 # 📡 Use Case — Follow the Right Voices
 
-<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-uc-voices.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
 *Crypto X and YouTube are full of confident calls. Formion Pulse turns that noise into one readable score — and lets you decide whose voice counts.*
 

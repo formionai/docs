@@ -1,6 +1,6 @@
 # 👨‍💻 Team
 
-<figure><img src=".gitbook/assets/hero-ecosystem.jpg" alt="Team"><figcaption><p>Formion — Team</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-team.jpg" alt="Team"><figcaption><p>Formion — Team</p></figcaption></figure>
 
 The current public Formion team list:
 

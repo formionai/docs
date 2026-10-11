@@ -1,6 +1,6 @@
 # 🔐 Security
 
-<figure><img src=".gitbook/assets/security.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-security.jpg" alt=""><figcaption></figcaption></figure>
 
 Trading means connecting real money, so security is foundational to how Formion is built.
 

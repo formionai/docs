@@ -1,6 +1,6 @@
 # 🔌 Brokers & Connections
 
-<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-connections.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
 Formion works with **your** accounts — you never move funds to us. Connect at **formion.ai → Profile → Connections** or on your formion.ai dashboard (and for exchange API keys, see **[How to Start — API Connection](how-to-start-api-connection.md)**).
 

@@ -26,7 +26,7 @@ Formion scores classic structures — **iron condor, short and long strangle, vo
 
 ## ⚡ GEX — Dealer Gamma Exposure
 
-<figure><img src=".gitbook/assets/sec-datahub.jpg" alt="Gamma / GEX"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-gamma.jpg" alt="Gamma / GEX"><figcaption></figcaption></figure>
 
 Formion runs an **in-house gamma engine** (computed from public option chains, refreshed every minute) covering US indices and ETFs (SPX, SPY, QQQ, IWM, DIA, VIX…) and large caps (NVDA, TSLA, AAPL, MSFT, COIN, MSTR…):
 

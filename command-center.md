@@ -1,6 +1,6 @@
 # 🕹️ Command Center
 
-<figure><img src=".gitbook/assets/app-hero.jpg" alt="Command Center"><figcaption><p>Formion — Command Center</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-command-center.jpg" alt="Command Center"><figcaption><p>Formion — Command Center</p></figcaption></figure>
 
 The **Command Center** is the FORA launcher on the Formion dashboard. It brings suggested commands, attachments and conversation into the same card, so a research question can start with the context already at hand.
 

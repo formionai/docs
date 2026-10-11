@@ -1,6 +1,6 @@
 # ⚖️ Funding Carry
 
-<figure><img src=".gitbook/assets/analytics.jpg" alt="Funding Carry"><figcaption><p>Formion — Funding Carry</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-funding-carry.jpg" alt="Funding Carry"><figcaption><p>Formion — Funding Carry</p></figcaption></figure>
 
 **Funding Carry** researches the difference in perpetual funding between venues for the same asset. A pair combines a long on one venue and a short on another. Its value depends on funding collected over the holding period relative to the costs of entering and closing both legs.
 

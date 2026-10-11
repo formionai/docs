@@ -1,6 +1,6 @@
 # 🧱 Use Case — Build, Prove & Publish a Strategy
 
-<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-uc-strategy.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
 *Turn a trading idea into a tested strategy — and optionally publish it — without writing code. Strategy Lab is on every plan — Neural gets the Builder and 3 backtests a day, Pro 50, Institutional unlimited.*
 

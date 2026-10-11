@@ -1,6 +1,6 @@
 # 💳 Pricing & Tiers
 
-<figure><img src=".gitbook/assets/pricing.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-pricing.jpg" alt=""><figcaption></figcaption></figure>
 
 Formion has three plans. New accounts get **7 days of Pro free — no card required** — once the email address is confirmed (see [7-day Pro trial](#7-day-pro-trial)); if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
 

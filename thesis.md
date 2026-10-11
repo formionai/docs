@@ -1,6 +1,6 @@
 # 👨‍🔬 Thesis
 
-<figure><img src=".gitbook/assets/thesis.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-thesis.jpg" alt=""><figcaption></figcaption></figure>
 
 ### The problem
 

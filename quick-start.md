@@ -1,4 +1,6 @@
-# 🚀 Quick Start (5 minutes)
+# 🚀 Getting Started — Quick Start (5 minutes)
+
+<figure><img src=".gitbook/assets/ill-quickstart.jpg" alt="Getting started with Formion in five steps"><figcaption></figcaption></figure>
 
 New to Formion? This is the fastest path from sign-up to your first real signal. No card needed — the free **Neural** tier is genuinely useful.
 

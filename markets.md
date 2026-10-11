@@ -1,6 +1,6 @@
 # 🌍 Markets
 
-<figure><img src=".gitbook/assets/markets.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-markets.jpg" alt=""><figcaption></figcaption></figure>
 
 Formion is multi-asset by design — research and trading workflows span the markets below; coverage and execution vary by venue and tool.
 

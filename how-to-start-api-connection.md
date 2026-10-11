@@ -1,6 +1,6 @@
 # 🔑 How to Start with Formion AI? API Connection?
 
-<figure><img src=".gitbook/assets/how-to-start.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-connect-exchange.jpg" alt=""><figcaption></figcaption></figure>
 
 Choose the account and market you intend to use. Keep enough available margin for the order size you configure; a successful connection check does not mean an order can be funded.
 

@@ -1,6 +1,6 @@
 # 💬 FORA — the autonomous trading intelligence
 
-<figure><img src=".gitbook/assets/fora-hero.jpg" alt=""><figcaption><p>FORA — Formion's autonomous trading intelligence</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-fora.jpg" alt=""><figcaption><p>FORA — Formion's autonomous trading intelligence</p></figcaption></figure>
 
 **FORA** began as a conversational assistant and has grown into something closer to a cognitive system. It perceives the whole market, reasons from retrieved evidence, remembers, learns from measured outcomes, trades autonomously to prove its own edge, and even *evolves* new strategies — all under strict, non-custodial safety.
 

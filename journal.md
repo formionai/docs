@@ -1,6 +1,6 @@
 # 📓 Trading Journal
 
-<figure><img src=".gitbook/assets/journal.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-journal.jpg" alt=""><figcaption></figcaption></figure>
 
 The Journal is your own record of trades — from connected exchanges, webhook pushes and manual entries — with full performance analytics.
 

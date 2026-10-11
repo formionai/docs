@@ -1,6 +1,6 @@
 # 🎁 Referral Program
 
-<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-referrals.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
 Share your referral link and earn when the people you bring to Formion make their first real payment — paid in crypto.
 

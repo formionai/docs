@@ -1,6 +1,6 @@
 # 👾 Trade Vision
 
-<figure><img src=".gitbook/assets/trade-vision.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-trade-vision.jpg" alt=""><figcaption></figcaption></figure>
 
 **Trade Vision** turns a picture or a sentence into a structured trade read.
 

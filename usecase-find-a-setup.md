@@ -1,6 +1,6 @@
 # 🎯 Use Case — Find a Trade Setup
 
-<figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-uc-setup.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
 *A repeatable workflow for "what should I look at today?" — most steps work on the free Neural tier, within its limits (real-time crypto screener for the top 50, 5 chart symbols, 3 Trade Vision analyses a day).*
 

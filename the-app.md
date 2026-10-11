@@ -1,4 +1,4 @@
-# 🖥️ The App
+# 🖥️ Trading Terminal — The App
 
 <figure><img src=".gitbook/assets/app-hero.jpg" alt="Formion Quantum Terminal — the trading workspace"><figcaption></figcaption></figure>
 
@@ -65,7 +65,7 @@ A hub of 20+ standalone tools: **Signal Stream** & **Edge Map** (per-signal expe
 
 ### 🤖 AI Advisor
 
-<figure><img src=".gitbook/assets/sec-ai.jpg" alt="AI Advisor"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-ai-suite.jpg" alt="AI Advisor"><figcaption></figcaption></figure>
 
 Pick a style/risk/asset class and the AI ranks tradeable ideas from a live screener snapshot. Includes free-form **AI Chat** (file attachments, model picker, thinking toggle), **Trade Vision** (screenshot → plan), a **Track Record** of the advisor's past ideas, **Research** (RAG reports + Portfolio Builder) and the **Strategy Agent**.
 

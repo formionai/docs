@@ -21,7 +21,6 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 | **Liquidation Map** | Clustered liquidation levels over time — magnet levels, with a leverage filter |
 | **Spoof / Iceberg detector** | Flags levels cancelled without being filled and levels that refill after being eaten (Constructor panel) |
 
-<figure><img src=".gitbook/assets/footprint-tool.jpg" alt="Footprint — volume inside each candle"><figcaption></figcaption></figure>
 
 ## Why it matters
 

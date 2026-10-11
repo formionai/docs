@@ -1,6 +1,6 @@
 # 🪙 FOM token
 
-<figure><img src=".gitbook/assets/fom-token.jpg" alt="🪙 FOM token"><figcaption><p>Formion — 🪙 FOM token</p></figcaption></figure>
+<figure><img src=".gitbook/assets/ill-fom.jpg" alt="🪙 FOM token"><figcaption><p>Formion — 🪙 FOM token</p></figcaption></figure>
 
 **FOM is Formion’s token on Base (Ethereum L2)** — an ERC-20 with a fixed supply of **1,000,000,000 FOM**, minted once to a 2-of-3 Safe. The contract is OpenZeppelin v5.4 ERC-20 + Permit, with no owner, no mint function, no transfer tax, no pause and no blacklist, and it is not upgradeable. FOM grants no ownership, dividend, profit-share or claim on Formion. Full details: [formion.ai/fom](https://formion.ai/fom).
 
