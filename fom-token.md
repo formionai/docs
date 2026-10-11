@@ -12,7 +12,7 @@
 
 FOM launches on **Uniswap (Base) on Wednesday, 14 October 2026**. The launch pool is **Uniswap v3 FOM/WETH**: **40,000,000 FOM + 3 ETH**, with a 1% pool fee. The LP position is locked for **24 months on UNCX**, held by a **2-of-3 Safe**. The remaining 60,000,000 FOM of the liquidity allocation is a reserve that moves only through published programmes.
 
-There is **no presale, no ICO, no launchpad and no public sale**. The **contract address is TBA at launch** and will be published on [formion.ai/fom](https://formion.ai/fom) — only trust the address from official Formion channels, and verify it before you swap.
+There is **no presale, no private sale, no ICO and no launchpad**. Launch liquidity (3 ETH) and launch costs (~1.08 ETH) are funded by the founder's own funds. The **contract address is TBA at launch** and will be published on [formion.ai/fom](https://formion.ai/fom) — only trust the address from official Formion channels, and verify it before you swap.
 
 **Audit: SolidProof — token contract** (0 critical · 0 high): [audit project](https://app.solidproof.io/projects/formion-ai). **Vesting: unmodified OpenZeppelin v5.4 `VestingWallet`** (7 contracts). The token’s fixed supply does not remove vesting schedules.
 
@@ -44,10 +44,10 @@ An audit and a KYC reduce specific risks — hidden mint or admin functions, an 
 | Team | 150,000,000 | 15% | 12-month cliff, linear through month 36 |
 | Liquidity | 100,000,000 | 10% | Pool and reserves |
 | Marketing & partners | 100,000,000 | 10% | 6-month cliff, linear over 18 months |
-| Private backer | 54,400,000 | 5.44% | 1% (544,000) linear over months 0–6, rest linear months 6–25; complete at month 25 |
+| Core contributor | 54,400,000 | 5.44% | 1% (544,000) linear over months 0–6, rest linear months 6–25; complete at month 25 |
 | Advisors | 50,000,000 | 5% | 6-month cliff, linear over 18 months |
 
-Every locked allocation sits on a public vesting contract; the rest (40M Community and the 60M liquidity reserve) sits in the labeled 2-of-3 Safe. The private seed backer funded **4.08 ETH**: 3 ETH for initial liquidity and approximately 1.08 ETH for launch costs. This allocation is separate from the pool tokens.
+Every locked allocation sits on a public vesting contract; the rest (40M Community and the 60M liquidity reserve) sits in the labeled 2-of-3 Safe. The Core contributor line sits on two of these contracts, and released tokens are pushed to the contributor's wallet daily. This allocation is separate from the pool tokens.
 
 ## Platform licences and FORA Agent levels
 

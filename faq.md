@@ -60,7 +60,7 @@ AES-256-GCM encryption at rest, TLS in transit, 2FA with backup codes, an option
 ## FOM token
 
 **Is FOM live?**
-FOM is Formion's ERC-20 token on **Base** (Ethereum L2) with a fixed supply of **1,000,000,000**, minted once. There is no presale, no ICO and no public sale. It launches on **Uniswap (Base) on Wed 14 Oct 2026**; the contract address is published at launch — only trust the address from official Formion channels. Agent access levels, credits, eligible add-ons and marketplace uses roll out in phases. USD licences are separate. See **[FOM token](fom-token.md)** for launch, allocation, vesting and audit details.
+FOM is Formion's ERC-20 token on **Base** (Ethereum L2) with a fixed supply of **1,000,000,000**, minted once. There is no presale, no private sale, no ICO and no launchpad; the launch is funded by the founder's own funds. It launches on **Uniswap (Base) on Wed 14 Oct 2026**; the contract address is published at launch — only trust the address from official Formion channels. Agent access levels, credits, eligible add-ons and marketplace uses roll out in phases. USD licences are separate. See **[FOM token](fom-token.md)** for launch, allocation, vesting and audit details.
 
 ## Sentiment & influencers
 
