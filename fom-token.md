@@ -12,6 +12,25 @@ There is **no presale, no ICO, no launchpad and no public sale**. The **contract
 
 **Audit: SolidProof — token contract** (0 critical · 0 high): [audit project](https://app.solidproof.io/projects/formion-ai). **Vesting: unmodified OpenZeppelin v5.4 `VestingWallet`** (7 contracts). The token’s fixed supply does not remove vesting schedules.
 
+## Audit and KYC
+
+### Smart-contract audit
+
+<figure><img src=".gitbook/assets/ill-fom-audit.jpg" alt="FOM smart-contract audit by SolidProof"><figcaption></figcaption></figure>
+
+**SolidProof** audited the FOM token contract: **0 critical, 0 high, 0 medium and 0 low findings**, plus 1 optimization and 6 informational notes, with a **TrustNet score of 92.45**. The contract is **ownerless**, has **no mint function**, **no blacklist** and is **not upgradeable** — after the one-time mint there is no function that can create new tokens, pause, tax or block a transfer. Read the full report on the [SolidProof project page](https://app.solidproof.io/projects/formion-ai).
+
+### KYC
+
+<figure><img src=".gitbook/assets/ill-fom-kyc.jpg" alt="Founder KYC verified by SolidProof"><figcaption></figcaption></figure>
+
+The **founder's identity (KYC) is verified by SolidProof**. The KYC badge and its status are public on the same [SolidProof project page](https://app.solidproof.io/projects/formion-ai), so anyone can check it independently. Entity and team KYC are on the roadmap.
+
+{% hint style="warning" %}
+An audit and a KYC reduce specific risks — hidden mint or admin functions, an anonymous team — but they are not a guarantee of price or returns. Only trust the contract address published on [formion.ai/fom](https://formion.ai/fom).
+{% endhint %}
+
+
 ## Allocation and vesting
 
 | Allocation | FOM | Supply | Release schedule |

@@ -14,7 +14,7 @@ A live window into the largest Hyperliquid traders:
 * **HL TP/SL** — heatmap of the top whales' take-profit and stop-loss trigger orders per coin
 * **TP/SL Strats** — Formion's Hyperliquid strategy family (stop-hunt, TP-magnet fade and related plays), forward-tested on paper and tracked in **[Trade History](journal.md)**
 
-<figure><img src=".gitbook/assets/smart-money.jpg" alt="On-chain smart money"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-smartmoney.jpg" alt="On-chain smart money"><figcaption></figcaption></figure>
 
 ## On-chain smart money
 

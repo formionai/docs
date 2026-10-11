@@ -1,6 +1,6 @@
 # 🧪 Strategy Lab & Marketplace
 
-<figure><img src=".gitbook/assets/strategy-lab.jpg" alt="Formion Strategy Lab — no-code strategy builder, AI strategy agent, Edge Finder and the marketplace"><figcaption>Build a strategy with no code, test it honestly, then publish it to the marketplace.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-strategy-lab.jpg" alt="Formion Strategy Lab — no-code strategy builder, AI strategy agent, Edge Finder and the marketplace"><figcaption>Build a strategy with no code, test it honestly, then publish it to the marketplace.</figcaption></figure>
 
 The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you turn an idea into a tested strategy — without writing code — and optionally **publish it to the marketplace**. Strategy Lab is on every plan: **Neural** gets the Builder and **3 backtests per day**, **Pro 50 per day**, **Institutional unlimited** (per UTC day, reset 00:00 UTC). See **[Pricing & Tiers](pricing.md#daily-limits)**.
 
@@ -25,6 +25,8 @@ flowchart LR
 Backtests report win rate, profit factor, expectancy, max drawdown and an equity curve, with your fee setting applied. **Compare** puts catalog strategies side by side. The separate Strategy Lab **Backtest** report and **Brute force** sweep tabs are marked **Soon**. Keep the optimisation window separate from validation and forward-test the selected candidate.
 
 ## Publish, subscribe & run
+
+<figure><img src=".gitbook/assets/ill-strategy-gate.jpg" alt="Marketplace publish gate"><figcaption><p>A strategy reaches the marketplace only after passing the publish gate.</p></figcaption></figure>
 
 Builder strategies pass a **publish gate** before they reach the marketplace: a fresh 365-day backtest plus an in-sample / out-of-sample check (at least 30 trades, drawdown ≤ 30%, positive expectancy, profit factor ≥ 1.1, positive out-of-sample expectancy). Once published, the signal worker runs the strategy on fresh candles and its forward record is tracked in **[Trades History](trades-history.md)**.
 

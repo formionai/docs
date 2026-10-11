@@ -1,6 +1,6 @@
 # 📰 News 24/7 & Macro
 
-<figure><img src=".gitbook/assets/sec-news.jpg" alt="News 24/7 & Macro"><figcaption><p>Formion — News 24/7 & Macro</p></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-news.jpg" alt="News 24/7 & Macro"><figcaption><p>Formion — News 24/7 & Macro</p></figcaption></figure>
 
 The **News** hub combines scheduled economic releases, AI impact analysis, historical macro reactions and crypto events/headlines. Use it to identify what may affect the instrument you are researching and when that information became available.
 

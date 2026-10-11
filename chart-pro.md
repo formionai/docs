@@ -1,6 +1,6 @@
 # 📊 Chart Pro
 
-<figure><img src=".gitbook/assets/chart-pro.jpg" alt="Formion Chart Pro — professional chart with indicators, order flow and replay"><figcaption>A professional charting workspace with an order-flow layer most platforms charge extra for.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-chart-pro.jpg" alt="Formion Chart Pro — professional chart with indicators, order flow and replay"><figcaption>A professional charting workspace with an order-flow layer most platforms charge extra for.</figcaption></figure>
 
 **Chart Pro** (app.formion.ai → Chart Pro) is Formion's full charting workspace — live data, deep indicators, custom scripts and a complete order-flow toolkit.
 

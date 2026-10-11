@@ -1,6 +1,6 @@
 # 🔁 DEX & On-chain Trading
 
-<figure><img src=".gitbook/assets/dex-swaps.jpg" alt="DEX Swaps — server-signed on-chain swaps across every connected wallet"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-dex.jpg" alt="DEX Swaps — server-signed on-chain swaps across every connected wallet"><figcaption></figcaption></figure>
 
 Trade on-chain without leaving Formion. Connect a wallet and **swap spot directly across multiple networks**, with aggregated best-price routing — and trade DEX perps on the venues Formion supports.
 

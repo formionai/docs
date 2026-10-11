@@ -1,6 +1,6 @@
 # 🎲 Prediction Markets
 
-<figure><img src=".gitbook/assets/polymarket.jpg" alt="Polymarket hot markets, analytics and whale tracking"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-polymarket.jpg" alt="Polymarket hot markets, analytics and whale tracking"><figcaption></figcaption></figure>
 
 Formion brings prediction markets — led by **Polymarket** — into the same terminal as your charts and bots: browse markets, see the top traders, read the price history, link your own account and place bets, and follow Formion's prediction-market bots.
 
@@ -23,6 +23,9 @@ The **Predictions** tab in app.formion.ai is marked **Soon**. It is planned as a
 {% endhint %}
 
 ## In-house engines
+
+<figure><img src=".gitbook/assets/ill-prediction-edge.jpg" alt="Prediction-market mispricing"><figcaption><p>Polymarket Edge compares a fair value derived from options volatility with the market price and buys the mispriced side.</p></figcaption></figure>
+
 Formion runs its own prediction-market bots (tracked in **[Trade History](journal.md)**):
 
 | Bot | Pool | What it does |

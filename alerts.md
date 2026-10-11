@@ -1,10 +1,12 @@
 # 🔔 Alerts
 
-<figure><img src=".gitbook/assets/alerts.jpg" alt="Alerts — live signal stream and custom rules across channels"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-alerts.jpg" alt="Alerts — live signal stream and custom rules across channels"><figcaption></figcaption></figure>
 
 Never miss a setup. Formion delivers alerts across **five channels** and lets you build your own rules — plus per-strategy alerts on every bot and engine.
 
 ## Channels
+
+<figure><img src=".gitbook/assets/ill-alerts-channels.jpg" alt="One alert, five delivery channels"><figcaption><p>One rule can notify you through any combination of the five channels.</p></figcaption></figure>
 
 | Channel | Use |
 |---|---|

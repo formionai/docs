@@ -1,6 +1,6 @@
 # 🪙 Coins Hub
 
-<figure><img src=".gitbook/assets/coins-hub.jpg" alt="Formion Coins Hub — trend watch, coin listing, sniper and DEX swaps"><figcaption>Discover, research and trade coins — from blue-chips to fresh launches.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-the-app-coinshub.jpg" alt="Formion Coins Hub — trend watch, coin listing, sniper and DEX swaps"><figcaption>Discover, research and trade coins — from blue-chips to fresh launches.</figcaption></figure>
 
 The **Coins Hub** (app.formion.ai → Coins Hub) is the discovery and research center for crypto — trend watch, deep coin pages, smart-money flow, low-cap and launch tracking and on-chain swaps in one place. The hub is labelled **BETA · experimental, no performance claim**.
 

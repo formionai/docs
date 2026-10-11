@@ -1,6 +1,6 @@
 # 📡 Formion Pulse — Market Narrative
 
-<figure><img src=".gitbook/assets/pulse.jpg" alt="Formion Pulse — Pulse Score gauge, BTC bias, source filter and sentiment-vs-price history"><figcaption>Formion Pulse: one score from many voices.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-pulse.jpg" alt="Formion Pulse — Pulse Score gauge, BTC bias, source filter and sentiment-vs-price history"><figcaption>Formion Pulse: one score from many voices.</figcaption></figure>
 
 Formion Pulse answers one question other tools ignore: **what are the big voices and the crowd actually *saying* right now?**
 

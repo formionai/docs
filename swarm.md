@@ -1,6 +1,6 @@
 # 🐝 Formion Swarm
 
-<figure><img src=".gitbook/assets/shot-swarm.jpg" alt="Formion Swarm"><figcaption><p>Formion — Formion Swarm</p></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-swarm.jpg" alt="Formion Swarm"><figcaption><p>Formion — Formion Swarm</p></figcaption></figure>
 
 **Formion Swarm** is the trader social hub: a feed of ideas and calls, contributor profiles, signal review and creator analytics. It connects the discussion around a setup with tools for reviewing its tracked outcome.
 

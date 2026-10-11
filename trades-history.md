@@ -1,6 +1,6 @@
 # 🧾 Trades History
 
-<figure><img src=".gitbook/assets/shot-trades-history.jpg" alt="Trades History"><figcaption><p>Formion — Trades History</p></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-trades-history.jpg" alt="Trades History"><figcaption><p>Formion — Trades History</p></figcaption></figure>
 
 **Trades History** consolidates tracked strategies, signals and account sources into a review workspace. Source selection determines what the trade rows and aggregate metrics represent, so start with the source before interpreting a chart.
 

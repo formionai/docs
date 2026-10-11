@@ -1,6 +1,6 @@
 # 🦾 Bots & Automation
 
-<figure><img src=".gitbook/assets/bots-hero.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-bots.jpg" alt=""><figcaption></figcaption></figure>
 
 Formion runs a catalog of automated strategies in the **Bots** hub. A few run **live**, others on **demo** accounts, and most run **paper-first** for validation. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 
@@ -17,6 +17,8 @@ flowchart LR
 ```
 
 ## Build your own — Strategy Lab → Bots Hub → Marketplace
+
+<figure><img src=".gitbook/assets/ill-bots-lifecycle.jpg" alt="Bot lifecycle — paper, demo, live"><figcaption><p>Every bot starts on paper, can be attached to a demo account, and goes live on your own account within your plan limit — all results land in Trade History.</p></figcaption></figure>
 
 You're not limited to Formion's catalog. The full creator flow, **no code required**:
 

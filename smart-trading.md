@@ -1,6 +1,6 @@
 # 🤖 AI Advisor
 
-<figure><img src=".gitbook/assets/ai-advisor.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-the-app-ai.jpg" alt=""><figcaption></figcaption></figure>
 
 The **AI Advisor** (app.formion.ai → AI Advisor) is Formion's decision-support hub. It has six surfaces under one tab — Quick Advisor, AI Chat, Trade Vision, Track Record, Research and Strategy Agent — plus a link to your **FORA Neurons** (always-on watchers):
 

@@ -1,12 +1,14 @@
 # 📈 Screener
 
-<figure><img src=".gitbook/assets/screener.jpg" alt="Formion Screener — ranked, scored market table with timeframe and signal columns"><figcaption>The Screener — every market, ranked by Formion's native scoring.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-screener.jpg" alt="Formion Screener — ranked, scored market table with timeframe and signal columns"><figcaption>The Screener — every market, ranked by Formion's native scoring.</figcaption></figure>
 
 The **Screener** is Formion's home view and the engine the rest of the app is built on: a ranked, sortable table of crypto, stock and forex markets, each scored by **native signals** rather than a single indicator.
 
 Open it at **[app.formion.ai](https://app.formion.ai)** — it's the first thing you see.
 
 ## How scoring works
+
+<figure><img src=".gitbook/assets/ill-screener-score.jpg" alt="How the Screener score is built"><figcaption><p>Trend, momentum, volume, volatility and signal tags combine into one score and a bull / bear / neutral bias.</p></figcaption></figure>
 
 Every symbol gets one composite score:
 

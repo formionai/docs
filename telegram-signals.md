@@ -1,6 +1,6 @@
 # 📡 Telegram Signals — Connect Your Own Channels
 
-<figure><img src=".gitbook/assets/telegram-signals-redacted-v2.jpg" alt="Telegram Signals — connect, backtest and track your own channels"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-telegram-signals.jpg" alt="Telegram Signals — connect, backtest and track your own channels"><figcaption></figcaption></figure>
 
 Follow a paid signal channel? **Connect your own Telegram account, point Formion at the groups you're already in, and Formion turns their messages into tracked, backtested trades** — so you finally know whether a channel is actually worth your money.
 
@@ -18,6 +18,8 @@ flowchart LR
 ```
 
 ## How it works
+
+<figure><img src=".gitbook/assets/ill-telegram-flow.jpg" alt="From Telegram message to tracked trade"><figcaption><p>A free-form channel message is parsed into side, symbol, entry, stop and target, then backtested and tracked.</p></figcaption></figure>
 
 ### 1. Connect your Telegram
 Link your own account with the standard phone → code → 2FA login. Your session is encrypted at rest; you can unlink and revoke access any time.

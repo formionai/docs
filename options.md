@@ -1,6 +1,6 @@
 # 📐 Options & GEX
 
-<figure><img src=".gitbook/assets/options-gex.jpg" alt="Options — IV rank, term structure and scored option structures"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-options.jpg" alt="Options — IV rank, term structure and scored option structures"><figcaption></figcaption></figure>
 
 An options analytics desk for crypto (**BTC and ETH**, built on Deribit with a multi-source view across Deribit, OKX, Bybit and Binance) and equities (**IBIT** plus dealer gamma on US indices and large caps) — implied volatility, the vol surface, Greeks, dealer gamma, and option structures scored to the current regime. Find it at **Data Hub → Options** and **Data Hub → Gamma**.
 
@@ -26,12 +26,14 @@ Formion scores classic structures — **iron condor, short and long strangle, vo
 
 ## ⚡ GEX — Dealer Gamma Exposure
 
-<figure><img src=".gitbook/assets/shot-gamma.jpg" alt="Gamma / GEX"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s2-gamma.jpg" alt="Gamma / GEX"><figcaption></figcaption></figure>
 
 Formion runs an **in-house gamma engine** (computed from public option chains, refreshed every minute) covering US indices and ETFs (SPX, SPY, QQQ, IWM, DIA, VIX…) and large caps (NVDA, TSLA, AAPL, MSFT, COIN, MSTR…):
 
 * **Gamma exposure** by strike, **flip level**, call/put walls
 * Live **GEX regimes** — **pinned** (dealers long gamma dampen moves), **trending** (dealers short gamma amplify moves) and **cascade risk** (flip level near spot)
 * Per-ticker dealer-positioning table + strike profile
+
+<figure><img src=".gitbook/assets/ill-gex-concept.jpg" alt="Dealer gamma regimes"><figcaption><p>Long dealer gamma pins price near big strikes; short dealer gamma lets moves run. The flip level separates the two.</p></figcaption></figure>
 
 Gamma tells you where dealers are forced to hedge — i.e. where price gets pinned or where a move accelerates.

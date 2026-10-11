@@ -1,6 +1,6 @@
 # 🧠 Analytics
 
-<figure><img src=".gitbook/assets/analytics.jpg" alt="Formion Analytics hub — whale tracking, heatmaps, correlation, flows and prediction markets"><figcaption>A hub of standalone analytics tools, each one tab away.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-the-app-analytics.jpg" alt="Formion Analytics hub — whale tracking, heatmaps, correlation, flows and prediction markets"><figcaption>A hub of standalone analytics tools, each one tab away.</figcaption></figure>
 
 The **Analytics** hub (app.formion.ai → Analytics) is a collection of focused, standalone tools — each answering one specific question about market structure, smart money or cross-asset behaviour.
 
@@ -27,6 +27,8 @@ flowchart TD
 * **Heatmaps** — market-wide **RSI / MACD / EMA-cloud / VWAP-bubble** views (shared with the [Screener](screener.md)) to spot extremes at a glance.
 * **Polymarket** — prediction-market browser + trader leaderboard: live odds on crypto/macro/event markets as a crowd-priced probability input.
 * **[Formion Pulse](pulse.md)** — market-narrative sentiment from X, YouTube and crowd chatter, also reachable here.
+
+<figure><img src=".gitbook/assets/s2-analytics.jpg" alt="Correlation — BTC vs Nasdaq 100, S&P 500, Gold, Oil and Silver"><figcaption><p>Correlation — BTC vs Nasdaq 100, S&#x26;P 500, Gold, Oil and Silver.</p></figcaption></figure>
 
 {% hint style="info" %}
 These are research tools, not signals to trade blindly. The most useful pairing is **Edge Map** (does this signal pay?) with the **[Screener](screener.md)** (is it firing now?).
