@@ -4,6 +4,10 @@
 
 [app.formion.ai](https://app.formion.ai) is the **Quantum Terminal** — Formion's full trading workspace. This page tours every area of the top navigation so you know where each tool lives.
 
+{% embed url="https://www.youtube.com/watch?v=9glp-PVmm2U" %}
+🎬 **Screen · Analyze · Execute — Formion AI in 2 minutes.** A tour of the trading terminal.
+{% endembed %}
+
 {% hint style="info" %}
 Feature access depends on your plan — see **[Pricing & Tiers](pricing.md)**. The free **Neural** tier is genuinely useful; **Pro** unlocks the full stack.
 {% endhint %}

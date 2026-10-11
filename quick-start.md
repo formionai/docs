@@ -4,6 +4,10 @@
 
 New to Formion? This is the fastest path from sign-up to your first real signal. No card needed — the free **Neural** tier is genuinely useful.
 
+{% embed url="https://www.youtube.com/watch?v=16t17bgvmbY" %}
+🎬 **Formion AI — Intro.** A walk through the whole Formion ecosystem.
+{% endembed %}
+
 ```mermaid
 flowchart LR
   A["1 · Sign up"] --> B["2 · Open the Screener"]

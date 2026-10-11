@@ -2,7 +2,18 @@
 
 <figure><img src=".gitbook/assets/hero-ecosystem.jpg" alt="Formion AI — multi-asset AI trading ecosystem"><figcaption></figcaption></figure>
 
+## 🎬 Watch first
+
+{% embed url="https://www.youtube.com/watch?v=16t17bgvmbY" %}
+🎬 **Formion AI — Intro.** A walk through the whole Formion ecosystem.
+{% endembed %}
+
+{% embed url="https://www.youtube.com/watch?v=9glp-PVmm2U" %}
+🎬 **Screen · Analyze · Execute — Formion AI in 2 minutes.** A tour of the trading terminal.
+{% endembed %}
+
 ## 👀 Overview
+
 
 {% hint style="success" %}
 🚀 **Welcome to Formion AI** — AI solutions for next-level trading. Crypto, forex, stocks, commodities, options and prediction markets, in one place.
