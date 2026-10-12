@@ -10,7 +10,7 @@ Where Formion is today and where it's going. (Updated 2026.)
 * **Quantum Terminal** ([app.formion.ai](https://app.formion.ai)) — screeners, Chart Pro, Data Hub, Coins Hub, 12+ analytics tools, Signals, News, Trade, Bots, Journal.
 * **AI suite** — FORA assistant (web + Telegram, text + realtime voice), Command Center, AI Advisor (Quick Advisor, AI Chat, Track Record), Trade Vision, Research RAG-LLM, Multi-AI Consensus.
 * **Bots & automation** — DCA, Grid, Indicator, Trailing, Funding-arb, Alarm bots; **chart-alert webhook automation** (CEX + DEX); tracked live and paper strategies.
-* **Backtesting** — multi-year backtests, walk-forward optimizer, prop-firm simulator, Strategy Lab + no-code builder, Pine generator.
+* **Backtesting** — multi-year backtests, walk-forward optimizer, Strategy Lab + no-code builder, Pine generator.
 * **Markets** — crypto, forex and CFDs (cTrader), stocks (US + international), commodities (gold/silver/oil), options (major crypto options venues), prediction markets (Polymarket/Kalshi/Limitless).
 * **Accounts** — 3-tier pricing, 7-day Pro trial, BYOK, 2FA, referrals, portfolio aggregation, trading journal with AI review.
 * **Unified trade history** — every bot, strategy and signal engine streams into one analytics hub (KPIs, equity curve, per-symbol/session/hour breakdowns), each signal scored against its realized forward outcome.

@@ -41,7 +41,7 @@ Plain-English definitions of terms used across Formion.
 
 * **Backtest** — running a strategy over historical data to estimate performance.
 * **Walk-forward** — validating a strategy on unseen data after optimizing on a prior window (guards against overfitting).
-* **Prop-firm simulator** — estimates the pass-rate of a strategy against funded-account (FTMO-style) rules.
+* **Prop-firm simulator** — will estimate the pass-rate of a strategy against funded-account (FTMO-style) rules. **Coming soon** (Pro and Institutional).
 * **Win rate** — % of trades that are profitable. **Profit factor** — gross profit ÷ gross loss.
 * **Expectancy** — average profit/loss per trade. **Equity curve** — your balance over time.
 

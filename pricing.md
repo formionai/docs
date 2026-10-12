@@ -24,9 +24,15 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Paper bots** | Unlimited | Unlimited | Unlimited |
 | **Watchlist symbols** | 25 | Unlimited | Unlimited |
 | **Chart** | 5 symbols · 4 TFs · 2 indicators | All symbols/TFs/indicators · SMC · replay | Same as Pro |
-| **Screener** | real-time, crypto, top 50 | real-time: all markets (crypto, stocks, commodities, forex) | Same as Pro |
+| **Screener** | crypto · 3-row preview | real-time: all markets (crypto, stocks, commodities, forex) | Same as Pro |
 | **AI signals stack** | Trade Vision + RAG Research within daily limits | Full (RAG, Trade Vision, RF, Multi-AI Consensus, all signals) | Same as Pro, priority AI queue |
+| **Signal tables** (screener, setup scanner, volatility, signals, patterns, options, Edge Finder) | 3-row preview · last 7 days of history · signals delayed 30 min | Full, real-time, full history | Full, real-time, full history |
 | **FORA realtime voice** | ✅ (mini model) | ✅ (mini model) | ✅ (full model) |
+| **FORA Neurons (active)** | 2 | 25 | Unlimited |
+| **Saved AI strategies** | 1 | Unlimited | Unlimited |
+| **Trading Audit** | 1 / day (basic) | 3 / day + weekly report | 10 / day + weekly report |
+| **Wallet Insights MFE/MAE tracking** | — | — | ✅ |
+| **Prop-firm simulator** | — | Coming soon | Coming soon |
 | **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
 | **Trading Journal** | 30 days, 10 image uploads | Unlimited history + uploads + exchange auto-import | Same as Pro |
 | **Custom alerts (active)** | 3 | 100 + email alerts | Unlimited + email alerts |
@@ -46,8 +52,9 @@ Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app sho
 | **Strategy Lab backtests** | 3 / day (+ Builder) | 50 / day | Unlimited |
 | **Custom alerts (active)** | 3 | 100 | Unlimited |
 | **Live bots** | 0 (demo/paper unlimited) | 5 | Unlimited |
-| **Screener** | Real-time, crypto, top 50 | All markets, real-time | All markets, real-time |
+| **Screener** | Crypto, 3-row preview | All markets, real-time | All markets, real-time |
 | **FORA realtime voice** | 3 sessions/day × 3 min (gpt-realtime-2.1-mini) | 25 sessions/day × 15 min (gpt-realtime-2.1-mini) | 80 sessions/day × 30 min (full gpt-realtime-2.1) |
+| **Trading Audit** | 1 (basic) | 3 | 10 |
 | **FORA text chat (AI budget)** | $2 / month | $5 / day | $30 / day |
 | **Coins Hub (public cards)** | ✅ | ✅ | ✅ |
 
@@ -63,15 +70,15 @@ With your own AI key (**BYOK**), FORA text chat runs on your provider without th
 
 ## 🆓 Neural — Free forever
 
-Try Formion with no commitment: link 2 exchanges, 2 wallets, 1 DEX and 1 cTrader broker account, use Binance and Bybit demo (testnet) accounts, run unlimited **paper** bots, talk to the AI within a $2/month budget, use FORA realtime voice (3 sessions a day, 3 minutes each), Trade Vision (3 a day), one RAG Research report a day, the Strategy Lab builder with 3 backtests a day, the real-time crypto screener (top 50) and core charts. The path to unlimited AI on the free tier is **BYOK** (connect your own AI provider key or your ChatGPT account).
+Try Formion with no commitment: link 2 exchanges, 2 wallets, 1 DEX and 1 cTrader broker account, use Binance and Bybit demo (testnet) accounts, run unlimited **paper** bots, talk to the AI within a $2/month budget, use FORA realtime voice (3 sessions a day, 3 minutes each), Trade Vision (3 a day), one RAG Research report a day, the Strategy Lab builder with 3 backtests a day and 1 saved AI strategy, a 3-row preview of the crypto screener and every signal table (last 7 days, signals delayed 30 minutes), 2 FORA Neurons, a basic Trading Audit once a day and core charts. The path to unlimited AI on the free tier is **BYOK** (connect your own AI provider key or your ChatGPT account).
 
 ## 💎 Pro — $89/mo
 
-Full retail trading: unlimited exchanges, wallets and DEX accounts, 5 cTrader broker accounts, 3 sub-account slots, **5 live bots** with auto-execute, the complete AI stack (Trade Vision 30/day, Research RAG 10/day, RF predictor, Multi-AI Consensus) with a $5/day AI budget, FORA realtime voice (25 sessions a day, 15 minutes each), 100 active custom alerts, all signal feeds, real-time screener on every market, backtesting + Strategy Lab (50 backtests a day), and full charting (all symbols, timeframes and indicators, SMC zones, replay).
+Full retail trading: unlimited exchanges, wallets and DEX accounts, 5 cTrader broker accounts, 3 sub-account slots, **5 live bots** with auto-execute, the complete AI stack (Trade Vision 30/day, Research RAG 10/day, RF predictor, Multi-AI Consensus) with a $5/day AI budget, FORA realtime voice (25 sessions a day, 15 minutes each), 100 active custom alerts, all signal feeds, real-time screener on every market, backtesting + Strategy Lab (50 backtests a day), full charting (all symbols, timeframes and indicators, SMC zones, replay), 25 FORA Neurons and Trading Audit 3/day with a weekly report. The prop-firm simulator is **coming soon** on Pro and Institutional.
 
 ## 🏛️ Institutional — $499/mo
 
-Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots (PolyScalp, latency arb, Kalshi cross-arb), a $30/day AI budget with a priority queue and team-shared BYOK, FORA realtime voice on the full model (80 sessions a day, 30 minutes each), Trade Vision 200/day and Research RAG 50/day, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
+Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots (PolyScalp, latency arb, Kalshi cross-arb), a $30/day AI budget with a priority queue and team-shared BYOK, FORA realtime voice on the full model (80 sessions a day, 30 minutes each), Trade Vision 200/day and Research RAG 50/day, unlimited FORA Neurons, Trading Audit 10/day, Wallet Insights MFE/MAE tracking, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
 
 ## 🔑 BYOK — Bring Your Own Key
 

@@ -5,7 +5,7 @@
 An options analytics desk for crypto (**BTC and ETH**, built on Deribit with a multi-source view across Deribit, OKX, Bybit and Binance) and equities (**IBIT** plus dealer gamma on US indices and large caps) — implied volatility, the vol surface, Greeks, dealer gamma, and option structures scored to the current regime. Find it at **Data Hub → Options** and **Data Hub → Gamma**.
 
 {% hint style="info" %}
-On the free **Neural** tier options analytics cover BTC with a basic scorer. **Pro** and **Institutional** add ETH and the full scorer (strategies, regime, IV) — see **[Pricing & Tiers](pricing.md)**.
+On the free **Neural** tier options analytics are a **3-row preview** (BTC, basic scorer). **Pro** and **Institutional** add ETH and SOL and the full scorer (strategies, regime, IV) — see **[Pricing & Tiers](pricing.md)**.
 {% endhint %}
 
 ## What's inside

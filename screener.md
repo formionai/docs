@@ -78,5 +78,5 @@ Your saved symbols with live scores and signals, plus a workspace to curate the 
 Every symbol carries its asset logo, and rows update live. Click any row to open its full chart and analysis in **Chart Pro**.
 
 {% hint style="info" %}
-On the free **Neural** tier the Screener is **real-time** for crypto, covering the top 50 symbols. **Pro** and **Institutional** get the real-time screener on all markets — crypto, stocks, commodities and forex — see **[Pricing & Tiers](pricing.md)**.
+On the free **Neural** tier the Screener covers crypto as a **3-row preview** (last 7 days of history; signals are delayed 30 minutes). **Pro** and **Institutional** get the full real-time screener on all markets — crypto, stocks, commodities and forex — see **[Pricing & Tiers](pricing.md)**.
 {% endhint %}

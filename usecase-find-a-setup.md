@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/ill-uc-setup.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
 
-*A repeatable workflow for "what should I look at today?" — most steps work on the free Neural tier, within its limits (real-time crypto screener for the top 50, 5 chart symbols, 3 Trade Vision analyses a day).*
+*A repeatable workflow for "what should I look at today?" — most steps work on the free Neural tier, within its limits (a 3-row preview of the crypto screener, 5 chart symbols, 3 Trade Vision analyses a day).*
 
 ## The flow
 
