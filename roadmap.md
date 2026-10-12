@@ -31,9 +31,9 @@ Where Formion is today and where it's going. (Updated 2026.)
 
 Target dates from the official [FOM page](https://formion.ai/fom#roadmap):
 
-* **Q1 2027** — Agent Pro, FORA Trader Coach, personal TradingView webhooks, staking v1 and farming, Dossier, marketplace in FOM.
+* **Q1 2027** — Agent Pro, FORA Trader Coach, personal TradingView webhooks, staking v1 (Q1–Q2 2027), Dossier, marketplace in FOM.
 * **Q2 2027** — FORA AGI beta (autonomy on the user's own accounts, within risk caps), Prediction, Academy, author staking.
-* **H2 2027** — Meme hunter, FOM Visa card, governance, entity and team KYC.
+* **H2 2027** — Meme hunter, FOM/ETH LP farming rewards (end of 2027; LP trading fees already work in the wallet Earn tab), FOM Visa card, governance, entity and team KYC.
 
 Dates are targets; each step ships when it is ready and tested.
 
