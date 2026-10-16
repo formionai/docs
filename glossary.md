@@ -12,7 +12,7 @@ Plain-English definitions of terms used across Formion.
 * **BYOK** — *Bring Your Own Key*: connect your own AI provider key for AI usage billed by your provider.
 * **Non-custodial** — Formion never holds your funds; it connects via API and can't withdraw.
 * **Paper trading** — simulated trading with no real money, used to validate a strategy.
-* **FOM** — Formion's ERC-20 token on Base, fixed supply of 1,000,000,000 (minted once); used for FORA Agent levels, agent credits and add-ons, separate from USD platform licences. See [FOM](fom-token.md).
+* **FOM** — Formion's ERC-20 token on Base, fixed supply of 1,000,000,000 (minted once); locked for FORA Agent levels (the higher levels include a licence), spent on agent credits and add-ons. See [FOM](fom-token.md).
 
 ### Markets & venues
 
