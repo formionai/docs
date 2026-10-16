@@ -75,7 +75,7 @@ lock period. Using the lower of the two averages means a short price spike — i
 | Holder | $250 | 30 extra FORA messages a day, realtime screener, 20% lower add-on prices when paid in FOM, Token Explorer for any token, Radar (5-minute delay), 3 whale alerts, 50% off token profiles |
 | FORA Agent | $1,000 | **Pro licence included**, browser agent (chart navigation, pages, research), frontier models, FORA Neurons, live Radar, unlimited Risk Scan |
 | Agent Pro | $5,000 | **Institutional licence included**, Pine writing and testing, backtests, strategy search, paper-to-live on your confirmation, Radar strategies |
-| FORA AGI | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (fee: 10% of realised profit, paid in FOM), priority access, governance votes and early-access allowlists. Autonomous trading is not available in all jurisdictions (including the EU/EEA, the UK and the US) |
+| FORA AGI | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (paid with agent credits in FOM like any other usage — Formion takes no share of your profit), priority access, governance votes and early-access allowlists. Autonomous trading is not available in all jurisdictions (including the EU/EEA, the UK and the US) |
 
 **How the lock works**
 
@@ -102,6 +102,8 @@ flowchart LR
 FOM is a utility token. Locking FOM grants access to product features only; it is not an investment, does not represent equity, debt, a share of profits or any claim on Formion, and no return of any kind is promised. Formion may change, suspend or discontinue any level, threshold, benefit, limit, fee or feature, at any time and for any reason, with or without prior notice. Where possible we announce changes in advance on docs.formion.ai and formion.ai/fom; continued use after a change means acceptance. Benefits depend on product availability and may be rolled out in phases. Nothing here is financial, legal or tax advice. These terms are part of the [Formion Terms of Service](https://formion.ai/terms).
 
 ### Changelog
+
+* **16 October 2026 (v3.2)** — FORA AGI no longer has a 10% fee on realised profit. Autonomous runs are paid with agent credits in FOM like any other usage; Formion takes no share of user profits.
 
 * **16 October 2026 (v3.1)** — Lock value now uses the lower of the 7-day and 30-day TWAP. FORA Agent and higher need a lock of at least 90 days. Included licences come with a monthly AI allowance and are offered within a monthly capacity (waitlist when full). One lock backs one Formion account through a signature-proven wallet.
 
