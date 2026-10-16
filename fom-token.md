@@ -75,7 +75,7 @@ lock period. Using the lower of the two averages means a short price spike — i
 | Holder | $250 | 30 extra FORA messages a day, realtime screener, 20% lower add-on prices when paid in FOM, Token Explorer for any token, Radar (5-minute delay), 3 whale alerts, 50% off token profiles |
 | FORA Agent | $1,000 | **Pro licence included**, browser agent (chart navigation, pages, research), frontier models, FORA Neurons, live Radar, unlimited Risk Scan |
 | Agent Pro | $5,000 | **Institutional licence included**, Pine writing and testing, backtests, strategy search, paper-to-live on your confirmation, Radar strategies |
-| FORA AGI | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (fee: 10% of realised profit, paid in FOM), priority access, governance votes and early-access allowlists |
+| FORA AGI | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (fee: 10% of realised profit, paid in FOM), priority access, governance votes and early-access allowlists. Autonomous trading is not available in all jurisdictions (including the EU/EEA, the UK and the US) |
 
 **How the lock works**
 
