@@ -66,8 +66,9 @@ Their work — marketing and bringing traders to Formion — starts at launch, s
 > US-dollar value of locked FOM (7-day average price) instead of a fixed number of tokens, and the FORA Agent and Agent Pro levels now
 > include a Pro or Institutional licence. Level names stay the same. Locked FOM always remains yours. See the [changelog](#changelog).
 
-Lock FOM to reach a level. The level is set by the **US-dollar value** of the FOM you lock, measured with the **7-day time-weighted
-average price (TWAP)** of the official FOM/WETH pool on Base at the moment you lock, and it stays fixed for the whole lock period.
+Lock FOM to reach a level. The level is set by the **US-dollar value** of the FOM you lock, measured with the **lower of the 7-day and
+30-day time-weighted average price (TWAP)** of the official FOM/WETH pool on Base at the moment you lock, and it stays fixed for the whole
+lock period. Using the lower of the two averages means a short price spike — including one caused by your own purchase — cannot inflate your level.
 
 | Level | Locked value | Includes |
 |---|---:|---|
@@ -79,15 +80,18 @@ average price (TWAP)** of the official FOM/WETH pool on Base at the moment you l
 **How the lock works**
 
 * **Periods:** 30, 90 or 180 days. Longer locks weigh more: ×1.0, ×1.25 and ×1.5. Example: $800 locked for 180 days counts as $1,200 → FORA Agent.
+* **FORA Agent and higher need a lock of at least 90 days.** A 30-day lock reaches the Holder level at most.
+* **One lock, one account:** a lock backs exactly one Formion account, through a wallet you prove by signature on that account. The wallet can be changed only at renewal.
 * **If the FOM price rises,** your level can move up at any time.
 * **If the FOM price falls,** your level stays until the period ends. At renewal the value is measured again; if it is below the threshold you have 7 days to top up, otherwise the level moves one step down.
 * **Unbonding:** when the period ends, withdrawal takes 7 days. There is no early unlock. Locked FOM always stays yours — it sits in Formion's own lock contract on Base, which is audited before launch; Formion never takes custody.
-* **Usage:** a level unlocks the features and daily limits of its licence. AI usage above those daily limits (extra FORA messages, voice minutes, research, agent tasks) is paid with **agent credits in FOM; 75% of the FOM paid for credits is burned.**
+* **Usage:** a level unlocks the features and daily limits of its licence, and an included licence comes with a monthly AI allowance. AI usage above the allowance or the daily limits (extra FORA messages, voice minutes, research, agent tasks) is paid with **agent credits in FOM; 75% of the FOM paid for credits is burned.**
+* **Capacity:** included licences are offered within a monthly capacity. When it is full, new FORA Agent and higher locks join a waitlist; existing levels are not affected.
 * Levels and capabilities roll out in phases; not all of them are available at launch. See the [roadmap](roadmap.md).
 
 ```mermaid
 flowchart LR
-  FOM[Locked FOM] --> Value[USD value · 7-day TWAP]
+  FOM[Locked FOM] --> Value[USD value · lower of 7d / 30d TWAP]
   Value --> Level[Agent level]
   Level --> Licence[Included licence + agent features]
   Credits[Agent credits in FOM · 75% burned] --> Extra[Usage above daily limits]
@@ -98,5 +102,7 @@ flowchart LR
 FOM is a utility token. Locking FOM grants access to product features only; it is not an investment, does not represent equity, debt, a share of profits or any claim on Formion, and no return of any kind is promised. Formion may change, suspend or discontinue any level, threshold, benefit, limit, fee or feature, at any time and for any reason, with or without prior notice. Where possible we announce changes in advance on docs.formion.ai and formion.ai/fom; continued use after a change means acceptance. Benefits depend on product availability and may be rolled out in phases. Nothing here is financial, legal or tax advice. These terms are part of the [Formion Terms of Service](https://formion.ai/terms).
 
 ### Changelog
+
+* **16 October 2026 (v3.1)** — Lock value now uses the lower of the 7-day and 30-day TWAP. FORA Agent and higher need a lock of at least 90 days. Included licences come with a monthly AI allowance and are offered within a monthly capacity (waitlist when full). One lock backs one Formion account through a signature-proven wallet.
 
 * **16 October 2026** — FOM Agent levels moved from fixed token counts (100,000 / 1,000,000 / 5,000,000 / 10,000,000 FOM) to US-dollar value at the 7-day TWAP ($250 / $1,000 / $5,000 / $25,000). FORA Agent now includes a Pro licence and Agent Pro an Institutional licence. Lock periods of 30/90/180 days with weights ×1.0/×1.25/×1.5 were added. The 7-day unbonding and the 75% burn of agent credits are unchanged.
