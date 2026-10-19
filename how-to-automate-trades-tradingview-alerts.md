@@ -20,7 +20,7 @@ flowchart LR
 
 First connect the account you want to trade on (one-time):
 
-* Go to **[formion.ai](https://formion.ai) → Profile → Connections**.
+* Go to **[formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs) → Profile → Connections**.
 * Under **Exchanges** (CEX) or the DEX cards, link your account with API keys / signing key. See [How to Start — API Connection](how-to-start-api-connection.md).
 * Supported today: **CEX** — Binance, Bybit, KuCoin, Gate, BingX, MEXC, Blofin, Bitget. **DEX** — Hyperliquid, Asterdex, Bluefin, Extended. (Venues are enabled for automation progressively.)
 * **Link your Telegram** in **Profile → Connections** too — TradingView bots sync through **@formiontradingbot**, so the **New bot** button stays disabled until Telegram is linked.

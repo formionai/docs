@@ -4,7 +4,7 @@
 
 The **Screener** is Formion's home view and the engine the rest of the app is built on: a ranked, sortable table of crypto, stock and forex markets, each scored by **native signals** rather than a single indicator.
 
-Open it at **[app.formion.ai](https://app.formion.ai)** — it's the first thing you see.
+Open it at **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)** — it's the first thing you see.
 
 ## How scoring works
 

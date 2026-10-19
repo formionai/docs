@@ -8,7 +8,7 @@ description: Frequently Asked Questions (FAQ)
 ## General
 
 **What is Formion AI?**
-A multi-asset, AI-powered trading platform — crypto, forex, stocks, commodities, options and prediction markets in one place. It combines AI analysis, automated bots, deep market data, backtesting, copy trading and a trading journal, accessible from the web app ([app.formion.ai](https://app.formion.ai)) and from Telegram (FORA). See **[The App](the-app.md)**.
+A multi-asset, AI-powered trading platform — crypto, forex, stocks, commodities, options and prediction markets in one place. It combines AI analysis, automated bots, deep market data, backtesting, copy trading and a trading journal, accessible from the web app ([app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)) and from Telegram (FORA). See **[The App](the-app.md)**.
 
 **Does Formion hold my money?**
 No. Formion is **non-custodial** — it connects to your exchange via API keys (trade-only, no withdrawal) and your funds stay on your own exchange. See **[Security](security.md)**.
@@ -25,7 +25,7 @@ There's a free **Neural** tier, **Pro** at $89/mo and **Institutional** at $499/
 At the formion.ai checkout you can pay in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, **USDT on Tron (TRC20)**, or **BTC** / **SOL** / **LTC** — or with **PayPal** on the same checkout page. You can also pay with **Telegram Crypto Pay** via `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an extra 3% discount. Card payments are not available. Licences are priced in USD and paid one-time per period (no auto-renewal); see **[Pricing](pricing.md)**.
 
 **Can I get a refund?**
-A licence is refunded within 7 days of the payment if the paid features did not work because of a problem on our side or you were charged by mistake (renewals and upgrades: 72 hours); duplicate payments and overpayments are always refunded, trading results never. Request it at [formion.ai/refunds](https://formion.ai/refunds) or support@formion.ai. Crypto refunds go out in USDC or USDT to the wallet you give us (same network you paid on), minus the network fee; PayPal payments are refunded through PayPal.
+A licence is refunded within 7 days of the payment if the paid features did not work because of a problem on our side or you were charged by mistake (renewals and upgrades: 72 hours); duplicate payments and overpayments are always refunded, trading results never. Request it at [formion.ai/refunds](https://formion.ai/refunds?utm_source=docs&utm_medium=referral&utm_campaign=docs) or support@formion.ai. Crypto refunds go out in USDC or USDT to the wallet you give us (same network you paid on), minus the network fee; PayPal payments are refunded through PayPal.
 
 **What is BYOK?**
 Bring Your Own Key — connect your own AI provider key (Anthropic, OpenAI, Gemini, xAI, DeepSeek, Moonshot/Kimi, Zhipu/GLM, MiniMax or OpenRouter) or your ChatGPT subscription on any tier, so AI usage is billed by that provider with no platform budget cap. Keys are encrypted at rest.
@@ -60,7 +60,7 @@ AES-256-GCM encryption at rest, TLS in transit, 2FA with backup codes, an option
 ## FOM token
 
 **Is FOM live?**
-FOM is Formion's ERC-20 token on **Base** (Ethereum L2) with a fixed supply of **1,000,000,000**, minted once. There is no presale, no private sale, no ICO and no launchpad; the launch is funded by the founder's own funds. It launches on **Uniswap (Base) on Wed 14 Oct 2026**; the contract address is published at launch — only trust the address from official Formion channels. Locking FOM unlocks FORA Agent levels set by the US-dollar value of the locked FOM ($250 / $1,000 / $5,000 / $25,000); FORA Agent includes a Pro licence and Agent Pro an Institutional licence. Credits, eligible add-ons and marketplace uses roll out in phases. See **[FOM token](fom-token.md)** for launch, allocation, vesting and audit details.
+FOM is Formion's ERC-20 token on **Base** (Ethereum L2) with a fixed supply of **1,000,000,000**, minted once. There is no presale, no private sale, no ICO and no launchpad; the launch is funded by the founder's own funds. It launched on **Uniswap (Base) on Wed 14 Oct 2026**; the official contract address is `0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1` (Base) — only trust the address from official Formion channels and verify it before you swap. Locking FOM unlocks FORA Agent levels set by the US-dollar value of the locked FOM ($250 / $1,000 / $5,000 / $25,000); FORA Agent includes a Pro licence and Agent Pro an Institutional licence. Credits, eligible add-ons and marketplace uses roll out in phases. See **[FOM token](fom-token.md)** for launch, allocation, vesting and audit details.
 
 **Who is the Core contributor?**
 An external partner who works with Formion on growth — marketing, trader-focused campaigns and advisory. The 54,400,000 FOM line is compensation for that work, not a purchase: nothing was paid for these tokens, and there is no private sale.
@@ -87,7 +87,7 @@ No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Edge 
 ## Support
 
 **How do I get help?**
-Email **support@formion.ai**, open a ticket at [formion.ai/support](https://formion.ai/support) or message [@FormionSupportBot](https://t.me/FormionSupportBot), or join our Telegram community [t.me/formionai](https://t.me/formionai). Documentation lives at **docs.formion.ai**.
+Email **support@formion.ai**, open a ticket at [formion.ai/support](https://formion.ai/support?utm_source=docs&utm_medium=referral&utm_campaign=docs) or message [@FormionSupportBot](https://t.me/FormionSupportBot), or join our Telegram community [t.me/formionai](https://t.me/formionai). Documentation lives at **docs.formion.ai**.
 
 **Can I talk to FORA by voice?**
 Yes. Live two-way voice with FORA is available on every plan: Neural 3 sessions a day × 3 minutes and Pro 25 × 15 minutes on gpt-realtime-2.1-mini, Institutional 80 × 30 minutes on the full gpt-realtime-2.1. On every plan you can type to FORA, and in the chart chat you can turn on microphone dictation and read-aloud replies, which use your browser's speech features. [Command Center](command-center.md) offers suggested commands, attachments and chat on the dashboard.
@@ -96,4 +96,4 @@ Yes. Live two-way voice with FORA is available on every plan: Neural 3 sessions 
 Use [News](news.md) for economic and crypto events and headlines, and [Swarm](swarm.md) for trader posts, signals and contributor review. [Funding Carry](funding-carry.md) has a separate venue-spread research workflow.
 
 **Is Academy available?**
-In app.formion.ai the **Academy** and **Predictions** (AI price projections) tabs are marked **Soon**. A few introductory lessons are already published at [formion.ai/academy](https://formion.ai/academy). Prediction-market tools (Polymarket browser, whale tracking, account connections) are live separately; see [Prediction Markets](prediction-markets.md).
+In app.formion.ai the **Academy** and **Predictions** (AI price projections) tabs are marked **Soon**. A few introductory lessons are already published at [formion.ai/academy](https://formion.ai/academy?utm_source=docs&utm_medium=referral&utm_campaign=docs). Prediction-market tools (Polymarket browser, whale tracking, account connections) are live separately; see [Prediction Markets](prediction-markets.md).

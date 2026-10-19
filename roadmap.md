@@ -7,7 +7,7 @@ Where Formion is today and where it's going. (Updated 2026.)
 ## ✅ Delivered
 
 * **Multi-asset platform** — 8 CEX, 4 DEX, EVM/Solana/Sui/TON wallets, prediction markets.
-* **Quantum Terminal** ([app.formion.ai](https://app.formion.ai)) — screeners, Chart Pro, Data Hub, Coins Hub, 12+ analytics tools, Signals, News, Trade, Bots, Journal.
+* **Quantum Terminal** ([app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)) — screeners, Chart Pro, Data Hub, Coins Hub, 12+ analytics tools, Signals, News, Trade, Bots, Journal.
 * **AI suite** — FORA assistant (web + Telegram, text + realtime voice), Command Center, AI Advisor (Quick Advisor, AI Chat, Track Record), Trade Vision, Research RAG-LLM, Multi-AI Consensus.
 * **Bots & automation** — DCA, Grid, Indicator, Trailing, Funding-arb, Alarm bots; **chart-alert webhook automation** (CEX + DEX); tracked live and paper strategies.
 * **Backtesting** — multi-year backtests, walk-forward optimizer, Strategy Lab + no-code builder, Pine generator.
@@ -29,7 +29,7 @@ Where Formion is today and where it's going. (Updated 2026.)
 
 ## 🌅 Later phases
 
-Target dates from the official [FOM page](https://formion.ai/fom#roadmap):
+Target dates from the official [FOM page](https://formion.ai/fom?utm_source=docs&utm_medium=referral&utm_campaign=docs#roadmap):
 
 * **Q1 2027** — Agent Pro, FORA Trader Coach, personal TradingView webhooks, staking v1 (Q1–Q2 2027), Dossier, marketplace in FOM.
 * **Q2 2027** — FORA AGI beta (autonomy on the user's own accounts, within risk caps), Prediction, Academy, author staking.

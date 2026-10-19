@@ -86,7 +86,7 @@ On any tier you can connect your own AI provider key — Anthropic, OpenAI, Goog
 
 ## 💸 Payment methods
 
-When you upgrade (from the **[Pricing](https://formion.ai/pricing)** page or **Profile → License**), pick how you want to pay:
+When you upgrade (from the **[Pricing](https://formion.ai/pricing?utm_source=docs&utm_medium=referral&utm_campaign=docs)** page or **Profile → License**), pick how you want to pay:
 
 * **Crypto checkout on formion.ai.** Choose **USDT or USDC** on **Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana**, **USDT on Tron (TRC20)**, or pay in **BTC**, **SOL** or **LTC**, straight to Formion's wallet. Send the exact amount on the exact network shown; the licence activates automatically once the payment is confirmed on-chain.
 * **PayPal** — on the same formion.ai checkout page.
@@ -98,10 +98,10 @@ Payments are one-time for the period you choose (1, 3, 6 or 12 months) — nothi
 
 ## ↩️ Refunds
 
-A licence (Pro or Institutional) is refunded within **7 days** of the payment if the paid features did not work for you because of a problem on our side, or if you were charged by mistake (renewals and upgrades: within 72 hours). Duplicate payments and overpaid amounts are always refunded; trading results are never a reason for a refund. Full rules: [formion.ai/refunds](https://formion.ai/refunds).
+A licence (Pro or Institutional) is refunded within **7 days** of the payment if the paid features did not work for you because of a problem on our side, or if you were charged by mistake (renewals and upgrades: within 72 hours). Duplicate payments and overpaid amounts are always refunded; trading results are never a reason for a refund. Full rules: [formion.ai/refunds](https://formion.ai/refunds?utm_source=docs&utm_medium=referral&utm_campaign=docs).
 
-Request a refund at [formion.ai/refunds](https://formion.ai/refunds) or support@formion.ai (payments older than 30 days are not refunded); a decision follows within 5 business days. Crypto refunds are sent in **USDC or USDT** to the wallet you give us (on the same network you paid on), minus the network fee. **PayPal payments are refunded through PayPal.** When a refund is approved, access to the purchase ends immediately.
+Request a refund at [formion.ai/refunds](https://formion.ai/refunds?utm_source=docs&utm_medium=referral&utm_campaign=docs) or support@formion.ai (payments older than 30 days are not refunded); a decision follows within 5 business days. Crypto refunds are sent in **USDC or USDT** to the wallet you give us (on the same network you paid on), minus the network fee. **PayPal payments are refunded through PayPal.** When a refund is approved, access to the purchase ends immediately.
 
 ## 🪙 Paying with FOM
 
-Licences are priced in **USD**. You can also reach them by **locking FOM**: the **FORA Agent** level (FOM worth $1,000 at the lower of the 7-day and 30-day average price, locked for at least 90 days) includes a **Pro** licence and **Agent Pro** ($5,000) includes an **Institutional** licence. **FOM** is Formion's ERC-20 token on **Base**, launched on Uniswap (Base) on **Wed 14 Oct 2026**. It is used for FORA Agent levels (locked, not spent), agent credits, add-ons and, later, marketplace items. These roll out in phases; see **[FOM token](fom-token.md)** and [formion.ai/fom](https://formion.ai/fom).
+Licences are priced in **USD**. You can also reach them by **locking FOM**: the **FORA Agent** level (FOM worth $1,000 at the lower of the 7-day and 30-day average price, locked for at least 90 days) includes a **Pro** licence and **Agent Pro** ($5,000) includes an **Institutional** licence. **FOM** is Formion's ERC-20 token on **Base**, launched on Uniswap (Base) on **Wed 14 Oct 2026**. It is used for FORA Agent levels (locked, not spent), agent credits, add-ons and, later, marketplace items. These roll out in phases; see **[FOM token](fom-token.md)** and [formion.ai/fom](https://formion.ai/fom?utm_source=docs&utm_medium=referral&utm_campaign=docs).

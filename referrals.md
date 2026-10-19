@@ -6,7 +6,7 @@ Share your referral link and earn when the people you bring to Formion make thei
 
 ## How it works
 
-1. Grab your **referral link** from **Profile → License → Referrals** on [formion.ai](https://formion.ai). Each code has its own link, `https://formion.ai/r/YOURCODE`; you can add extra codes with a label (for example a campaign name) and see clicks per code.
+1. Grab your **referral link** from **Profile → License → Referrals** on [formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs). Each code has its own link, `https://formion.ai/r/YOURCODE`; you can add extra codes with a label (for example a campaign name) and see clicks per code.
 2. Share it. Anyone who signs up through it is tied to you, even if they subscribe later.
 3. You earn **20% of the referred user's first real payment**. The commission is credited only after that payment clears the **14-day refund window**.
 4. They get **5% off their first payment**, applied automatically at checkout (it doesn't stack with a promo code — the larger discount is used).

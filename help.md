@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/ill-help.jpg" alt="Formion help center"><figcaption></figcaption></figure>
 
-Answers, fixes and definitions. Still stuck? Email **support@formion.ai** or open a ticket at [formion.ai/support](https://formion.ai/support).
+Answers, fixes and definitions. Still stuck? Email **support@formion.ai** or open a ticket at [formion.ai/support](https://formion.ai/support?utm_source=docs&utm_medium=referral&utm_campaign=docs).
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
 <tr><td><strong>📄 FAQ</strong></td><td>The most common questions about accounts, payments, bots and data.</td><td><a href="faq.md">faq.md</a></td></tr>

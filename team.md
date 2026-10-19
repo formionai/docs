@@ -12,4 +12,4 @@ The current public Formion team list:
 | Danielos | Developer |
 | Stefan | Content & Media |
 
-See [formion.ai/fom](https://formion.ai/fom#team) for the public team presentation. For product support, contact **support@formion.ai**.
+See [formion.ai/fom](https://formion.ai/fom?utm_source=docs&utm_medium=referral&utm_campaign=docs#team) for the public team presentation. For product support, contact **support@formion.ai**.

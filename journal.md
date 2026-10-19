@@ -51,7 +51,7 @@ The **Analytics** tab turns your history into charts — no setup needed.
 | Image uploads | 10 | Unlimited | Unlimited |
 | Exchange auto-import | — | ✅ | ✅ |
 
-Open it from **[app.formion.ai](https://app.formion.ai) → Journal**.
+Open it from **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs) → Journal**.
 
 
 

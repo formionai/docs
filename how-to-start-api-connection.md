@@ -26,7 +26,7 @@ You will get **API keys**. Edit the restrictions: enable **Futures** and **Read 
 
 <figure><img src=".gitbook/assets/binance3.png" alt=""><figcaption></figcaption></figure>
 
-Now open **Profile → Connections** on [formion.ai](https://formion.ai), click to link an exchange, choose **Binance**, paste the **API key** and **Secret**, and click **Link exchange**.
+Now open **Profile → Connections** on [formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs), click to link an exchange, choose **Binance**, paste the **API key** and **Secret**, and click **Link exchange**.
 
 {% hint style="info" %}
 The Formion connection form asks only for the key and secret (plus a passphrase on KuCoin, Bitget and Blofin). It does not show an IP allowlist. Keep withdrawal permissions disabled. The screenshots illustrate the workflow; exchange labels may change.
@@ -64,7 +64,7 @@ Enable only the read and trading permissions required for your selected market. 
 
 <figure><img src=".gitbook/assets/bybit4.png" alt=""><figcaption></figcaption></figure>
 
-Now you will get the API key and API Secret. Copy both immediately — Bybit only shows the Secret on this confirmation screen. Then open **Profile → Connections** on [formion.ai](https://formion.ai), choose **Bybit**, paste them and click **Link exchange**.
+Now you will get the API key and API Secret. Copy both immediately — Bybit only shows the Secret on this confirmation screen. Then open **Profile → Connections** on [formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs), choose **Bybit**, paste them and click **Link exchange**.
 
 <figure><img src=".gitbook/assets/newkey23.png" alt=""><figcaption></figcaption></figure>
 

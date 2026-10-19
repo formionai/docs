@@ -4,7 +4,7 @@
 
 Turn your audience into a partnership with Formion. The Partner Program is for **creators, communities and tools** — YouTubers, newsletters, Telegram/Discord admins and complementary trading sites — who send traders to Formion.
 
-The Partner Program **requires approval**. Apply through the [partner page](https://formion.ai/partners) ("Contact partnerships"); once approved you get tracked partner links and the **partner dashboard** at [formion.ai/partner](https://formion.ai/partner). It's separate from the open [Referral Program](referrals.md), which any user can join without approval.
+The Partner Program **requires approval**. Apply through the [partner page](https://formion.ai/partners?utm_source=docs&utm_medium=referral&utm_campaign=docs) ("Contact partnerships"); once approved you get tracked partner links and the **partner dashboard** at [formion.ai/partner](https://formion.ai/partner?utm_source=docs&utm_medium=referral&utm_campaign=docs). It's separate from the open [Referral Program](referrals.md), which any user can join without approval.
 
 ## What you earn
 
@@ -20,7 +20,7 @@ The earnings calculator on the partner page is plain arithmetic (customers × pr
 
 ## How it works
 
-1. **Apply and get approved.** Tell us about your channel or community via the [partner page](https://formion.ai/partners) or support@formion.ai. Approved partners get the partner dashboard at **formion.ai/partner**.
+1. **Apply and get approved.** Tell us about your channel or community via the [partner page](https://formion.ai/partners?utm_source=docs&utm_medium=referral&utm_campaign=docs) or support@formion.ai. Approved partners get the partner dashboard at **formion.ai/partner**.
 2. **Share your partner link** — in your video description, newsletter, Telegram or Discord. Add `?s=<where-you-posted>` to see which placement works best. Anyone who signs up through it is tied to you, even if they subscribe later.
 3. **Earn 10% of every cleared payment**, every month the customer stays subscribed. Each payment clears after the 14-day refund window; refunds and chargebacks earn nothing.
 4. Once your cleared balance reaches **$20**, request a payout in **USDC on Base** (2FA required).
@@ -42,7 +42,7 @@ There's no fixed schedule — request whenever you pass the $20 minimum.
 
 The Partner Program requires approval. Approved partners get the dashboard at formion.ai/partner with live links, clicks, sign-ups and commission, a marketing kit, and per-post tracked links. Promote Formion honestly — never promise profits or returns. To apply, reach out with your audience and links:
 
-* **Partner page:** [formion.ai/partners](https://formion.ai/partners)
+* **Partner page:** [formion.ai/partners](https://formion.ai/partners?utm_source=docs&utm_medium=referral&utm_campaign=docs)
 * **Email:** support@formion.ai
 
 {% hint style="info" %}

@@ -19,7 +19,7 @@ Formion is **non-custodial**. It connects to your exchange through **API keys** 
 
 ## Account protection
 
-All of these live in **Profile → Security** on [formion.ai](https://formion.ai):
+All of these live in **Profile → Security** on [formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs):
 
 * **Bot protection** — Cloudflare Turnstile checks every sign-in and sign-up path to keep automated sign-ups out.
 * **Two-factor authentication (2FA)** — authenticator-app codes, required on every sign-in (password, Google or Telegram) once enabled, with one-time backup codes.

@@ -18,7 +18,7 @@ flowchart LR
 
 ## 1 · Sign up
 
-Go to **[app.formion.ai](https://app.formion.ai)** — it sends you to formion.ai to sign in or create an account (email, Google or Telegram), then back to the **Quantum Terminal**. Nothing to connect yet — data is live out of the box.
+Go to **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)** — it sends you to formion.ai to sign in or create an account (email, Google or Telegram), then back to the **Quantum Terminal**. Nothing to connect yet — data is live out of the box.
 
 ## 2 · Open the Screener
 

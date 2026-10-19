@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/s2-the-app-hero.jpg" alt="Formion Quantum Terminal — the trading workspace"><figcaption></figcaption></figure>
 
-[app.formion.ai](https://app.formion.ai) is the **Quantum Terminal** — Formion's full trading workspace. This page tours every area of the top navigation so you know where each tool lives.
+[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs) is the **Quantum Terminal** — Formion's full trading workspace. This page tours every area of the top navigation so you know where each tool lives.
 
 {% embed url="https://www.youtube.com/watch?v=9glp-PVmm2U" %}
 🎬 **Screen · Analyze · Execute — Formion AI in 2 minutes.** A tour of the trading terminal.
@@ -109,7 +109,7 @@ Formion's trader social space: post calls, have them graded against real price a
 
 ### 🔜 Coming soon
 
-**Predictions** (an AI price-projection panel) and **Academy** are marked **Soon** in the navigation; a few introductory lessons are already at [formion.ai/academy](https://formion.ai/academy). Funding Carry and spread research are available through the Screener and Analytics workflows.
+**Predictions** (an AI price-projection panel) and **Academy** are marked **Soon** in the navigation; a few introductory lessons are already at [formion.ai/academy](https://formion.ai/academy?utm_source=docs&utm_medium=referral&utm_campaign=docs). Funding Carry and spread research are available through the Screener and Analytics workflows.
 
 ## Current workflow additions
 

@@ -31,8 +31,8 @@ flowchart LR
 
 The platform spans three surfaces:
 
-* **[app.formion.ai](https://app.formion.ai)** — the Quantum Terminal trading app: screeners, charts, analytics, AI advisor, backtesting, signals, bots and journal.
-* **[formion.ai](https://formion.ai)** — your account dashboard: portfolio aggregation, the Command Center, exchange/wallet/broker connections, pricing & profile.
+* **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)** — the Quantum Terminal trading app: screeners, charts, analytics, AI advisor, backtesting, signals, bots and journal.
+* **[formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)** — your account dashboard: portfolio aggregation, the Command Center, exchange/wallet/broker connections, pricing & profile.
 * **Telegram (`@formiontradingbot`)** + **FORA** — a conversational AI assistant that mirrors the platform: it runs scans, answers portfolio questions and places trades after you confirm them.
 
 ## ⚡️ What you can do
@@ -54,7 +54,7 @@ The platform spans three surfaces:
 
 ## 🪙 FOM Token
 
-**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, launching on Uniswap (Base) on **Wed 14 Oct 2026**. Locking FOM unlocks FORA Agent levels, and the higher levels include a Pro or Institutional licence. See [FOM token](fom-token.md) for launch details, allocation, vesting and utility.
+**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, live on Uniswap (Base) since **Wed 14 Oct 2026**. Locking FOM unlocks FORA Agent levels, and the higher levels include a Pro or Institutional licence. See [FOM token](fom-token.md) for the contract address, launch details, allocation, vesting and utility.
 
 ## 🗺️ Where to go next
 
