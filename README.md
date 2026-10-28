@@ -54,7 +54,7 @@ The platform spans three surfaces:
 
 ## 🪙 FOM Token
 
-**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, live on Uniswap (Base) since **Wed 14 Oct 2026**. Holding FOM in a verified wallet (and, once the lock contract is live, locking it) unlocks FORA Agent levels, and the higher levels include a Pro or Institutional licence; Dossier Autopilot is paid monthly in FOM (50% burned). See [FOM token](fom-token.md) for the contract address, launch details, allocation, vesting and utility.
+**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, live on Uniswap (Base) since **Wed 14 Oct 2026**. Holding FOM in a verified wallet or locking it with FOM Lock (live in beta) unlocks FORA Agent levels, and the higher levels include a Pro or Institutional licence; Dossier Autopilot is paid monthly in FOM (50% burned). See [FOM token](fom-token.md) for the contract address, launch details, allocation, vesting and utility.
 
 ## 🗺️ Where to go next
 
