@@ -10,7 +10,7 @@
   * [📡 Use Case — Follow the Right Voices](usecase-follow-voices.md)
 * [🖥️ Trading Terminal — The App](the-app.md)
   * [📈 Screener](screener.md)
-  * [📊 Chart Pro](chart-pro.md)
+  * [📊 Chart Pro — Quantum Terminal](chart-pro.md)
   * [🌊 Order Flow & Microstructure](order-flow.md)
   * [🔁 DEX & On-chain Trading](dex-trading.md)
   * [🧾 Trades History](trades-history.md)
