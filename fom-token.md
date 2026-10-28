@@ -60,13 +60,15 @@ The Team line covers the people who build and run Formion day to day. The Core c
 **Why does the Core contributor receive tokens before the team?**
 Their work — marketing and bringing traders to Formion — starts at launch, so a small part of their allocation starts at launch too: 1% of the line (544,000 FOM, about 2,980 FOM a day) over the first 6 months. The other 99% unlocks linearly from month 6 to month 25. The team waits 12 months. Both schedules sit on public vesting contracts that nobody can speed up.
 
-## FORA Agent levels — lock FOM
+## FORA Agent levels — lock FOM (launching soon)
+
+> **Status: FOM Lock is not live yet.** The lock contract is launching soon; until then nobody can lock FOM and levels are not active. The rules below describe how it will work.
 
 > **New structure (16 October 2026).** The Formion team has decided to change how FOM Agent levels work. Levels are now set by the
 > US-dollar value of locked FOM (7-day average price) instead of a fixed number of tokens, and the FORA Agent and Agent Pro levels now
 > include a Pro or Institutional licence. Level names stay the same. Locked FOM always remains yours. See the [changelog](#changelog).
 
-Lock FOM to reach a level. The level is set by the **US-dollar value** of the FOM you lock, measured with the **lower of the 7-day and
+When FOM Lock launches, you lock FOM to reach a level. The level is set by the **US-dollar value** of the FOM you lock, measured with the **lower of the 7-day and
 30-day time-weighted average price (TWAP)** of the official FOM/WETH pool on Base at the moment you lock, and it stays fixed for the whole
 lock period. Using the lower of the two averages means a short price spike — including one caused by your own purchase — cannot inflate your level.
 
