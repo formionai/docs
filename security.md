@@ -6,7 +6,7 @@ Trading means connecting real money, so security is foundational to how Formion 
 
 ## Your funds never leave your exchange
 
-Formion is **non-custodial**. It connects to your exchange through **API keys** and only places trades on your behalf. With withdrawals disabled on the key, nobody — Formion included — can move funds off the exchange. Your funds stay on your own exchange or in your own wallet at all times.
+Formion is **non-custodial**. It connects to your exchange through **API keys** and only places trades on your behalf. With withdrawals disabled on the key, nobody — Formion included — can move funds off the exchange. Your funds stay on your own exchange or in your own wallet at all times. Formion Wallet is self-custody: only you hold its key. **Exception — Dossier Autopilot:** it trades from a separate auto-trade wallet that you fund; its key is held by the Formion signer, and withdrawals go only to your verified wallet. automated trading can lose money, including the whole auto-trade wallet balance. Invite-only beta: max $1,000 per user, $10,000 in total; 7-point risk confirmation before it trades (experimental phase).
 
 * Use **trade-only** API keys (enable trading; leave withdrawals **disabled**).
 * When connecting, add the Formion **IP whitelist** to your key — see **[How to Start — API Connection](how-to-start-api-connection.md)**.

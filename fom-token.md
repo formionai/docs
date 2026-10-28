@@ -60,50 +60,115 @@ The Team line covers the people who build and run Formion day to day. The Core c
 **Why does the Core contributor receive tokens before the team?**
 Their work — marketing and bringing traders to Formion — starts at launch, so a small part of their allocation starts at launch too: 1% of the line (544,000 FOM, about 2,980 FOM a day) over the first 6 months. The other 99% unlocks linearly from month 6 to month 25. The team waits 12 months. Both schedules sit on public vesting contracts that nobody can speed up.
 
-## FORA Agent levels — lock FOM (launching soon)
+## FORA Agent levels — hold or lock FOM
 
-> **Status: FOM Lock is not live yet.** The lock contract is launching soon; until then nobody can lock FOM and levels are not active. The rules below describe how it will work.
+> **New (28 October 2026).** You can now reach a FORA Agent level by **holding** FOM in a wallet you verify. **Locking** FOM under the
+> published lock rules follows when the lock contract is live. Using **Formion Wallet** halves every threshold. The new **Dossier Autopilot**
+> is paid monthly in FOM. Nothing that existed before is removed: level names, lock thresholds and lock rules stay the same. See the [changelog](#changelog).
 
-> **New structure (16 October 2026).** The Formion team has decided to change how FOM Agent levels work. Levels are now set by the
-> US-dollar value of locked FOM (7-day average price) instead of a fixed number of tokens, and the FORA Agent and Agent Pro levels now
-> include a Pro or Institutional licence. Level names stay the same. Locked FOM always remains yours. See the [changelog](#changelog).
+A level is set by the **US-dollar value** of your FOM, measured with the **lower of the 7-day and 30-day time-weighted average price
+(TWAP)** of the official FOM/WETH pool on Base. Using the lower of the two averages means a short price spike — including one caused by
+your own purchase — cannot inflate your level.
 
-When FOM Lock launches, you lock FOM to reach a level. The level is set by the **US-dollar value** of the FOM you lock, measured with the **lower of the 7-day and
-30-day time-weighted average price (TWAP)** of the official FOM/WETH pool on Base at the moment you lock, and it stays fixed for the whole
-lock period. Using the lower of the two averages means a short price spike — including one caused by your own purchase — cannot inflate your level.
+| Level | Hold value | Lock value | Includes |
+|---|---:|---:|---|
+| Holder | $500 | $250 | 30 extra FORA messages a day, realtime screener, 20% lower add-on prices when paid in FOM, Token Explorer for any token, Radar (5-minute delay), 3 whale alerts, 50% off token profiles |
+| FORA Agent | $2,000 | $1,000 | **Pro licence included**, browser agent (chart navigation, pages, research), frontier models, FORA Neurons, live Radar, unlimited Risk Scan |
+| Agent Pro | $10,000 | $5,000 | **Institutional licence included**, Pine writing and testing, backtests, strategy search, paper-to-live on your confirmation, Radar strategies |
+| FORA AGI | $50,000 | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (paid with agent credits in FOM like any other usage — Formion takes no share of your profit), priority access, governance votes and early-access allowlists. Autonomous trading is not available in all jurisdictions (including the EU/EEA, the UK and the US) |
 
-| Level | Locked value | Includes |
-|---|---:|---|
-| Holder | $250 | 30 extra FORA messages a day, realtime screener, 20% lower add-on prices when paid in FOM, Token Explorer for any token, Radar (5-minute delay), 3 whale alerts, 50% off token profiles |
-| FORA Agent | $1,000 | **Pro licence included**, browser agent (chart navigation, pages, research), frontier models, FORA Neurons, live Radar, unlimited Risk Scan |
-| Agent Pro | $5,000 | **Institutional licence included**, Pine writing and testing, backtests, strategy search, paper-to-live on your confirmation, Radar strategies |
-| FORA AGI | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (paid with agent credits in FOM like any other usage — Formion takes no share of your profit), priority access, governance votes and early-access allowlists. Autonomous trading is not available in all jurisdictions (including the EU/EEA, the UK and the US) |
+With **Formion Wallet** as your verified wallet, every hold and lock value above is halved (for example, FORA Agent: $1,000 held or
+$500 locked). Formion Wallet is self-custody: only you hold its key.
 
-**How the lock works**
+Levels have no monthly FOM price. Licences keep their current payment methods (crypto or PayPal), and paying for a licence in FOM is 20% cheaper.
 
+### Two ways to reach a level
+
+**1. Hold**
+
+* Keep FOM in a **self-custody wallet that you verify by signature** on your Formion account. One wallet backs one account.
+* Counted value = the **lowest FOM balance of the last 7 days** × the lower of the 7-day and 30-day TWAP. FOM on an exchange never counts.
+* Hold values are **twice the lock values**, because held FOM can be sold at any time.
+* If the value only falls with the price (no transfer), you get a warning and **48 hours** to restore it; after that the level is switched off.
+
+**2. Lock**
+
+* **FOM Lock v3 contract — launching soon. Internal security review completed; no external audit has been performed yet.** Its address will be published on [formion.ai/fom](https://formion.ai/fom?utm_source=docs&utm_medium=referral&utm_campaign=docs) and here once it is deployed.
+  Formion never takes custody of locked FOM.
 * **Periods:** 30, 90 or 180 days. Longer locks weigh more: ×1.0, ×1.25 and ×1.5. Example: $800 locked for 180 days counts as $1,200 → FORA Agent.
-* **FORA Agent and higher need a lock of at least 90 days.** A 30-day lock reaches the Holder level at most.
-* **One lock, one account:** a lock backs exactly one Formion account, through a wallet you prove by signature on that account. The wallet can be changed only at renewal.
-* **If the FOM price rises,** your level can move up at any time.
-* **If the FOM price falls,** your level stays until the period ends. At renewal the value is measured again; if it is below the threshold you have 7 days to top up, otherwise the level moves one step down.
-* **Unbonding:** when the period ends, withdrawal takes 7 days. There is no early unlock. Locked FOM always stays yours — it sits in Formion's own lock contract on Base, which is audited before launch; Formion never takes custody.
-* **Usage:** a level unlocks the features and daily limits of its licence, and an included licence comes with a monthly AI allowance. AI usage above the allowance or the daily limits (extra FORA messages, voice minutes, research, agent tasks) is paid with **agent credits in FOM; 75% of the FOM paid for credits is burned.**
-* **Capacity:** included licences are offered within a monthly capacity. When it is full, new FORA Agent and higher locks join a waitlist; existing levels are not affected.
-* Levels and capabilities roll out in phases; not all of them are available at launch. See the [roadmap](roadmap.md).
+* **FORA Agent and higher need a lock of at least 90 days.** A 30-day lock reaches the Holder level at most. (The 90-day minimum applies to locks only.)
+* The lock value is measured when you lock and stays fixed for the whole period. **If the FOM price rises,** your level can move up at any time.
+  **If it falls,** your level stays until the period ends. At renewal the value is measured again; if it is below the threshold you have
+  7 days to top up, otherwise the level moves one step down.
+* **One lock, one account:** a lock backs exactly one Formion account, through a wallet you prove by signature. The wallet can be changed only at renewal.
+* **Unbonding:** when the period ends, withdrawal takes 7 days. There is no early unlock. Locked FOM always stays yours.
+* A lock needs half the value of holding — it is the cheaper way for the long term.
+
+### When the condition stops being met
+
+Access lasts only while its condition is met. Formion cannot stop a sale or transfer from a self-custody wallet — only a lock keeps FOM in place.
+
+* **Held FOM sold or moved below the threshold, an Autopilot payment period ended, or a lock withdrawn:** access ends immediately. For Dossier Autopilot
+  this means no new trades; open positions keep being managed to the end by their plan and are never closed abruptly.
+* **Held FOM only lost value (no transfer):** you get a warning and 48 hours to restore the value before access ends.
+* You are notified at once in your language — in the app, by Telegram and by email. Access comes back automatically when the condition is met again.
+* Before you sell or move FOM while autopilot trades are open, the app warns you that this stops new trades.
+
+### Usage, credits and capacity
+
+* A level unlocks the features and daily limits of its licence, and an included licence comes with a monthly AI allowance. AI usage above the
+  allowance or the daily limits (extra FORA messages, voice minutes, research, agent tasks) is paid with **agent credits in FOM; 75% of the FOM
+  paid for credits is burned.**
+* **Capacity:** included licences are offered within a monthly capacity. When it is full, new FORA Agent and higher holds and locks join a
+  waitlist; existing levels are not affected.
+* **No fee on profit, ever.** Formion never takes a share of your trading profit.
+* Hold, lock and the levels' capabilities roll out in phases; not all of them are available yet. See the [roadmap](roadmap.md).
 
 ```mermaid
 flowchart LR
-  FOM[Locked FOM] --> Value[USD value · lower of 7d / 30d TWAP]
+  Hold[Hold · verified wallet · lowest 7-day balance] --> Value[USD value · lower of 7d / 30d TWAP]
+  Lock[Lock · 30/90/180 days · ×1 / ×1.25 / ×1.5 · launching soon] --> Value
   Value --> Level[Agent level]
   Level --> Licence[Included licence + agent features]
+  Pay[Monthly FOM payment · 50% burned] --> Autopilot[Dossier Autopilot]
   Credits[Agent credits in FOM · 75% burned] --> Extra[Usage above daily limits]
 ```
 
+## Dossier Autopilot — live trading with FOM
+
+**Dossier Autopilot** buys and sells the token calls from Formion's Dossier research automatically, on Solana and EVM chains. It starts
+with calibrated default settings, and you can change every setting. Exits follow Formion's plan for each position.
+
+Dossier Autopilot uses a separate auto-trade wallet that you fund; its key is held by the Formion signer, and withdrawals go only to your verified wallet.
+
+> ⚠️ **Risk.** Automated trading can lose money, including the whole balance of the auto-trade wallet. No result is promised, and past results do not predict future ones. Dossier Autopilot is an invite-only beta: during the beta it can manage at most $1,000 per user and $10,000 in total across all users, and it trades only after you explicitly confirm seven risk statements, including that the product is in an experimental phase (to the maximum extent permitted by law, Formion bears no liability for results or losses) and that you understand the autopilot plan.
+
+Dossier Autopilot is a separate product: no licence includes it. Choose a package and unlock it by holding FOM, by locking FOM (once the lock contract is live)
+or by paying monthly in FOM:
+
+| Package | Capital limit | Hold | Lock | Pay per 30 days |
+|---|---:|---:|---:|---:|
+| Starter | $500 | $500 | $250 | $19 in FOM |
+| Pro | $5,000 | $2,000 | $1,000 | $49 in FOM |
+| Unlimited | No limit | $10,000 | $5,000 | $149 in FOM |
+
+* With **Formion Wallet** as your verified wallet, the hold, lock and pay values are halved. The capital limits stay the same ($500 / $5,000 / no limit).
+* **During the invite-only beta** every package is capped at $1,000 managed per user, and the whole beta at $10,000 in total; before it can trade you confirm seven risk statements one by one (including that the product is in an experimental phase and that you understand the plan).
+* Hold and lock values use the same rules as the levels above.
+* **50% of every Dossier Autopilot subscription payment is burned (sent to the dead address `0x000000000000000000000000000000000000dEaD`); the other 50% goes to Formion.** Paying 3 months at once is 15% cheaper. Discounts never combine to more than 50%. FOM payments are non-refundable.
+* **No fee on profit.** Formion takes no share of your trading profit.
+* Before you can switch it on you accept the autopilot terms: access only while the condition is met, FOM payments non-refundable (50% burned),
+  no liability for trade outcomes or for the FOM price, one wallet per account (abuse means a permanent ban).
+* **Dossier Autopilot is not available in the United States, the United Kingdom, the EU/EEA or sanctioned countries.**
+* Dossier Autopilot rolls out in phases and is not open to everyone yet.
+
 ### Legal notice
 
-FOM is a utility token. Locking FOM grants access to product features only; it is not an investment, does not represent equity, debt, a share of profits or any claim on Formion, and no return of any kind is promised. Formion may change, suspend or discontinue any level, threshold, benefit, limit, fee or feature, at any time and for any reason, with or without prior notice. Where possible we announce changes in advance on docs.formion.ai and formion.ai/fom; continued use after a change means acceptance. Benefits depend on product availability and may be rolled out in phases. Nothing here is financial, legal or tax advice. These terms are part of the [Formion Terms of Service](https://formion.ai/terms?utm_source=docs&utm_medium=referral&utm_campaign=docs).
+FOM is a utility token. Holding or locking FOM, or paying with it, grants access to product features only; it is not an investment, does not represent equity, debt, a share of profits or any claim on Formion, and no return of any kind is promised. Formion may change, suspend or discontinue any level, threshold, benefit, limit, fee or feature, at any time and for any reason, with or without prior notice. Where possible we announce changes in advance on docs.formion.ai and formion.ai/fom; continued use after a change means acceptance. Benefits depend on product availability and may be rolled out in phases. Nothing here is financial, legal or tax advice. Formion cannot prevent the sale or transfer of FOM from a self-custody wallet; access based on holding ends when the condition is no longer met. FOM paid for Dossier Autopilot is non-refundable. Formion is not liable for trading outcomes or for the price of FOM. These terms are part of the [Formion Terms of Service](https://formion.ai/terms?utm_source=docs&utm_medium=referral&utm_campaign=docs).
 
 ### Changelog
+
+* **28 October 2026 (v3.3)** — Added: reach a level by **holding** FOM in a verified self-custody wallet (lowest balance of the last 7 days × the lower of the 7-day / 30-day TWAP; hold values are 2× the lock values; 48-hour grace when only the price falls). Lock rules unchanged (FOM Lock v3 contract launching soon; internal security review completed, no external audit yet). Formion Wallet halves every threshold and FOM price. Added **Dossier Autopilot** (live trading) with Starter / Pro / Unlimited packages, unlocked by holding, locking or paying monthly in FOM (50% of every payment burned). No fee on profit. Nothing existing was removed.
 
 * **16 October 2026 (v3.2)** — FORA AGI no longer has a 10% fee on realised profit. Autonomous runs are paid with agent credits in FOM like any other usage; Formion takes no share of user profits.
 

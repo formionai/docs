@@ -48,13 +48,13 @@ The platform spans three surfaces:
 
 ## 🔐 Security & custody
 
-* Formion **never holds your funds** — it connects to your exchange via API keys (trade-only, no withdrawal) and your funds stay on the exchange.
+* Formion **never holds your exchange funds** — it connects to your exchange via API keys (trade-only, no withdrawal) and your funds stay on the exchange. Formion Wallet is self-custody. Exception: Dossier Autopilot uses a separate auto-trade wallet whose key is held by the Formion signer (withdrawals only to your verified wallet).
 * All API keys and sensitive data are **AES-256-GCM encrypted at rest**.
 * **2FA** with backup codes, an optional trading password, session management and sign-in alerts are supported.
 
 ## 🪙 FOM Token
 
-**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, live on Uniswap (Base) since **Wed 14 Oct 2026**. FOM Lock — the lock contract that will unlock FORA Agent levels — is launching soon; the higher levels will include a Pro or Institutional licence. See [FOM token](fom-token.md) for the contract address, launch details, allocation, vesting and utility.
+**FOM** is Formion's ERC-20 token on **Base** (Ethereum L2): fixed supply of 1,000,000,000, no presale, LP locked 24 months, live on Uniswap (Base) since **Wed 14 Oct 2026**. Holding FOM in a verified wallet (and, once the lock contract is live, locking it) unlocks FORA Agent levels, and the higher levels include a Pro or Institutional licence; Dossier Autopilot is paid monthly in FOM (50% burned). See [FOM token](fom-token.md) for the contract address, launch details, allocation, vesting and utility.
 
 ## 🗺️ Where to go next
 

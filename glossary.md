@@ -10,9 +10,9 @@ Plain-English definitions of terms used across Formion.
 * **AI Advisor** — the in-app AI hub: Quick Advisor (ranked ideas), AI Chat, Track Record and Trade Vision. See **[AI Advisor](smart-trading.md)**.
 * **Multi-AI Consensus** — a multi-agent AI pipeline that analyses a symbol from several angles and returns a combined BUY / HOLD / SELL view.
 * **BYOK** — *Bring Your Own Key*: connect your own AI provider key for AI usage billed by your provider.
-* **Non-custodial** — Formion never holds your funds; it connects via API and can't withdraw.
+* **Non-custodial** — Formion never holds your funds; it connects via API and can't withdraw. Formion Wallet is self-custody (only you hold the key). Exception: Dossier Autopilot trades from a separate auto-trade wallet whose key is held by the Formion signer; withdrawals go only to your verified wallet.
 * **Paper trading** — simulated trading with no real money, used to validate a strategy.
-* **FOM** — Formion's ERC-20 token on Base, fixed supply of 1,000,000,000 (minted once); locked for FORA Agent levels (the higher levels include a licence), spent on agent credits and add-ons. See [FOM](fom-token.md).
+* **FOM** — Formion's ERC-20 token on Base, fixed supply of 1,000,000,000 (minted once); held in a verified wallet or locked for FORA Agent levels (the higher levels include a licence), paid monthly for Dossier Autopilot (50% burned), spent on agent credits and add-ons. See [FOM](fom-token.md).
 
 ### Markets & venues
 

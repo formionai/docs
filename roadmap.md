@@ -20,6 +20,7 @@ Where Formion is today and where it's going. (Updated 2026.)
 
 * **FOM token launch** — **Wed 14 October 2026** on Uniswap (Base), fixed supply of 1,000,000,000, LP locked for 24 months. See [FOM](fom-token.md).
 * **Phased agent utility (Q4 2026)** — Holder level, paying in FOM, FORA Agent beta and points.
+* **Hold FOM for levels (Q4 2026, in phases)** — reach FOM levels by holding FOM in a verified wallet; **FOM Lock v3** contract launching soon. **Dossier Autopilot** live-trading packages, unlocked by holding, locking or paying monthly in FOM (50% burned).
 * **Personal API tokens** — self-serve API keys in **Profile → License** (the card shows *Coming soon*). Until then, [Data API](developer-api.md) keys are issued manually on request.
 * **Auto-discovery of new listings** — mini-backtest new perps and promote the ones that pass.
 * **Mandatory walk-forward validation** before any strategy is published.

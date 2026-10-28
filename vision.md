@@ -8,7 +8,7 @@ A world where a retail trader and an institutional desk work from the **same too
 
 * **Accessibility** — professional-grade multi-asset tools, drivable from a phone or Telegram, usable by beginners and pros alike.
 * **Transparency** — detailed analytics on every bot, signal and strategy; performance and risk shown honestly, including what didn't work.
-* **Non-custodial by default** — your funds and keys stay yours; Formion never holds or withdraws.
+* **Non-custodial by default** — your funds and keys stay yours; Formion never holds or withdraws. The one opt-in exception is Dossier Autopilot, which trades from a separate auto-trade wallet whose key is held by the Formion signer.
 * **AI that amplifies** — the AI does the heavy lifting (scanning, scoring, drafting), the trader stays in control of every decision.
 * **Multi-asset, multi-venue** — one workflow across crypto, forex, stocks, commodities, options and prediction markets.
 
@@ -24,4 +24,4 @@ This is directional — for what's live today, see **[The App](the-app.md)**; fo
 
 ## Current product context
 
-The workflow includes cTrader forex/CFD broker accounts alongside crypto venues, and FORA text and realtime voice from the dashboard Command Center. FOM access levels are a phased utility model on Base; USD platform licences remain separate. See [The App](the-app.md) and [FOM](fom-token.md).
+The workflow includes cTrader forex/CFD broker accounts alongside crypto venues, and FORA text and realtime voice from the dashboard Command Center. FOM access levels are a phased utility model on Base — reached by holding FOM (and, once the lock contract is live, by locking it) — and the higher levels include a USD platform licence. See [The App](the-app.md) and [FOM](fom-token.md).

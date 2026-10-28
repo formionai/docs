@@ -14,7 +14,7 @@ Three convictions drive the product:
 
 * **Unify, don't fragment.** Crypto, forex, stocks, commodities, options and prediction markets — one terminal, one journal, one set of AI tools.
 * **Measure everything.** A signal that isn't tracked to a realized outcome is marketing. We turn every signal — ours and third-party — into a measured trade.
-* **Never custody funds.** Keys stay on the user's exchange; Formion connects, analyzes and (on request) executes — it never holds or withdraws.
+* **Never custody exchange funds.** Keys stay on the user's exchange; Formion connects, analyzes and (on request) executes — it never holds or withdraws them. The one exception is the opt-in Dossier Autopilot, which trades from a separate auto-trade wallet whose key is held by the Formion signer.
 
 ### Why now
 
@@ -24,4 +24,4 @@ See where this is heading on the **[Roadmap](roadmap.md)** and **[Vision](vision
 
 ## Current product context
 
-The workflow includes cTrader forex/CFD broker accounts alongside crypto venues, and FORA text and realtime voice from the dashboard Command Center. FOM access levels are a phased utility model on Base; USD platform licences remain separate. See [The App](the-app.md) and [FOM](fom-token.md).
+The workflow includes cTrader forex/CFD broker accounts alongside crypto venues, and FORA text and realtime voice from the dashboard Command Center. FOM access levels are a phased utility model on Base — reached by holding FOM (and, once the lock contract is live, by locking it) — and the higher levels include a USD platform licence. See [The App](the-app.md) and [FOM](fom-token.md).
