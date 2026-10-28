@@ -44,6 +44,7 @@
   * [🪙 FOM token](fom-token.md)
 * [📄 Help & Reference](help.md)
   * [📄 FAQ](faq.md)
+  * [🌊 Hyperliquid in Formion Wallet](hyperliquid-faq.md)
   * [🔐 Security](security.md)
   * [🛠️ Troubleshooting](troubleshooting.md)
   * [📖 Glossary](glossary.md)
