@@ -84,6 +84,8 @@ Levels have no monthly FOM price. Licences keep their current payment methods (c
 
 ### Two ways to reach a level
 
+> Not sure which one fits you? Read the plain-words comparison: [**FOM Hold vs Lock — which one is for you**](fom-hold-vs-lock.md).
+
 **1. Hold**
 
 * Keep FOM in a **self-custody wallet that you verify by signature** on your Formion account. One wallet backs one account.
@@ -168,6 +170,7 @@ FOM is a utility token. Holding or locking FOM, or paying with it, grants access
 
 ### Changelog
 
+* **29 October 2026** — Added a plain-words comparison page, [FOM Hold vs Lock](fom-hold-vs-lock.md): what each one is, the differences, pros and cons, and which one fits you. No rule changed.
 * **28 October 2026 (v3.4)** — **FOM Lock v3 live in beta** on Base (contract `0xb3eBdba1188B11016B99C033055aFA7532259f69`): lock from the Formion Wallet; a lock on a wallet linked to your account gives the included licence (FORA Agent → Pro, Agent Pro / FORA AGI → Institutional; 90+ days) while the lock period runs. Internal review only, no external audit yet.
 * **28 October 2026 (v3.3)** — Added: reach a level by **holding** FOM in a verified self-custody wallet (lowest balance of the last 7 days × the lower of the 7-day / 30-day TWAP; hold values are 2× the lock values; 48-hour grace when only the price falls). Lock rules unchanged (FOM Lock v3 contract launching soon; internal security review completed, no external audit yet). Formion Wallet halves every threshold and FOM price. Added **Dossier Autopilot** (live trading) with Starter / Pro / Unlimited packages, unlocked by holding, locking or paying monthly in FOM (50% of every payment burned). No fee on profit. Nothing existing was removed.
 

@@ -42,6 +42,7 @@
   * [🎁 Referral Program](referrals.md)
   * [🤝 Partner Program](partners.md)
   * [🪙 FOM token](fom-token.md)
+    * [⚖️ FOM Hold vs Lock](fom-hold-vs-lock.md)
 * [📄 Help & Reference](help.md)
   * [📄 FAQ](faq.md)
   * [🌊 Hyperliquid in Formion Wallet](hyperliquid-faq.md)
