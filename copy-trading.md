@@ -26,9 +26,8 @@ Beyond Hyperliquid, **Analytics → SmartMoney** shows a smart-money feed, whale
 
 ## Copy trading
 
-| Today | Coming soon |
-|---|---|
-| **Attach a Formion bot** — in the **Bots** hub / Strategy Lab subscriptions, attach an attachable bot or marketplace strategy to your own connected account (cTrader, Bybit, Binance, Blofin, Bitget, DEX or Polymarket, depending on the bot). Demo attachments are free; live ones count toward your live-bot limit (Pro 5, Institutional unlimited). | **Copy trading** card on the formion.ai dashboard — copying other traders (Pro up to 5 copied traders, Institutional unlimited, not on the free plan). |
+* ✅ **Today:** **Attach a Formion bot** — in the **Bots** hub / Strategy Lab subscriptions, attach an attachable bot or marketplace strategy to your own connected account (cTrader, Bybit, Binance, Blofin, Bitget, DEX or Polymarket, depending on the bot). Demo attachments are free; live ones count toward your live-bot limit (Pro 5, Institutional unlimited).
+* 📅 **Coming soon:** **Copy trading** card on the formion.ai dashboard — copying other traders (Pro up to 5 copied traders, Institutional unlimited, not on the free plan).
 
 {% hint style="info" %}
 Attached bots trade on **your** account via your API keys / wallet — Formion never holds your funds. Copying a strategy also copies its losses and drawdowns, so check its full history and size accordingly.
