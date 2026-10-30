@@ -36,7 +36,7 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
 | **Trading Journal** | 30 days, 10 image uploads | Unlimited history + uploads + exchange auto-import | Same as Pro |
 | **Custom alerts (active)** | 3 | 100 + email alerts | Unlimited + email alerts |
-| **Prediction-market bots live execution** (PolyScalp, latency arb, Kalshi cross-arb) | — | — | ✅ |
+| **Prediction-market bots live execution** | — | — | ✅ |
 | **White-label REST + WebSocket SDK** | — | — | ✅ |
 | **Team seats** | 1 | 1 | 5 |
 | **Uptime SLA** | — | — | 99.9% |
@@ -78,7 +78,7 @@ Full retail trading: unlimited exchanges, wallets and DEX accounts, 5 cTrader br
 
 ## 🏛️ Institutional — $499/mo
 
-Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots (PolyScalp, latency arb, Kalshi cross-arb), a $30/day AI budget with a priority queue and team-shared BYOK, FORA realtime voice on the full model (80 sessions a day, 30 minutes each), Trade Vision 200/day and Research RAG 50/day, unlimited FORA Neurons, Trading Audit 10/day, Wallet Insights MFE/MAE tracking, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
+Everything in Pro, plus **unlimited** live bots and broker accounts, 6 sub-account slots, **live execution** of prediction-market bots, a $30/day AI budget with a priority queue and team-shared BYOK, FORA realtime voice on the full model (80 sessions a day, 30 minutes each), Trade Vision 200/day and Research RAG 50/day, unlimited FORA Neurons, Trading Audit 10/day, Wallet Insights MFE/MAE tracking, white-label REST/WebSocket SDK, 5 team seats, dedicated support and a 99.9% uptime SLA.
 
 ## 🔑 BYOK — Bring Your Own Key
 

@@ -5,7 +5,7 @@
 Formion brings prediction markets — led by **Polymarket** — into the same terminal as your charts and bots: browse markets, see the top traders, read the price history, link your own account and place bets, and follow Formion's prediction-market bots.
 
 {% hint style="info" %}
-Browsing and analytics are included on every plan, and so are manual bets from your own linked account. **Live auto-execution** of the PolyScalp, latency-arb and Kalshi cross-arb engines is an **Institutional** feature.
+Browsing and analytics are included on every plan, and so are manual bets from your own linked account. **Live auto-execution** of prediction-market bots is an **Institutional** feature.
 {% endhint %}
 
 ## Browse & analyze (Polymarket hub)
@@ -24,16 +24,11 @@ The **Predictions** tab in app.formion.ai is marked **Soon**. It is planned as a
 
 ## In-house engines
 
-<figure><img src=".gitbook/assets/ill-prediction-edge.jpg" alt="Prediction-market mispricing"><figcaption><p>Polymarket Edge compares a fair value derived from options volatility with the market price and buys the mispriced side.</p></figcaption></figure>
-
 Formion runs its own prediction-market bots (tracked in **[Trade History](journal.md)**):
 
 | Bot | Pool | What it does |
 |---|---|---|
-| **Polymarket Edge** | live | Black-Scholes fair value (from Deribit IV) vs the market YES price on BTC/ETH/SOL close and touch markets; buys the mispriced side |
-| **BTC Hourly Arb** | paper + live | Hourly BTC/ETH/SOL up-or-down markets across Polymarket and Kalshi; buys both opposite legs when their combined cost is under $1 |
-| **PolyScalp v1** | paper + live | Up/down scalper on Polymarket crypto minute markets |
-| **Poly Solo Directional** | live | Bets the Polymarket leg of low-risk arb-scanner signals; you can attach it to your own linked Polymarket wallet (counts as a live bot) |
-| **PolyTracker — Whale Copy** | paper | Paper copy of selected Polymarket whales |
+| **Poly Solo Directional · Beta** | live | Directional bets on Polymarket short-term crypto markets using the low-risk leg from our arbitrage scanners. All-time **+14.0%** on 30 resolved bets (30 Oct 2026); since 16 Oct 2026 it runs in paper mode while it is re-checked. You can attach it to your own linked Polymarket wallet (counts as a live bot). |
+| **Polymarket Whale Copy · Beta** | live | Copies the BUY orders of a tracked Polymarket whale at the smallest size (max $3 per trade, $15 per day, stop at −$15). All-time **−12.8%** on 44 trades (30 Oct 2026) — an early beta, shown honestly. |
 
 The same bots appear in **[Bots & Automation](bots.md)**, with their pool shown on each card.

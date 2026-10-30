@@ -60,7 +60,7 @@ BTC and ETH options (Deribit-based), plus IBIT:
 
 * **Polymarket browser** (category filter, volume / movers / ending-soon sorting, probability charts) and a **top-trader leaderboard** in Analytics.
 * **Polymarket bots** and backtests in the Bots and Backtest hubs — bots run **paper-first** before live capital.
-* Live auto-execution of the PolyScalp, latency-arb and Kalshi cross-arb strategies is an **Institutional** feature. See [Prediction Markets](prediction-markets.md).
+* Live auto-execution of prediction-market bots is an **Institutional** feature. See [Prediction Markets](prediction-markets.md).
 
 ***
 

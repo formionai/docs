@@ -1,8 +1,8 @@
 # 🦾 Bots & Automation
 
-<figure><img src=".gitbook/assets/s2-bots.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/s5-bots-hub.jpg" alt="Formion catalog in the Bots hub with live all-time results"><figcaption><p>The Formion catalog in the Bots hub: every card shows its real account and all-time result (snapshot 30 Oct 2026).</p></figcaption></figure>
 
-Formion runs a catalog of automated strategies in the **Bots** hub. A few run **live**, others on **demo** accounts, and most run **paper-first** for validation. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
+Formion runs a catalog of automated strategies in the **Bots** hub. The public catalog shows only strategies that trade on a **real account** or the **live market** — each card shows that account and its all-time result, wins and losses included. New strategies are validated on **paper** first and only join the catalog once they run for real. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 
 {% hint style="info" %}
 **Live execution** requires a **Pro** plan (5 live bots) or **Institutional** (unlimited). Neural (free) has no live bots but runs unlimited **paper** bots, and demo attachments are open to every plan. You can build your own bot from a strategy, and automate chart alerts — see **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
@@ -45,46 +45,27 @@ TradingView alerts can also place orders on your connected CEX/DEX through **Tra
 
 ## Strategy catalog
 
-The public **Bots** hub shows each bot's pool (**paper**, **demo** or **live**) on its card. Highlights by category:
+The public **Bots** hub shows each bot's pool (**live** or **live market**) on its card, with the real account behind it. Numbers below are the all-time results shown on the cards on **30 October 2026**; the hub updates them continuously, so always check the live card.
 
 ### Crypto perps
 
-| Bot | Pool | Summary |
-|---|---|---|
-| **Talos** | live | Mirrors a top Binance Futures leader onto a Bybit account, sized by balance ratio. |
-| **Liqra** | demo | Liquidation-cluster executor on Bybit with an AI confidence score and dynamic TP/SL. |
-| **Liqra v3** | paper | Order-book/liquidity-alert BTC short, taken only below the 1h EMA50. |
-| **Formion Flow Fade / Hedge / XL** | demo | BTC order-flow exhaustion fades (in training and calibration). |
-| **Formion Scalper** | paper | 1-minute oversold-bounce DCA scalper. |
-| **Neurix Crypto** | paper | Follows the Neurix crypto signals exactly as they fire. |
-| **Hyperliquid Footprint, Liquidation Plays, AI Screener, RSI Divergence, OI Surge** | paper | Hyperliquid signal families (footprint patterns, whale TP/SL-cluster plays, AI-filtered breakouts, RSI divergences, OI spikes). |
-
-### Crypto spot, stocks & forex (Strategy Lab)
-
-| Bot | Pool | Summary |
-|---|---|---|
-| **Wick Reversal 15m / 1m, EMA 9/21 Cross, VWAP Mean Reversion** (crypto) | paper | Lab strategies on USDT pairs. |
-| **Multi-Bull Confluence, Donchian Breakout, EMA 9/21 Cross** (stocks) | paper | Lab strategies on US stocks. |
-| **Neurix Stocks** | paper | Follows the Neurix stock signals. |
-| **EMA 9/21 Cross, MACD Bull Cross, MACD Bear Cross** (forex) | paper | Lab strategies on FX majors and crosses. |
-
-### Gold
-
-| Bot | Pool | Summary |
-|---|---|---|
-| **Gold FRVP — Failed Auction + Breakout** | demo | XAUUSD 5m volume-profile (VAH/POC/VAL) failed-auction and breakout setups. |
-| **Gold FRVP v1 — Original / Smart (regime)** | paper | Earlier two-way FRVP version and its regime-filtered variant. |
-| **Gold DCA — Z-RSI** | demo | Z-score-RSI defensive DCA on gold (cTrader XAUUSD or Bybit XAUTUSDT). |
+| Bot | Pool | Account | All-time result | What it does |
+|---|---|---|---|---|
+| **Talos · Binance** | live | Binance Futures (real account) | **+84.9%** · 1,475 trades · 91% win rate · max DD −19.5% | Copies a top Binance Futures leader on our own Binance account with its own position sizing and loss limits. |
+| **Talos** | live | Bybit (real account) | **+66.3%** · 944 trades · 83% win rate · max DD −48.2% | Real-time mirror of the same top Binance Futures leader on our Bybit account, each entry/exit sized proportionally by balance ratio. Scalp/grid character: very high win rate with small average wins and rarer, larger losses. |
+| **Formion AI Intelligence** | live | Bybit (real account) | **+14.6%** · 27 trades · 74% win rate · profit factor 4.60 · max DD −3.5% | Semi-automatic: the AI finds and scores the setup, a trader confirms it and the order goes to a real Bybit account. Few trades so far (since September 2026). |
+| **OMX Trend** | live market | Bybit (OMX engine) | **+2.8%** · 92 trades · profit factor 1.47 · max DD −1.7% | Two OMX engine strategies on 1-hour crypto perps: EMA pullback in trend and break of structure with fair-value-gap entry. Every trade risks 0.1% of the account with an exchange stop. |
 
 ### Prediction markets
 
-| Bot | Pool | Summary |
-|---|---|---|
-| **Polymarket Edge** | live | Black-Scholes fair value (from Deribit IV) vs the market YES price on BTC/ETH/SOL markets. |
-| **Poly Solo Directional** | live | Bets the Polymarket leg of low-risk arb-scanner signals; attachable to your own Polymarket wallet. |
-| **BTC Hourly Arb** | paper + live | Buys both opposite legs across Polymarket and Kalshi when their combined cost is under $1. |
-| **PolyScalp v1** | paper + live | Up/down scalper on Polymarket crypto minute markets. |
-| **PolyTracker — Whale Copy** | paper | Paper copy of selected Polymarket whales. |
+| Bot | Pool | Account | All-time result | What it does |
+|---|---|---|---|---|
+| **Poly Solo Directional · Beta** | live | Polymarket wallet (real money) | **+14.0%** · 30 resolved bets · max DD −30.3% | Directional bets on Polymarket short-term crypto markets using the low-risk leg from our arbitrage scanners. Since 16 Oct 2026 it runs in paper mode while it is re-checked, so the live record is paused. |
+| **Polymarket Whale Copy · Beta** | live | Polymarket wallet (real money) | **−12.8%** · 44 trades | Copies the BUY orders of a tracked Polymarket whale at the smallest allowed size (max $3 per trade, $15 per day, automatic stop at −$15). Early beta, shown honestly. |
+
+{% hint style="warning" %}
+Past results are not a promise of future results. Small samples (beta cards, few trades) can change quickly — the card says when a record is still young.
+{% endhint %}
 
 ## Tracking performance
 
