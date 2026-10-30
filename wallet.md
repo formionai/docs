@@ -6,16 +6,16 @@
 **Your keys stay in your browser.** Your recovery phrase and private keys are created, encrypted and used only in your browser. Formion never sees or stores them and cannot recover them. Formion never holds your funds. You review and sign every transaction yourself. If you lose the recovery phrase, nobody can restore the wallet, including Formion.
 {% endhint %}
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody>
-<tr><td><strong>🔑 Create & import</strong></td><td>A new 12 or 24-word phrase, or your MetaMask, Phantom or Trust Wallet phrase. Nine networks, many accounts.</td></tr>
-<tr><td><strong>📤 Send & receive</strong></td><td>Checks who you are sending to, warns you if the clipboard changed, payment requests with QR codes, and sending to many people at once.</td></tr>
-<tr><td><strong>🔄 Swap & bridge</strong></td><td>Best-route swaps on each network and across networks, Circle CCTP for USDC, and a bridge to and from Bitcoin.</td></tr>
-<tr><td><strong>⏱️ Orders</strong></td><td>DCA, limit and grid orders. Formion Auto Orders run them automatically on Base.</td></tr>
-<tr><td><strong>💰 Earn</strong></td><td>Native and liquid staking, FOM/WETH liquidity, and FOM Lock (Beta).</td></tr>
-<tr><td><strong>🌊 Perps</strong></td><td>Hyperliquid perps and spot, traded from your own wallet (Beta).</td></tr>
-<tr><td><strong>🔍 Explorer & Radar</strong></td><td>Token Explorer, Token Risk Scan, FOM Explorer and Launch Radar for new tokens.</td></tr>
-<tr><td><strong>🐋 Alerts & whales</strong></td><td>Whale Tracker, price alerts, incoming-payment alerts and payment reminders.</td></tr>
-<tr><td><strong>🔐 Security</strong></td><td>Fingerprint or face unlock, send protection, a preview of every transaction before you sign, and revoking token approvals.</td></tr>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><strong>🔑 Create & import</strong></td><td>A new 12 or 24-word phrase, or your MetaMask, Phantom or Trust Wallet phrase. Nine networks, many accounts.</td><td><a href="wallet.md#create-or-import">wallet.md</a></td></tr>
+<tr><td><strong>📤 Send & receive</strong></td><td>Checks who you are sending to, warns you if the clipboard changed, payment requests with QR codes, and sending to many people at once.</td><td><a href="wallet.md#send-and-receive">wallet.md</a></td></tr>
+<tr><td><strong>🔄 Swap & bridge</strong></td><td>Best-route swaps on each network and across networks, Circle CCTP for USDC, and a bridge to and from Bitcoin.</td><td><a href="wallet.md#swap-and-bridge">wallet.md</a></td></tr>
+<tr><td><strong>⏱️ Orders</strong></td><td>DCA, limit and grid orders. Formion Auto Orders run them automatically on Base.</td><td><a href="wallet.md#orders-and-dca">wallet.md</a></td></tr>
+<tr><td><strong>💰 Earn</strong></td><td>Native and liquid staking, FOM/WETH liquidity, and FOM Lock (Beta).</td><td><a href="wallet.md#earn">wallet.md</a></td></tr>
+<tr><td><strong>🌊 Perps</strong></td><td>Hyperliquid perps and spot, traded from your own wallet (Beta).</td><td><a href="wallet.md#hyperliquid-perps">wallet.md</a></td></tr>
+<tr><td><strong>🔍 Explorer & Radar</strong></td><td>Token Explorer, Token Risk Scan, FOM Explorer and Launch Radar for new tokens.</td><td><a href="wallet.md#explorer-and-risk-scan">wallet.md</a></td></tr>
+<tr><td><strong>🐋 Alerts & whales</strong></td><td>Whale Tracker, price alerts, incoming-payment alerts and payment reminders.</td><td><a href="wallet.md#whales-and-alerts">wallet.md</a></td></tr>
+<tr><td><strong>🔐 Security</strong></td><td>Fingerprint or face unlock, send protection, a preview of every transaction before you sign, and revoking token approvals.</td><td><a href="wallet.md#security">wallet.md</a></td></tr>
 </tbody></table>
 
 {% hint style="warning" %}
