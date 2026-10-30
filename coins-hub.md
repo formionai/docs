@@ -31,13 +31,17 @@ flowchart LR
 * **🔄 DEX Swaps** — server-signed on-chain swaps from the wallet you connect in the Telegram bot (`/wallet`), routed via Jupiter (Solana), 7K (Sui) and LI.FI / deBridge (EVM and cross-chain), with a ledger of your swaps.
 * **📡 [Pulse](pulse.md)** — market-narrative sentiment from X, YouTube and crowd chatter, nested here.
 * **🔭 GMGN** — read-only on-chain explorer for Solana, BSC, Base and Ethereum: **Smart Money**, **KOL Trades**, **Trending**, **Trenches** and **Alerts**.
-* **🔍 Token Scanner** — pump.fun token scan (launch timing, creator history, net buy flow on the curve).
-* **👛 Smart Wallets** — pump.fun wallet P&L leaderboard with per-wallet profiles.
-* **🎓 Graduation Radar** — tokens closest to completing the pump.fun bonding curve, plus fresh graduations.
-* **📋 Listing Radar** — CoinGecko trending Solana tokens and newly detected CoinGecko listings.
+{% hint style="warning" %}
+⚠️ **Token Scanner, Smart Wallets, Graduation Radar and Listing Radar are temporarily unavailable.** We are fixing logic errors in the data behind them. They will return once the fixes are verified.
+{% endhint %}
+
+* **🔍 Token Scanner** *(temporarily unavailable — being fixed for logic errors)* — pump.fun token scan (launch timing, creator history, net buy flow on the curve).
+* **👛 Smart Wallets** *(temporarily unavailable — being fixed for logic errors)* — pump.fun wallet P&L leaderboard with per-wallet profiles.
+* **🎓 Graduation Radar** *(temporarily unavailable — being fixed for logic errors)* — tokens closest to completing the pump.fun bonding curve, plus fresh graduations.
+* **📋 Listing Radar** *(temporarily unavailable — being fixed for logic errors)* — CoinGecko trending Solana tokens and newly detected CoinGecko listings.
 * **🛡️ Presale Watch** — tokens promoted on listing/voting sites across chains.
 
-Overview, GMGN, Token Scanner, Smart Wallets, Graduation Radar, Listing Radar and Presale Watch are also served publicly on hub.formion.ai without a login; Sniper, DEX Swaps and Pulse show a padlock until you sign in.
+Overview, GMGN and Presale Watch are also served publicly on hub.formion.ai without a login; Sniper, DEX Swaps and Pulse show a padlock until you sign in.
 
 {% hint style="warning" %}
 Low-cap and freshly launched tokens are high-risk by nature — thin liquidity, possible scams. The Sniper and radar tabs surface candidates to **research**, never guarantees. Size accordingly.

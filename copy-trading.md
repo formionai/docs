@@ -22,7 +22,7 @@ A live window into the largest Hyperliquid traders:
 
 ## On-chain smart money
 
-Beyond Hyperliquid, **Analytics → SmartMoney** shows a smart-money feed, whale trades and liquidations, and **Coins Hub → Smart Wallets** ranks on-chain wallets by P&L — so you can see where informed capital is rotating across DEX markets.
+Beyond Hyperliquid, **Analytics → SmartMoney** shows a smart-money feed, whale trades and liquidations, and **Coins Hub → Smart Wallets** ranks on-chain wallets by P&L (temporarily unavailable while we fix logic errors) — so you can see where informed capital is rotating across DEX markets.
 
 ## Copy trading
 
