@@ -4,6 +4,8 @@
 
 Share your referral link and earn when the people you bring to Formion make their first real payment — paid in crypto.
 
+<figure><video src=".gitbook/assets/clip-referrals.mp4" title="Referral program in 5 steps: your link, friend signs up, first payment, 14-day clearing, payout"></video><figcaption><p>How a referral pays in 16 seconds: your link → friend signs up → first real payment → 14-day clearing → crypto payout (demo values).</p></figcaption></figure>
+
 ## How it works
 
 1. Grab your **referral link** from **Profile → License → Referrals** on [formion.ai](https://formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs). Each code has its own link, `https://formion.ai/r/YOURCODE`; you can add extra codes with a label (for example a campaign name) and see clicks per code.

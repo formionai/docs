@@ -4,6 +4,8 @@
 
 Never miss a setup. Formion delivers alerts across **five channels** and lets you build your own rules — plus per-strategy alerts on every bot and engine.
 
+<figure><video src=".gitbook/assets/clip-alerts.mp4" title="Alerts in 4 steps: new alert, condition, delivery channels, alert fires"></video><figcaption><p>One rule from start to finish: new alert → condition → channels → alert fires (demo values).</p></figcaption></figure>
+
 ## Channels
 
 <figure><img src=".gitbook/assets/ill-alerts-channels.jpg" alt="One alert, five delivery channels"><figcaption><p>One rule can notify you through any combination of the five channels.</p></figcaption></figure>

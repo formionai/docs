@@ -4,6 +4,8 @@
 
 Choose the account and market you intend to use. Keep enough available margin for the order size you configure; a successful connection check does not mean an order can be funded.
 
+<figure><video src=".gitbook/assets/clip-api-connection.mp4" title="API connection in 5 steps: choose exchange, create API key, permissions, link in Formion, verify"></video><figcaption><p>From exchange to Formion in 16 seconds: choose exchange → create API key → read + trade, withdrawals off → link in Profile → Connections → verify (demo values).</p></figcaption></figure>
+
 ```mermaid
 flowchart LR
   E[Choose exchange and market] --> K[Create read + trade API key]

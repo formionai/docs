@@ -4,6 +4,8 @@
 
 The Journal is your own record of trades — from connected exchanges, webhook pushes and manual entries — with full performance analytics.
 
+<figure><video src=".gitbook/assets/clip-journal.mp4" title="Trading Journal in 4 steps: connect and import, analytics, P&amp;L calendar, Trading Audit"></video><figcaption><p>From import to audit in 16 seconds: connect an exchange → analytics → P&amp;L calendar → Trading Audit (demo values).</p></figcaption></figure>
+
 ## What it does
 
 * **Log trades** — manual entry with setup, tags, emotion, mistakes, rating, notes and screenshots.

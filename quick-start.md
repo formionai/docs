@@ -4,6 +4,8 @@
 
 New to Formion? This is the fastest path from sign-up to your first real signal. No card needed — the free **Neural** tier is genuinely useful.
 
+<figure><video src=".gitbook/assets/clip-quick-start.mp4" title="Quick start in 5 steps: sign up, open the Screener, read a setup, ask the AI, track or automate"></video><figcaption><p>The 5-minute path in 16 seconds: sign up → Screener → read a setup → ask the AI → track or automate (demo values).</p></figcaption></figure>
+
 {% embed url="https://www.youtube.com/watch?v=16t17bgvmbY" %}
 🎬 **Formion AI — Intro.** A walk through the whole Formion ecosystem.
 {% endembed %}

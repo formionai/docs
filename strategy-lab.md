@@ -4,6 +4,8 @@
 
 The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you turn an idea into a tested strategy — without writing code — and optionally **publish it to the marketplace**. Strategy Lab is on every plan: **Neural** gets the Builder and **3 backtests per day**, **Pro 50 per day**, **Institutional unlimited** (per UTC day, reset 00:00 UTC). See **[Pricing & Tiers](pricing.md#daily-limits)**.
 
+<figure><video src=".gitbook/assets/clip-strategy-lab.mp4" title="Strategy Lab in 4 steps: build, backtest, publish gate, Marketplace"></video><figcaption><p>From idea to marketplace in 16 seconds: build with no code → backtest → publish gate → subscribe on a demo or live account (demo values).</p></figcaption></figure>
+
 ```mermaid
 flowchart LR
   B["🧱 Builder"] --> BT["🧪 Backtest"]

@@ -4,6 +4,8 @@
 
 Trade on-chain without leaving Formion. Connect a wallet and **swap spot directly across multiple networks**, with aggregated best-price routing — and trade DEX perps on the venues Formion supports.
 
+<figure><video src=".gitbook/assets/clip-dex.mp4" title="DEX trading in 4 steps: link a wallet, Swap Center, aggregated route, swap recorded"></video><figcaption><p>An on-chain swap in 16 seconds: link a wallet → Swap Center → aggregated route → recorded in your activity (demo values).</p></figcaption></figure>
+
 {% hint style="info" %}
 Funds stay in **your** wallet. Formion routes and signs swaps for your connected address — it never custodies your assets.
 {% endhint %}

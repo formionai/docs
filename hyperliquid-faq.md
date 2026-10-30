@@ -2,6 +2,8 @@
 
 Formion Wallet lets you trade **perps and spot on Hyperliquid** from your own wallet, move money there in one click from almost any asset you hold, and take profits back in the token and network you choose. This page answers what people usually ask.
 
+<figure><video src=".gitbook/assets/clip-hyperliquid.mp4" title="Hyperliquid in Formion Wallet in 5 steps: add funds, review, arrives, trade, withdraw"></video><figcaption><p>Fund, trade and withdraw in 16 seconds: add funds → review → USDC arrives → trade → withdraw in the token you choose (demo values; example cost from 28 Oct 2026).</p></figcaption></figure>
+
 {% hint style="info" %}
 **Live numbers are in the wallet.** Fees, borrow rates and limits change. Open **wallet.formion.ai → Perps → Help & FAQ**: every number there is read live (Circle, Unit, Hyperliquid and Formion's own config). The examples below are from 28 October 2026.
 {% endhint %}

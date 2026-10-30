@@ -4,6 +4,8 @@
 
 Follow a paid signal channel? **Connect your own Telegram account, point Formion at the groups you're already in, and Formion turns their messages into tracked, backtested trades** — so you finally know whether a channel is actually worth your money.
 
+<figure><video src=".gitbook/assets/clip-telegram-signals.mp4" title="Telegram Signals in 5 steps: connect Telegram, pick a group, preview parsing, backtest, live-track"></video><figcaption><p>From your Telegram group to tracked trades: connect → pick a group → preview parsing → backtest → live-track (demo values).</p></figcaption></figure>
+
 {% hint style="info" %}
 This is a **Pro / Institutional** feature, and it's **per-user and private** — you connect *your* Telegram, and only *you* see the results. Formion reads messages (read-only) and never sends anything from your account. It does not trade unless you switch on **Auto-execute** for a group (see below).
 {% endhint %}
