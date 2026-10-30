@@ -4,6 +4,8 @@
 
 Connect a TradingView alert to your own exchange and let Formion execute the trade for you — on **CEX and DEX**. You create a **TradingView Bot**, copy its webhook URL and alert messages, and paste them into a TradingView alert. When the alert fires, Formion places the order on your connected account.
 
+<figure><video src=".gitbook/assets/clip-webhook.mp4" title="Webhook automation in 5 steps: connect, create bot, copy webhook, TradingView alert, activate"></video><figcaption><p>The whole setup in 17 seconds: connect → create bot → copy webhook → TradingView alert → activate (demo values).</p></figcaption></figure>
+
 {% hint style="info" %}
 🚧 **Rolling out.** Live execution is being enabled gradually. You can create and configure bots now; they stay **paused** until automation is switched on for your account.
 {% endhint %}
