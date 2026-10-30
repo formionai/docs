@@ -18,7 +18,7 @@ flowchart LR
 
 ## Build your own — Strategy Lab → Bots Hub → Marketplace
 
-<figure><img src=".gitbook/assets/ill-bots-lifecycle.jpg" alt="Bot lifecycle — paper, demo, live"><figcaption><p>Every bot starts on paper, can be attached to a demo account, and goes live on your own account within your plan limit — all results land in Trade History.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-bots-lifecycle.mp4" title="Bot lifecycle: paper, demo, live, then Trade History"></video><figcaption><p>Every bot starts on paper, can be attached to a demo account, and goes live on your own account within your plan limit — all results land in Trade History.</p></figcaption></figure>
 
 You're not limited to Formion's catalog. The full creator flow, **no code required**:
 
