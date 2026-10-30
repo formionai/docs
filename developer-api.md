@@ -1,6 +1,6 @@
 # 🧩 Developer API
 
-<figure><img src=".gitbook/assets/ill-devapi.jpg" alt="Formion Data API"><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-devapi.mp4" title="Formion Data API: key, request, JSON response"></video><figcaption><p>Send your fom_live_… key as a Bearer token: /api/v1/meta confirms it, /api/v1/screener returns the ranked screener as JSON, with rate-limit headers in every response.</p></figcaption></figure>
 
 The Formion Data API gives programmatic access to the same signals you see in the app — the ranked screener, calibrated win-probabilities, and more — over a simple authenticated REST endpoint. It is designed for quants, bot builders and desks who want Formion's edge inside their own systems.
 

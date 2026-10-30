@@ -1,6 +1,6 @@
 # 🌐 Research AI (RAG-LLM)
 
-<figure><img src=".gitbook/assets/ill-research.jpg" alt=""><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-research.mp4" title="Research AI: from template to a cited PDF report"></video><figcaption><p>Pick a template, source and depth; the engine pulls web sources, prices and Formion data and writes a long-form PDF report that cites the data it is built on.</p></figcaption></figure>
 
 The **Research AI** engine produces long-form, cited research on any asset — grounded on web sources, CoinGecko prices and Formion's own signals, screener, sentiment, Hyblock, GMGN and on-chain data — delivered as a PDF with tables and charts.
 

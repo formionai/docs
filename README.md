@@ -62,6 +62,8 @@ The platform spans three surfaces:
 * Want the full app tour? See **[The App](the-app.md)**.
 * Pricing & plans: **[Pricing & Tiers](pricing.md)**.
 * Automate chart alerts: **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
+* Your own self-custody wallet: **[Formion Wallet](wallet.md)** (swap, bridge, earn, Hyperliquid, browser extension).
+* Listing a token as a project: **[Token Profiles & Promotion](token-profiles.md)**.
 
 * Ask FORA from the dashboard: [Command Center](command-center.md).
 * Follow events and headlines: [News 24/7 & Macro](news.md).

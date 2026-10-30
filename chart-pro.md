@@ -6,6 +6,8 @@
 
 > Speed is the point. A chart that lags costs you entries. Quantum Terminal is measured every week and tuned so that turning on more studies does not slow the candles down.
 
+<figure><video src=".gitbook/assets/clip-chart-pro.mp4" title="Chart Pro: draw a zone, set an alert, trade from the chart"></video><figcaption><p>Draw your own zone, ask FORA to set an alert, then trade from the chart: limit at your price, size in USD, drag SL/TP and confirm the full plan before anything is sent.</p></figcaption></figure>
+
 ## How Quantum Terminal works — Swift and Velocity
 
 Quantum Terminal has two drawing engines under one name. You never have to choose — it switches for you.

@@ -1,6 +1,6 @@
 # 👾 Trade Vision
 
-<figure><img src=".gitbook/assets/ill-trade-vision.jpg" alt=""><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-trade-vision.mp4" title="Trade Vision: chart or idea in, structured read out"></video><figcaption><p>Drop in a chart screenshot, type an idea, or both: Trade Vision returns bias, key levels, entry zone, stop, targets, R:R and a DCA ladder. It only analyses; nothing executes from it.</p></figcaption></figure>
 
 **Trade Vision** turns a picture or a sentence into a structured trade read.
 
