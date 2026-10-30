@@ -1,6 +1,6 @@
 # 🧱 Use Case — Build, Prove & Publish a Strategy
 
-<figure><img src=".gitbook/assets/ill-uc-strategy.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-uc-strategy.mp4" title="Build, prove and publish a strategy: Lab, honest backtest, publish gate, demo first, Author page"></video><figcaption><p>From idea to Marketplace: build it three ways, prove it honestly, pass the 365-day gate, run it on demo first, then publish free or paid.</p></figcaption></figure>
 
 *Turn a trading idea into a tested strategy — and optionally publish it — without writing code. Strategy Lab is on every plan — Neural gets the Builder and 3 backtests a day, Pro 50, Institutional unlimited.*
 
@@ -8,7 +8,7 @@
 
 ```mermaid
 flowchart LR
-  I["💡 Idea"] --> B["🧱 Builder / AI Agent / Edge Finder"]
+  I["💡 Idea"] --> B["🧱 Builder / AI Agent / Strategy Finder"]
   B --> T["🧪 Backtest"]
   T --> G["✅ Publish gate"]
   G --> M["🛒 Marketplace"]
@@ -22,11 +22,11 @@ Open **[Strategy Lab](strategy-lab.md)** and choose your path:
 
 * **Builder** — stack indicator conditions (RSI, EMA, SMA, MACD, ATR, Bollinger Bands, volume…) into entry rules, then pick exits and the risk block.
 * **AI Agent** — describe it in words; the agent maps it to a built-in template, backtests it and gives you the Pine Script.
-* **Edge Finder** — enter only a symbol; it scans regimes, then brute-forces a grid of entry/stop/R:R variants with a locked holdout and a walk-forward check.
+* **Strategy Finder** — enter only a symbol; it scans regimes, then brute-forces a grid of entry/stop/R:R variants with a locked holdout and a walk-forward check.
 
 ### 2 · Prove it honestly
 
-Run the backtest: equity curve, win rate, profit factor, expectancy and max drawdown, with your fee setting applied (Edge Finder also nets out funding and shows **vs-HODL**). Use **Compare** to put catalog strategies side by side. Be skeptical of a perfect curve; robustness across parameters beats a single lucky setting.
+Run the backtest: equity curve, win rate, profit factor, expectancy and max drawdown, with your fee setting applied (Strategy Finder also nets out funding and shows **vs-HODL**). Use **Compare** to put catalog strategies side by side. Be skeptical of a perfect curve; robustness across parameters beats a single lucky setting.
 
 ### 3 · Pass the publish gate
 

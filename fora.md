@@ -2,6 +2,8 @@
 
 <figure><img src=".gitbook/assets/ill-fora.jpg" alt=""><figcaption><p>FORA — Formion's autonomous trading intelligence</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/clip-fora.mp4" title="FORA: ask, screen, analyze, you confirm"></video><figcaption><p>FORA only proposes an order with a real quote; nothing executes until you confirm and enter your trading password.</p></figcaption></figure>
+
 **FORA** began as a conversational assistant and has grown into something closer to a cognitive system. It perceives the whole market, reasons from retrieved evidence, remembers, learns from measured outcomes, trades autonomously to prove its own edge, and even *evolves* new strategies — all under strict, non-custodial safety.
 
 Talk to it in plain language on **Telegram (`@formiontradingbot`)**, in the FORA chat on formion.ai and app.formion.ai, or at **fora.formion.ai**. It works across your account and replies in your interface language (English, Serbian, Croatian, Russian, German, French, Spanish, Italian, Portuguese, Polish or Turkish).
@@ -182,7 +184,7 @@ The single winner is then scored once on the locked holdout of unseen data; only
 * **Trade commands** on your connected exchange / broker — always with confirmation.
 * **Smart model routing** — fast models for short answers and stronger reasoning models from Anthropic (Claude) and OpenAI for analysis. Bring your own key (**BYOK** — Anthropic, OpenAI, Gemini, Grok, DeepSeek, Kimi, GLM, MiniMax or OpenRouter) on any plan, or connect your ChatGPT Plus account (profile → License), so calls run on your provider with no platform budget cap.
 * **AI budget** — Neural $2 per month, Pro $5 per day, Institutional $30 per day with priority queue; daily budgets reset at 00:00 UTC. One AI request runs at a time on Neural, three on Pro, ten on Institutional.
-* **What each plan adds** — on every plan FORA can chat, explain, read prices, indicators, news, signals and your portfolio, and propose orders and alerts. **Pro** adds web search, deep research, backtests, Edge Finder, social sentiment, chart screenshots and premium platform analytics. **Institutional** adds the 3D robot. Realtime voice is on every plan (see below).
+* **What each plan adds** — on every plan FORA can chat, explain, read prices, indicators, news, signals and your portfolio, and propose orders and alerts. **Pro** adds web search, deep research, backtests, Strategy Finder, social sentiment, chart screenshots and premium platform analytics. **Institutional** adds the 3D robot. Realtime voice is on every plan (see below).
 * **Compare models** — in AI Advisor → AI Chat you can run the same prompt on 2–4 models side by side and see where they agree and disagree (premium models need a paid plan).
 
 <figure><img src=".gitbook/assets/s4-fo-caps.jpg" alt="FORA page in app.formion.ai"><figcaption><p>The FORA page in the app: what FORA knows, how it reasons, learns and trades, and the strategies it has discovered.</p></figcaption></figure>

@@ -8,6 +8,8 @@ so a short price spike cannot inflate your level. This page explains the differe
 > **Status (29 October 2026).** **Lock** is live in beta (Formion Wallet → Earn → FOM Lock). **Hold** for licences is **rolling out**
 > in phases. Dossier Autopilot is an invite-only beta.
 
+<figure><video src=".gitbook/assets/clip-fom-hold-vs-lock.mp4" title="FOM Hold vs Lock — how your level is counted"></video><figcaption><p>Value uses the lower of the 7-day and 30-day TWAP; longer locks weigh more; Hold needs twice the lock value; a lock has no early unlock and 7 days of unbonding.</p></figcaption></figure>
+
 ## What is Hold?
 
 **Hold** means your FOM simply stays in **your own self-custody wallet**, which you verify once on your Formion account with a signature.

@@ -1,6 +1,6 @@
 # 🤝 Copy Trading & Whale Tracking
 
-<figure><img src=".gitbook/assets/ill-copy-trading.jpg" alt="Hyperliquid whale tracking and copy"><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-copy-trading.mp4" title="Hyperliquid whale tracking and attaching a bot"></video><figcaption><p>Follow the largest Hyperliquid traders: leaderboard, live fills, wallet drill-down and TP/SL heatmap, then attach a Formion bot to your own account.</p></figcaption></figure>
 
 Follow smart money instead of guessing. Formion tracks the biggest on-chain traders in real time, and you can attach selected Formion bots to your own connected account so their signals trade for you.
 

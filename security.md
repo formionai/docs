@@ -1,6 +1,6 @@
 # 🔐 Security
 
-<figure><img src=".gitbook/assets/ill-security.jpg" alt=""><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-security.mp4" title="How your account and funds are protected"></video><figcaption><p>Trade-only API keys with withdrawals off, encryption at rest and in transit, self-custody wallet keys and 2FA.</p></figcaption></figure>
 
 Trading means connecting real money, so security is foundational to how Formion is built.
 

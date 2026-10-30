@@ -38,6 +38,6 @@ Formion runs an **in-house gamma engine** (computed from public option chains, r
 * Live **GEX regimes** — **pinned** (dealers long gamma dampen moves), **trending** (dealers short gamma amplify moves) and **cascade risk** (flip level near spot)
 * Per-ticker dealer-positioning table + strike profile
 
-<figure><img src=".gitbook/assets/ill-gex-concept.jpg" alt="Dealer gamma regimes"><figcaption><p>Long dealer gamma pins price near big strikes; short dealer gamma lets moves run. The flip level separates the two.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-options-gex.mp4" title="Dealer gamma — call/put walls, flip level, pinned vs trending"></video><figcaption><p>Long dealer gamma pins price near big strikes; short dealer gamma lets moves run. The flip level separates the two.</p></figcaption></figure>
 
 Gamma tells you where dealers are forced to hedge — i.e. where price gets pinned or where a move accelerates.

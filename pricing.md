@@ -26,11 +26,11 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Chart** | 5 symbols · 4 TFs · 2 indicators | All symbols/TFs/indicators · SMC · replay | Same as Pro |
 | **Screener** | crypto · 3-row preview | real-time: all markets (crypto, stocks, commodities, forex) | Same as Pro |
 | **AI signals stack** | Trade Vision + RAG Research within daily limits | Full (RAG, Trade Vision, RF, Multi-AI Consensus, all signals) | Same as Pro, priority AI queue |
-| **Signal tables** (screener, setup scanner, volatility, signals, patterns, options, Edge Finder) | 3-row preview · last 7 days of history · signals delayed 30 min | Full, real-time, full history | Full, real-time, full history |
+| **Signal tables** (screener, setup scanner, volatility, signals, patterns, options, Strategy Finder) | 3-row preview · last 7 days of history · signals delayed 30 min | Full, real-time, full history | Full, real-time, full history |
 | **FORA realtime voice** | ✅ (mini model) | ✅ (mini model) | ✅ (full model) |
 | **FORA Neurons (active)** | 2 | 25 | Unlimited |
 | **Saved AI strategies** | 1 | Unlimited | Unlimited |
-| **Trading Audit** | 1 / day (basic) | 3 / day + weekly report | 10 / day + weekly report |
+| **Trading Audit** | 1 in total (basic) | 3 / day + weekly report (trial: 3 in total) | 10 / day + weekly report |
 | **Wallet Insights MFE/MAE tracking** | — | — | ✅ |
 | **Prop-firm simulator** | — | Coming soon | Coming soon |
 | **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
@@ -54,7 +54,7 @@ Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app sho
 | **Live bots** | 0 (demo/paper unlimited) | 5 | Unlimited |
 | **Screener** | Crypto, 3-row preview | All markets, real-time | All markets, real-time |
 | **FORA realtime voice** | 3 sessions/day × 3 min (gpt-realtime-2.1-mini) | 25 sessions/day × 15 min (gpt-realtime-2.1-mini) | 80 sessions/day × 30 min (full gpt-realtime-2.1) |
-| **Trading Audit** | 1 (basic) | 3 | 10 |
+| **Trading Audit** | 1 in total (basic) | 3 / day | 10 / day |
 | **FORA text chat (AI budget)** | $2 / month | $5 / day | $30 / day |
 | **Coins Hub (public cards)** | ✅ | ✅ | ✅ |
 

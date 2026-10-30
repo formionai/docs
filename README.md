@@ -40,7 +40,7 @@ The platform spans three surfaces:
 * 🤖 **AI trading assistance** — FORA chat, AI Advisor (ranked trade ideas), Trade Vision (chart-image → trade plan), and a Research RAG-LLM engine.
 * 📊 **Deep market data** — multi-exchange screeners, open-interest / funding / long-short analytics, order-flow & footprint, GEX / options, on-chain events and whale tracking.
 * 🦾 **Automate trading** — follow Formion's catalog bots, run paper bots, set up DCA, Grid, Trailing, Alarm, indicator-signal and funding bots in `@formiontradingbot`, and use **TradingView webhook bots** that execute your alerts on your connected CEX or DEX (rolling out).
-* 🧪 **Build, backtest & explore strategies** *(Pro)* — no-code Strategy Builder, an AI strategy agent, **Edge Finder**, historical backtests, and a **Strategy Marketplace** to publish strategies and review their forward record.
+* 🧪 **Build, backtest & explore strategies** *(Pro)* — no-code Strategy Builder, an AI strategy agent, **Strategy Finder**, historical backtests, and a **Strategy Marketplace** to publish strategies and review their forward record.
 * 🤝 **Copy trading** — copy traders today through your exchange's native copy trading (e.g. Bybit); native Formion copy-trading for selected bots is **coming soon**.
 * 📓 **Trading journal** — manual entries, read-only exchange import with auto-sync, webhook push, an AI review of your trading and full performance analytics.
 * 🔌 **Connect cTrader forex/CFD brokers alongside crypto venues** — see [Brokers](brokers.md).

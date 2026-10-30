@@ -1,6 +1,6 @@
 # 📡 Use Case — Follow the Right Voices
 
-<figure><img src=".gitbook/assets/ill-uc-voices.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-uc-voices.mp4" title="Follow the right voices: Pulse Score, desks, Source filter, sentiment vs price, contrarian check"></video><figcaption><p>One Pulse Score from many voices: see who drives it, mute who you don't rate, check it against price, and treat extremes as a hypothesis.</p></figcaption></figure>
 
 *Crypto X and YouTube are full of confident calls. Formion Pulse turns that noise into one readable score — and lets you decide whose voice counts.*
 

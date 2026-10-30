@@ -27,6 +27,6 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 
 ## Why it matters
 
-<figure><img src=".gitbook/assets/ill-orderflow-concept.jpg" alt="Absorption, walls and liquidation magnets"><figcaption><p>Absorption, a resting wall and a liquidation cluster — the three patterns these tools help you read.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-order-flow.mp4" title="Order flow — footprint, delta, CVD, absorption, walls and liquidation magnets"></video><figcaption><p>Absorption, a resting wall and a liquidation cluster — the three patterns these tools help you read.</p></figcaption></figure>
 
 Indicators lag; order flow is the cause, not the effect. Spotting absorption at a level, a wall that won't break, or a liquidation cluster acting as a magnet is the difference between guessing and reading the book. Formion puts that read in one place.

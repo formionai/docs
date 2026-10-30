@@ -1,6 +1,6 @@
 # 🧪 Strategy Lab & Marketplace
 
-<figure><img src=".gitbook/assets/s2-strategy-lab.jpg" alt="Formion Strategy Lab — no-code strategy builder, AI strategy agent, Edge Finder and the marketplace"><figcaption>Build a strategy with no code, test it honestly, then publish it to the marketplace.</figcaption></figure>
+<figure><img src=".gitbook/assets/s2-strategy-lab.jpg" alt="Formion Strategy Lab — no-code strategy builder, AI strategy agent, Strategy Finder and the marketplace"><figcaption>Build a strategy with no code, test it honestly, then publish it to the marketplace.</figcaption></figure>
 
 The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you turn an idea into a tested strategy — without writing code — and optionally **publish it to the marketplace**. Strategy Lab is on every plan: **Neural** gets the Builder and **3 backtests per day**, **Pro 50 per day**, **Institutional unlimited** (per UTC day, reset 00:00 UTC). See **[Pricing & Tiers](pricing.md#daily-limits)**.
 
@@ -10,7 +10,7 @@ The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you
 flowchart LR
   B["🧱 Builder"] --> BT["🧪 Backtest"]
   AI["🧠 AI Agent"] --> BT
-  EF["🤖 Edge Finder"] --> BT
+  EF["🤖 Strategy Finder"] --> BT
   BT --> PUB["✅ Publish gate"]
   PUB --> MK["🛒 Marketplace"]
   MK --> SUB["🔗 Subscribe · demo or live account"]
@@ -20,7 +20,7 @@ flowchart LR
 
 * **🧱 No-code Builder** — compose entry rules from indicator blocks (price, RSI, EMA, SMA, MACD, ATR, Bollinger Bands, volume), pick exits (TP/SL %, ATR multiples, time stop, opposite signal), fill the risk block and fees, and backtest on the server. Drafts are saved to your account. No Pine, no scripting.
 * **🧠 AI Agent** — describe what you want in plain language (e.g. "an RSI strategy on BTC 4h") and the agent maps it to a built-in template, backtests it on live candles, charts the BUY/SELL markers with win rate and gives you the equivalent Pine Script. You can send the result to a paper agent or export it to TradingView.
-* **🤖 Edge Finder** — enter **just a symbol** (crypto from Binance/Bybit, or forex, metals and indices from cTrader). It scans regimes, Wyckoff phases and sessions, then brute-forces a strategy grid (RSI, Z-RSI, EMA cross, Bollinger touch, breakout entries × stop and R:R variants) with a locked holdout and a walk-forward check — net of fees and funding, compared with HODL.
+* **🤖 Strategy Finder** — enter **just a symbol** (crypto from Binance/Bybit, or forex, metals and indices from cTrader). It scans regimes, Wyckoff phases and sessions, then brute-forces a strategy grid (RSI, Z-RSI, EMA cross, Bollinger touch, breakout entries × stop and R:R variants) with a locked holdout and a walk-forward check — net of fees and funding, compared with HODL.
 
 ## Test before you trust
 
@@ -30,7 +30,7 @@ Backtests report win rate, profit factor, expectancy, max drawdown and an equity
 
 ## Publish, subscribe & run
 
-<figure><img src=".gitbook/assets/ill-strategy-gate.jpg" alt="Marketplace publish gate"><figcaption><p>A strategy reaches the marketplace only after passing the publish gate.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-strategy-gate.mp4" title="Marketplace publish gate: fresh 365-day backtest and in-sample / out-of-sample checks"></video><figcaption><p>A strategy reaches the marketplace only after passing the publish gate.</p></figcaption></figure>
 
 Builder strategies pass a **publish gate** before they reach the marketplace: a fresh 365-day backtest plus an in-sample / out-of-sample check (at least 30 trades, drawdown ≤ 30%, positive expectancy, profit factor ≥ 1.1, positive out-of-sample expectancy). Once published, the signal worker runs the strategy on fresh candles and its forward record is tracked in **[Trades History](trades-history.md)**.
 

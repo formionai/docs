@@ -59,7 +59,7 @@ Open it from **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medi
 
 ## Trading Audit
 
-<figure><img src=".gitbook/assets/ill-trading-audit.jpg" alt="Trading Audit of your own closed trades"><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-trading-audit.mp4" title="Trading Audit of your own closed trades: profile, edge, leaks, behaviour, stop and exit quality, follow-up"></video><figcaption><p>Trading Audit checks your own closed trades phase by phase: profile, edge with a 95% confidence interval, leaks confirmed on a holdout, behaviour, stop and exit quality, follow-up (demo values).</p></figcaption></figure>
 
 **Trading Audit** reviews *your own* closed trades and tells you, with statistics rather than opinions, where your edge is and where money leaks. Open it at **Journal → Audit** (short link `app.formion.ai/audit`) or send **/audit** to [@formiontradingbot](https://t.me/formiontradingbot). Pick one Journal account or all of them.
 
@@ -72,7 +72,7 @@ What the audit checks:
 * **Stop & exit quality** — measured on real minute candles: were stops too tight, did exits leave money on the table? Alternative exits are judged only on unseen trades.
 * **Follow-up** — adopt a recommendation as a rule and the next audit checks whether you kept it; an optional **weekly audit** arrives on Telegram.
 
-Audits per day: **Neural 1** (basic), **Pro 3**, **Institutional 10**. Findings are only reported when they pass strict significance tests, so a short history may produce few findings — that is deliberate.
+Audit allowance: **Neural** — 1 basic audit in total; **Pro trial** — 3 audits for the whole 7-day trial; **Pro** — 3 per day; **Institutional** — 10 per day. Findings are only reported when they pass strict significance tests, so a short history may produce few findings — that is deliberate.
 
 
 ## Journal and tracked strategies

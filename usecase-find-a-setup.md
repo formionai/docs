@@ -1,6 +1,6 @@
 # 🎯 Use Case — Find a Trade Setup
 
-<figure><img src=".gitbook/assets/ill-uc-setup.jpg" alt="Formion workspace"><figcaption></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-uc-setup.mp4" title="Find a trade setup: Screener, Bias Map, Chart Pro, second opinion, alert and Journal"></video><figcaption><p>Five filters, one setup: rank the market, confirm the direction, read the level, get a second opinion, then commit and track.</p></figcaption></figure>
 
 *A repeatable workflow for "what should I look at today?" — most steps work on the free Neural tier, within its limits (a 3-row preview of the crypto screener, 5 chart symbols, 3 Trade Vision analyses a day).*
 

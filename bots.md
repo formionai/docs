@@ -1,6 +1,6 @@
 # 🦾 Bots & Automation
 
-<figure><img src=".gitbook/assets/s5-bots-hub.jpg" alt="Formion catalog in the Bots hub with live all-time results"><figcaption><p>The Formion catalog in the Bots hub: every card shows its real account and all-time result (snapshot 30 Oct 2026).</p></figcaption></figure>
+<figure><img src=".gitbook/assets/s5-bots-hub.jpg" alt="Formion catalog in the Bots hub with live all-time results"><figcaption><p>Bots that trade a real account right now — every card shows its account and all-time result, fees included (snapshot 30 Oct 2026).</p></figcaption></figure>
 
 Formion runs a catalog of automated strategies in the **Bots** hub. The public catalog shows only strategies that trade on a **real account** or the **live market** — each card shows that account and its all-time result, wins and losses included. New strategies are validated on **paper** first and only join the catalog once they run for real. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 
@@ -22,7 +22,7 @@ flowchart LR
 
 You're not limited to Formion's catalog. The full creator flow, **no code required**:
 
-1. **Strategy Lab** — build a strategy from rules, indicators and conditions, then validate it in the **Backtester**. The **Edge Finder** (AutoML) goes further: give it just a symbol and it searches for the best-fitting strategy class (DCA / grid / mean-reversion / breakout…) for the current market regime.
+1. **Strategy Lab** — build a strategy from rules, indicators and conditions, then validate it in the **Backtester**. The **Strategy Finder** (AutoML) goes further: give it just a symbol and it searches for the best-fitting strategy class (DCA / grid / mean-reversion / breakout…) for the current market regime.
 2. **Bots Hub** — build a **paper** bot from a supported catalog strategy (**Bots → Build**), or attach an attachable Formion bot or marketplace strategy to **your own** connected account in **demo** or **live** mode. Live attachments count toward your plan's live-bot limit. Your bots, your keys, your account.
 3. **Marketplace** — publish your strategy once it passes the publish quality gate (fresh 1-year backtest, at least 30 trades, drawdown ≤ 30%, positive out-of-sample expectancy). Other traders subscribe, **you earn**, and the platform takes a fee. Paid strategy subscriptions are checked out on formion.ai.
 
@@ -51,16 +51,15 @@ The public **Bots** hub shows each bot's pool (**live** or **live market**) on i
 
 | Bot | Pool | Account | All-time result | What it does |
 |---|---|---|---|---|
-| **Talos · Binance** | live | Binance Futures (real account) | **+84.9%** · 1,475 trades · 91% win rate · max DD −19.5% | Copies a top Binance Futures leader on our own Binance account with its own position sizing and loss limits. |
-| **Talos** | live | Bybit (real account) | **+66.3%** · 944 trades · 83% win rate · max DD −48.2% | Real-time mirror of the same top Binance Futures leader on our Bybit account, each entry/exit sized proportionally by balance ratio. Scalp/grid character: very high win rate with small average wins and rarer, larger losses. |
-| **Formion AI Intelligence** | live | Bybit (real account) | **+14.6%** · 27 trades · 74% win rate · profit factor 4.60 · max DD −3.5% | Semi-automatic: the AI finds and scores the setup, a trader confirms it and the order goes to a real Bybit account. Few trades so far (since September 2026). |
+| **Talos · Binance** | live | Binance Futures (real account) | **+85.5%** · 1,475 trades · 91% win rate · max DD −19.5% | Copies a top Binance Futures leader on our own Binance account with its own position sizing and loss limits. |
+| **Talos** | live | Bybit (real account) | **+69.2%** · 944 trades · 83% win rate · max DD −48.2% | Real-time mirror of the same top Binance Futures leader on our Bybit account, each entry/exit sized proportionally by balance ratio. Scalp/grid character: very high win rate with small average wins and rarer, larger losses. |
+| **Formion AI Intelligence** | live | Bybit (real account) | **+12.1%** · 28 trades · 75% win rate · profit factor 6.31 · max DD −3.5% | Semi-automatic: the AI finds and scores the setup, a trader confirms it and the order goes to a real Bybit account. Few trades so far (since September 2026). |
 | **OMX Trend** | live market | Bybit (OMX engine) | **+2.8%** · 92 trades · profit factor 1.47 · max DD −1.7% | Two OMX engine strategies on 1-hour crypto perps: EMA pullback in trend and break of structure with fair-value-gap entry. Every trade risks 0.1% of the account with an exchange stop. |
 
 ### Prediction markets
 
 | Bot | Pool | Account | All-time result | What it does |
 |---|---|---|---|---|
-| **Poly Solo Directional · Beta** | live | Polymarket wallet (real money) | **+14.0%** · 30 resolved bets · max DD −30.3% | Directional bets on Polymarket short-term crypto markets using the low-risk leg from our arbitrage scanners. Since 16 Oct 2026 it runs in paper mode while it is re-checked, so the live record is paused. |
 | **Polymarket Whale Copy · Beta** | live | Polymarket wallet (real money) | **−12.8%** · 44 trades | Copies the BUY orders of a tracked Polymarket whale at the smallest allowed size (max $3 per trade, $15 per day, automatic stop at −$15). Early beta, shown honestly. |
 
 {% hint style="warning" %}

@@ -39,7 +39,7 @@ In the app's **Bots** hub you can follow Formion's catalog bots and create paper
 Yes — in **Profile → Connections → TradingView Automation** create a bot, copy its webhook URL and Open/Close messages into your alert, and it executes on your connected CEX/DEX. New bots start paused and live execution is being rolled out account by account; a linked Telegram is required. See **[Webhook Automation](how-to-automate-trades-tradingview-alerts.md)**.
 
 **Can I build and backtest my own strategy?**
-Yes — on every plan (Neural 3 backtests a day, Pro 50, Institutional unlimited): the no-code **Builder** in Strategy Lab with backtests on historical data, the **AI Agent** that turns a plain-language idea into a backtested strategy, and **Edge Finder**, which scans a symbol and brute-forces entry/stop/R:R variants with a locked holdout. Published strategies are forward-tracked, and you can attach them to a demo or live account from the Marketplace.
+Yes — on every plan (Neural 3 backtests a day, Pro 50, Institutional unlimited): the no-code **Builder** in Strategy Lab with backtests on historical data, the **AI Agent** that turns a plain-language idea into a backtested strategy, and **Strategy Finder**, which scans a symbol and brute-forces entry/stop/R:R variants with a locked holdout. Published strategies are forward-tracked, and you can attach them to a demo or live account from the Marketplace.
 
 **How do I track performance?**
 Formion's tracked bots, signals and published strategies are consolidated in **[Trades History](trades-history.md)** with win rate, profit factor, expectancy and equity curves; your own trades go in the **[Journal](journal.md)**.
@@ -88,7 +88,7 @@ A market-narrative hub that reads X & YouTube influencers, social chatter, Fear 
 Yes. Build and prove it in the **[Strategy Lab](strategy-lab.md)**, pass the publish gate, then list it on the **Marketplace** for free or — once your Partner (KYC) application is approved — as a paid listing. Subscribers pay Formion; you receive your share after a 25% platform fee and a 14-day hold, paid monthly in USDC/USDT. Review the listing’s forward record, subscription terms and checkout before subscribing or publishing.
 
 **Do I need to code to build a strategy?**
-No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Edge Finder** search for an edge from just a symbol. See **[Build & publish a strategy](usecase-build-strategy.md)**.
+No. Use the no-code **Builder**, describe it to the **AI Agent**, or let **Strategy Finder** search for an edge from just a symbol. See **[Build & publish a strategy](usecase-build-strategy.md)**.
 
 ## Support
 

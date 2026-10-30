@@ -24,11 +24,10 @@ The **Predictions** tab in app.formion.ai is marked **Soon**. It is planned as a
 
 ## In-house engines
 
-Formion runs its own prediction-market bots (tracked in **[Trade History](journal.md)**):
+Formion runs its own prediction-market bot (tracked in **[Trade History](journal.md)**):
 
 | Bot | Pool | What it does |
 |---|---|---|
-| **Poly Solo Directional · Beta** | live | Directional bets on Polymarket short-term crypto markets using the low-risk leg from our arbitrage scanners. All-time **+14.0%** on 30 resolved bets (30 Oct 2026); since 16 Oct 2026 it runs in paper mode while it is re-checked. You can attach it to your own linked Polymarket wallet (counts as a live bot). |
 | **Polymarket Whale Copy · Beta** | live | Copies the BUY orders of a tracked Polymarket whale at the smallest size (max $3 per trade, $15 per day, stop at −$15). All-time **−12.8%** on 44 trades (30 Oct 2026) — an early beta, shown honestly. |
 
 The same bots appear in **[Bots & Automation](bots.md)**, with their pool shown on each card.

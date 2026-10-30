@@ -8,7 +8,7 @@ Open it at **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium
 
 ## How scoring works
 
-<figure><img src=".gitbook/assets/ill-screener-score.jpg" alt="How the Screener score is built"><figcaption><p>Trend, momentum, volume, volatility and signal tags combine into one score and a bull / bear / neutral bias.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-screener.mp4" title="How a setup surfaces in the Screener"></video><figcaption><p>Trend, momentum, volume, volatility and signal tags combine into one score and a bull / bear / neutral bias.</p></figcaption></figure>
 
 Every symbol gets one composite score:
 

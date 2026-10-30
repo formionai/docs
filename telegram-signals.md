@@ -21,7 +21,7 @@ flowchart LR
 
 ## How it works
 
-<figure><img src=".gitbook/assets/ill-telegram-flow.jpg" alt="From Telegram message to tracked trade"><figcaption><p>A free-form channel message is parsed into side, symbol, entry, stop and target, then backtested and tracked.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-telegram-parse.mp4" title="From Telegram message to tracked trade: the message is parsed into side, symbol, entry, stop and target, then tracked"></video><figcaption><p>A free-form channel message is parsed into side, symbol, entry, stop and target, then backtested and tracked.</p></figcaption></figure>
 
 ### 1. Connect your Telegram
 Link your own account with the standard phone → code → 2FA login. Your session is encrypted at rest; you can unlink and revoke access any time.

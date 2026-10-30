@@ -8,7 +8,7 @@ Never miss a setup. Formion delivers alerts across **five channels** and lets yo
 
 ## Channels
 
-<figure><img src=".gitbook/assets/ill-alerts-channels.jpg" alt="One alert, five delivery channels"><figcaption><p>One rule can notify you through any combination of the five channels.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/clip-alerts-channels.mp4" title="One alert, five delivery channels: Browser, Sound, Telegram, Email, Webhook"></video><figcaption><p>One rule can notify you through any combination of the five channels.</p></figcaption></figure>
 
 | Channel | Use |
 |---|---|
