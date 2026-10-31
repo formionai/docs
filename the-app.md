@@ -57,9 +57,9 @@ Real-time multi-exchange market data: open interest, long/short ratio, top-trade
 
 ### 🪙 Coins Hub
 
-<figure><img src=".gitbook/assets/s3-coins-grid.jpg" alt="Coins Hub"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-coins-hub-table.jpg" alt="Coins Hub Dashboard coin table"><figcaption><p>Coins Hub → Dashboard — the live coin table with watchlists.</p></figcaption></figure>
 
-Trend watch (top gainers/losers by timeframe) and a full coin listing with detail pages, plus Sniper, DEX Swaps, GMGN, Token Scanner, Smart Wallets, Graduation/Listing Radar (these four are temporarily unavailable while we fix logic errors) and Presale Watch (Coins Hub is labelled **BETA**). Also **[📡 Formion Pulse](pulse.md)** — a market-narrative hub that reads X & YouTube influencers, social chatter and BTC bias into one Pulse Score. **[Full guide → Coins Hub](coins-hub.md)**
+**Dashboard** — Trend Watch plus a live coin table (search, filters, watchlists, ST/LT trend scores and a detail page for every coin) — and **Presale Watch** are open to everyone; **Sniper** and **DEX Swaps** need a login. **GMGN** is being rebuilt, and Token Scanner, Smart Wallets, Graduation Radar and Listing Radar are temporarily unavailable while we fix logic errors (Coins Hub is labelled **BETA**). **[📡 Formion Pulse](pulse.md)** now lives in the Analytics hub. **[Full guide → Coins Hub](coins-hub.md)**
 
 ### 🧠 Analytics
 
