@@ -10,6 +10,10 @@ so a short price spike cannot inflate your level. This page explains the differe
 
 <figure><video src=".gitbook/assets/clip-fom-hold-vs-lock.mp4" title="FOM Hold vs Lock — how your level is counted"></video><figcaption><p>Value uses the lower of the 7-day and 30-day TWAP; longer locks weigh more; Hold needs twice the lock value; a lock has no early unlock and 7 days of unbonding.</p></figcaption></figure>
 
+## Hold, Lock and the FOM Boost
+
+Besides levels, FOM gives a **[boost on top of every plan](fom-token.md#fom-boost--more-on-every-plan)**. For the boost, a lock counts in full and a hold counts **half** ($500 held = $250 locked). Steps above $250 need a lock of 90 days or more. 
+
 ## What is Hold?
 
 **Hold** means your FOM simply stays in **your own self-custody wallet**, which you verify once on your Formion account with a signature.

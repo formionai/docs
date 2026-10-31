@@ -72,7 +72,7 @@ your own purchase — cannot inflate your level.
 
 | Level | Hold value | Lock value | Includes |
 |---|---:|---:|---|
-| Holder | $500 | $250 | 30 extra FORA messages a day, realtime screener, 20% lower add-on prices when paid in FOM, Token Explorer for any token, Radar (5-minute delay), 3 whale alerts, 50% off token profiles |
+| Holder | $500 | $250 | The Holder step of the [FOM Boost](#fom-boost--more-on-every-plan): on Free, 30 extra FORA answers a day (50), unlimited screener symbols and watchlist, signals with a 5-minute delay and 30 days of history, Whale Tracker for 10 wallets + 10 tokens with 100 alerts a day; on Pro, the P1 step. Plus 50% off token profiles. (Token Explorer and Radar are open to every account.) |
 | FORA Agent | $2,000 | $1,000 | **Pro licence included**, browser agent (chart navigation, pages, research), frontier models, FORA Neurons, live Radar, unlimited Risk Scan |
 | Agent Pro | $10,000 | $5,000 | **Institutional licence included**, Pine writing and testing, backtests, strategy search, paper-to-live on your confirmation, Radar strategies |
 | FORA AGI | $50,000 | $25,000 | Everything in Agent Pro, plus autonomous 24/7 trading on your own accounts within your risk caps (paid with agent credits in FOM like any other usage — Formion takes no share of your profit), priority access, governance votes and early-access allowlists. Autonomous trading is not available in all jurisdictions (including the EU/EEA, the UK and the US) |
@@ -80,7 +80,7 @@ your own purchase — cannot inflate your level.
 With **Formion Wallet** as your verified wallet, every hold and lock value above is halved (for example, FORA Agent: $1,000 held or
 $500 locked). Formion Wallet is self-custody: only you hold its key.
 
-Levels have no monthly FOM price. Licences keep their current payment methods (crypto or PayPal), and paying for a licence in FOM is 20% cheaper.
+Levels have no monthly FOM price. Licences keep their current payment methods (crypto or PayPal). Paying for a licence in FOM (20% cheaper) is coming; it is not available yet.
 
 ### Two ways to reach a level
 
@@ -136,6 +136,95 @@ flowchart LR
   Credits[Agent credits in FOM · 75% burned] --> Extra[Usage above daily limits]
 ```
 
+## FOM Boost — more on every plan
+<!-- FOMBOOST-20261031 -->
+
+> **New (31 October 2026).** FOM now gives a **boost on top of every plan** — Free, Pro and Institutional. You do not have to reach a
+> licence level first: from **$25 locked** (or $50 held) a Free account already gets more. Licence levels, their thresholds and lock rules stay
+> exactly as before.
+
+**How your boost is counted.** Your FOM value for the boost = **locked value + half of the held value** (a $500 hold counts like a $250 lock).
+Both are measured exactly like the levels above: held FOM = the lowest balance of the last 7 days, value = the lower of the 7-day and 30-day TWAP;
+a lock counts with its period weight (×1 / ×1.25 / ×1.5). **Steps above the Holder step ($250 lock) need a lock of at least 90 days** — a
+shorter lock counts up to $250. During the launch period (until **13 November 2026**) every step needs **half** of the amount shown.
+The Formion Wallet halving of level thresholds does **not** apply to boost steps.
+
+**What a boost never does:** it never lowers anything your plan already gives you, and it never moves your funds — held FOM stays in your
+wallet and locked FOM stays in the lock contract. Extra AI use above your plan (Trade Vision, RAG reports, FORA answers and voice, Trading Audit)
+is paid from a **monthly boost AI allowance**; when that is used up, your plan limits apply again until the next month.
+See your current step, the next one and what it adds in **Profile → License → Your FOM boost**.
+
+<figure><video src=".gitbook/assets/clip-fom-boost.mp4" title="FOM Boost — how your boost is counted"></video><figcaption><p>Boost value = locked + half of held; each step adds more to your plan; steps above $250 need a 90+ day lock (sample values).</p></figcaption></figure>
+
+#### Free plan + FOM
+
+|  | **Free** plan | **F1**<br>$25 lock · $50 hold | **F2**<br>$50 lock · $100 hold | **F3**<br>$100 lock · $200 hold | **F4** · Holder<br>$250 lock · $500 hold |
+|---|---:|---:|---:|---:|---:|
+| Trade Vision a day | 3 | 4 | 5 | 6 | 8 |
+| RAG Research reports a day | 1 | 1 | 2 | 2 | 3 |
+| Backtests a day | 3 | 5 | 8 | 10 | 15 |
+| FORA answers a day | 20 | 25 | 30 | 40 | 50 |
+| FORA live-voice sessions a day | 3 | 3 | 3 | 4 | 4 |
+| Minutes per voice session | 3 | 3 | 4 | 4 | 5 |
+| Active custom alerts | 3 | 5 | 10 | 20 | 25 |
+| Watchlist symbols | 25 | 40 | 60 | 100 | Unlimited |
+| Screener symbols | 50 | 50 | 100 | 200 | Unlimited |
+| Signal table rows | 3 | 5 | 10 | 15 | 20 |
+| Signal delay | 30 min | 30 min | 15 min | 15 min | 5 min |
+| Signal table history (days) | 7 | 7 | 7 | 14 | 30 |
+| Live bots | 0 | 0 | 0 | 0 | 1 |
+| cTrader brokers | 1 | 1 | 1 | 2 | 2 |
+| Active FORA Neurons | 2 | 2 | 3 | 4 | 5 |
+| Pulse personal list | 1 | 1 | 2 | 2 | 3 |
+| Quantum Scout: your X accounts | 0 | 0 | 0 | 1 | 2 |
+| Quantum Scout: your Telegram channels | 0 | 0 | 0 | 1 | 2 |
+| Whale Tracker: wallets you follow | 3 | 4 | 5 | 7 | 10 |
+| Whale Tracker: tokens you follow | 3 | 4 | 5 | 7 | 10 |
+| Whale alerts a day | 20 | 30 | 40 | 60 | 100 |
+| Monthly boost AI allowance | — | $0.50 | $1 | $1.50 | $3 |
+
+#### Pro plan + FOM
+
+|  | **Pro** plan | **P1** · Holder<br>$250 lock · $500 hold | **P2** · FORA Agent<br>$1,000 lock · $2,000 hold | **P3**<br>$2,500 lock · $5,000 hold |
+|---|---:|---:|---:|---:|
+| Trade Vision a day | 30 | 36 | 45 | 60 |
+| RAG Research reports a day | 10 | 12 | 15 | 20 |
+| Backtests a day | 50 | 75 | 100 | 150 |
+| FORA answers a day | 150 | 180 | 225 | 300 |
+| FORA live-voice sessions a day | 25 | 30 | 35 | 40 |
+| Minutes per voice session | 15 | 15 | 20 | 20 |
+| Active custom alerts | 100 | 150 | 250 | 500 |
+| Live bots | 5 | 6 | 8 | 10 |
+| cTrader brokers | 5 | 6 | 8 | 10 |
+| Active FORA Neurons | 25 | 30 | 35 | 40 |
+| Pulse personal list | 5 | 7 | 10 | 12 |
+| Quantum Scout: your X accounts | 5 | 6 | 8 | 10 |
+| Quantum Scout: your Telegram channels | 5 | 6 | 8 | 10 |
+| Whale Tracker: wallets you follow | 25 | 30 | 40 | 50 |
+| Whale Tracker: tokens you follow | 25 | 30 | 40 | 50 |
+| Whale alerts a day | 200 | 250 | 300 | 400 |
+| Monthly boost AI allowance | — | $3 | $13 | $30 |
+
+#### Institutional plan + FOM
+
+|  | **Institutional** plan | **I1**<br>$1,000 lock · $2,000 hold | **I2** · Agent Pro<br>$5,000 lock · $10,000 hold | **I3** · FORA AGI<br>$25,000 lock · $50,000 hold |
+|---|---:|---:|---:|---:|
+| Trade Vision a day | 200 | 250 | 300 | 400 |
+| RAG Research reports a day | 50 | 60 | 75 | 100 |
+| FORA answers a day | 600 | 750 | 900 | 1,200 |
+| FORA live-voice sessions a day | 80 | 100 | 120 | 160 |
+| Pulse personal list | 15 | 20 | 25 | 30 |
+| Quantum Scout: your X accounts | 25 | 30 | 40 | 50 |
+| Quantum Scout: your Telegram channels | 25 | 30 | 40 | 50 |
+| Whale Tracker: wallets you follow | 100 | 125 | 150 | 200 |
+| Whale Tracker: tokens you follow | 50 | 60 | 75 | 100 |
+| Whale alerts a day | 1,000 | 1,250 | 1,500 | 2,000 |
+| Monthly boost AI allowance | — | $13 | $75 | $150 |
+
+Free accounts also get more Trading Audits with a boost (one a month from F2, two a month at F3, one a week at the Holder step) and
+FORA Neurons trade proposals from F3. Reaching **$1,000 locked for 90+ days** still gives the full **Pro licence** (FORA Agent level), and
+$5,000 the **Institutional licence**, as described above — the boost then continues on that plan.
+
 ## Dossier Autopilot — live trading with FOM
 
 **Dossier Autopilot** buys and sells the token calls from Formion's Dossier research automatically, on Solana and EVM chains. It starts
@@ -169,6 +258,8 @@ or by paying monthly in FOM:
 FOM is a utility token. Holding or locking FOM, or paying with it, grants access to product features only; it is not an investment, does not represent equity, debt, a share of profits or any claim on Formion, and no return of any kind is promised. Formion may change, suspend or discontinue any level, threshold, benefit, limit, fee or feature, at any time and for any reason, with or without prior notice. Where possible we announce changes in advance on docs.formion.ai and formion.ai/fom; continued use after a change means acceptance. Benefits depend on product availability and may be rolled out in phases. Nothing here is financial, legal or tax advice. Formion cannot prevent the sale or transfer of FOM from a self-custody wallet; access based on holding ends when the condition is no longer met. FOM paid for Dossier Autopilot is non-refundable. Formion is not liable for trading outcomes or for the price of FOM. These terms are part of the [Formion Terms of Service](https://formion.ai/terms?utm_source=docs&utm_medium=referral&utm_campaign=docs).
 
 ### Changelog
+
+* **31 October 2026** — Added the **[FOM Boost](#fom-boost--more-on-every-plan)**: FOM now adds more on top of every plan (Free from $25 locked / $50 held; Pro and Institutional too), counted as locked value + half of the held value, with a monthly boost AI allowance. The Holder level now means the Holder boost step; its whale alerts were raised from 3 to 10 wallets, 10 tokens and 100 alerts a day. Corrected: paying for a licence in FOM (20% cheaper) is not available yet. Levels, thresholds and lock rules are unchanged.
 
 * **29 October 2026** — Added a plain-words comparison page, [FOM Hold vs Lock](fom-hold-vs-lock.md): what each one is, the differences, pros and cons, and which one fits you. No rule changed.
 * **28 October 2026 (v3.4)** — **FOM Lock v3 live in beta** on Base (contract `0xb3eBdba1188B11016B99C033055aFA7532259f69`): lock from the Formion Wallet; a lock on a wallet linked to your account gives the included licence (FORA Agent → Pro, Agent Pro / FORA AGI → Institutional; 90+ days) while the lock period runs. Internal review only, no external audit yet.
