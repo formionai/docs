@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/s5-bots-hub.jpg" alt="Formion catalog in the Bots hub with live all-time results"><figcaption><p>Bots that trade a real account right now — every card shows its account and all-time result, fees included (snapshot 30 Oct 2026).</p></figcaption></figure>
 
-<figure><video src=".gitbook/assets/rec-bots-catalog.mp4" title="Live recording: the Formion catalog filtered to crypto perps and sorted by performance — live all-time results on every card."></video><figcaption><p>Live recording: the Formion catalog filtered to crypto perps and sorted by performance — live all-time results on every card.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/rec-bots-catalog.mp4" title="Live recording: the whole Formion catalog sorted by Best performance (all-time %) — live results on every card."></video><figcaption><p>Live recording: the whole Formion catalog sorted by Best performance (all-time %) — live results on every card.</p></figcaption></figure>
 
 Formion runs a catalog of automated strategies in the **Bots** hub. The public catalog shows only strategies that trade on a **real account** or the **live market** — each card shows that account and its all-time result, wins and losses included. New strategies are validated on **paper** first and only join the catalog once they run for real. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 

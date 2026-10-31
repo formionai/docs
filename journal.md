@@ -6,7 +6,7 @@ The Journal is your own record of trades — from connected exchanges, webhook p
 
 <figure><video src=".gitbook/assets/clip-journal.mp4" title="Trading Journal in 4 steps: connect and import, analytics, P&amp;L calendar, Trading Audit"></video><figcaption><p>From import to audit in 16 seconds: connect an exchange → analytics → P&amp;L calendar → Trading Audit (demo values).</p></figcaption></figure>
 
-<figure><video src=".gitbook/assets/rec-journal-tour.mp4" title="Live recording on an empty demo account: the New trade form filled in by hand (cancelled, nothing saved), then the Audit tab with what each plan gets."></video><figcaption><p>Live recording on an empty demo account: the New trade form filled in by hand (cancelled, nothing saved), then the Audit tab with what each plan gets.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/rec-journal-tour.mp4" title="Live recording on the demo account (two DEMO trades already logged): a new ETH trade entered by hand with the date picker — P&amp;L $ is calculated from entry, exit, quantity and fee — then the KPIs, Risk &amp; performance, Analytics and the daily P&amp;L Calendar."></video><figcaption><p>Live recording on the demo account (two DEMO trades already logged): a new ETH trade entered by hand with the date picker — P&amp;L $ is calculated from entry, exit, quantity and fee — then the KPIs, Risk &amp; performance, Analytics and the daily P&amp;L Calendar.</p></figcaption></figure>
 
 ## What it does
 
