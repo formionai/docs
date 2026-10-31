@@ -6,6 +6,8 @@ Never miss a setup. Formion delivers alerts across **five channels** and lets yo
 
 <figure><video src=".gitbook/assets/clip-alerts.mp4" title="Alerts in 4 steps: new alert, condition, delivery channels, alert fires"></video><figcaption><p>One rule from start to finish: new alert → condition → channels → alert fires (demo values).</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-alerts-create.mp4" title="Live recording: My Alerts → New alert — BTC ≥ 80,000, firing rule, channels (In-app and Sound on), Create."></video><figcaption><p>Live recording: My Alerts → New alert — BTC ≥ 80,000, firing rule, channels (In-app and Sound on), Create.</p></figcaption></figure>
+
 ## Channels
 
 <figure><video src=".gitbook/assets/clip-alerts-channels.mp4" title="One alert, five delivery channels: Browser, Sound, Telegram, Email, Webhook"></video><figcaption><p>One rule can notify you through any combination of the five channels.</p></figcaption></figure>

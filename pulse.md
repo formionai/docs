@@ -2,6 +2,8 @@
 
 <figure><img src=".gitbook/assets/s2-pulse.jpg" alt="Formion Pulse — Pulse Score gauge, BTC bias, source filter and sentiment-vs-price history"><figcaption>Formion Pulse: one score from many voices.</figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-pulse-scroll.mp4" title="Live recording: Pulse Score and BTC bias, the source filter, Pulse vs market history and the X Influencer Desk."></video><figcaption><p>Live recording: Pulse Score and BTC bias, the source filter, Pulse vs market history and the X Influencer Desk.</p></figcaption></figure>
+
 Formion Pulse answers one question other tools ignore: **what are the big voices and the crowd actually *saying* right now?**
 
 It is deliberately different from a Fear & Greed gauge or a long/short ratio (those measure *positioning*). Pulse reads the **narrative** — crypto X (Twitter) traders, YouTube influencers, social chatter and headlines — and blends it with price into a single **Pulse Score (0–100)**, where 50 = balanced, higher = more bullish narrative.

@@ -2,6 +2,8 @@
 
 <figure><img src=".gitbook/assets/s2-news.jpg" alt="News 24/7 & Macro"><figcaption><p>Formion — News 24/7 & Macro</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-news-tour.mp4" title="Live recording: the Economic Calendar, then AI Impact News, Macro Impact and the Crypto News Feed."></video><figcaption><p>Live recording: the Economic Calendar, then AI Impact News, Macro Impact and the Crypto News Feed.</p></figcaption></figure>
+
 The **News** hub combines scheduled economic releases, AI impact analysis, historical macro reactions and crypto events/headlines. Use it to identify what may affect the instrument you are researching and when that information became available.
 
 ## What you see

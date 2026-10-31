@@ -6,6 +6,8 @@ The **Strategy Lab** (app.formion.ai → Backtest → Strategy Lab) is where you
 
 <figure><video src=".gitbook/assets/clip-strategy-lab.mp4" title="Strategy Lab in 4 steps: build, backtest, publish gate, Marketplace"></video><figcaption><p>From idea to marketplace in 16 seconds: build with no code → backtest → publish gate → subscribe on a demo or live account (demo values).</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-strategy-lab-builder.mp4" title="Live recording: the no-code Builder — RSI below 30 on ETH 1h, TP 2 % / SL 1 %, Run backtest, then KPIs, equity curve and the trade list."></video><figcaption><p>Live recording: the no-code Builder — RSI below 30 on ETH 1h, TP 2 % / SL 1 %, Run backtest, then KPIs, equity curve and the trade list.</p></figcaption></figure>
+
 ```mermaid
 flowchart LR
   B["🧱 Builder"] --> BT["🧪 Backtest"]

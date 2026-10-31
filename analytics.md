@@ -2,6 +2,8 @@
 
 <figure><img src=".gitbook/assets/s2-the-app-analytics.jpg" alt="Formion Analytics hub — whale tracking, heatmaps, correlation, flows and prediction markets"><figcaption>A hub of standalone analytics tools, each one tab away.</figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-analytics-tour.mp4" title="Live recording: the Analytics hub, then HL Whales, Correlation, ETF Flows and Sentiment."></video><figcaption><p>Live recording: the Analytics hub, then HL Whales, Correlation, ETF Flows and Sentiment.</p></figcaption></figure>
+
 The **Analytics** hub (app.formion.ai → Analytics) is a collection of focused, standalone tools — each answering one specific question about market structure, smart money or cross-asset behaviour.
 
 ## What's inside

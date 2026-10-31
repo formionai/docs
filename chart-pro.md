@@ -8,6 +8,8 @@
 
 <figure><video src=".gitbook/assets/clip-chart-pro.mp4" title="Chart Pro: draw a zone, set an alert, trade from the chart"></video><figcaption><p>Draw your own zone, ask FORA to set an alert, then trade from the chart: limit at your price, size in USD, drag SL/TP and confirm the full plan before anything is sent.</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-chart-pro-tour.mp4" title="Live recording: Command line to ETH 4h, VWAP, Levels and FVG on, a trend line drawn, then the Volume Delta pane from Order Flow."></video><figcaption><p>Live recording: Command line to ETH 4h, VWAP, Levels and FVG on, a trend line drawn, then the Volume Delta pane from Order Flow.</p></figcaption></figure>
+
 ## How Quantum Terminal works — Swift and Velocity
 
 Quantum Terminal has two drawing engines under one name. You never have to choose — it switches for you.
@@ -157,6 +159,8 @@ Switch on **Order Flow** in the indicator grid to see what happens inside each c
 ## Order-flow Constructor
 
 The **Constructor** tab (Chart Pro → Constructor) is a dockable, resizable multi-panel layout with order-flow presets: Volume Profile & Footprint, Order book, multi-source order book (Binance, Bybit, OKX, Hyperliquid), DOM ladder, Orderbook heatmap, Tape, Liquidations feed and spoofing / iceberg detection.
+
+<figure><video src=".gitbook/assets/rec-order-flow-constructor.mp4" title="Live recording: the Constructor — chart with volume profile, tape and liquidations, zoom in, switch to ETH, then the Heatmap Focus preset."></video><figcaption><p>Live recording: the Constructor — chart with volume profile, tape and liquidations, zoom in, switch to ETH, then the Heatmap Focus preset.</p></figcaption></figure>
 
 ## User Indicator Studio
 

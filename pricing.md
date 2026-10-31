@@ -8,6 +8,8 @@ Formion has three plans. New accounts get **7 days of Pro free — no card requi
 Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, **USDT on Tron (TRC20)**, or **BTC** / **SOL** / **LTC** — or with **PayPal** on the same checkout page. You can also pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount** (Crypto Pay only). Card payments are not available. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
 {% endhint %}
 
+<figure><video src=".gitbook/assets/rec-pricing-scroll.mp4" title="Live recording: formion.ai/pricing — the three plans, then the full feature-by-feature comparison."></video><figcaption><p>Live recording: formion.ai/pricing — the three plans, then the full feature-by-feature comparison.</p></figcaption></figure>
+
 ## Plans at a glance
 
 | | 🆓 Neural (Free) | 💎 Pro | 🏛️ Institutional |

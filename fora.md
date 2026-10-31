@@ -4,6 +4,8 @@
 
 <figure><video src=".gitbook/assets/clip-fora.mp4" title="FORA: ask, screen, analyze, you confirm"></video><figcaption><p>FORA only proposes an order with a real quote; nothing executes until you confirm and enter your trading password.</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-fora-chat.mp4" title="Live recording: one short question to FORA in AI Chat — the working steps, then the answer with the multi-timeframe read."></video><figcaption><p>Live recording: one short question to FORA in AI Chat — the working steps, then the answer with the multi-timeframe read.</p></figcaption></figure>
+
 **FORA** began as a conversational assistant and has grown into something closer to a cognitive system. It perceives the whole market, reasons from retrieved evidence, remembers, learns from measured outcomes, trades autonomously to prove its own edge, and even *evolves* new strategies — all under strict, non-custodial safety.
 
 Talk to it in plain language on **Telegram (`@formiontradingbot`)**, in the FORA chat on formion.ai and app.formion.ai, or at **fora.formion.ai**. It works across your account and replies in your interface language (English, Serbian, Croatian, Russian, German, French, Spanish, Italian, Portuguese, Polish or Turkish).

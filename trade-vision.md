@@ -2,6 +2,8 @@
 
 <figure><video src=".gitbook/assets/clip-trade-vision.mp4" title="Trade Vision: chart or idea in, structured read out"></video><figcaption><p>Drop in a chart screenshot, type an idea, or both: Trade Vision returns bias, key levels, entry zone, stop, targets, R:R and a DCA ladder. It only analyses; nothing executes from it.</p></figcaption></figure>
 
+<figure><video src=".gitbook/assets/rec-trade-vision.mp4" title="Live recording: a chart screenshot uploaded with ETHUSDT as the hint, then the structured read — bias, confidence, key levels, warnings and rationale."></video><figcaption><p>Live recording: a chart screenshot uploaded with ETHUSDT as the hint, then the structured read — bias, confidence, key levels, warnings and rationale.</p></figcaption></figure>
+
 **Trade Vision** turns a picture or a sentence into a structured trade read.
 
 Drop in a **chart screenshot** — or just type a free-form idea like *"long BTC around 62k, stop under 60k, targets 65k/68k"*, or both — and a vision-capable AI returns a structured read: long / short / neutral bias with confidence, the key levels it saw, an entry zone, stop-loss, take-profit targets, risk:reward, a **DCA ladder** (3–5 entry rungs with an allocation % each), warnings and a written rationale — in your language (11 languages supported).

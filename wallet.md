@@ -22,6 +22,8 @@
 **Beta** means a feature is live with real money but still being built and tested. In the wallet it carries a **Beta** label. Start with small amounts.
 {% endhint %}
 
+<figure><video src=".gitbook/assets/rec-wallet-tour.mp4" title="Live recording with a fresh, never-funded test wallet: home, a Swap quote (0.05 ETH → USDC, never signed — the preview warns the empty wallet has no gas), Hyperliquid Perps, then Earn with FOM Lock."></video><figcaption><p>Live recording with a fresh, never-funded test wallet: home, a Swap quote (0.05 ETH → USDC, never signed — the preview warns the empty wallet has no gas), Hyperliquid Perps, then Earn with FOM Lock.</p></figcaption></figure>
+
 ## Create or import
 
 | Option | What happens |
