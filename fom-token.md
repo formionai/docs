@@ -153,6 +153,7 @@ The Formion Wallet halving of level thresholds does **not** apply to boost steps
 wallet and locked FOM stays in the lock contract. Extra AI use above your plan (Trade Vision, RAG reports, FORA answers and voice, Trading Audit)
 is paid from a **monthly boost AI allowance**; when that is used up, your plan limits apply again until the next month.
 See your current step, the next one and what it adds in **Profile → License → Your FOM boost**.
+New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs-lock.md#how-to-hold-lock-and-unlock--step-by-step)**.
 
 <figure><video src=".gitbook/assets/clip-fom-boost.mp4" title="FOM Boost — how your boost is counted"></video><figcaption><p>Boost value = locked + half of held; each step adds more to your plan; steps above $250 need a 90+ day lock (sample values).</p></figcaption></figure>
 
