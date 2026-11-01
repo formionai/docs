@@ -99,8 +99,8 @@ You just bought FOM? These six steps take you from a wallet to a counted boost o
    One wallet belongs to one account. There are two ways:
    * **Formion Wallet:** open **Earn → FOM Lock**, and in the card **Licence from your lock** press **Link wallet to my account**, check the message, then **Sign and link**.
      This works before you lock anything, so it also links the wallet for holding.
-   * **Any other Base wallet** (MetaMask, Coinbase Wallet…): on your formion.ai **Dashboard**, in the **FOM access** card, press **Connect wallet & sign**.
-     The card appears on the Dashboard once at least one exchange or wallet is connected to your account.
+   * **Any other Base wallet** (MetaMask, Coinbase Wallet…): open formion.ai **Profile → License**, and in the **FOM access** card (right above **Your FOM boost**)
+     press **Connect wallet & sign**, then sign the message in your wallet. The same card is also on your formion.ai **Dashboard**, even before you connect any exchange.
 
 <figure><img src=".gitbook/assets/shot-fom-link-wallet.jpg" alt="Licence from your lock card in Formion Wallet with the Link wallet to my account button"><figcaption><p>Formion Wallet → Earn → FOM Lock → Licence from your lock: link the wallet with one signature.</p></figcaption></figure>
 
