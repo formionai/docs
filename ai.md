@@ -6,7 +6,7 @@ Formion's AI layer: FORA, the assistant that works across your whole account, pl
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
 <tr><td><strong>💬 FORA — Trading Intelligence</strong></td><td>The assistant on web and Telegram: analysis, alerts, backtests and gated trading on your accounts.</td><td><a href="fora.md">fora.md</a></td></tr>
-<tr><td><strong>🧬 FORA Neurons</strong></td><td>Always-on watchers, the personal planner (what, when, how much, how to exit) and KOL watch.</td><td><a href="fora-neurons.md">fora-neurons.md</a></td></tr>
+<tr><td><strong>🧬 FORA Neurons</strong></td><td>Always-on watchers with a dashboard and timeline, the personal planner (what, when, how much, how to exit) and KOL watch.</td><td><a href="fora-neurons.md">fora-neurons.md</a></td></tr>
 <tr><td><strong>🔍 Dossier — Our Calls</strong></td><td>Our research on new small-cap tokens, the learned exit plan and calls on Telegram with your plan.</td><td><a href="dossier.md">dossier.md</a></td></tr>
 <tr><td><strong>🤖 AI Advisor & Smart Trading</strong></td><td>Ranked trade ideas for your style and risk, AI Chat and a public Track Record.</td><td><a href="smart-trading.md">smart-trading.md</a></td></tr>
 <tr><td><strong>👾 Trade Vision</strong></td><td>Drop a chart or type an idea — get bias, levels, stop, targets and a DCA ladder.</td><td><a href="trade-vision.md">trade-vision.md</a></td></tr>

@@ -37,6 +37,7 @@ Open the **[AI Advisor](smart-trading.md)**, pick a style / risk / asset class, 
 ## 5 · Track or automate
 
 * **Watch it:** add the symbol to your **Watchlist** and set an **[alert](alerts.md)** (browser, sound or Telegram).
+* **Let FORA watch it:** open **[Neurons](fora-neurons.md)** in the main menu and set a watcher that tells you in the app or on Telegram — the same page shows when each one fired and why.
 * **Log it:** record the trade in the **[Trading Journal](journal.md)** for full performance analytics.
 * **Automate it:** build a rule in the **[Strategy Lab](strategy-lab.md)** (3 backtests a day on Neural, more on Pro) and forward-test it as a paper **[bot](bots.md)** before attaching anything to your connected account.
 

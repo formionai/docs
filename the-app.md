@@ -21,6 +21,7 @@ flowchart TD
   APP --> AN["🧠 Analytics"]
   AN --> PU["📡 Pulse"]
   APP --> AI["🤖 AI Advisor"]
+  APP --> NR["🧬 Neurons"]
   APP --> BT["🧪 Backtest"]
   APP --> SG["🔔 Signals"]
   APP --> NW["📰 News"]
@@ -72,6 +73,10 @@ A hub of 20+ standalone tools: **Signal Stream** & **Edge Map** (per-signal expe
 <figure><img src=".gitbook/assets/s2-the-app-ai.jpg" alt="AI Advisor"><figcaption></figcaption></figure>
 
 Pick a style/risk/asset class and the AI ranks tradeable ideas from a live screener snapshot. Includes free-form **AI Chat** (file attachments, model picker, thinking toggle), **Trade Vision** (screenshot → plan), a **Track Record** of the advisor's past ideas, **Research** (RAG reports + Portfolio Builder) and the **Strategy Agent**.
+
+### 🧬 Neurons
+
+Your always-on FORA watchers have their own menu item, between AI Advisor and Backtest; the green number shows how many are active. The dashboard lists every Neuron with Pause, Edit, Run now and Delete, and a timeline of when each one fired or came close, why and where the message went. See **[FORA Neurons](fora-neurons.md)**.
 
 ### 🧪 Backtest
 

@@ -8,6 +8,92 @@ A Neuron never trades by itself — a proposal opens only when you tap it, on a 
 
 Active Neurons per plan: **Neural (Free) 2 · Pro 25 · Institutional unlimited** (a FOM boost adds more — see **[FOM token](fom-token.md)**). Pricing details: **[Pricing & Tiers](pricing.md)**.
 
+## The Neurons dashboard
+
+Open **Neurons** in the main menu of [app.formion.ai/neurons](https://app.formion.ai/neurons?utm_source=docs&utm_medium=referral&utm_campaign=docs) — the green number next to it is how many Neurons you have active — or tap the Neurons icon in the FORA chat header. The dashboard answers one question: **what did my Neurons do, exactly when, why, and where did it go?**
+
+<figure><video src=".gitbook/assets/clip-fora-neurons-dash.mp4" title="FORA Neurons dashboard: open Neurons, the table of Neurons, the activity timeline with the exact values, Run now and asking FORA why a Neuron fired (DEMO values)."></video><figcaption><p>Open Neurons → see every Neuron → read the timeline → test one → ask FORA why (DEMO values).</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-neurons-dashboard.jpg" alt="Neurons dashboard: six count tiles above the table All your Neurons with status, last check, last fired, fires, next check, where it sends and the actions Pause, Edit, Run now and Delete"><figcaption><p>The count tiles and <strong>All your Neurons</strong> (Docs Demo account, live data).</p></figcaption></figure>
+
+| Tile | What it counts |
+|---|---|
+| **Active** | Neurons running now, with your plan's limit under the number (for example Pro: 4 / 25). |
+| **Paused** | Neurons you paused, or that are paused by your plan limit. |
+| **Fired today** | How many times your Neurons fired today. |
+| **Proposals today** | Trade and KOL proposals made today. |
+| **Telegram today** | Messages delivered to your Telegram today. |
+| **Errors** | Neurons whose last check failed. |
+
+### All your Neurons
+
+One row per Neuron: its type and rule, **Status** (active, cooldown, paused, paused · plan limit, done or error), **Last check**, **Last fired**, **Fires 24h · 7d** (plus how many times it came close in the last 24 hours), **Next check** with how often it checks, and **Sends to** (App, or App + Telegram). On a phone every Neuron is a card with the same facts and buttons.
+
+<figure><img src=".gitbook/assets/shot-neurons-dashboard-mobile.jpg" alt="Neurons dashboard on a phone: the count tiles and one card per Neuron with Pause, Edit, Run now and Delete"><figcaption><p>On a phone: the same tiles, one card per Neuron.</p></figcaption></figure>
+
+| Action | What it does |
+|---|---|
+| **Pause / Resume** | Stops or restarts the Neuron. Nothing else changes. |
+| **Edit** | Change the name, the values of the rule, **Also send to Telegram**, **Check every (min)** and **Quiet after a fire (min)**. Your plan sets the fastest check; a faster value is raised to it automatically. |
+| **Run now** | Tests the Neuron with live data: **It would fire now** or **It would not fire now**, with the exact values, source and data time. It is a dry run — **nothing is sent and the Neuron does not change**. |
+| **Delete** | Asks first, then removes the Neuron and its history. This cannot be undone, so pause it if you may need it later. |
+
+<figure><img src=".gitbook/assets/shot-neurons-run-now.jpg" alt="Run now window: result, the values measured from live data, the source and the note that this was a dry run and nothing was sent"><figcaption><p><strong>Run now</strong> checks the rule on live data and sends nothing.</p></figcaption></figure>
+
+A real check also passes FORA's gate and the cooldown, so *It would fire now* does not always mean a message is on its way. Neurons that run research or a schedule cannot be dry-run; for those the window shows the next real check instead.
+
+### Activity timeline — when, why, where
+
+Under the table, the **Activity timeline** lists everything that mattered, newest first:
+
+<figure><img src=".gitbook/assets/shot-neurons-timeline.jpg" alt="Activity timeline with filters for Neuron, kind, outcome and period, an Export CSV button and entries showing the outcome, the exact values, the source, the delivery status and the time"><figcaption><p>Each entry shows when, why (the exact values) and where it went (Docs Demo account, live data).</p></figcaption></figure>
+
+| Outcome | What it means |
+|---|---|
+| ⚡ **Fired** | The rule matched and the message went out. |
+| 🎯 **Came close** | It nearly fired: at least 70 % of the threshold, or price within 0.5 % of your level. Logged at most once per Neuron every 30 minutes, unless it got clearly closer. |
+| 👀 **Held by FORA** | The rule matched, but FORA's gate held it back. The reason is in the entry. |
+| ⚠️ **Not delivered** | The rule matched, but neither the app nor Telegram took the message. |
+| ⚠️ **Check failed** | The check itself failed, for example a data source was down. |
+| 💡 **Proposed / Watching / Skipped** | What FORA decided on a **[KOL watch](#kol-watch-neuron)** call. |
+| 📤 **Plan step** | A "do this now" message from a plan you follow in **[My plan](#my-plan--the-fora-planner)**. |
+
+Every entry answers three questions:
+
+* **When** — the time of the decision, to the second.
+* **Why** — the exact values behind it, such as *Move %: 0.12* against *Threshold %: 0.1*, or *Price*, *Level* and *Distance %*, with the **source** and the **time of the data** it used.
+* **Where** — **In app**, and the Telegram status: *Telegram delivered*, *Telegram not linked*, *Telegram notifications off*, *Telegram off for this Neuron*, *already sent*, *held: quiet hours* or *held: daily Telegram limit*.
+
+When the entry is about a coin, **After** shows what its price did 1 hour and 24 hours later. That is context about the market, not a result and not a promise.
+
+Filter by **Neuron**, **kind**, **outcome** and **period** (last 24 hours, 7 days or 30 days), use **Show more** for older entries and **Export CSV** to download what you filtered. Entries are kept for 30 days. Near misses are logged from November 1, 2026; older fires come from the existing history.
+
+<figure><video src=".gitbook/assets/rec-fora-neurons-dashboard.mp4" title="Live recording of the Neurons dashboard on the demo account: count tiles, the table, Run now, the timeline and its outcome filter."></video><figcaption><p>The real dashboard: tiles, Run now, the timeline and its filter (Docs Demo account).</p></figcaption></figure>
+
+### Manage Neurons by talking to FORA
+
+Everything above also works in **[FORA](fora.md)** chat and by voice — she uses the same data and the same rules. Say it in your own words and name the Neuron, or use its number:
+
+| You say | FORA does |
+|---|---|
+| *"Show me my neurons"* | The dashboard counts and every Neuron with its last and next check. |
+| *"Tell me when BTC goes above 100k"* | Creates a Neuron, within your plan's limits. |
+| *"Pause my gold alert"* | Pauses it. |
+| *"Turn ETH funding back on"* | Resumes it. |
+| *"Change the level to 95k for BTC 100k"* | Updates only that value. |
+| *"Why did my funding neuron fire?"* | The exact values, the source and where the message went, read from the record. |
+| *"Why didn't it tell me about SOL?"* | The last checks and values, any cooldown or error, and how close it came. |
+| *"What did my neurons do today?"* | The activity of all your Neurons. |
+| *"Test the BTC 100k neuron now"* | A dry run with live data. Nothing is sent. |
+| *"Delete the BTC 100k neuron"* | Deletes it, because you said delete and named it in the same message. |
+
+* If a name fits more than one Neuron, FORA asks which one you mean.
+* *"Delete it"*, without saying which, only shows a card — it is deleted when you confirm.
+* After every change FORA gives you a link that opens that Neuron's row on the dashboard.
+* Your plan's limits and the checks on values are the same as in the app. A threshold that is out of range, such as a fast move under 0.1 %, is refused and FORA tells you why.
+
+***
+
 ## Neuron types
 
 | Neuron | What it watches |
@@ -36,7 +122,7 @@ Active Neurons per plan: **Neural (Free) 2 · Pro 25 · Institutional unlimited*
 
 ## My plan — the FORA planner
 
-At the top of the Neurons page, **My plan — FORA planner** answers four questions for the token calls Formion researches: **when** to act, **what** to pick, **how much** to put in and **how** to exit — from your own settings and our measured data. The same planner answers in FORA chat ("what should I buy today?", "how much X?", "make me a plan for $500", "when do I sell?"), on the KOL watch card and in the Dossier Telegram message.
+Under the dashboard, **My plan — FORA planner** answers four questions for the token calls Formion researches: **when** to act, **what** to pick, **how much** to put in and **how** to exit — from your own settings and our measured data. The same planner answers in FORA chat ("what should I buy today?", "how much X?", "make me a plan for $500", "when do I sell?"), on the KOL watch card and in the Dossier Telegram message.
 
 <figure><img src=".gitbook/assets/shot-fora-planner-panel.jpg" alt="My plan — FORA planner panel: What FORA knows about you (bankroll, risk level, caps, chains) and Today for you with three ranked plans"><figcaption><p>Neurons → My plan: your settings on top, today's plans ranked for you below (Docs Demo account, live data).</p></figcaption></figure>
 
