@@ -31,6 +31,8 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Signal tables** (screener, setup scanner, volatility, signals, patterns, options, Strategy Finder) | 3-row preview · last 7 days of history · signals delayed 30 min | Full, real-time, full history | Full, real-time, full history |
 | **FORA realtime voice** | ✅ (mini model) | ✅ (mini model) | ✅ (full model) |
 | **FORA Neurons (active)** | 2 | 25 | Unlimited |
+| **FORA planner (My plan)** | Token, why and FORA's opinion — no numbers (up to 3) | Entry, size for your bankroll, OUR exit steps + FORA follows every step (up to 5) | Same as Pro (up to 10) |
+| **KOL watch Neuron** | 1 token of opportunity per 7 days (no numbers) | ✅ 5 proposals / day with OUR plan | ✅ 20 proposals / day with OUR plan |
 | **Saved AI strategies** | 1 | Unlimited | Unlimited |
 | **Trading Audit** | 1 in total (basic) | 3 / day + weekly report (trial: 3 in total) | 10 / day + weekly report |
 | **Wallet Insights MFE/MAE tracking** | — | — | ✅ |
@@ -57,6 +59,7 @@ Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app sho
 | **Screener** | Crypto, 3-row preview | All markets, real-time | All markets, real-time |
 | **FORA realtime voice** | 3 sessions/day × 3 min (gpt-realtime-2.1-mini) | 25 sessions/day × 15 min (gpt-realtime-2.1-mini) | 80 sessions/day × 30 min (full gpt-realtime-2.1) |
 | **Trading Audit** | 1 in total (basic) | 3 / day | 10 / day |
+| **KOL watch proposals** | 1 token of opportunity per 7 days | 5 / day (+ FOM boost) | 20 / day (+ FOM boost) |
 | **FORA text chat (AI budget)** | $2 / month | $5 / day | $30 / day |
 | **Coins Hub (public cards)** | ✅ | ✅ | ✅ |
 

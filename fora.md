@@ -195,6 +195,32 @@ The single winner is then scored once on the locked holdout of unseen data; only
 
 ***
 
+## Personal plan: what, when, how much, how to exit
+
+Ask FORA *"what should I buy today?"*, *"how much should I put in?"*, *"make me a plan for $500"* or *"when do I sell?"* and it answers from the **FORA planner** — the same engine behind **Neurons → My plan**, the KOL watch card and the Dossier Telegram message.
+
+* **What FORA knows about you** — bankroll, risk level (low / medium / high), max per token, max open positions, daily loss brake, your own stop and chains. If something is missing FORA asks **once**, then uses the defaults and tells you which.
+* **What and when** — the Dossier's quality first calls and the KOL calls that passed KOL watch, ranked for you: 🟢 enter now, 🟡 wait, ⛔ not today or 🔴 skip, each with the reason from data (move since the Dossier price, verdict and risk, age, BTC regime, your open positions and daily brake).
+* **How much** — the smallest of your per-token cap, the % for your risk level, the pool's liquidity (≤ 0.5 % buy impact) and your free exposure, shown as one line of math. A small account gets fewer positions, not tiny ones.
+* **How to exit** — OUR exit ladder measured on past calls, the stake-back step, the stop (−30 % on an hourly close or your own) and at most 7 days. Tell FORA *"I bought"* and it sends every next step as "do this now" in the app and on Telegram, plus a Monday summary.
+
+FORA never buys for you: **Buy in my wallet** only pre-fills a swap you confirm. Neural (Free) gets the token, why and FORA's opinion without numbers. Full walkthrough: **[FORA Neurons → My plan](fora-neurons.md)**.
+
+<figure><img src=".gitbook/assets/shot-fora-planner-steps.jpg" alt="A FORA plan opened: entry near the Dossier decision price, OUR exit ladder, stop, time exit and the risk events FORA watches"><figcaption><p>One personal plan: what to buy, how much, OUR exit steps and what FORA watches.</p></figcaption></figure>
+
+## What FORA knows about KOL calls
+
+FORA reads the full KOL picture when you ask about KOLs, a @handle, a Telegram channel, "who called it" or a contract address — and **always** when you ask about a token that a source we follow called:
+
+* **every KOL call** — who, what, when, the contract, market cap, the 24 h run-up before the call, the Dossier verdict, score and risk, fresh or late, the KOL filter, the peak and now, and the result of OUR plan;
+* **the KOL filters** and their studies, segments by market cap, chain and delay, and timing groups;
+* **the KOL Fund** — its rule, positions and P&L, and the late calls it leaves out;
+* **post-mortems** at 24 h / 72 h / 7 days with the lesson, the weekly report and each KOL's history.
+
+Every number carries its label — *Verified*, *Collecting data* or *Keep refining*. Pro and Institutional also get OUR plan; Neural (Free) gets the facts and FORA's opinion, without entry, size or exit numbers. FORA never promises profit: a reply that would promise a result is cut, and every KOL or Dossier answer ends with *"Research, not financial advice — what we found + FORA's opinion. No profit is promised."*
+
+***
+
 ## What FORA is not
 
 FORA does not custody funds. Live actions require the applicable authorisation and account permissions; automated workflows follow the limits you configure. Check the supporting data before treating an AI answer as fact. It is an instrument that **amplifies the trader's judgment** — relentlessly informed, honestly calibrated, and always measured — not a black box that asks for blind trust.

@@ -28,6 +28,8 @@
   * [⚖️ Funding Carry](funding-carry.md)
 * [💬 AI & FORA](ai.md)
   * [💬 FORA — Trading Intelligence](fora.md)
+  * [🧬 FORA Neurons](fora-neurons.md)
+  * [🔍 Dossier — Our Calls](dossier.md)
   * [🤖 AI Advisor & Smart Trading](smart-trading.md)
   * [👾 Trade Vision](trade-vision.md)
   * [🌐 Research AI (RAG-LLM)](research-ai-rag-llm.md)
