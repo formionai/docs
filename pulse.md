@@ -65,7 +65,7 @@ A badge is never negative: Pulse never labels a trader as bad. A badge describes
 ### Labels on single ideas
 
 * **Timeframe is our reading** — he wrote "close above / below a level" without a timeframe; the level is his, the 1h and 1d readings of that close are ours, and the weaker number is shown.
-* **Uncertain outcome (1h vs 1d)** — the same case, but the 1h and the 1d reading give a different outcome; the idea is still counted, always with the **weaker** of the two outcomes.
+* **Uncertain outcome (1h vs 1d)** — the same case, but the 1h and the 1d reading give a different outcome. The idea is never left out: the **weaker** of the two outcomes is used. If only one reading's entry traded and that trade gained, the weaker outcome is "no trade", so the idea is shown as not triggered.
 
 {% hint style="info" %}
 Pulse reads what people *say*. It is a sentiment and research tool, not a signal to act on blindly — pair it with your own analysis before trusting any voice.
