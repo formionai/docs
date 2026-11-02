@@ -14,6 +14,7 @@
   * [🌊 Order Flow & Microstructure](order-flow.md)
   * [🔁 DEX & On-chain Trading](dex-trading.md)
   * [👛 Formion Wallet](wallet.md)
+  * [🧩 Formion Wallet for Chrome (2.0)](wallet-extension.md)
   * [🧾 Trades History](trades-history.md)
   * [📓 Trading Journal](journal.md)
 * [🛰️ Market Data & Analytics](market-data.md)
