@@ -36,6 +36,37 @@ flowchart LR
 
 <figure><img src=".gitbook/assets/s4-pu-history.jpg" alt="Pulse vs market history"><figcaption><p>Pulse vs market — the Pulse Score plotted against BTC over time.</p></figcaption></figure>
 
+## Trader records and badges
+
+Pulse also keeps a measured record for each followed trader. Trader records are in preview and are being rolled out step by step.
+
+### Measured since 2026-11-01
+
+Live tracking started on **2026-11-01** (00:00 UTC). Every idea a trader posts from that day on is followed from the moment it is posted. Ideas posted **before** that date are marked **Archive**: they are still shown and clearly labelled, and they are part of the badge, because the badge uses the trader's whole measured history. The card shows the live part separately ("Live since 2026-11-01"), so archive ideas never inflate the live number.
+
+### What counts as a call
+
+A **counted call** is measured on the trader's own terms, each idea once:
+
+* **His plan outcome** — when his entry actually traded, the result of *his* plan: his take-profit or stop-loss, whichever came first on the price path, or the exit he announced himself.
+* **Otherwise, direction on his horizon** — if he gave no exit, the price move in his direction over his own typical holding time (the median of his earlier closed trades; 3 days until he has 5 closed trades), counted from the moment his entry traded.
+* Every number is **after costs** (0.12 % round trip). An idea whose entry never traded is not a trade and is not counted. Only levels the trader wrote or drew are used — Formion never adds an entry, stop or target of its own.
+
+### Badge rules
+
+| Badge | Rule |
+| --- | --- |
+| **Verified** | At least **30** counted calls, the lower bound of the 95 % confidence interval of the average result per call is **above 0**, and a multiple-testing check across all traders (Benjamini–Hochberg) passes |
+| **Profitable (early)** | At least **10** counted calls and the lower bound of the 95 % confidence interval is **above 0** |
+| **Collecting data** | Everything else — too few calls, or the result is not yet clear |
+
+A badge is never negative: Pulse never labels a trader as bad. A badge describes measured past calls only; it is not a promise of future results.
+
+### Labels on single ideas
+
+* **Timeframe is our reading** — he wrote "close above / below a level" without a timeframe; the level is his, the 1h and 1d readings of that close are ours, and the weaker number is shown.
+* **Uncertain outcome (1h vs 1d)** — the same case, but the 1h and the 1d reading give a different outcome; the idea is still counted, always with the **weaker** of the two outcomes.
+
 {% hint style="info" %}
 Pulse reads what people *say*. It is a sentiment and research tool, not a signal to act on blindly — pair it with your own analysis before trusting any voice.
 {% endhint %}
