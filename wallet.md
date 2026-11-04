@@ -60,7 +60,8 @@
 * **Request** creates a payment request: amount, note, a QR code for any wallet or a Formion link, and an invoice you can print or save as PDF.
 * **Send to many** pays many recipients at once. Paste a list or upload a CSV (`address, amount, optional token`, `.fom` names allowed). On Solana and Sui many payments fit into one transaction.
 * **`.fom` names:** claim a short name like `name.fom` (3–20 characters, one per Formion account) that others can send to. The wallet proves each linked address with its own signature, so a name can only point to wallets you control.
-* **Address book**, **watch-only addresses** and **NFTs** (Ethereum, Base, Arbitrum, BNB Chain, with suspicious NFTs hidden) are also in the wallet.
+* **Address book** on every network, including Bitcoin and BNB Chain: each contact has a type (private person, exchange and more) and a note, you can import and export it as CSV or JSON, and you pick contacts in every recipient field.
+* **Watch-only addresses** and **NFTs** (Ethereum, Base, Arbitrum, BNB Chain, with suspicious NFTs hidden) are also in the wallet.
 
 ## Swap and bridge
 
@@ -74,7 +75,7 @@
 | Tron | SunSwap (Beta) |
 | HyperEVM | HyperEVM swaps (Beta) |
 | USDC between Ethereum, Base, Arbitrum, Solana and HyperEVM | **Bridge** with Circle CCTP, native burn-and-mint (Beta) |
-| To / from Bitcoin | **Bridge to / from Bitcoin**: native BTC on your own Bitcoin address, routed through your Hyperliquid account (Beta) |
+| To / from Bitcoin | **Bridge to / from Bitcoin**: native BTC on your own Bitcoin address, from or back to Base, Solana, Ethereum, Arbitrum, **BNB Chain**, HyperEVM or Hyperliquid, routed through your Hyperliquid account (Beta). Minimum 0.0003 BTC per transfer, no Formion fee. Sending from BNB Chain needs a little BNB for gas. |
 
 Before you sign, the wallet checks the route: only allowed programs and routers, your own address as the receiver, and the guaranteed minimum. On Solana it also simulates the swap. Token approvals are always for **the exact amount, never unlimited**. If the price moves beyond your max slippage, the swap is cancelled and you pay only the network fee.
 
@@ -125,7 +126,7 @@ The **Perps** tab (Beta) trades Hyperliquid perps and spot from your own wallet.
 ## Apps, extension and Telegram
 
 * **WalletConnect** (tab **Apps**): connect the wallet to any site that supports WalletConnect, by pasting its `wc:` link or scanning the QR code. You approve every signature and transaction in the wallet. Known phishing sites are flagged, and raw `eth_sign` requests are always rejected.
-* **Browser extension:** **Formion Wallet for Chrome** on the [Chrome Web Store](https://chromewebstore.google.com/detail/formion-wallet/dkmpdbcfnenlobgkbmnahkhblogebhmj) (more at [formion.ai/extension](https://formion.ai/extension)). It brings the wallet to EVM dApps in the browser (EIP-1193 / EIP-6963). Every connection, signature and transaction opens an approval window, and nothing is approved automatically.
+* **Browser extension — Formion Wallet for Chrome 2.0:** the full wallet in Chrome from the [Chrome Web Store](https://chromewebstore.google.com/detail/formion-wallet/dkmpdbcfnenlobgkbmnahkhblogebhmj): ten networks with one recovery phrase, swap and the Bitcoin bridge (incl. BNB Chain), Hyperliquid, staking, FOM Lock, orders, gas in USDC, address book, send protection and passkey unlock, as a popup or in the side panel. It connects to EVM dApps (EIP-1193 / EIP-6963) and Solana dApps (Wallet Standard); every connection, signature and transaction opens a Formion review window. Account features (Insights, alerts, exchange balances) work after an optional link to your Formion account. Full guide: **[Formion Wallet for Chrome (2.0)](wallet-extension.md)**.
 * **Install as an app:** add Formion Wallet to your phone's home screen or your computer to get notifications.
 * **Telegram Mini App** (Beta): open the wallet inside Telegram from the Formion bot. Your Telegram must be linked to your Formion account (Profile → Connections). Your keys stay on the device, encrypted with your wallet password.
 
@@ -180,7 +181,7 @@ The same tab also has **price alerts** (a % move, above or below a price), **inc
 
 | Feature | What it does |
 | --- | --- |
-| **Pay the fee in USDC** (Beta) | No ETH on Base? Pay the network fee in USDC through Circle Paymaster (Circle adds 10% on Base). You see the maximum fee before you sign, and unused USDC is refunded in the same transaction. The first time, your address gets a one-time EIP-7702 smart-account upgrade. You keep the same address and the same recovery phrase. |
+| **Pay the fee in USDC** (Beta, gasless) | No ETH on Base? Pay the network fee in USDC through Circle Paymaster (Circle adds 10% on Base). You see the maximum fee before you sign, and unused USDC is refunded in the same transaction. The first time, your address gets a one-time EIP-7702 smart-account upgrade. You keep the same address and the same recovery phrase. |
 | **Passkey account** (Beta) | A separate Safe smart account on Base, controlled by a passkey on your device. You sign with your fingerprint, face or device PIN, and fees are paid in USDC. Recovery is 12 backup words that you write down once. Formion never saves them, and they can always move the funds, also in Safe{Wallet}. |
 
 ## Security
