@@ -36,6 +36,8 @@ Plain-English definitions of terms used across Formion.
 * **FormionTSI** — Formion's proprietary True-Strength-Index–based indicator with a nightly tuner.
 * **GEX** — *Gamma Exposure*: dealer options positioning that can pin or accelerate price.
 * **Footprint / DOM** — order-flow views (volume traded at each price / the live order-book ladder).
+* **Liquidity Map** — Formion's recording of resting order-book liquidity across 11 markets (BTC, ETH, SOL, HYPE), shown over time and price; a Context signal, not a forecast. See **[Liquidity Map](liquidity-map.md)**.
+* **Liquidity Tracker** — bid vs ask liquidity weighted by distance from each venue's best price (half-life H 25 or 100 bp). See **[Liquidity Map](liquidity-map.md)**.
 
 ### Strategy & performance
 

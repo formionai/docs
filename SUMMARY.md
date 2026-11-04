@@ -19,6 +19,7 @@
   * [📓 Trading Journal](journal.md)
 * [🛰️ Market Data & Analytics](market-data.md)
   * [📊 Data Hub](data-hub.md)
+  * [🗺️ Liquidity Map](liquidity-map.md)
   * [🌍 Markets](markets.md)
   * [📐 Options & GEX](options.md)
   * [🪙 Coins Hub](coins-hub.md)

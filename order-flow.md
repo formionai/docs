@@ -17,7 +17,7 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 | **Order Flow** | Trades and liquidations streamed from Binance, Bybit, OKX and Coinbase, with an aggregated CVD and a **Significant Trades** feed |
 | **Tape Feed** (Time & Sales) | Every print in real time (Constructor panel) |
 | **DOM Pro** | A depth-of-market ladder with a size heatmap, a trade heatmap and VWAP / POC / VAH / VAL levels |
-| **Order-Book Heatmap** / **Agg Heatmap** | Resting liquidity over time — for the Binance book, or summed across exchanges |
+| **Liquidity Map** | Recorded resting liquidity over time, summed across 11 markets, with tracker, ladder, pull/stack, walls, CVD and Hyperliquid liquidation levels. It replaces the old Order-Book Heatmap and Agg Heatmap pages — see **[Liquidity Map](liquidity-map.md)** |
 | **Footprint** | Bid/ask volume **inside** each candle by price tick (Constructor panel) |
 | **Walls** | Live wall detector plus a history of confirmed, broken and pulled walls. A wall is resting liquidity that can be pulled at any time, so it is context, not a support or resistance promise. The **Walls Bot** paper book (v2, real fills, measured from 2 Nov 2026) and its Backtesting filters are described under **[Screener → Order Book](screener.md#order-book)** |
 | **Liquidation Map** | Clustered liquidation levels over time — magnet levels, with a leverage filter |

@@ -54,7 +54,7 @@ A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (in
 
 <figure><img src=".gitbook/assets/s2-the-app-datahub.jpg" alt="Data Hub"><figcaption></figcaption></figure>
 
-Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding (OKX, Binance, Bybit, Gate and HTX by default). Plus order-flow pages (Order Flow, Heatmaps, DOM Pro, Liq Map, Walls) and scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options**, **Gamma/GEX**, **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
+Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding (OKX, Binance, Bybit, Gate and HTX by default). Plus the **[Liquidity Map](liquidity-map.md)** (recorded resting liquidity across 11 markets) and order-flow pages (Order Flow, DOM Pro, Liq Map, Walls) and scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options**, **Gamma/GEX**, **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
 
 ### 🪙 Coins Hub
 

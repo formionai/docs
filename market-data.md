@@ -6,6 +6,7 @@ Every market-data and research view in Formion, in one place: derivatives positi
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
 <tr><td><strong>📊 Data Hub</strong></td><td>Open interest, funding, long/short and taker flow across exchanges.</td><td><a href="data-hub.md">data-hub.md</a></td></tr>
+<tr><td><strong>🗺️ Liquidity Map</strong></td><td>Recorded resting liquidity across 11 markets for BTC, ETH, SOL and HYPE — heatmap, tracker, walls and more.</td><td><a href="liquidity-map.md">liquidity-map.md</a></td></tr>
 <tr><td><strong>🌍 Markets</strong></td><td>Which markets Formion covers — crypto, forex, stocks, commodities, options, prediction markets.</td><td><a href="markets.md">markets.md</a></td></tr>
 <tr><td><strong>📐 Options & GEX</strong></td><td>Implied volatility, the vol surface, scored option structures and dealer gamma.</td><td><a href="options.md">options.md</a></td></tr>
 <tr><td><strong>🪙 Coins Hub</strong></td><td>Token discovery, smart wallets and on-chain swaps.</td><td><a href="coins-hub.md">coins-hub.md</a></td></tr>
