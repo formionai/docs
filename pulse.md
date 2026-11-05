@@ -42,7 +42,7 @@ Pulse also keeps a measured record for each followed trader. Trader records are 
 
 ### Measured since 2026-11-01
 
-Live tracking started on **2026-11-01** (00:00 UTC). Every idea a trader posts from that day on is followed from the moment it is posted. Ideas posted **before** that date are marked **Archive**: they are still shown and clearly labelled, and they are part of the badge, because the badge uses the trader's whole measured history. The card shows the live part separately ("Live since 2026-11-01"), so archive ideas never inflate the live number.
+Live tracking started on **2026-11-01** (00:00 UTC). Every idea a trader posts from that day on is followed from the moment it is posted. Ideas posted **before** that date are marked **Archive**: they are still shown and clearly labelled. The badge and every measured number (accuracy, win rate, average, confidence range) use calls **measured since 1 Oct 2025** (00:00 UTC); older posts are kept only as **History (not measured)** to describe the trader's style and are never part of the badge. The card shows the live part separately ("Live since 2026-11-01"), so archive ideas never inflate the live number.
 
 ### What counts as a call
 
