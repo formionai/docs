@@ -1,10 +1,21 @@
 # 🗺️ Liquidity Map
 
-<figure><img src=".gitbook/assets/shot-liquidity-map-heatmap.jpg" alt="Liquidity Map — recorded resting liquidity over time and price, with the traded price line"><figcaption><p>The resting liquidity map: time left to right, price bottom to top, brighter = more resting USD in the order books.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-liquidity-map-heatmap.jpg" alt="Liquidity Map — recorded resting liquidity over time and price, with the traded price line"><figcaption><p>The resting liquidity map: time left to right, price bottom to top; in the default Relative display brighter = more resting orders than usual at that distance from the price.</p></figcaption></figure>
 
 <figure><video src=".gitbook/assets/rec-liquidity-map-read.mp4" title="Live recording: pick a coin (ETH) and a range (6h), switch on the Persistent walls filter, hover the map to read a price row, then the Liquidity Tracker with H 25 bp and H 100 bp, the per-venue ladder and pull/stack. Dark vertical gaps are minutes that were not recorded — they are never filled in."></video><figcaption><p>Live recording: pick a coin (ETH) and a range (6h), switch on the Persistent walls filter, hover the map to read a price row, then the Liquidity Tracker with H 25 bp and H 100 bp, the per-venue ladder and pull/stack. Dark vertical gaps are minutes that were not recorded — they are never filled in.</p></figcaption></figure>
 
 The **Liquidity Map** (app.formion.ai → Data Hub → **Liquidity Map**, `/liquidity-map`) shows where buyers and sellers had orders **resting** in the order books, minute by minute — summed across **11 markets**, recorded by Formion and kept for 30 days. It replaces the old **Heatmap** and **Agg Heatmap** pages; their links now open the Liquidity Map.
+
+## Liquidity Map vs Liquidation Map
+
+| | **Liquidity Map** (this page) | **[Liquidation Map](order-flow.md#liquidation-map)** |
+|---|---|---|
+| **What it is** | **Real resting limit orders** that Formion records from 11 venues | A **model estimate** of where leveraged positions would be force-closed |
+| **What you see** | Where orders sit now and where they sat before, in **real USD** | Where forced orders could appear if price gets there — sizes are **relative strength, not dollars** |
+| **Source** | Order books of Binance, Bybit, OKX, Bitget (perp + spot), Coinbase, Hyperliquid, Deribit | Binance USDⓈ-M (optionally Bybit coin-margined), as today |
+| **Can it change?** | Yes — any order can be **pulled** at any moment | Yes — the estimate moves as positions open and close |
+
+The **Hyperliquid liquidation levels** panel on this page is the exception that is real on both counts: they are the actual liquidation prices of open positions, but **only of the Hyperliquid accounts we track**, not the whole market.
 
 {% hint style="info" %}
 The Liquidity Map is a **Context signal**. It describes what was in the books — it does not predict price and it never gives an entry, stop or target. Resting orders can be pulled at any moment, and in book data a fill and a cancel look the same.
@@ -24,10 +35,15 @@ The Liquidity Map is a **Context signal**. It describes what was in the books �
 
 ### 1. Resting liquidity map
 
-<figure><img src=".gitbook/assets/shot-liquidity-map-heatmap.jpg" alt="Resting liquidity map panel"><figcaption><p>Bright horizontal bands = price levels where large orders stayed resting; the line is the traded price.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-liquidity-map-heatmap.jpg" alt="Resting liquidity map panel in Relative display, last 24 hours, with candles and volume bars"><figcaption><p>Relative display (default): white / orange / red lines are price levels where far more orders rested than usual for their distance from the price; candles = traded price, bars at the bottom = traded volume.</p></figcaption></figure>
 
-* **What it shows:** time on the horizontal axis, price on the vertical axis; each cell is the resting USD at that price in that time bin (log colour scale, darker → brighter = less → more). The line is the traded price.
-* **Controls:** **Venue** (all 11 markets summed, or one market), **Persistent walls** (shows only liquidity that stayed at least 5 minutes on 1h / 6h, or for the whole time bin on longer ranges — this hides orders that flash in and out), and **Contrast**. Hover a cell to read its price row, time and USD.
+* **What it shows:** time on the horizontal axis, price on the vertical axis; each cell is the resting liquidity at that price in that time bin. The **candles** are the traded price (wide, with a dark outline so they stay readable on bright rows) and the **bars at the bottom** are the traded volume (taker buys + sells of the selected venues). The default view is the last **24 hours** (it switches to **7 days** once a full week has been recorded).
+* **Display — Relative (default) or Raw USD:**
+  * **Raw USD** colours each cell by the resting dollars as recorded. Because the book is always thickest right next to the price, on this scale the brightest band simply follows the price and covers the candles.
+  * **Relative** removes that distance effect: every cell is divided by the **usual book at the same distance from that bin's traded price** (the median over all shown time bins at about the same distance). **1×** = normal for that distance, **4×** = four times the usual book there. So a wall far from the price stands out even if it is smaller in dollars than the always-thick book next to the price. It is a display only — no amount is changed or added, and the tooltip always shows the real USD next to the ratio.
+* **Colours:** the default colormap **Tide** runs deep blue (usual) → white → orange → red (far above usual). **Appearance** has 30 colormaps, Low / Peak, gamma, opacity, styles (Classic = crisp cells, no blur), and layers (candles, wide outlined candles, volume bars, last price line, current book profile, biggest levels now).
+* **Controls:** **Venue** (all 11 markets summed, or one market), **Persistent walls** (shows only liquidity that stayed at least 5 minutes on 1h / 6h, or for the whole time bin on longer ranges — this hides orders that flash in and out), **Relative / Raw USD**, **Appearance** and **Full screen**. Hover a cell to read its price row, time, OHLC, the resting USD (split by venue) and, in Relative, how many times the usual book it is. Scroll = zoom, drag = pan, double-click = reset.
+* **Full screen:** the **Full screen** button (or the **F** key) opens the map with its price axis, book profile and legend on the whole screen; **Esc**, **F** or the button closes it. On iPhone it fills the browser window.
 * **Gaps:** minutes with no recording (for example during a restart) stay empty as dark vertical stripes — nothing is filled in.
 * **How to read it:** a bright band that stays in place while price approaches is liquidity that was really sitting there; a band that disappears before price gets to it was pulled.
 * **What it is NOT:** not a support/resistance promise and not a forecast — a band can vanish at any moment.
@@ -58,7 +74,9 @@ The Liquidity Map is a **Context signal**. It describes what was in the books �
 
 ### 5. Persistent walls
 
-* **What it shows:** big resting levels (at least the top 5 % of their side of the book) that lived at least 60 seconds, listed **once they end**: price, side (Bid / Ask), maximum size, venues that held it, how long it lived, when it was seen (UTC) and the outcome — **Touched by price** or **Pulled before touch**. The header counts recorded walls, walls that lived 5 min+, and the share pulled before touch; **Persistent only** keeps the 5 min+ walls.
+<figure><img src=".gitbook/assets/shot-liquidity-map-walls.jpg" alt="Persistent walls panel — big resting levels with size, venues, lifetime and outcome"><figcaption><p>Big resting levels listed once they end: price, side, maximum size, venues, how long they lived, when they were seen and whether price reached them.</p></figcaption></figure>
+
+* **What it shows:** big resting levels (at least the top 5 % of their side of the book) that lived at least 60 seconds, listed **once they end**: price, side (Bid / Ask), maximum size, venues that held it, how long it lived, when it was seen (UTC) and the outcome — **Touched by price**, **Pulled before touch** or **Recording cut** (the recording stopped — a restart or a new UTC day — while the wall was still there; it was not pulled). The header counts recorded walls, walls that lived 5 min+, and the share pulled before touch; **Persistent only** keeps the 5 min+ walls.
 * **How to read it:** use it to see how often big walls near the market were actually reached, and how often they were removed before price got there.
 * **What it is NOT:** a wall that is still standing appears only after it ends. A wall is context about the book, not a promise of support or resistance.
 
