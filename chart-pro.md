@@ -156,6 +156,8 @@ Pick what FORA should draw: key levels, support/resistance, order blocks, FVG, s
 
 Switch on **Order Flow** in the indicator grid to see what happens inside each candle: **bubbles** for aggressive buying and selling, **traps** and **absorption** markers, and **Spot vs perp CVD** in its own pane under the chart (Binance spot and USD-M futures). An amber band marks the moments when spot and perp move in opposite directions.
 
+**HL Trade Intent** (preview, rolling out) is a pane under the chart with the USD value of **new longs** and **new shorts** opened on Hyperliquid per bar, plus closes on request — turn it on in the HL tab (**Show trade intent**) or in the Order Flow Suite settings. **[How it works → Order Flow](order-flow.md#hl-trade-intent-hyperliquid)**
+
 ## Order-flow Constructor
 
 The **Constructor** tab (Chart Pro → Constructor) is a dockable, resizable multi-panel layout with order-flow presets: Volume Profile & Footprint, Order book, multi-source order book (Binance, Bybit, OKX, Hyperliquid), DOM ladder, Orderbook heatmap, Tape, Liquidations feed and spoofing / iceberg detection.
