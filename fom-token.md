@@ -254,13 +254,13 @@ or by paying monthly in FOM:
 * **Dossier Autopilot is not available in the United States, the United Kingdom, the EU/EEA or sanctioned countries.**
 * Dossier Autopilot rolls out in phases and is not open to everyone yet.
 
-### How the autopilot trades
+## How Dossier Autopilot trades
 
 <figure><video src=".gitbook/assets/clip-dossier-autopilot.mp4" title="Dossier Autopilot in one trade: first call, safety and cost check, buy, peak, hourly close 15% below the peak, sell, P&L from real fills (DEMO values)."></video><figcaption><p>One trade from start to finish: call → safety + cost check → buy → +20 % reached → hourly close 15 % below the peak → sell → P&L from real fills (DEMO values).</p></figcaption></figure>
 
 The numbers below are the **calibrated defaults**. You can change them in the Autopilot settings unless a rule says it is fixed. They describe how the autopilot works, not what it will earn.
 
-#### Which calls it buys
+### Which calls it buys
 
 * Only **first calls** — the first time Dossier rates a token — with the verdict **BUY** or **PARTIAL** that pass our quality rule.
 * Score **65 or higher** and risk **low, moderate or elevated** (never high or critical).
@@ -270,7 +270,7 @@ The numbers below are the **calibrated defaults**. You can change them in the Au
 * Tokens that had already traded heavily before they were listed on CoinMarketCap / CoinGecko (24 h volume of $1M or more, or a rise of more than 50 % in the 24 hours before the listing) are skipped.
 * The size is cut so that our buy moves the price by about 1 % at most. A pool that is too thin is skipped, and the reason is shown.
 
-#### Checks before every buy
+### Checks before every buy
 
 * **Round-trip cost.** Before every buy we ask for a buy quote and an immediate sell-back quote for that exact amount, and add the token's buy and sell taxes and the Solana Token-2022 transfer fee. **If the round trip would cost more than 15 %, the call is skipped.** If no usable quote is available within 1 hour, it is skipped too — the autopilot never buys blind.
 * **Contract backdoor scan (EVM).** The verified source code is scanned for hidden backdoors such as privileged transfer or allowance tricks, fake balances and owner drains. **A token with a backdoor is never bought.**
@@ -279,13 +279,13 @@ The numbers below are the **calibrated defaults**. You can change them in the Au
 * **Daily brake.** When today's realised plus open result is below −20 % of your budget, no new entries are opened that day. Exits keep running.
 * **Access.** New live entries need active FOM access (hold, lock or monthly payment, see above). Without it, exits still run.
 
-#### Position size
+### Position size
 
 * Defaults: budget **$500**, at most **$50 per trade**, **$150 per day** and **8 open positions**. You can change all of them.
 * **Half size** when the token is fresh (younger than 72 hours), when it already rose 100 % or more in the 7 days before the call (setting: half / skip / full), or when the price history before the call is **not known yet** at the moment of the buy. Full size only when we know the token had not pumped; the order then says *"half size: run-up before the call not known yet"*.
 * The smallest ticket is **$5**; below that the call is skipped.
 
-#### Buying: slippage and real fills
+### Buying: slippage and real fills
 
 * Every swap is signed with a **3 % slippage limit** (a minimum amount out).
 * The autopilot funds the buy from what the auto-trade wallet holds (USDC, FOM, ETH or SOL on any chain) and moves it to the call's chain first (Circle CCTP or verified routes). Sale proceeds go back to USDC, or to FOM if you chose that.
@@ -293,7 +293,7 @@ The numbers below are the **calibrated defaults**. You can change them in the Au
 * Per position, the Live wallet shows the real fill, the slippage, the round-trip cost at entry, the price you could sell at now for your amount, and for exits the real sale price and how far it was from the trigger.
 * **Solana rent comes back.** After a position is fully sold, its empty token account is closed and the rent (about 0.0015–0.002 SOL) returns to the same wallet. Only empty accounts of tokens the autopilot traded are closed — never USDC or wrapped SOL.
 
-#### Our exit plan
+### Our exit plan
 
 The exit rules are **Formion's own plan**, measured on past calls — not a promise of any result. The default plan works like this:
 
@@ -306,19 +306,19 @@ The exit rules are **Formion's own plan**, measured on past calls — not a prom
 * The trigger watches the pool price; the sale itself happens at the price you can actually get for your amount, and the difference is recorded on the sale.
 * A sale that fails is **retried once**; if it fails again, our team is alerted and you can sell from the panel. A position is marked closed only after the sale is confirmed on chain.
 
-#### Safety exits and lost tokens
+### Safety exits and lost tokens
 
 * **Open positions are re-checked every 30 minutes (EVM).** If a backdoor or creator burn is found, the rest is sold at once and the message tells you what was found.
 * **Balance watch** (every 10 minutes at most): if the wallet holds less than half of the tokens the position still owns and we did not sell them, what is left is sold and the position is marked **LOST**. Its P&L is what came back minus what was put in — a price gain is never counted.
 * **The chain is checked first.** Before a failed sale is retried and before any position is marked LOST, the wallet's own transactions since the buy are read from the chain. If one of our sales actually landed, the position is booked as sold with the real proceeds (never LOST) and you get one *re-booked* message.
 
-### Legal notice
+## Legal notice
 
 FOM is a utility token. Holding or locking FOM, or paying with it, grants access to product features only; it is not an investment, does not represent equity, debt, a share of profits or any claim on Formion, and no return of any kind is promised. Formion may change, suspend or discontinue any level, threshold, benefit, limit, fee or feature, at any time and for any reason, with or without prior notice. Where possible we announce changes in advance on docs.formion.ai and formion.ai/fom; continued use after a change means acceptance. Benefits depend on product availability and may be rolled out in phases. Nothing here is financial, legal or tax advice. Formion cannot prevent the sale or transfer of FOM from a self-custody wallet; access based on holding ends when the condition is no longer met. FOM paid for Dossier Autopilot is non-refundable. Formion is not liable for trading outcomes or for the price of FOM. These terms are part of the [Formion Terms of Service](https://formion.ai/terms?utm_source=docs&utm_medium=referral&utm_campaign=docs).
 
-### Changelog
+## Changelog
 
-* **7 November 2026** — Dossier Autopilot: added **[How the autopilot trades](#how-the-autopilot-trades)** — which calls it buys, the checks before every buy (round-trip cost over 15 % → skip, contract backdoor scan, unverified or upgradeable contracts never bought, creator-burn watch), position size (half size when the run-up before the call is not known yet), real fills and returned Solana rent, our exit plan and the on-chain check before a position is marked lost. Packages, prices and country limits are unchanged.
+* **7 November 2026** — Dossier Autopilot: added **[How Dossier Autopilot trades](#how-dossier-autopilot-trades)** — which calls it buys, the checks before every buy (round-trip cost over 15 % → skip, contract backdoor scan, unverified or upgradeable contracts never bought, creator-burn watch), position size (half size when the run-up before the call is not known yet), real fills and returned Solana rent, our exit plan and the on-chain check before a position is marked lost. Packages, prices and country limits are unchanged.
 
 * **31 October 2026** — Added the **[FOM Boost](#fom-boost--more-on-every-plan)**: FOM now adds more on top of every plan (Free from $25 locked / $50 held; Pro and Institutional too), counted as locked value + half of the held value, with a monthly boost AI allowance. The Holder level now means the Holder boost step; its whale alerts were raised from 3 to 10 wallets, 10 tokens and 100 alerts a day. Corrected: paying for a licence in FOM (20% cheaper) is not available yet. Levels, thresholds and lock rules are unchanged.
 
