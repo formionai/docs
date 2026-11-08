@@ -14,3 +14,14 @@ Formion's AI layer: FORA, the assistant that works across your whole account, pl
 <tr><td><strong>📡 Formion Pulse</strong></td><td>X, YouTube and crowd sentiment blended into one score — filtered to the voices you trust.</td><td><a href="pulse.md">pulse.md</a></td></tr>
 <tr><td><strong>🐝 Swarm</strong></td><td>The trader social hub: ideas, graded calls, profiles and leaderboards.</td><td><a href="swarm.md">swarm.md</a></td></tr>
 </tbody></table>
+
+## 🧭 FORA knows the page you are on
+
+FORA has a written guide to every page and tab of the app: what it measures, where the data comes from, what each column, tile and filter means, how to read it, what it is *not*, and its measured status (Verified, Collecting data or Context signal).
+
+- **Page and tab aware.** When you open FORA, she knows which page and which tab you are looking at — for example a single screener view — and answers about exactly that, not a generic page description.
+- **Live numbers, same access as you.** When a page has numbers for a coin, FORA reads them from the same data the page shows and with your own plan's access. If you can't see something on a page, FORA can't read it for you either.
+- **Only what is there.** FORA quotes the numbers she reads. If data is missing or stale she says so. She never invents a level, an entry or a stop.
+- **Every new page ships with FORA's guide.** A new page or tab can't go live until FORA has its explanation, so FORA keeps up as the app grows.
+
+Try it: open any page and ask FORA *"what am I looking at?"* or *"explain this for BTC"*.
