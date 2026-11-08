@@ -235,6 +235,16 @@ On the dashboard, [Command Center](command-center.md) lets you choose suggested 
 
 **Live two-way voice** with FORA is available on every plan: **Neural** 3 sessions a day × 3 minutes and **Pro** 25 × 15 minutes on gpt-realtime-2.1-mini, **Institutional** 80 × 30 minutes on the full gpt-realtime-2.1 (per UTC day; see [Plans & Pricing](pricing.md#daily-limits)). In the chart chat you can also turn on read-aloud replies and microphone dictation from its settings gear, using your browser's built-in speech features. Describe the instrument, timeframe and intended task clearly, and inspect the written context before authorising a trade. Voice is another conversation mode; it does not bypass account permissions or risk controls.
 
+### Chart chat: Yes / No answers and your language
+
+When FORA ends a reply with a question — for example *“Would you like a simple example?”* — two buttons, **Yes** and **No**, appear under the answer. One tap sends the answer in the language you are writing in, so you do not have to type it. The buttons only appear when the reply really ends with a question to you, and they disappear as soon as you write something else.
+
+<figure><img src=".gitbook/assets/fora-chat-yesno.png" alt="FORA chart chat with Yes and No buttons under a question" width="420"><figcaption><p>FORA asked a question, so Yes and No appear under the reply.</p></figcaption></figure>
+
+In the chat settings (the gear in the chat header) **Reply in my language** is on by default: FORA answers, and reads aloud when voice output is on, in the language of the message you just typed or spoke. If the language of a short message is unclear, FORA uses the language picked at the bottom of the same settings. Turn the switch off to always get replies in the picked language.
+
+<figure><img src=".gitbook/assets/fora-chat-settings.png" alt="FORA chat settings with Reply in my language switched on" width="300"><figcaption><p>FORA settings in the chart chat. “Reply in my language” is the first switch.</p></figcaption></figure>
+
 Try “analyse BTC on the 4h”, “compare strategies #1 and #2” or “show my open positions”. The command examples are starting points; a successful action still depends on the available tool, connected account and licence. Connect crypto venues through [Brokers](brokers.md), or authorise **cTrader** for forex and CFDs. Manage what FORA remembers in profile → Connections → FORA Memory, and pin standing rules (for example “I never use more than 3x leverage”) with **Teach FORA**. [Trades History](trades-history.md) and [Journal](journal.md) help separate evaluated calls, paper trades and your actual account outcomes.
 
 ## Reading the scientific model in practice
