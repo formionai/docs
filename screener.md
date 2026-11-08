@@ -124,6 +124,33 @@ The **Backtesting** sub-tab (also opened from **Walls Bot →**) measures what h
 * **Who sees what:** you need to be logged in. Free users see the last 7 days, and Pro and up see the whole book.
 
 
+## Context data — Volume z and Volatility regime
+
+Two extra readings sit next to the strength of every crypto row. They are **context data**: they describe the state of the market right now. They are **not buy or sell signals** and they are **not part of the strength score** — the ranking, phases and counts are exactly the same with or without them.
+
+| Reading | What it is | How it is measured |
+|---|---|---|
+| **Volume z** | How unusual the volume of the last closed bar is | (volume of the last closed bar − average of the **previous 20 closed bars**) ÷ their standard deviation, on the screener timeframe you picked. **+2** means about two standard deviations above normal; **−1** means quieter than usual |
+| **Volatility regime** | How wild the coin is now compared with **its own** recent past | 24 h realized volatility (1 h bars, annualised) as a **percentile of the coin's own last 30 days**: **Compressed** below P20 · **Normal** P20–P80 · **Elevated** above P80 · **Extreme** above P95. Hover the P number for the realized and Parkinson volatility |
+
+<figure><img src=".gitbook/assets/shot-screener-context-details.jpg" alt="A screener card on a phone with Details open — Context data block with Volume z and Volatility regime" width="360"><figcaption><p>Details on a phone: the Context data block with Volume z on the screener timeframe (here −0.2 on 1h) and the Volatility regime (here Normal, P75 of the last 30 days).</p></figcaption></figure>
+
+### Where you see them
+
+* **Details** — open a row (desktop) or tap **Details** on a card or a phone row. The **Context data** block shows both readings with their timeframe, for example `Volume z · 1h` and `Volatility · 1h · 30d`.
+* **Columns** — the **Columns** button adds **Volume z** and **Volatility** as optional table columns. They are **off by default**; your choice is remembered in this browser, like the view and the number of rows.
+* **More filters · context data** — in the filter panel (closed by default). Filter by **Volume z ≥ 2**, **Volume z ≥ 3** or **Volume z ≤ −1**, and by regime: **Compressed**, **Normal**, **Elevated**, **Extreme** or **Elevated + Extreme**. Rows without a fresh value are left out while a filter is on, and the up/down counters follow the filter.
+
+<figure><img src=".gitbook/assets/shot-screener-columns.jpg" alt="Columns picker — optional Volume z and Volatility columns, off by default" width="240"><figcaption><p>Columns: the two optional context columns, off until you switch them on.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-screener-more-filters.jpg" alt="More filters · context data — Volume z and Volatility filter chips"><figcaption><p>More filters · context data: Volume z and Volatility regime filters.</p></figcaption></figure>
+
+### Good to know
+
+* **Coverage:** both readings are measured on **Bybit perpetual candles**, so they exist for about 88 % of crypto rows. A market without them (for example a coin listed only on Binance) shows **—** with an explanation. A new coin needs at least 7 days of hourly history before it gets a regime (**Collecting**).
+* **No stale numbers:** a Volume z older than 3 bars or a regime older than 3 hours is not shown.
+* **Information only:** we measured whether the volatility regime makes signals better when used as a filter — it **does not**. Use it to understand the market you are looking at (a quiet coin vs a coin in an extreme move), not as a reason to enter or skip a trade.
+
 ## Logos & live data everywhere
 
 Every symbol carries its asset logo, and rows update live. Click any row to open its full chart and analysis in **Chart Pro**.

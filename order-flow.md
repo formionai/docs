@@ -14,7 +14,7 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 
 | Tool | What it shows |
 |---|---|
-| **Order Flow** | Trades and liquidations streamed from Binance, Bybit, OKX and Coinbase, with an aggregated CVD and a **Significant Trades** feed |
+| **Order Flow** | Trades and liquidations streamed from Binance, Bybit, OKX and Coinbase, with an aggregated CVD and a **Significant Trades** feed. Filter prints by USD size or by **relative size (×2 / ×5 / ×10 the average print)**; prints of ×10 or more are marked **BLOCK**. See **[Relative size filter](#relative-size-filter-and-block-prints)** below |
 | **Tape Feed** (Time & Sales) | Every print in real time (Constructor panel) |
 | **DOM Pro** | A depth-of-market ladder with a size heatmap, a trade heatmap and VWAP / POC / VAH / VAL levels |
 | **Liquidity Map** | Recorded resting liquidity over time, summed across 11 markets, with tracker, ladder, pull/stack, walls, CVD and Hyperliquid liquidation levels. It replaces the old Order-Book Heatmap and Agg Heatmap pages — see **[Liquidity Map](liquidity-map.md)** |
@@ -27,6 +27,29 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 <figure><img src=".gitbook/assets/s2-dom-pro.jpg" alt="DOM Pro depth-of-market ladder"><figcaption><p>DOM Pro — depth-of-market ladder with size and trade heatmaps.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/s2-liquidation-map.jpg" alt="Liquidation Map"><figcaption><p>Liquidation Map — clustered liquidation levels over time.</p></figcaption></figure>
+
+## Relative size filter and BLOCK prints
+
+On the **Order Flow** page (`/orderflow`) the tape has two size filters that work together:
+
+* **USD minimum** — the slider you already know: only prints of at least this many dollars.
+* **× avg** — **Off** (default), **×2**, **×5** or **×10**: only prints (and liquidations) at least that many times the **average print of this symbol**.
+
+The average is a **rolling average of the last 2,000 prints** of the symbol, across every venue you have switched on (liquidations are not counted in it), refreshed 5 times a second. The relative filter starts working after the first 200 prints, and the control shows the current average next to the buttons (for example `avg $1.7K`). Because the average moves with the market, **×5 means "big for BTC right now"** on BTC and **"big for this coin right now"** on a small coin — the same setting works on any symbol.
+
+* **BLOCK** — a print of **×10 or more** the average gets an amber **BLOCK** tag in **Significant Trades**. Hover any print to see its multiple (for example `×12.4 the average print · block print`).
+* **Title** — when the filter is on, the Significant Trades title shows it, for example `Significant Trades ≥ $50K · ≥ ×5 avg`.
+* **Venue logos** — every row in Significant Trades carries the real logo of the venue the print came from (for example Binance, Bybit, OKX, Coinbase, MEXC, Hyperliquid, Asterdex).
+
+<figure><video src=".gitbook/assets/clip-orderflow-relative.mp4" title="Relative size filter: the tape, the ×5 filter, a BLOCK print and the same setting on another coin."></video><figcaption><p>×5 keeps only prints at least 5× the average print of this symbol; a print of ×10 or more gets a BLOCK tag; the average follows each coin. Sample values (DEMO).</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-orderflow-relative-filter.jpg" alt="Order Flow tape controls — the × avg filter Off / ×2 / ×5 / ×10 and the current average print" width="230"><figcaption><p>The × avg control: Off, ×2, ×5 or ×10 the average print of this symbol; next to it, the current average (here $1.7K).</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-orderflow-significant-trades.jpg" alt="Significant Trades feed with venue logos, the ×N filter in the title and BLOCK tags"><figcaption><p>Significant Trades with the ×N filter on: venue logo per print and the BLOCK tag on prints of ×10 or more.</p></figcaption></figure>
+
+{% hint style="info" %}
+**Context data, not a signal.** A large or BLOCK print shows that someone traded a lot at that moment. It does not tell you who it was, whether the trade opened or closed a position, or where price goes next.
+{% endhint %}
 
 ## Liquidation Map
 

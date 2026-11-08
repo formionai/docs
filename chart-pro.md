@@ -37,6 +37,14 @@ The chart opens **clean** — no indicators until you switch them on in the indi
 
 <figure><img src=".gitbook/assets/qt-volume-ema-vwap.jpg" alt="Volume, EMA 200 and VWAP"><figcaption>Volume bars, the 200 EMA trend line and VWAP with its bands.</figcaption></figure>
 
+#### Session VWAP ±σ bands
+
+Open the **VWAP** settings → **Session σ bands** → **Show ±σ bands on the session VWAP** (off by default). The chart then draws a volume-weighted standard-deviation envelope around the **session VWAP**: **±1σ only**, or **±1σ + ±2σ** (**Band count**). The bands reset together with the VWAP at every session start and use the same math as the Anchored VWAP bands. On Velocity you can pick the **Band colour**; on Swift the bands use the VWAP indicator's own band colours.
+
+<figure><img src=".gitbook/assets/shot-chart-vwap-bands.jpg" alt="Session VWAP with ±1σ and ±2σ bands on a BTCUSDT chart"><figcaption><p>Session VWAP with its ±1σ and ±2σ bands — how far price is stretched from the session's average price.</p></figcaption></figure>
+
+The bands are **context data**: they show how far price has moved from the session's volume-weighted average, not a buy or sell level.
+
 ### Bollinger Bands
 
 <figure><img src=".gitbook/assets/qt-bollinger.jpg" alt="Bollinger Bands"><figcaption>Bollinger Bands — volatility envelope around the 20-period average.</figcaption></figure>
@@ -119,6 +127,7 @@ Every extra layer has its own button in the tools row above the chart — never 
 | **FORA Draw** | FORA marks levels and zones on your chart |
 | **Notes** | Your own notes pinned to a price and time; the eye button shows or hides them |
 | **My indicators** | Every indicator or strategy you saved — show or hide each one, or **Hide all** |
+| **OBI history** | A pane with the order-book imbalance history of this market (see below) |
 
 ### Split view
 
@@ -157,6 +166,22 @@ Pick what FORA should draw: key levels, support/resistance, order blocks, FVG, s
 Switch on **Order Flow** in the indicator grid to see what happens inside each candle: **bubbles** for aggressive buying and selling, **traps** and **absorption** markers, and **Spot vs perp CVD** in its own pane under the chart (Binance spot and USD-M futures). An amber band marks the moments when spot and perp move in opposite directions.
 
 **HL Trade Intent** (preview, rolling out) is a pane under the chart with the USD value of **new longs** and **new shorts** opened on Hyperliquid per bar, plus closes on request — turn it on in the HL tab (**Show trade intent**) or in the Order Flow Suite settings. **[How it works → Order Flow](order-flow.md#hl-trade-intent-hyperliquid)**
+
+## OBI history — order-book imbalance under the chart
+
+The **OBI history** button in the tools row (off by default) opens a pane under the chart with the **order-book imbalance** of the market over time, on both engines (Swift and Velocity).
+
+* **Imbalance** = (bid − ask) ÷ (bid + ask) of resting USD **within ±0.10 %** and **within ±0.25 %** of the mid price — two lines, the same bands as **[Screener → Order Book](screener.md#order-book)**.
+* **Positive** = more resting buy orders near price, **negative** = more resting sell orders.
+* Each point is a **5-minute average** of the order-book snapshot we record on our server (Binance futures book), recorded since early November 2026. Gaps mean nothing was recorded. The pane shows **Recorded since** with the first date.
+* When the recorded book does not reach ±0.25 % of price, that line has no value and the pane says **±0.25% not covered**.
+* Only recorded crypto perps have a history; on other symbols the pane explains why it is empty. The **✕** hides the pane again.
+
+<figure><img src=".gitbook/assets/shot-chart-obi-pane.jpg" alt="OBI history pane under a BTCUSDT chart with the ±0.10 % and ±0.25 % imbalance lines"><figcaption><p>OBI history under the chart: order-book imbalance within ±0.10 % and ±0.25 % of price, 5-minute averages.</p></figcaption></figure>
+
+{% hint style="info" %}
+**Context data, not a trade signal.** Resting orders can be pulled at any time, so a heavy bid or ask side describes the book at that moment, not where price will go.
+{% endhint %}
 
 ## Order-flow Constructor
 
