@@ -12,6 +12,12 @@ The source tabs include **All Bots**, **cTrader**, **Research Ledger**, **AI Adv
 
 The workspace provides trade rows and statuses, equity and performance metrics, with available breakdowns by symbol, side, session or hour. Coverage depends on the source and recorded trades. An empty source is not evidence that a trade was placed and lost.
 
+## Talos — our own account, counted once
+
+**Talos** (copy trading of a Binance Futures leader onto our Bybit account) appears once, under **Talos**. Its rows are the closed trades of **our own Bybit account**, read from the exchange's closed-P&L record: the leader's own Binance trades are never counted as ours, and the old separate "Norix Copy" view of the same trades is gone. The side shown is the side the trade was **opened** with (long or short) — exchanges log the closing order's side, which is the opposite. P&L is the exchange's realised P&L after fees. Trades on the same account that belong to other bots (MUSDT, gold) are not listed under Talos.
+
+<figure><img src=".gitbook/assets/shot-trades-history-talos.jpg" alt="Trades History — Talos rows"><figcaption><p>Talos in Trades History: one source, entry side (LONG / SHORT), entry, exit and the exchange P&L of each closed trade.</p></figcaption></figure>
+
 ## Review a record
 
 1. Choose All Bots for an overview, then select a specific source for a focused review. Funding Carry’s paper-book link opens its source directly.

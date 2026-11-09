@@ -46,6 +46,16 @@ Connect your own **cTrader** broker account through OAuth for supported forex, i
 * **Gold (XAU)** — Gold DCA bots and backtests in the Backtest hub, plus tokenized gold (XAUT / PAXG) on crypto venues.
 * **Silver (XAG)**, **Oil (WTI / Brent)**, **Copper (HG)** — where offered by your cTrader broker.
 
+### 📦 FP Deep history for backtests
+
+The **Gold DCA / Gold Grid** and **Stocks DCA** backtests can run on **FP Deep**: FP Markets cTrader price history stored on our server, from **October 2024**, topped up from the live feed.
+
+* The base is **5-minute** bars. For Gold Grid, **15-minute and 1-hour** runs use bars built from those same 5-minute bars — only closed bars, the same values as cTrader's own 15m / 1h bars — so every timeframe has the full history, not just the last few weeks.
+* Stocks DCA runs on the 5-minute history.
+* A backtest replays the past; it is not a promise of future results.
+
+<figure><img src=".gitbook/assets/shot-gold-grid-fp-deep.jpg" alt="Gold Grid backtest — FP Deep signal feed"><figcaption><p>Gold Grid backtest with the FP Deep signal feed selected.</p></figcaption></figure>
+
 ## 📐 Options
 
 BTC and ETH options (Deribit-based), plus IBIT:

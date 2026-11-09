@@ -25,3 +25,21 @@ FORA has a written guide to every page and tab of the app: what it measures, whe
 - **Every new page ships with FORA's guide.** A new page or tab can't go live until FORA has its explanation, so FORA keeps up as the app grows.
 
 Try it: open any page and ask FORA *"what am I looking at?"* or *"explain this for BTC"*.
+
+## 📅 Live data questions — calendar, funding, news
+
+Questions that need fresh numbers are always answered from live data, never from a stored FAQ answer:
+
+- **Economic calendar.** *"When is the next CPI?"*, *"what's on this week?"* — FORA reads the upcoming macro events with their time, forecast and previous value.
+- **Funding now.** *"What is ETH funding right now?"* — FORA reads the current funding rate (a bare coin name like "ETH" works).
+- **Crypto news.** *"Latest Bitcoin news?"* — FORA reads the same headline feed as the News page.
+
+If a live source does not answer, FORA says so instead of guessing.
+
+## ⛔ FORA does not trade on her own
+
+FORA's own autonomous autopilot is **switched off**. FORA proposes a trade as a card and **you** confirm it — or you switch on **your own** autopilot for your account, within the limits you set. The **"Research candidates"** on the FORA page are strategies from our research that are **not verified**: they have not passed out-of-sample testing and are not trade recommendations.
+
+<figure><img src=".gitbook/assets/shot-fora-acts-autopilot-off.jpg" alt="FORA page — Acts"><figcaption><p>On the FORA page: FORA proposes trades as cards you confirm; her own autonomous autopilot is off.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-fora-research-candidates.jpg" alt="FORA page — Research candidates (not verified)"><figcaption><p>"Research candidates (not verified)" — research ideas, not proven strategies.</p></figcaption></figure>

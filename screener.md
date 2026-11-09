@@ -56,7 +56,13 @@ A top-down **US-equities** setup funnel (long-only): market regime (SPY/QQQ vs t
 
 <figure><img src=".gitbook/assets/s3-sc-consensus.jpg" alt="Consensus — multi-signal confluence"><figcaption><p>Consensus: symbols ranked by how many engines agree on the same direction.</p></figcaption></figure>
 
-Multi-signal confluence: symbols ranked by how many of Formion's engines and indicators agree on the same direction.
+Multi-signal confluence: symbols ranked by how many of Formion's engine **families** agree on the same direction.
+
+* **Status: Context signal · Collecting data.** Engines agreeing is context next to your own levels and trend — our study has not shown that agreement alone trades better, so Consensus is not a buy/sell signal.
+* **Counted by family, not by variant.** Several variants of one engine count as one vote, so one engine with many versions cannot inflate the score. The rows still list every variant.
+<figure><img src=".gitbook/assets/shot-consensus-status.jpg" alt="Consensus status note"><figcaption><p>The status note on the Consensus page: Context signal · Collecting data, votes counted per engine family, Talos counted once.</p></figcaption></figure>
+
+* **Talos is counted once.** The Talos copy trades used to reach Consensus through two readers; they are now one family and one trade.
 
 ### ⭐ Watchlist
 
