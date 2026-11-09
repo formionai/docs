@@ -6,6 +6,8 @@
 
 <figure><video src=".gitbook/assets/rec-fora-chat.mp4" title="Live recording: one short question to FORA in AI Chat — the working steps, then the answer with the multi-timeframe read."></video><figcaption><p>Live recording: one short question to FORA in AI Chat — the working steps, then the answer with the multi-timeframe read.</p></figcaption></figure>
 
+> 🎬 **New:** FORA can turn any page into a short **video tutorial** or a **PDF guide** — click the FORA button next to any ⓘ. See **[FORA Video & PDF Tutorials](fora-tutorials.md)**.
+
 **FORA** began as a conversational assistant and has grown into something closer to a cognitive system. It perceives the whole market, reasons from retrieved evidence, remembers, learns from measured outcomes, trades autonomously to prove its own edge, and even *evolves* new strategies — all under strict, non-custodial safety.
 
 Talk to it in plain language on **Telegram (`@formiontradingbot`)**, in the FORA chat on formion.ai and app.formion.ai, or at **fora.formion.ai**. It works across your account and replies in your interface language (English, Serbian, Croatian, Russian, German, French, Spanish, Italian, Portuguese, Polish or Turkish).

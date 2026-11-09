@@ -59,11 +59,15 @@ Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app sho
 | **Screener** | Crypto, 3-row preview | All markets, real-time | All markets, real-time |
 | **FORA realtime voice** | 3 sessions/day × 3 min (gpt-realtime-2.1-mini) | 25 sessions/day × 15 min (gpt-realtime-2.1-mini) | 80 sessions/day × 30 min (full gpt-realtime-2.1) |
 | **Trading Audit** | 1 in total (basic) | 3 / day | 10 / day |
+| **FORA video tutorials** ([how](fora-tutorials.md)) | 1 to try · up to 10 s | 3 / day · up to 60 s | 10 / day · up to 3 min (1080p) |
+| **FORA PDF guides** | 1 to try · 1 page | 5 / day · up to 5 pages | 20 / day · up to 15 pages |
 | **KOL watch proposals** | 1 token of opportunity per 7 days | 5 / day (+ FOM boost) | 20 / day (+ FOM boost) |
 | **FORA text chat (AI budget)** | $2 / month | $5 / day | $30 / day |
 | **Coins Hub (public cards)** | ✅ | ✅ | ✅ |
 
 With your own AI key (**BYOK**), FORA text chat runs on your provider without the platform AI budget cap.
+
+FORA video tutorials and PDF guides grow with FOM too (Free from $25 locked) — the full table is on **[FORA Video & PDF Tutorials](fora-tutorials.md#limits-by-plan-and-fom-step)**.
 
 ## 🎁 7-day Pro trial
 

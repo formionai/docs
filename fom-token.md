@@ -182,6 +182,10 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Whale Tracker: wallets you follow | 3 | 4 | 5 | 7 | 10 |
 | Whale Tracker: tokens you follow | 3 | 4 | 5 | 7 | 10 |
 | Whale alerts a day | 20 | 30 | 40 | 60 | 100 |
+| FORA video tutorials | 1 to try | 1 a day | 1 a day | 2 a day | 2 a day |
+| Max video length | 10 s | 15 s | 20 s | 30 s | 45 s |
+| FORA PDF guides | 1 to try | 1 a day | 2 a day | 3 a day | 3 a day |
+| Max PDF pages | 1 | 2 | 3 | 4 | 5 |
 | Monthly boost AI allowance | — | $0.50 | $1 | $1.50 | $3 |
 
 #### Pro plan + FOM
@@ -204,6 +208,10 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Whale Tracker: wallets you follow | 25 | 30 | 40 | 50 |
 | Whale Tracker: tokens you follow | 25 | 30 | 40 | 50 |
 | Whale alerts a day | 200 | 250 | 300 | 400 |
+| FORA video tutorials a day | 3 | 4 | 5 | 6 |
+| Max video length | 60 s | 75 s | 90 s | 2 min |
+| FORA PDF guides a day | 5 | 6 | 8 | 10 |
+| Max PDF pages | 5 | 8 | 10 | 12 |
 | Monthly boost AI allowance | — | $3 | $13 | $30 |
 
 #### Institutional plan + FOM
@@ -220,8 +228,13 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Whale Tracker: wallets you follow | 100 | 125 | 150 | 200 |
 | Whale Tracker: tokens you follow | 50 | 60 | 75 | 100 |
 | Whale alerts a day | 1,000 | 1,250 | 1,500 | 2,000 |
+| FORA video tutorials a day | 10 | 12 | 15 | 20 |
+| Max video length | 3 min | 3 min | 4 min | 5 min |
+| FORA PDF guides a day | 20 | 25 | 30 | 40 |
+| Max PDF pages | 15 | 20 | 25 | 30 |
 | Monthly boost AI allowance | — | $13 | $75 | $150 |
 
+FORA video tutorials and PDF guides also get better production with each step (music, word-by-word captions, narration, voice choice, premium voice and real screen recording) and do not use the boost AI allowance — see **[FORA Video & PDF Tutorials](fora-tutorials.md)**.
 Free accounts also get more Trading Audits with a boost (one a month from F2, two a month at F3, one a week at the Holder step) and
 FORA Neurons trade proposals from F3. Reaching **$1,000 locked for 90+ days** still gives the full **Pro licence** (FORA Agent level), and
 $5,000 the **Institutional licence**, as described above — the boost then continues on that plan.
@@ -318,6 +331,7 @@ FOM is a utility token. Holding or locking FOM, or paying with it, grants access
 
 ## Changelog
 
+* **9 November 2026** — Added **FORA video tutorials and PDF guides** to the FOM Boost tables (how many a day, maximum video length and PDF pages per step). They do not use the boost AI allowance. See **[FORA Video & PDF Tutorials](fora-tutorials.md)**.
 * **7 November 2026** — Dossier Autopilot: added **[How Dossier Autopilot trades](#how-dossier-autopilot-trades)** — which calls it buys, the checks before every buy (round-trip cost over 15 % → skip, contract backdoor scan, unverified or upgradeable contracts never bought, creator-burn watch), position size (half size when the run-up before the call is not known yet), real fills and returned Solana rent, our exit plan and the on-chain check before a position is marked lost. Packages, prices and country limits are unchanged.
 
 * **31 October 2026** — Added the **[FOM Boost](#fom-boost--more-on-every-plan)**: FOM now adds more on top of every plan (Free from $25 locked / $50 held; Pro and Institutional too), counted as locked value + half of the held value, with a monthly boost AI allowance. The Holder level now means the Holder boost step; its whale alerts were raised from 3 to 10 wallets, 10 tokens and 100 alerts a day. Corrected: paying for a licence in FOM (20% cheaper) is not available yet. Levels, thresholds and lock rules are unchanged.

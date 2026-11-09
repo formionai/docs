@@ -30,6 +30,7 @@
   * [⚖️ Funding Carry](funding-carry.md)
 * [💬 AI & FORA](ai.md)
   * [💬 FORA — Trading Intelligence](fora.md)
+  * [🎬 FORA Video & PDF Tutorials](fora-tutorials.md)
   * [🧬 FORA Neurons](fora-neurons.md)
   * [🔍 Dossier — Our Calls](dossier.md)
   * [🤖 AI Advisor & Smart Trading](smart-trading.md)
