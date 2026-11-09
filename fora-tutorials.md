@@ -11,7 +11,7 @@ There are three ways — all of them open the FORA chat on the page you want exp
 
 1. **The FORA button next to every ⓘ.** Next to every ⓘ info button (on pages, tabs and sub-tabs) there is a small **FORA button** (a robot head). Click it and a panel of quick actions opens: **Explain this page**, **What is happening now**, **How do I use it**, **Make a video tutorial**, **Make a PDF guide**, **Video + PDF** and **My tutorials**.
 2. **Quick actions** in that panel — one click starts the tutorial.
-3. **Just type it** in the FORA chat on that page: *"make me a video about this tab"*, *"PDF only"*, *"both"* (other languages work too). A typed request is confirmed first with **Yes, make it / No**, so a sentence that only mentions "video" never uses your limit.
+3. **Just type it** in the FORA chat on that page: *"make me a video about this tab"*, *"PDF only"*, *"both"* — you can add your wishes too: *"in English, no music"*, *"30 seconds, FORA voice"* (other languages work too). A typed request always shows the **choice card** first, so a sentence that only mentions "video" never uses your limit.
 
 <figure><img src=".gitbook/assets/shot-fora-tutorials-button.jpg" alt="ⓘ info button with the FORA button next to it"><figcaption><p>Every ⓘ has a small FORA button (robot head) right next to it — also on tabs and sub-tabs.</p></figcaption></figure>
 
@@ -45,12 +45,29 @@ The tour always runs on an internal **demo account** — never on your own accou
 
 <figure><img src=".gitbook/assets/shot-fora-tutorials-pdf.jpg" alt="PDF guide card in the chat"><figcaption><p>A PDF guide in the chat: first-page preview, Open, Download and Copy link.</p></figcaption></figure>
 
-## 📏 Choose the length
+## 🎛️ Choose how it is made — once
 
-In the FORA chat open **Settings** (gear) → **Tutorial length** (15 s · 30 s · 60 s · 90 s · 2 min · 3 min · 5 min) and **Guide length** (1 · 3 · 5 · 10 · 20 · 30 pages).
-Pro and Institutional choose (defaults 60 s / 5 pages on Pro, 90 s / 10 pages on Institutional). Steps above your plan + FOM maximum show a **lock** — they open with a higher plan or with FOM Lock. Free uses its maximum automatically.
+Before a tutorial starts, FORA shows a short **choice card**, already filled in from your settings:
 
-<figure><img src=".gitbook/assets/shot-fora-tutorials-settings.jpg" alt="Tutorial and guide length in FORA settings"><figcaption><p>FORA chat Settings: lengths above your plan + FOM maximum show a lock (here on Pro: 60 s and 5 pages).</p></figcaption></figure>
+- 🌐 **Narration language** — any of the 11 app languages, or *Same as app*. Captions follow the narration language; a PDF is written in the chosen language.
+- 🎙️ **Narration** on or off, and the **voice** (*Narrator* or *FORA*, where your plan allows).
+- 🎵 **Music** on or off, and the **style** (*Calm*; *Pulse* and *Cinematic* where your plan allows).
+- 💬 **Karaoke captions** (word by word) or plain captions.
+- ⏱️ **Length** — 15 s · 30 s · 60 s · 90 s · 2 min · 3 min · 5 min, or 1 · 3 · 5 · 10 · 20 · 30 pages for a PDF.
+
+Tap **Make it**. With **Remember my choices** switched on (it is on by default) FORA saves them: the next time you ask, the tutorial starts right away and the card shows just one line, for example *EN · Narrator · Calm · Karaoke · 60 s* — tap **Change** whenever you want something different.
+
+<figure><img src=".gitbook/assets/shot-fora-tutorials-choice.jpg" alt="FORA choice card before a tutorial starts"><figcaption><p>The choice card: language, narration, voice, music, karaoke captions and length — options above your plan show a lock.</p></figcaption></figure>
+
+### ⚙️ Settings, presets and history
+
+In the FORA chat open **Settings** (gear) → **Tutorials**. Here you change the same choices at any time, and you can save **presets** — named sets such as *Quick EN 30 s* or *Srpski sa glasom* (up to 10). Add, edit or delete them, and tap the ⭐ to make one your default.
+
+Options above your plan + FOM step show a **lock** and open with a higher plan or with FOM Lock. A preset you saved on a higher plan keeps working after a downgrade — FORA simply uses the nearest choice your plan allows. Pro and Institutional choose the length (defaults 60 s / 5 pages on Pro, 90 s / 10 pages on Institutional); Free uses its maximum automatically.
+
+**My tutorials** lists every video and PDF with the page, date, language and length: play or open it, download it, copy a private link, **Make again** with the same choices, or **Delete** it (the file is removed). **Delete all** asks once more before removing everything. Deleting does not give a used tutorial back, and expired files are marked **Expired**.
+
+<figure><img src=".gitbook/assets/shot-fora-tutorials-settings.jpg" alt="Tutorials section in FORA chat settings"><figcaption><p>FORA chat Settings → Tutorials: your default choices, presets and locked options above your plan.</p></figcaption></figure>
 
 ## 📊 Limits by plan and FOM step
 
@@ -98,4 +115,7 @@ Usually 2–5 minutes. The progress card shows each step; you can keep using the
 No. The tour runs on an internal demo account. Your keys, balances and positions are never shown.
 
 **Which languages?**
-Captions, narration and PDFs follow the language you chat in — all 11 app languages.
+All 11 app languages. By default narration, captions and PDFs follow the app language; pick another narration language on the choice card or in Settings → Tutorials.
+
+**Can I turn the music or the voice off?**
+Yes — on the choice card or in Settings → Tutorials (narration, music and karaoke captions each have their own switch).
