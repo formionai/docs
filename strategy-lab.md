@@ -41,10 +41,10 @@ In the **🛒 Marketplace** you browse Formion catalog strategies, bots and comm
 * Listings can be **free** or **paid**. Paid listings need an approved **Partner** application (KYC) on the **Author** page.
 * Subscribers pay Formion; authors receive their share after a 25% platform fee and a 14-day hold. The Author page shows your subscribers, balance and payout history.
 * **Payouts — USDC or FOM, both on Base.** Request a payout in **Creator Studio** and choose **USDC** or **FOM** (minimum $20 in USD value; one payout covers strategies, bots, indicators and signals). USDT and other networks are not offered.
-* **FOM payouts** use the **lower of the 7-day and 30-day average price (TWAP)** of the FOM/WETH pool on Base — the same rule as FOM Lock. Before you confirm, you see the FOM amount and the price used; the price is **fixed when we approve** your payout, and you never get less than the USD amount at that price. There is no bonus for choosing FOM, and FOM's value can go up or down after you receive it.
+* **FOM payouts** use the **higher of the 7-day and 30-day average price (TWAP)** of the FOM/WETH pool on Base, so a short dip in the pool price cannot change your payout. Before you confirm, you see the FOM amount and the price used; the price is **fixed when we approve** your payout, and you never get less than the USD amount at that price. There is no bonus for choosing FOM, and FOM's value can go up or down after you receive it.
 * An admin sends every payout and the transaction is verified on-chain; you get a Telegram message with the link.
 
-<figure><img src=".gitbook/assets/shot-creator-payout-fom.jpg" alt="Creator Studio payout panel with FOM selected"><figcaption><p>Creator Studio → Payouts: choose USDC or FOM. With FOM you see the FOM amount and the price used (lower of the 7-day and 30-day pool average) before you confirm.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-creator-payout-fom.jpg" alt="Creator Studio payout panel with FOM selected"><figcaption><p>Creator Studio → Payouts: choose USDC or FOM. With FOM you see the FOM amount and the price used (higher of the 7-day and 30-day pool average) before you confirm.</p></figcaption></figure>
 * Check each listing's subscription and checkout terms before subscribing.
 
 {% hint style="warning" %}
