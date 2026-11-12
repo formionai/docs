@@ -72,7 +72,7 @@ Your saved symbols with live scores and signals, plus a workspace to curate the 
 
 ### ➕ More lenses
 
-**Patterns** (chart-formation detector; **Live chart** on a card opens the [Formion chart](#one-formion-chart-behind-every-table) with the pattern's own levels), **Trend** (trend-strength scan, see below), **Arbitrage** (cross-exchange price spreads and funding carry), **Order Book** (resting bids vs asks near price and walls, see below), **VWAP Bubble**, **RSI Heat**, **MACD Heat** and **EMA Cloud**.
+**Patterns** (chart-formation detector; **Live chart** on a card opens the Formion chart with the pattern's own levels, see below), **Trend** (trend-strength scan, see below), **Arbitrage** (cross-exchange price spreads and funding carry), **Order Book** (resting bids vs asks near price and walls, see below), **VWAP Bubble**, **RSI Heat**, **MACD Heat** and **EMA Cloud**.
 
 <figure><img src=".gitbook/assets/s3-sc-heatmap.jpg" alt="RSI heatmap"><figcaption><p>RSI Heatmap — every symbol coloured by RSI.</p></figcaption></figure>
 
