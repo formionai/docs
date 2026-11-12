@@ -72,7 +72,7 @@ Your saved symbols with live scores and signals, plus a workspace to curate the 
 
 ### ➕ More lenses
 
-**Patterns** (chart-formation detector), **Trend** (trend-strength scan, see below), **Arbitrage** (cross-exchange price spreads and funding carry), **Order Book** (resting bids vs asks near price and walls, see below), **VWAP Bubble**, **RSI Heat**, **MACD Heat** and **EMA Cloud**.
+**Patterns** (chart-formation detector; **Live chart** on a card opens the [Formion chart](#one-formion-chart-behind-every-table) with the pattern's own levels), **Trend** (trend-strength scan, see below), **Arbitrage** (cross-exchange price spreads and funding carry), **Order Book** (resting bids vs asks near price and walls, see below), **VWAP Bubble**, **RSI Heat**, **MACD Heat** and **EMA Cloud**.
 
 <figure><img src=".gitbook/assets/s3-sc-heatmap.jpg" alt="RSI heatmap"><figcaption><p>RSI Heatmap — every symbol coloured by RSI.</p></figcaption></figure>
 
@@ -163,4 +163,20 @@ Every symbol carries its asset logo, and rows update live. Click any row to open
 
 {% hint style="info" %}
 On the free **Neural** tier the Screener covers crypto as a **3-row preview** (last 7 days of history; signals are delayed 30 minutes). **Pro** and **Institutional** get the full real-time screener on all markets — crypto, stocks, commodities and forex — see **[Pricing & Tiers](pricing.md)**.
+{% endhint %}
+
+## One Formion chart behind every table
+
+When a table or card opens a chart — **Patterns → Live chart**, **Signals → Signal Desk → Live chart**, and **Multi-Chart** — you get the **same Formion chart** with our own candles (crypto from Binance, Bybit or OKX; forex, gold, oil and indices from FP Markets cTrader), not an embedded TradingView widget.
+
+<figure><img src=".gitbook/assets/shot-patterns-live-chart.jpg" alt="A Patterns card with its live chart open — UNI with the asset logo and the Binance USD-M logo in the title, a Chart settings button, Stop and Entry ref lines and a circle on the breakout candle" width="380"><figcaption><p>Patterns → Live chart: asset and exchange logo in the title, Chart settings, the pattern's own Stop and Entry ref, and a circle on the breakout candle.</p></figcaption></figure>
+
+* **Title** — the asset logo, the symbol and the exchange logo, so you always know which market and which venue's candles you are looking at.
+* **Chart settings** — the gear button, the same one as in Chart Pro: candles, wicks, grid and background. A change applies to **all charts** in the app by default; pick **This chart** to change only the chart in front of you.
+* **Entry marker** — a yellow circle sits on the candle where the signal triggered, at that price (the breakout candle on Patterns, the alert candle on Signal Desk).
+* **Levels only from the signal** — the zone, limit, stop and targets drawn on the chart are exactly the ones the row or card states (only those the signal has). The chart never adds levels of its own.
+* **No candles for a symbol?** If our feed has no candles for that market, the chart falls back to TradingView and says so in a visible note — you never get an empty chart.
+
+{% hint style="info" %}
+The **Radar** scans and **Strategy Lab** still show TradingView charts.
 {% endhint %}

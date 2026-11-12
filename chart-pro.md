@@ -133,6 +133,12 @@ Every extra layer has its own button in the tools row above the chart — never 
 
 <figure><img src=".gitbook/assets/qt-split-4.jpg" alt="Four charts side by side"><figcaption>Four charts at once — for example 1h, 15m, 5m and 4h of the same coin.</figcaption></figure>
 
+### Multi-Chart
+
+**Chart Pro → Multi-Chart** (or **app.formion.ai/multi-chart**) puts up to 8 Formion charts on one screen. Pick a layout — **Focus**, **Split**, **2×2**, **3×2** or **4×2** — and give each panel its own symbol and timeframe (1m to 1W). Every panel uses our own candles, shows the asset logo, symbol and exchange logo in its title, and has its own **Chart settings** gear (a change applies to all charts, or only to that one with **This chart**). The panels and the layout are set in **Settings → Multi-Chart**.
+
+<figure><img src=".gitbook/assets/shot-multi-chart-panels.jpg" alt="Multi-Chart in the 3×2 layout — BTC, ETH and SOL panels, each with its asset logo, the Binance USD-M logo and a Chart settings gear"><figcaption><p>Multi-Chart (3×2): each panel shows its own market with the asset and exchange logo and its own Chart settings.</p></figcaption></figure>
+
 ### Events — only the releases that move markets
 
 <figure><img src=".gitbook/assets/qt-events.jpg" alt="Chart events menu"><figcaption>Events shows only key US releases — CPI, PPI, PCE, payrolls, unemployment, Fed rate, GDP, retail sales, ISM, JOLTS. No headline noise.</figcaption></figure>

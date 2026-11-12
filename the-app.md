@@ -48,7 +48,7 @@ The home view: a ranked, sortable table of crypto, stock and forex symbols, each
 
 <figure><img src=".gitbook/assets/s2-the-app-chart.jpg" alt="Chart Pro"><figcaption></figcaption></figure>
 
-A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (incl. the proprietary **FormionTSI**), custom Pine scripts via the **User Indicator Studio**, drawing tools, **replay mode**, multi-chart split view, saved layouts, and an order-flow **Constructor** workspace (volume profile, footprint, DOM ladder, orderbook heatmap, tape and liquidations, spoofing/iceberg detection). A new **HL Trade Intent** pane (preview) shows new longs and new shorts opened on Hyperliquid per bar. Runs on **Quantum Terminal** (Swift + Velocity engines). **[Full guide → Chart Pro](chart-pro.md)**
+A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (incl. the proprietary **FormionTSI**), custom Pine scripts via the **User Indicator Studio**, drawing tools, **replay mode**, multi-chart split view, a **Multi-Chart** screen with up to 8 Formion charts, saved layouts, and an order-flow **Constructor** workspace (volume profile, footprint, DOM ladder, orderbook heatmap, tape and liquidations, spoofing/iceberg detection). A new **HL Trade Intent** pane (preview) shows new longs and new shorts opened on Hyperliquid per bar. Runs on **Quantum Terminal** (Swift + Velocity engines). **[Full guide → Chart Pro](chart-pro.md)**
 
 ### 🛰️ Data Hub
 
