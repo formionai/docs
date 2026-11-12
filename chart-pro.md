@@ -187,6 +187,15 @@ The **OBI history** button in the tools row (off by default) opens a pane under 
 
 The **Constructor** tab (Chart Pro → Constructor) is a dockable, resizable multi-panel layout with order-flow presets: Volume Profile & Footprint, Order book, multi-source order book (Binance, Bybit, OKX, Hyperliquid), DOM ladder, Orderbook heatmap, Tape, Liquidations feed and spoofing / iceberg detection.
 
+<figure><img src=".gitbook/assets/shot-constructor-orderbook.jpg" alt="Constructor Order Book panel — top 8 asks and bids around the spread with the LIVE badge"><figcaption><p>Order Book panel: the top 8 asks and bids, with a LIVE badge that only shows while the feed is fresh.</p></figcaption></figure>
+
+* **Order Book** shows the **top 8 bids and asks** on each side, with the top-8 book imbalance.
+* **LIVE / STALE / OFFLINE.** Order Book, Tape, DOM, Orderbook Heatmap and Spoof / Iceberg show **LIVE** only while the connection is open and the panel's own feed sent data within the last 5 s (30 s for the Tape). Otherwise they show **STALE · Ns**, **OFFLINE** (connection down) or **WAITING** (before the first message); the heatmap in historical mode shows **HISTORY**. A frozen book is never labelled LIVE.
+* **Trade strip.** The Chart and Footprint panels have an optional Trade strip — **Paper** by default; on a real venue it always shows the plan and asks before sending.
+* **Liquidation bubbles** on the Chart panel are counted **from the moment the chart was opened** — there is no backfill of earlier liquidations.
+* **Watchlist.** If a refresh fails, a banner says *Could not refresh the watchlist … Retrying every 30 s.* and the last good rows stay on screen.
+* Add panels with **+ Add widget**, keep several named workspaces, and the layout is saved in your browser. The Constructor is a data workspace — no signals and no automatic trading.
+
 <figure><video src=".gitbook/assets/rec-order-flow-constructor.mp4" title="Live recording: the Constructor — chart with volume profile, tape and liquidations, zoom in, switch to ETH, then the Heatmap Focus preset."></video><figcaption><p>Live recording: the Constructor — chart with volume profile, tape and liquidations, zoom in, switch to ETH, then the Heatmap Focus preset.</p></figcaption></figure>
 
 ## User Indicator Studio

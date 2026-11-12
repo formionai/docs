@@ -48,6 +48,23 @@ flowchart LR
 * **Order flow & depth** — Orderbook, Order Flow, DOM Pro, Liq Map and Walls — see **[Order Flow & Microstructure](order-flow.md)**
 * **More** — Listings, Movers, DEX Flow, Trend Shifts, Fundamentals, Setup Scanner, Trading Signals, Lumina Picks, VIP Pulse and HL Perps (Hyperliquid perps, including gold, oil, FX and index perps)
 
+## 🏛️ US Stocks
+
+**Data Hub → US Stocks** has the sub-tabs **Brief** (daily US-equity narrative, market regime, macro indicators and index quotes), **Top 100**, **Themes** and **Signals**. Index quotes carry *As of HH:MM UTC*; after 30 minutes they are marked **not live**.
+
+<figure><img src=".gitbook/assets/shot-us-stocks-signals.jpg" alt="US Stocks → Signals — live pattern setups with entry zone, trigger, stop, target and the price at signal"><figcaption><p>US Stocks → Signals: only setups that are still pending or active on real prices.</p></figcaption></figure>
+
+**Signals** lists pattern setups from a third-party scanner — each card with entry zone, trigger, stop, target, R/R, confidence and the macro regime:
+
+* **Only live setups.** The list shows setups that are still **pending or active on real daily prices**. Setups that were stopped out, hit their target or expired are not shown.
+* **"At signal"** on the card is the price **when the signal was published**, not the current price. Entries and exits are decided only on real daily bars — never on that frozen price.
+* **Invalidated** = the setup broke its own stop **before** reaching the entry zone. It is closed with no trade and is left out of the statistics.
+* **Duplicates count once.** Re-issues of the same setup (same ticker, side, trigger and stop within 30 days) are counted as one signal.
+
+{% hint style="warning" %}
+These are a third-party scanner's setups, all on the long side — not Formion trade recommendations and never a profit promise. Check the chart before acting on any of them.
+{% endhint %}
+
 {% hint style="info" %}
 Use the Data Hub to answer *why* a Screener row is moving — and to catch shifts (an OI surge, a funding flip) **before** they show up in price.
 {% endhint %}
