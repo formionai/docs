@@ -82,6 +82,23 @@ Their work — marketing and bringing traders to Formion — starts at launch, s
 **What is Formion Pulse?**
 A market-narrative hub that reads X & YouTube influencers, social chatter, Fear & Greed and BTC bias into one **Pulse Score (0–100)**. You can mute any source and the score recomputes from only the voices you keep. See **[Formion Pulse](pulse.md)**.
 
+## Quantum Pulse
+
+**Why does a trader have three different numbers?**
+They answer three questions about the same calls. **His plan** uses only the plans he closed (his entry, his stop, target or exit, after costs). **Direction on his horizon** uses all his calls and asks whether price moved his way after his typical holding time, before costs. **Beyond the trend** is a control: did he do better than the asset's own drift? The badge counts every call once. See **[Pulse Trader Profile](pulse-trader-profile.md#measured-on-his-own-terms-the-three-numbers)**.
+
+**Why can a trader with good shorts have a weak total?**
+The total mixes his longs and shorts. If his longs lost and his shorts won, the sum can look ordinary. The profile shows each side separately ("His total is a mix") and judges every part on calls that were not used to pick it. A part that looks good in-sample stays **Collecting data** until it holds on new calls.
+
+**Why does 10× leverage liquidate a trade that ended in profit?**
+Price often moves against a trade before it goes his way. At 10× a move of about 9.5 % against the position wipes its margin, so the trade is closed by liquidation before his target is reached. The simulation measures this on the real hourly candles of each trade and shows it in **His move vs your account**. More leverage means a wider range and a higher chance of ruin.
+
+**Is "Our pick" or "Our way" the trader's result?**
+No. They are Formion's own way of following him — his entry with our exit, chosen only from his earlier calls — and are always labelled **Our strategy**. His result is only his own entry and exit.
+
+**Does Formion trade for me when I follow a trader?**
+No. Following a trader gives you alerts about his posts and the measured record; it never places an order. The simulation is a description of the past, not a forecast or a promise.
+
 ## Strategies & earning
 
 **Can I sell a strategy I build?**

@@ -56,6 +56,20 @@ Plain-English definitions of terms used across Formion.
 * **CHART READ** — a Pulse label for a stance derived by a vision model *reading the chart inside a screenshot*, not the post's text.
 * **Accuracy Leaderboard** — Pulse's scoreboard of influencers, each call checked against real price at +24h / +72h / +7d.
 
+### Quantum Pulse
+
+* **Badge** — a Pulse trader's measured status from every counted call once (his plan outcome where he gave a plan, else direction on his horizon, after costs): **Verified** or **Collecting data**. Never negative, never a promise.
+* **His plan** (plan outcome) — the result of the trader's own plan after his entry traded: his take-profit or stop, whichever came first, or the exit he announced — after 0.12 % costs. The main number on a [trader profile](pulse-trader-profile.md).
+* **Direction on his horizon** — whether price moved the trader's way after his own typical holding time (or his exit), counted from activation, before costs.
+* **Beyond trend (control)** — the trader's move minus the asset's own drift over his horizon. A check of whether he added anything beyond the market, never his accuracy.
+* **MFE** (maximum favourable excursion) — the best move in the call's direction while it was open or within the measured window.
+* **MAE** (maximum adverse excursion) — the worst move against the call in the same window.
+* **Held typical time** — a trade where the trader posted no exit, held for his typical holding time. Formion's **assumption**, labelled so, and switchable in the simulation.
+* **Our pick** — the exit Formion would use on the trader's entry, chosen walk-forward from a fixed list of 120 exits using only his earlier entries. **Our strategy, not his result.**
+* **Liquidation (sim)** — in the *If you follow him* simulation on Perp, a trade whose worst move against it reaches 1 / leverage − 0.5 % (9.5 % at 10×) on the real hourly candles before his exit; its whole margin is lost.
+* **Funding (sim)** — the perpetual funding paid or received over each simulated trade's hold, from real exchange settlements (the coin's average rate where history is missing).
+* **Collecting data** — too few calls or an unclear result to call something Verified (for example fewer than 30 calls, or a confidence range that still includes zero). It is not a negative verdict.
+
 * **cTrader** — broker connection for forex and CFD accounts through OAuth.
 * **Command Center** — the dashboard launcher for FORA text and voice.
 * **Funding Carry** — research into paired perpetual funding across venues.

@@ -37,6 +37,7 @@
   * [👾 Trade Vision](trade-vision.md)
   * [🌐 Research AI (RAG-LLM)](research-ai-rag-llm.md)
   * [📡 Formion Pulse](pulse.md)
+    * [👤 Pulse Trader Profile](pulse-trader-profile.md)
   * [🐝 Swarm](swarm.md)
 * [🦾 Bots & Automation](bots.md)
   * [🧪 Strategy Lab & Marketplace](strategy-lab.md)

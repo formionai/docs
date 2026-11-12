@@ -39,6 +39,7 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Prop-firm simulator** | — | Coming soon | Coming soon |
 | **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
 | **Trading Journal** | 30 days, 10 image uploads | Unlimited history + uploads + exchange auto-import | Same as Pro |
+| **Quantum Pulse** (beta, [details](pulse.md#plans)) | Market Narrative · trader profile header + three numbers · 1 followed trader | Full trader profiles + follower simulation · 10 followed traders · crowd per horizon | + crowd vs smart money, regimes · unlimited follows · X Lens with FOM |
 | **Custom alerts (active)** | 3 | 100 + email alerts | Unlimited + email alerts |
 | **Prediction-market bots live execution** | — | — | ✅ |
 | **White-label REST + WebSocket SDK** | — | — | ✅ |
