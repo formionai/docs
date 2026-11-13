@@ -58,9 +58,9 @@ and FOM never replaces a plan — it only adds on top. Prices do not change with
 | 1 · Free | a free account | — |
 | 2 · Free + FOM Hold | Free + FOM held in your verified wallet | hold counts at half value, up to the F2 boost step |
 | 3 · Free + FOM Lock | Free + a FOM Lock (beta) | lock from the F3 step, Holder at $250 |
-| 4 · Pro | paid Pro, the 7-day trial, or the FORA Agent lock level | — |
+| 4 · Pro | paid Pro, the 7-day trial, or the FORA Agent FOM level | licence level by FOM lock or hold (see [FOM token](fom-token.md)) |
 | 5 · Pro + FOM Lock | Pro + a FOM Lock | only a lock adds on Pro (Pro + hold = Pro) |
-| 6 · Institutional | paid Institutional, or the Agent Pro / FORA AGI lock level | everything; FOM steps I1–I3 are extra |
+| 6 · Institutional | paid Institutional, or the Agent Pro / FORA AGI FOM level | everything; FOM steps I1–I3 are extra |
 
 Where something is locked, the panel shows what your step includes and a **Next step** line with what the next step adds and how to get it
 (the plan, or the FOM hold / lock amount). What changes per service:
@@ -74,7 +74,7 @@ Where something is locked, the panel shows what your step includes and a **Next 
 | Pairs scanner / Pairs desk | 2 rows / — | 5 / — | 15 / 1 pair a day | all / full desk | all | all |
 | Liquidity Map | BTC, 1 h | BTC + ETH, up to 6 h | top 10 assets, up to 24 h | every asset, 30 days, every panel | same | same |
 | Listings backtest | 1 venue, 24 h | 1 venue, every horizon | 2 venues, every horizon | all + Best right now | same | + CSV |
-| Patterns book, Bias Map history | 7 days | 14 days | 30 days + Bias Map segments | all | all | all |
+| Patterns book history (Bias Map grid: last 7 days for everyone) | 7 days | 14 days | 30 days + Bias Map segments | all | all | all |
 | Quantum Pulse — traders you follow | 1 | 2 | 3 | 10 | 20 | unlimited |
 | Zone Hunter | 3 crypto rows · 7 days | 5 · 14 days | all crypto · 30 days | all markets · full book | + MFE / MAE | + CSV |
 
