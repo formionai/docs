@@ -120,3 +120,11 @@ Use [News](news.md) for economic and crypto events and headlines, and [Swarm](sw
 
 **Is Academy available?**
 In app.formion.ai the **Academy** and **Predictions** (AI price projections) tabs are marked **Soon**. A few introductory lessons are already published at [formion.ai/academy](https://formion.ai/academy?utm_source=docs&utm_medium=referral&utm_campaign=docs). Prediction-market tools (Polymarket browser, whale tracking, account connections) are live separately; see [Prediction Markets](prediction-markets.md).
+
+<!-- PLANLADDER-20261112 -->
+### What does FOM add to my plan?
+
+FOM adds **on top of** your plan, never instead of it. A Free account that **holds** FOM in its verified wallet moves to **Free + FOM Hold**
+(more rows, shorter delays, 14 days of history); a **FOM Lock** moves it to **Free + FOM Lock** (even more rows, 30 days, first studies).
+On Pro only a lock adds (**Pro + FOM Lock**). **Institutional already includes everything.** Every locked panel shows your step and what the
+next one adds — see [the plan ladder](pricing.md#the-plan-ladder--six-steps). FOM is a utility token: it grants product features only, no return is promised.

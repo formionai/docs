@@ -12,7 +12,10 @@ so a short price spike cannot inflate your level. This page explains the differe
 
 ## Hold, Lock and the FOM Boost
 
-Besides levels, FOM gives a **[boost on top of every plan](fom-token.md#fom-boost--more-on-every-plan)**. For the boost, a lock counts in full and a hold counts **half** ($500 held = $250 locked). Steps above $250 need a lock of 90 days or more. 
+<!-- PLANLADDER-20261112 -->
+Besides levels, FOM gives a **[boost on top of every plan](fom-token.md#fom-boost--more-on-every-plan)**. For the boost, a lock counts in full and a hold counts **half**.
+**A hold alone reaches at most the F2 step (Free + FOM Hold); F3, the Holder step and every Pro step need a lock** (since 12 November 2026). Steps above $250 need a lock of 90 days or more.
+In the app this is the [plan ladder](pricing.md#the-plan-ladder--six-steps): Free · Free + FOM Hold · Free + FOM Lock · Pro · Pro + FOM Lock · Institutional. 
 
 ## What is Hold?
 
@@ -104,7 +107,7 @@ You just bought FOM? These six steps take you from a wallet to a counted boost o
 
 <figure><img src=".gitbook/assets/shot-fom-link-wallet.jpg" alt="Licence from your lock card in Formion Wallet with the Link wallet to my account button"><figcaption><p>Formion Wallet → Earn → FOM Lock → Licence from your lock: link the wallet with one signature.</p></figcaption></figure>
 
-3. **Hold — nothing else to do.** FOM on the linked wallet counts automatically. For the FOM Boost it counts at **half** its value. The **lowest balance of the last 7 days**
+3. **Hold — nothing else to do.** FOM on the linked wallet counts automatically. For the FOM Boost it counts at **half** its value, up to the **F2** step (more needs a lock). The **lowest balance of the last 7 days**
    is used, so new FOM counts gradually. You can sell or move it any time — the boost (or level) then drops.
 4. **Lock — full value, bigger boost.** Open **wallet.formion.ai → Earn → FOM Lock** (Beta). Enter the **Amount (FOM)**, choose the **Lock period** — 30, 90 or 180 days,
    counted ×1, ×1.25 or ×1.5 — and check the line *"This lock would count as … → level"*. Press **Review**, allow the lock contract to take exactly that amount (step 1),

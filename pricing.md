@@ -47,6 +47,45 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Team seats** | 1 | 1 | 5 |
 | **Uptime SLA** | — | — | 99.9% |
 
+<!-- PLANLADDER-20261112 -->
+## 🪜 The plan ladder — six steps
+
+Every page of app.formion.ai follows the same six steps. Each step gives **more** than the one before; **Institutional includes everything**,
+and FOM never replaces a plan — it only adds on top. Prices do not change with FOM.
+
+| Step | Who | FOM |
+|---|---|---|
+| 1 · Free | a free account | — |
+| 2 · Free + FOM Hold | Free + FOM held in your verified wallet | hold counts at half value, up to the F2 boost step |
+| 3 · Free + FOM Lock | Free + a FOM Lock (beta) | lock from the F3 step, Holder at $250 |
+| 4 · Pro | paid Pro, the 7-day trial, or the FORA Agent lock level | — |
+| 5 · Pro + FOM Lock | Pro + a FOM Lock | only a lock adds on Pro (Pro + hold = Pro) |
+| 6 · Institutional | paid Institutional, or the Agent Pro / FORA AGI lock level | everything; FOM steps I1–I3 are extra |
+
+Where something is locked, the panel shows what your step includes and a **Next step** line with what the next step adds and how to get it
+(the plan, or the FOM hold / lock amount). What changes per service:
+
+| Service | Free | Free + FOM Hold | Free + FOM Lock | Pro | Pro + FOM Lock | Institutional |
+|---|---|---|---|---|---|---|
+| Quantum Screener → Trends (full rows, the rest blurred) | 3 · crypto top 50 | 5 · crypto top 100 | 15 · crypto + metals | all markets | all | all |
+| Signal scanners (Setup Scanner, Divergences, OI Surge, Volatility, Market & Spot signals, Gamma, Options) | 3 rows · 30 min delay · 7 days | 10 · 15 min · 14 days | 20 · 5 min · 30 days | all, real-time | all | all |
+| Mechanical board | 10 rows | 12 | 20 | all | all | all |
+| Mechanical Study | — | — | 1 study a day | 50 backtests a day | 150 | unlimited |
+| Pairs scanner / Pairs desk | 2 rows / — | 5 / — | 15 / 1 pair a day | all / full desk | all | all |
+| Liquidity Map | BTC, 1 h | BTC + ETH, up to 6 h | top 10 assets, up to 24 h | every asset, 30 days, every panel | same | same |
+| Listings backtest | 1 venue, 24 h | 1 venue, every horizon | 2 venues, every horizon | all + Best right now | same | + CSV |
+| Patterns book, Bias Map history | 7 days | 14 days | 30 days + Bias Map segments | all | all | all |
+| Quantum Pulse — traders you follow | 1 | 2 | 3 | 10 | 20 | unlimited |
+| Zone Hunter | 3 crypto rows · 7 days | 5 · 14 days | all crypto · 30 days | all markets · full book | + MFE / MAE | + CSV |
+
+The Free + FOM Hold column is the F2 step ($100 hold or $50 lock) and the Free + FOM Lock column the Holder lock ($250); the F1 and F3 steps sit in between (e.g. F3 = a $100 lock: 15 signal rows, 15 min delay, 14 days).
+Live views stay open to everyone: Trend, Bias Map, Patterns, Radar, Hunt, the heatmaps, Context, Coins Hub, Chart Pro and Data Hub.
+Daily AI limits (Trade Vision, RAG, FORA, voice, backtests) follow the [FOM Boost tables](fom-token.md#fom-boost--more-on-every-plan).
+
+> **FORA Dossier** follows the same ladder when it leaves the invite-only beta: research list 3 · 10 · all rows, full token reports
+> 1 · 3 · 10 a day then unlimited, PDF reports from Free + FOM Lock, and Our calls as a summary (Free), 24 h late (Hold), 6 h late (Lock),
+> live (Pro) and on Telegram from Pro + FOM Lock. On-demand research, Scout sources and the live wallet stay in the beta.
+
 ## 📊 Daily limits
 
 Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app shows how much you have used (for example *"used 2/3 today"*) with an upgrade option when you reach a limit.

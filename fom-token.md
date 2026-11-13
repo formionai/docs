@@ -143,7 +143,10 @@ flowchart LR
 > licence level first: from **$25 locked** (or $50 held) a Free account already gets more. Licence levels, their thresholds and lock rules stay
 > exactly as before.
 
-**How your boost is counted.** Your FOM value for the boost = **locked value + half of the held value** (a $500 hold counts like a $250 lock).
+<!-- PLANLADDER-20261112 -->
+**How your boost is counted.** Your FOM value for the boost = **locked value + half of the held value**. **Since 12 November 2026 a hold alone
+reaches at most the F2 step** (Free + FOM Hold); F3 and the Holder step F4 need a **FOM Lock** (Free + FOM Lock), and on Pro only a lock adds
+(Pro + hold = Pro). Nobody lost anything with this change — no account held FOM at the time.
 Both are measured exactly like the levels above: held FOM = the lowest balance of the last 7 days, value = the lower of the 7-day and 30-day TWAP;
 a lock counts with its period weight (×1 / ×1.25 / ×1.5). **Steps above the Holder step ($250 lock) need a lock of at least 90 days** — a
 shorter lock counts up to $250. During the launch period (until **13 November 2026**) every step needs **half** of the amount shown.
@@ -159,24 +162,25 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 
 #### Free plan + FOM
 
-|  | **Free** plan | **F1**<br>$25 lock · $50 hold | **F2**<br>$50 lock · $100 hold | **F3**<br>$100 lock · $200 hold | **F4** · Holder<br>$250 lock · $500 hold |
+|  | **Free** plan | **F1**<br>$25 lock · $50 hold | **F2**<br>$50 lock · $100 hold | **F3**<br>$100 lock | **F4** · Holder<br>$250 lock |
 |---|---:|---:|---:|---:|---:|
 | Trade Vision a day | 3 | 4 | 5 | 6 | 8 |
 | RAG Research reports a day | 1 | 1 | 2 | 2 | 3 |
 | Backtests a day | 3 | 5 | 8 | 10 | 15 |
 | FORA answers a day | 20 | 25 | 30 | 40 | 50 |
-| FORA live-voice sessions a day | 3 | 3 | 3 | 4 | 4 |
+| FORA live-voice sessions a day | 3 | 3 | 4 | 4 | 5 |
 | Minutes per voice session | 3 | 3 | 4 | 4 | 5 |
 | Active custom alerts | 3 | 5 | 10 | 20 | 25 |
 | Watchlist symbols | 25 | 40 | 60 | 100 | Unlimited |
 | Screener symbols | 50 | 50 | 100 | 200 | Unlimited |
+| Screener full rows (the rest blurred) | 3 | 4 | 5 | 10 | 15 |
 | Signal table rows | 3 | 5 | 10 | 15 | 20 |
 | Signal delay | 30 min | 30 min | 15 min | 15 min | 5 min |
-| Signal table history (days) | 7 | 7 | 7 | 14 | 30 |
+| Signal table history (days) | 7 | 7 | 14 | 14 | 30 |
 | Live bots | 0 | 0 | 0 | 0 | 1 |
-| cTrader brokers | 1 | 1 | 1 | 2 | 2 |
+| cTrader brokers | 1 | 1 | 2 | 2 | 3 |
 | Active FORA Neurons | 2 | 2 | 3 | 4 | 5 |
-| Pulse personal list | 1 | 1 | 2 | 2 | 3 |
+| Pulse traders you follow | 1 | 2 | 2 | 3 | 3 |
 | Quantum Scout: your X accounts | 0 | 0 | 0 | 1 | 2 |
 | Quantum Scout: your Telegram channels | 0 | 0 | 0 | 1 | 2 |
 | Whale Tracker: wallets you follow | 3 | 4 | 5 | 7 | 10 |
@@ -190,7 +194,7 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 
 #### Pro plan + FOM
 
-|  | **Pro** plan | **P1** · Holder<br>$250 lock · $500 hold | **P2** · FORA Agent<br>$1,000 lock · $2,000 hold | **P3**<br>$2,500 lock · $5,000 hold |
+|  | **Pro** plan | **P1** · Holder<br>$250 lock | **P2** · FORA Agent<br>$1,000 lock | **P3**<br>$2,500 lock |
 |---|---:|---:|---:|---:|
 | Trade Vision a day | 30 | 36 | 45 | 60 |
 | RAG Research reports a day | 10 | 12 | 15 | 20 |
@@ -202,7 +206,7 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Live bots | 5 | 6 | 8 | 10 |
 | cTrader brokers | 5 | 6 | 8 | 10 |
 | Active FORA Neurons | 25 | 30 | 35 | 40 |
-| Pulse personal list | 5 | 7 | 10 | 12 |
+| Pulse traders you follow | 10 | 20 | 20 | 20 |
 | Quantum Scout: your X accounts | 5 | 6 | 8 | 10 |
 | Quantum Scout: your Telegram channels | 5 | 6 | 8 | 10 |
 | Whale Tracker: wallets you follow | 25 | 30 | 40 | 50 |
