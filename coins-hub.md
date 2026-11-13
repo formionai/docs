@@ -20,7 +20,7 @@ The **Coins Hub** (app.formion.ai → Coins Hub) is where you follow coins day t
 | 📋 **Listing Radar** | 🔧 Being fixed | Hidden while we fix logic errors |
 
 {% hint style="info" %}
-Token Scanner, Smart Wallets, Graduation Radar and Listing Radar are **temporarily unavailable**: we are fixing logic errors in the data behind them, and they come back only after the fixes are verified. **Pulse** is no longer part of the Coins Hub strip — it now lives in the Analytics hub: [Pulse](pulse.md).
+Token Scanner, Smart Wallets, Graduation Radar and Listing Radar are **temporarily unavailable**: we are fixing logic errors in the data behind them, and they come back only after the fixes are verified. **Pulse** is no longer part of the Coins Hub strip — it has its own tab in the **Find** group of the top menu: [Pulse](pulse.md).
 {% endhint %}
 
 ```mermaid

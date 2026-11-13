@@ -12,24 +12,29 @@
 Feature access depends on your plan — see **[Pricing & Tiers](pricing.md)**. The free **Neural** tier is genuinely useful; **Pro** unlocks the full stack.
 {% endhint %}
 
-```mermaid
-flowchart TD
-  APP(("app.formion.ai")) --> S["📈 Screener"]
-  APP --> C["📊 Chart Pro"]
-  APP --> D["🛰️ Data Hub"]
-  APP --> CH["🪙 Coins Hub"]
-  APP --> AN["🧠 Analytics"]
-  AN --> PU["📡 Pulse"]
-  APP --> AI["🤖 AI Advisor"]
-  APP --> NR["🧬 Neurons"]
-  APP --> BT["🧪 Backtest"]
-  APP --> SG["🔔 Signals"]
-  APP --> NW["📰 News"]
-  APP --> TR["💱 Trade"]
-  APP --> BO["🦾 Bots"]
-  APP --> JR["📓 Journal"]
-  APP --> SW["🐝 Swarm"]
-```
+## Navigation — where everything lives
+
+The top menu has four groups, in the order you usually work: **Find** a market, **Read** the context, **Act** on it, then **Review** what happened.
+
+| Group | Tabs (left to right) | What you do there |
+|---|---|---|
+| 🔎 **Find** | Quantum Screener · Chart Pro · Signals · Pulse · Coins Hub | Find what is moving: the ranked screener, the chart, live signals, what traders and the crowd say, and the coin dashboard |
+| 📖 **Read** | Data Hub · Analytics · News · AI Advisor | Read the context: positioning and order-flow data, analytics tools, news and macro, and AI ideas |
+| ⚡ **Act** | Trade · Bots · Neurons · Dossier | Act on it: place an order, run a bot, let a FORA Neuron watch a market for you, or read our own published calls in [Dossier](dossier.md) (**Beta**, shown on Pro and Institutional) |
+| 🔁 **Review** | Strategies · Journal · Swarm · Predictions · Academy | Review and improve: backtests and strategies, your journal, trader calls graded on real prices; Predictions and Academy are marked **Soon** |
+
+* **Desktop** — the tabs sit in two rows without group names: the first row is **Find + Read**, the second row is **Act + Review**.
+* **Tablet and narrow screens** — the same tabs in the same order, in one row you can swipe.
+* **Phone** — the menu shows the group names (**Find**, **Read**, **Act**, **Review**) with their tabs under each name, in the same order.
+* **Sub-tabs** — Quantum Screener, Chart Pro, Signals, Coins Hub, Data Hub, Analytics, Bots and Strategies are hubs: opening one shows a second row of sub-tabs for the tools inside it.
+* **Strategies** is the former **Backtest** tab (the address stays app.formion.ai/backtest).
+
+<figure><img src=".gitbook/assets/shot-nav-desktop.jpg" alt="Desktop menu: Find and Read tabs in the first row, Act and Review tabs in the second row"><figcaption><p>Desktop: row 1 = Find + Read, row 2 = Act + Review.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-nav-phone-bar.jpg" alt="Phone: the current tab with a menu arrow"><figcaption><p>Phone: tap the current tab to open the menu.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-nav-phone-menu.jpg" alt="Phone menu grouped into Find, Read, Act and Review"><figcaption><p>Phone menu: the four groups with their tabs.</p></figcaption></figure>
+
 
 ### 📈 Quantum Screener
 
@@ -55,7 +60,7 @@ Real-time multi-exchange market data: open interest, long/short ratio, top-trade
 
 <figure><img src=".gitbook/assets/shot-coins-hub-table.jpg" alt="Coins Hub Dashboard coin table"><figcaption><p>Coins Hub → Dashboard — the live coin table with watchlists.</p></figcaption></figure>
 
-**Dashboard** — Trend Watch plus a live coin table (search, filters, watchlists, ST/LT trend scores and a detail page for every coin) — and **Presale Watch** are open to everyone; **Sniper** and **DEX Swaps** need a login. **GMGN** is being rebuilt, and Token Scanner, Smart Wallets, Graduation Radar and Listing Radar are temporarily unavailable while we fix logic errors (Coins Hub is labelled **BETA**). **[📡 Formion Pulse](pulse.md)** now lives in the Analytics hub. **[Full guide → Coins Hub](coins-hub.md)**
+**Dashboard** — Trend Watch plus a live coin table (search, filters, watchlists, ST/LT trend scores and a detail page for every coin) — and **Presale Watch** are open to everyone; **Sniper** and **DEX Swaps** need a login. **GMGN** is being rebuilt, and Token Scanner, Smart Wallets, Graduation Radar and Listing Radar are temporarily unavailable while we fix logic errors (Coins Hub is labelled **BETA**). **[📡 Formion Pulse](pulse.md)** has its own tab in the **Find** group. **[Full guide → Coins Hub](coins-hub.md)**
 
 ### 🧠 Analytics
 
@@ -71,11 +76,11 @@ Pick a style/risk/asset class and the AI ranks tradeable ideas from a live scree
 
 ### 🧬 Neurons
 
-Your always-on FORA watchers have their own menu item, between AI Advisor and Backtest; the green number shows how many are active. The dashboard lists every Neuron with Pause, Edit, Run now and Delete, and a timeline of when each one fired or came close, why and where the message went. See **[FORA Neurons](fora-neurons.md)**.
+Your always-on FORA watchers have their own menu item in the **Act** group, next to Bots; the green number shows how many are active. The dashboard lists every Neuron with Pause, Edit, Run now and Delete, and a timeline of when each one fired or came close, why and where the message went. See **[FORA Neurons](fora-neurons.md)**.
 
-### 🧪 Backtest
+### 🧪 Strategies (Backtest)
 
-A hub with many sub-tabs: the **Backtester**, **All Trades** ([Trades History](trades-history.md)) unified across engines, **Trade Ideas**, **[Strategy Lab](strategy-lab.md)** (no-code builder + **Strategy Finder** AutoML + **Marketplace** to publish your strategy and earn), **My Strategies** (backtest your saved strategies), **All Sources**, **Compare**, plus dedicated trackers for **GEX**, **TP/SL strategies**, **Gold DCA**, **Stocks DCA**, **Polymarket**, **Options · Vol**, **Confluence**, **Telegram Signals**, **Setup Backtest** and **Footprint**. (The former **Signalix** tracker is archived: it was retired on 12 Nov 2026 and publishes no more signals.)
+The **Strategies** tab (formerly Backtest) is a hub with many sub-tabs: the **Backtester**, **All Trades** ([Trades History](trades-history.md)) unified across engines, **Trade Ideas**, **[Strategy Lab](strategy-lab.md)** (no-code builder + **Strategy Finder** AutoML + **Marketplace** to publish your strategy and earn), **My Strategies** (backtest your saved strategies), **All Sources**, **Compare**, plus dedicated trackers for **GEX**, **TP/SL strategies**, **Gold DCA**, **Stocks DCA**, **Polymarket**, **Options · Vol**, **Confluence**, **Telegram Signals**, **Setup Backtest** and **Footprint**. (The former **Signalix** tracker is archived: it was retired on 12 Nov 2026 and publishes no more signals.)
 
 ### 🔔 Signals
 

@@ -16,7 +16,7 @@ flowchart LR
 
 ### 1 · Read the narrative
 
-Open **[Formion Pulse](pulse.md)** (app.formion.ai → Analytics → Pulse). The **Pulse Score** blends X traders, YouTube influencers, crowd and social chatter, Fear & Greed and BTC bias into one 0–100 read. Even bare chart screenshots get **read by a vision model** ("CHART READ") so a picture-only post still counts.
+Open **[Formion Pulse](pulse.md)** (app.formion.ai → **Pulse** tab in the **Find** group). The **Pulse Score** blends X traders, YouTube influencers, crowd and social chatter, Fear & Greed and BTC bias into one 0–100 read. Even bare chart screenshots get **read by a vision model** ("CHART READ") so a picture-only post still counts.
 
 ### 2 · See who is saying what
 
