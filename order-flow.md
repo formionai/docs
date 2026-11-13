@@ -14,14 +14,14 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 
 | Tool | What it shows |
 |---|---|
-| **Order Flow** | Trades and liquidations streamed from Binance, Bybit, OKX and Coinbase, with an aggregated CVD and a **Significant Trades** feed. Filter prints by USD size or by **relative size (×2 / ×5 / ×10 the average print)**; prints of ×10 or more are marked **BLOCK**. See **[Relative size filter](#relative-size-filter-and-block-prints)** below |
+| **Order Flow** | Trades and liquidations streamed from Binance, Bybit, OKX and Coinbase, with an aggregated CVD and a **Significant Trades** feed. Filter prints by USD size or by **relative size (×2 / ×5 / ×10 the average print)**; prints of ×10 or more are marked **BLOCK**. See **Relative size filter** (see below) below |
 | **Tape Feed** (Time & Sales) | Every print in real time (Constructor panel) |
 | **DOM Pro** | A depth-of-market ladder with a size heatmap, a trade heatmap and VWAP / POC / VAH / VAL levels |
 | **Liquidity Map** | Recorded resting liquidity over time, summed across 11 markets, with tracker, ladder, pull/stack, walls, CVD and Hyperliquid liquidation levels. It replaces the old Order-Book Heatmap and Agg Heatmap pages — see **[Liquidity Map](liquidity-map.md)** |
 | **Footprint** | Bid/ask volume **inside** each candle by price tick (Constructor panel) |
-| **Walls** | Live wall detector plus a history of confirmed, broken and pulled walls. A wall is resting liquidity that can be pulled at any time, so it is context, not a support or resistance promise. The **Walls Bot** paper book (v2, real fills, measured from 2 Nov 2026) and its Backtesting filters are described under **[Screener → Order Book](screener.md#order-book)** |
-| **Liquidation Map** | A model estimate of where leveraged positions would be force-closed, over time — magnet levels, with a leverage filter. See **[Liquidation Map](#liquidation-map)** below |
-| **HL Trade Intent** (preview) | A pane under the chart in **Chart Pro**: per bar, how many dollars of **new longs** and **new shorts** were opened on Hyperliquid, and on request how many longs and shorts were closed. See **[HL Trade Intent](#hl-trade-intent-hyperliquid)** below |
+| **Walls** | Live wall detector plus a history of confirmed, broken and pulled walls. A wall is resting liquidity that can be pulled at any time, so it is context, not a support or resistance promise. The **Walls Bot** paper book (v2, real fills, measured from 2 Nov 2026) and its Backtesting filters are described under **[Screener → Order Book](screener.md)** |
+| **Liquidation Map** | A model estimate of where leveraged positions would be force-closed — every perpetual contract of Binance, Bybit and OKX in USD, plus Hyperliquid real positions, with its own measured Map accuracy. See **Liquidation Map** (see below) below |
+| **HL Trade Intent** (preview) | A pane under the chart in **Chart Pro**: per bar, how many dollars of **new longs** and **new shorts** were opened on Hyperliquid, and on request how many longs and shorts were closed. See **HL Trade Intent** (see below) below |
 | **Spoof / Iceberg detector** | Flags levels cancelled without being filled and levels that refill after being eaten (Constructor panel) |
 
 <figure><img src=".gitbook/assets/s2-dom-pro.jpg" alt="DOM Pro depth-of-market ladder"><figcaption><p>DOM Pro — depth-of-market ladder with size and trade heatmaps.</p></figcaption></figure>
@@ -53,21 +53,74 @@ The average is a **rolling average of the last 2,000 prints** of the symbol, acr
 
 ## Liquidation Map
 
-The **Liquidation Map** (Data Hub → **Liquidation Map**, `/liquidation-map`) is a **model estimate**: from open interest and positions opened over the chosen window it estimates **where leveraged positions would be force-closed**. The source is Binance USDⓈ-M (optionally Bybit coin-margined). Sizes are **relative strength, not dollars**. **Heatmap** shows the levels over time with candles, **Map** shows them by price and leverage group.
+The **Liquidation Map** (Data Hub → **Liquidation Levels**, `/liquidation-map`) estimates **where leveraged positions would be force-closed**. Above price are the **short** liquidations (shorts are closed if price rises there), below price the **long** liquidations. **Heatmap** shows the levels over time with candles, **Map** shows them by price (and by leverage group on the relative maps).
 
+### Exchange picker — every contract, in US dollars
+
+<figure><img src=".gitbook/assets/shot-liquidation-map-v3.jpg" alt="Liquidation Map heatmap with the exchange picker open — Binance, Bybit and OKX per-contract USD layers, Hyperliquid real positions and All venues"><figcaption><p>The exchange picker: each option says what the layer is — Formion model in USD per contract, real Hyperliquid positions, or an older relative-strength map.</p></figcaption></figure>
+
+Since 8 Nov 2026 the Formion model covers **every perpetual contract** of the big venues, not only the USDT ones. Each venue is shown **stacked per contract**, in **US dollars**. The picker says next to each option what the layer is:
+
+| Option | What it is | Unit |
+|---|---|---|
+| **Binance (USDT+USDC+COIN-M)** | Formion model from the open interest of every Binance perpetual: USDT-M, USDC-M and COIN-M | USD · per contract |
+| **Bybit (USDT+inverse+USDC)** | Formion model from every Bybit perpetual: USDT, inverse and USDC | USD · per contract |
+| **OKX (USDT+coin-margined)** | Formion model from every OKX perpetual swap: USDT and coin-margined | USD · per contract |
+| **Hyperliquid** | **Real positions**: each Hyperliquid account's own liquidation price (daily full snapshot + accounts re-read live) | USD |
+| **All venues** | The US-dollar layers added up: the Formion model for every contract of Binance, Bybit and OKX + Hyperliquid real positions | USD |
+| **Binance** · **Bybit (coin-margined)** | The older model maps (Binance USDⓈ-M, Bybit coin-margined) | **relative strength, not dollars** — compare levels with each other only; never added into All venues |
+
+* **Coverage:** for BTC, ETH, SOL and HYPE the model now covers **100 %** of the perpetual open interest on Binance, Bybit, OKX and Hyperliquid (before: BTC 79 %, ETH 75 %, SOL 90 %, HYPE 99.8 %). Contract sizes are converted to the coin (for example a Binance COIN-M BTC contract = $100) and then to USD. Some contracts simply do not exist (Binance HYPE USDC-M / COIN-M, OKX USDC swaps).
+* **History:** the history of a USD layer starts with its first recorded snapshot; earlier columns stay empty and are never filled with estimates.
+* **Real liquidations** (Layers): bubbles where positions were actually liquidated on Binance, Bybit and OKX.
 * **Full screen:** the **Full screen** button above the chart (or the **F** key) opens the whole panel — chart with its price axis, the lower pane, the legend and Appearance — on the whole screen; **Esc**, **F** or the button closes it. On iPhone it fills the browser window.
-* **What it is NOT:** these are not orders in the book and not a forecast — they only show where forced orders could appear if price gets there.
+
+### How to read it
+
+* A bright cluster is a price where **the model** expects many forced orders if price gets there. The row above the chart shows the **nearest magnet above / below** and the size within 3 % each way.
+* Several venues or contracts on one level = the estimate is spread across markets; compare sizes in USD only on the USD layers.
+* On **Hyperliquid** the levels are real liquidation prices of open positions, not an estimate. The card **Refresh priority** says how fresh they are: BTC, ETH and HYPE accounts are re-read first (**Top**), SOL and XRP next (**High**), every other asset is **Best effort** (daily full snapshot plus a limited number of live re-reads).
+
+### Map accuracy — "Every contract"
+
+<figure><img src=".gitbook/assets/shot-liquidation-map-accuracy.jpg" alt="Map accuracy panel — per-map lift vs random zones, the Every contract table, Hyperliquid coverage and open interest per contract"><figcaption><p>Map accuracy: every map against random zones at the same distance, the new "Every contract" test, Hyperliquid coverage and the open interest of every contract the model reads.</p></figcaption></figure>
+
+The **Map accuracy** panel under the chart measures the map on what really happened:
+
+* **What is measured:** the share of the **real liquidations** of the next 24 h (of ALL contracts of a venue — USDT, USDC, COIN-M / inverse) that landed inside each map's **5 biggest zones**, minus random zones at the same distance from price, in percentage points.
+* **Upper table:** each map (the older Binance / Bybit coin-margined models, the Formion model per venue, Hyperliquid real positions) with **Since 7 Nov**, **Last day** and **Test 5–7 Nov**, for 1h / 4h / 24h. Above 0 = the map pointed better than chance. One day of 24 h results is about one independent sample — read them together.
+* **Every contract table:** one row per map with **Replay before 9 Nov**, **From 9 Nov** (the fresh test on new days, with n), a comparison with the reference map and **Status** (the Binance 7-day liquidation model row is the **Reference**). The replay before 9 Nov used today's settings, so it is in-sample and **not a verdict**.
+* **Formion model · every contract · OI** card: the open interest in USD and the data age of every contract the model reads.
+* **Status:** the test on new days started on **9 Nov 2026**; the first verdict is due on **23 Nov 2026** (final on 7 Dec). Until then the status is **Collecting data** and the map is a **Context signal**. A "better than" comparison is shown only if it holds on the new days.
+
+{% hint style="warning" %}
+**What it is NOT.** Except for the Hyperliquid real positions, these are **estimated** levels from public data (open interest, price and taker flow) — not orders in the book, not real positions and not a forecast. They only show where forced orders could appear if price gets there. Measured so far, liquidation zones for the next 1 h / 4 h are not better than random zones, so FORA uses them as context, never as an entry, stop or target.
+{% endhint %}
+
+### Live mode
+
+The **Live** button in the chart header (off by default, remembered on this browser) moves the current candle and a dashed **LIVE** price line tick by tick and flashes events on the chart: price **entering one of the strongest liquidation zones**, a **real liquidation** (spark with its USD), a **big trade** (≥ $100K, bubble) and the recorded resting limit walls of the **[Liquidity Map](liquidity-map.md)**. Every event is labelled by side — **LIMIT BUY** (green) / **LIMIT SELL** (red), **MARKET BUY / SELL**, **LONG LIQ / SHORT LIQ** — and the last 10 are listed under the chart. Live is **not final**: levels, accuracy, alerts and FORA use complete minutes only, and Live creates no new signal.
+
+### FORA and Neurons
+
+* **"What changed?"** — FORA compares the USD zones now with a snapshot from 1–4 h ago, in the same price buckets.
+* **"Is this a signal?"** — FORA answers honestly: no, it is a **Context signal**. Instead of a direction it offers an alert, a Neuron or a paper scenario.
+* **Neuron "Liquidation level"** has a source option **All venues in USD** (the same zones FORA quotes, BTC / ETH / SOL / HYPE). Its messages say plainly that the break history of this map is **not measured yet** — see **[FORA Neurons](fora-neurons.md)**.
+
+### Assets and plan
+
+The asset picker has the same **30 assets** as the Liquidity Map (see **[What is recorded](liquidity-map.md)**). The Formion model and Hyperliquid positions for the assets added on 9 Nov 2026 started that day without history; their accuracy is a separate segment (**Collecting data**) and is never mixed with BTC / ETH / SOL / HYPE. The Live mode and the shared layers from the Liquidity Map follow the **Liquidity Map plan** (Free = BTC) — see **[Pricing & Tiers](pricing.md)**.
 
 ### Liquidity Map vs Liquidation Map
 
 | | **[Liquidity Map](liquidity-map.md)** | **Liquidation Map** |
 |---|---|---|
 | **What it is** | **Real resting limit orders** that Formion records from 11 venues | A **model estimate** of where leveraged positions would be force-closed |
-| **What you see** | Where orders sit now and where they sat before, in **real USD** | Where forced orders could appear — **relative strength, not dollars** |
-| **Source** | Order books of 11 markets (Binance, Bybit, OKX, Bitget perp + spot, Coinbase, Hyperliquid, Deribit) | Binance USDⓈ-M (optionally Bybit coin-margined) |
+| **What you see** | Where orders sit now and where they sat before, in **real USD** | Where forced orders could appear — in **USD** on the per-contract layers (relative strength on the older Binance / Bybit coin-margined maps) |
+| **Source** | Order books of 11 markets (Binance, Bybit, OKX, Bitget perp + spot, Coinbase, Hyperliquid, Deribit) | Formion model from every perpetual contract of Binance, Bybit and OKX + Hyperliquid real positions |
 | **Can it change?** | Yes — any order can be **pulled** at any moment | Yes — the estimate moves as positions open and close |
 
-The Liquidity Map also shows **real Hyperliquid liquidation levels** — actual liquidation prices of open positions, but **only of the Hyperliquid accounts we track**.
+The **Hyperliquid** layer is real on both pages — actual liquidation prices of open positions, not a model. On the Liquidation Map it reads every Hyperliquid account (daily full snapshot + accounts re-read live); the Liquidity Map's Hyperliquid panel shows the accounts we track.
 
 <figure><video src=".gitbook/assets/rec-order-flow-constructor.mp4" title="Live recording: Chart Pro → Constructor — chart + volume profile, tape feed and liquidations side by side, then the Heatmap Focus preset."></video><figcaption><p>Live recording: Chart Pro → Constructor — chart + volume profile, tape feed and liquidations side by side, then the Heatmap Focus preset.</p></figcaption></figure>
 

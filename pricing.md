@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/ill-pricing.jpg" alt=""><figcaption></figcaption></figure>
 
-Formion has three plans. New accounts get **7 days of Pro free — no card required** — once the email address is confirmed (see [7-day Pro trial](#7-day-pro-trial)); if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
+Formion has three plans. New accounts get **7 days of Pro free — no card required** — once the email address is confirmed (see **7-day Pro trial** below); if you don't upgrade, you auto-downgrade to the free **Neural** tier (which stays free forever).
 
 {% hint style="info" %}
 Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, Base, Arbitrum, Optimism, Polygon, BSC or Solana, **USDT on Tron (TRC20)**, or **BTC** / **SOL** / **LTC** — or with **PayPal** on the same checkout page. You can also pay through **Telegram Crypto Pay** with `/license` in [@formiontradingbot](https://t.me/formiontradingbot), which gets an **extra 3% discount** (Crypto Pay only). Card payments are not available. Longer billing is cheaper (3-mo −5%, 6-mo −10%, 12-mo −20%). Bring-Your-Own-Key (BYOK) for AI is available on **every** tier.
@@ -39,7 +39,7 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **Prop-firm simulator** | — | Coming soon | Coming soon |
 | **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
 | **Trading Journal** | 30 days, 10 image uploads | Unlimited history + uploads + exchange auto-import | Same as Pro |
-| **Quantum Pulse** (beta, [details](pulse.md#plans)) | Market Narrative · trader profile header + three numbers · 1 followed trader | Full trader profiles + follower simulation · 10 followed traders · crowd per horizon | + crowd vs smart money, regimes · unlimited follows · X Lens with FOM |
+| **Quantum Pulse** ([details](pulse.md)) | Market Narrative · Fair rank ("His plan" for the first trader) · trader profile header · 1 followed trader, daily digest | Full trader profiles + follower simulation · 10 followed traders, instant alerts (50 / day) · crowd per horizon + opinion map · X Lens 1 new account / day | Same as Pro + unlimited follows and alerts · crowd regimes + CSV export · X Lens 5 new accounts / day · FORA Neurons Pulse tools |
 | **Zone Hunter** (beta, [details](screener.md)) | Crypto · Buy the dip + Sell the top · 3 full rows per section · last 7 days of paper trades (FOM Hold: 5 rows + S/R Flip, 14 days · FOM Lock: every crypto row + Trend Shift, 30 days) | All markets, every section incl. Adaptive brain, full paper book (+ per-trade MFE / MAE with FOM Lock) | Same as Pro + per-trade MFE / MAE + CSV export |
 | **Custom alerts (active)** | 3 | 100 + email alerts | Unlimited + email alerts |
 | **Prediction-market bots live execution** | — | — | ✅ |
@@ -75,12 +75,12 @@ Where something is locked, the panel shows what your step includes and a **Next 
 | Liquidity Map | BTC, 1 h | BTC + ETH, up to 6 h | top 10 assets, up to 24 h | every asset, 30 days, every panel | same | same |
 | Listings backtest | 1 venue, 24 h | 1 venue, every horizon | 2 venues, every horizon | all + Best right now | same | + CSV |
 | Patterns book history (Bias Map grid: last 7 days for everyone) | 7 days | 14 days | 30 days + Bias Map segments | all | all | all |
-| Quantum Pulse — traders you follow | 1 | 2 | 3 | 10 | 20 | unlimited |
+| Quantum Pulse — traders you follow · alerts · trader profile | 1 · daily digest · header | 2 · digest 2× a day · + three numbers | 3 · digest 3× a day · full profile | 10 · instant 50 / day · + simulation | 20 · instant 100 / day · + simulation | unlimited · unlimited · + simulation |
 | Zone Hunter | 3 crypto rows · 7 days | 5 · 14 days | all crypto · 30 days | all markets · full book | + MFE / MAE | + CSV |
 
 Every account on a step gets that whole column: Free + FOM Hold starts at the first FOM boost step (a $25 lock or a $50 hold), Free + FOM Lock at a $100 lock (the Holder lock is $250).
 Live views stay open to everyone: Trend, Bias Map, Patterns, Radar, Hunt, the heatmaps, Context, Coins Hub, Chart Pro and Data Hub.
-Daily AI limits (Trade Vision, RAG, FORA, voice, backtests) follow the [FOM Boost tables](fom-token.md#fom-boost--more-on-every-plan).
+Daily AI limits (Trade Vision, RAG, FORA, voice, backtests) follow the [FOM Boost tables](fom-token.md).
 
 > **FORA Dossier** follows the same ladder when it leaves the invite-only beta: research list 3 · 10 · all rows, full token reports
 > 1 · 3 · 10 a day then unlimited, PDF reports from Free + FOM Lock, and Our calls as a summary (Free), 24 h late (Hold), 6 h late (Lock),
@@ -108,7 +108,7 @@ Usage limits are counted **per UTC day** and reset at **00:00 UTC**. The app sho
 
 With your own AI key (**BYOK**), FORA text chat runs on your provider without the platform AI budget cap.
 
-FORA video tutorials and PDF guides grow with FOM too (Free from $25 locked) — the full table is on **[FORA Video & PDF Tutorials](fora-tutorials.md#limits-by-plan-and-fom-step)**.
+FORA video tutorials and PDF guides grow with FOM too (Free from $25 locked) — the full table is on **[FORA Video & PDF Tutorials](fora-tutorials.md)**.
 
 ## 🎁 7-day Pro trial
 
@@ -154,4 +154,4 @@ Request a refund at [formion.ai/refunds](https://formion.ai/refunds?utm_source=d
 
 ## 🪙 Paying with FOM
 
-Licences are priced in **USD** and keep their current payment methods (crypto or PayPal); paying for a licence in FOM (20% cheaper) is coming and not available yet. **FOM also boosts every plan** — from $25 locked (or $50 held) a Free account already gets more Trade Vision, alerts, watchlist, screener symbols and signal history; Pro and Institutional get higher daily limits too. See the full step tables under **[FOM Boost](fom-token.md#fom-boost--more-on-every-plan)**. You can also reach them with **FOM** — by **holding** it in a wallet you verify or by **locking** it with FOM Lock (live in beta): the **FORA Agent** level (FOM worth $2,000 held, or $1,000 locked for at least 90 days, at the lower of the 7-day and 30-day average price) includes a **Pro** licence and **Agent Pro** ($10,000 held or $5,000 locked) includes an **Institutional** licence. With Formion Wallet these values are halved. **FOM** is Formion's ERC-20 token on **Base**, launched on Uniswap (Base) on **Wed 14 Oct 2026**. It is used for FORA Agent levels (held or locked, not spent), the monthly Dossier Autopilot subscription (50% of every payment burned), agent credits, add-ons and, later, marketplace items. Dossier Autopilot is a separate product that no licence includes; automated trading can lose money, including the whole auto-trade wallet balance. Invite-only beta: max $1,000 per user, $10,000 in total; 7-point risk confirmation before it trades (experimental phase). These roll out in phases; see **[FOM token](fom-token.md)** and [formion.ai/fom](https://formion.ai/fom?utm_source=docs&utm_medium=referral&utm_campaign=docs).
+Licences are priced in **USD** and keep their current payment methods (crypto or PayPal); paying for a licence in FOM (20% cheaper) is coming and not available yet. **FOM also boosts every plan** — from $25 locked (or $50 held) a Free account already gets more Trade Vision, alerts, watchlist, screener symbols and signal history; Pro and Institutional get higher daily limits too. See the full step tables under **[FOM Boost](fom-token.md)**. You can also reach them with **FOM** — by **holding** it in a wallet you verify or by **locking** it with FOM Lock (live in beta): the **FORA Agent** level (FOM worth $2,000 held, or $1,000 locked for at least 90 days, at the lower of the 7-day and 30-day average price) includes a **Pro** licence and **Agent Pro** ($10,000 held or $5,000 locked) includes an **Institutional** licence. With Formion Wallet these values are halved. **FOM** is Formion's ERC-20 token on **Base**, launched on Uniswap (Base) on **Wed 14 Oct 2026**. It is used for FORA Agent levels (held or locked, not spent), the monthly Dossier Autopilot subscription (50% of every payment burned), agent credits, add-ons and, later, marketplace items. Dossier Autopilot is a separate product that no licence includes; automated trading can lose money, including the whole auto-trade wallet balance. Invite-only beta: max $1,000 per user, $10,000 in total; 7-point risk confirmation before it trades (experimental phase). These roll out in phases; see **[FOM token](fom-token.md)** and [formion.ai/fom](https://formion.ai/fom?utm_source=docs&utm_medium=referral&utm_campaign=docs).

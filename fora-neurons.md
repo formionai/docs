@@ -55,8 +55,8 @@ Under the table, the **Activity timeline** lists everything that mattered, newes
 | 👀 **Held by FORA** | The rule matched, but FORA's gate held it back. The reason is in the entry. |
 | ⚠️ **Not delivered** | The rule matched, but neither the app nor Telegram took the message. |
 | ⚠️ **Check failed** | The check itself failed, for example a data source was down. |
-| 💡 **Proposed / Watching / Skipped** | What FORA decided on a **[KOL watch](#kol-watch-neuron)** call. |
-| 📤 **Plan step** | A "do this now" message from a plan you follow in **[My plan](#my-plan--the-fora-planner)**. |
+| 💡 **Proposed / Watching / Skipped** | What FORA decided on a **KOL watch** (see below) call. |
+| 📤 **Plan step** | A "do this now" message from a plan you follow in **My plan** (see below). |
 
 Every entry answers three questions:
 
@@ -114,7 +114,8 @@ Everything above also works in **[FORA](fora.md)** chat and by voice — she use
 | **Position guard** | Stop, liquidation and funding watch on your open positions. |
 | **My strategy signal** | Your saved strategy runs live on its own data and tells you on a new signal. Never trades. |
 | **Liquidity alerts** | Strong liquidation zones near price, order-book holes and third-party setups — each with our own measured record. |
-| **Liquidation level** | Price near a strong level of our liquidation model, then a confirmed break or a rejection, with the context. Context, not a signal. |
+| **Liquidation level** | Price near a strong level of our liquidation model, then a confirmed break or a rejection, with the context. Source: **Binance model (measured)** or **All venues in USD** (Formion model for every contract + Hyperliquid real positions, BTC / ETH / SOL / HYPE — its break history is not measured yet, and the messages say so). Context, not a signal. |
+| **Liquidity walls** | Follows the 1–5 strongest resting walls of the **[Liquidity Map](liquidity-map.md)** and tells you in the app and on Telegram: price **approaching**, the wall **pulled** before price got there, price **touching** it, then a **reject / break / inside** on the close of the 1-minute candle 15 min or 1 h after the touch (closed candles only). Each message carries the wall size now vs at the start, its venues, how often it was pulled in 7 days, the last hour's flow by print size and the measured Level accuracy. At most 1 message per wall per stage in 6 h. Context signal — not an entry and not a signal. |
 | **KOL watch** (Pro+) | Follows the KOLs you choose (or the best measured ones) and proposes, watches or skips each new call — see below. |
 | **Spot scout** (Pro+) | Daily or weekly: which spot coins to buy, short and long term, each source weighted by its measured record. |
 

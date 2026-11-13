@@ -38,11 +38,12 @@ flowchart LR
 
 ## Quantum Pulse — who is actually right
 
-Quantum Pulse adds measured records on top of the narrative: what the followed traders, the crowd, prediction markets and any X account said — and what price did afterwards. Quantum Pulse is in **beta** and is opened step by step; **Market Narrative** is open to everyone.
+Quantum Pulse adds measured records on top of the narrative: what the followed traders, the crowd, prediction markets and any X account said — and what price did afterwards. Since **12 November 2026** Quantum Pulse is **public**: every logged-in account sees it by its plan step (see **Plans** below). app.formion.ai needs an account, so a visitor who is not logged in is sent to the login page first. Only **public** posts (X, YouTube, public Telegram) are measured.
 
 | Tab | What it shows |
 | --- | --- |
 | **Market Narrative** | The Pulse Score, BTC bias, desks, source filter and history described above. |
+| **Traders (v3)** | The **Fair rank** — each followed trader on his own terms: avatar, handle, status (**Verified** / **Collecting data**), **His plan** outcome, direction on his horizon, beyond the trend (a control), the 95 % CI, best right now, how far he is from Verified and his segments. Each row opens his [trader profile](pulse-trader-profile.md). Which columns are open depends on the plan step. |
 | **Pulse Shift** | The exact moment the Pulse Score changed regime (held for two readings), with BTC / ETH / SOL / HYPE prices at the first signal and at confirmation, and the best / worst price move afterwards (4 h / 24 h / 7 d). Context, not a signal. |
 | **Following** | The traders you follow and your alerts when one of them posts a new idea, flips bias or an idea changes status — on Telegram (via @formiontradingbot) and Web Push, with quiet hours in your time zone. An alert is information about *his* post, never an order. |
 | **Crowd Pulse** | What the followed X accounts say per coin: an index 0–100 (50 = neutral) for today and 7 days, and per horizon short / mid / long (a horizon only from the trader's own evidence). Crowd talk vs positioning, stance timelines (green dot = bull call, red dot = bear call; hover for his post, click to open it on X) and the Quantum Crowd indicator (line width = number of votes, brightness = how one-sided the crowd is). Everything is *Collecting data* until it holds on new days. |
@@ -52,6 +53,19 @@ Quantum Pulse adds measured records on top of the narrative: what the followed t
 | **Community Vote** | One vote per market per UTC day: up / down / sideways, shown next to the X crowd and what price actually did. A measurement of opinion, not a signal. |
 
 Every followed trader also has a **[trader profile](pulse-trader-profile.md)**: the three numbers, what he gets right, how Formion would follow him, where we would exit, and a follower simulation with Spot | Perp, leverage, liquidation and funding.
+
+### Request removal / correction
+
+<figure><img src=".gitbook/assets/shot-pulse-removal.jpg" alt="Request removal or correction form: Trader, What should we do? (Remove my profile / Correct a reading), link to a post, email or X handle, message, Send request"><figcaption><p>The form opens in the page; no account is needed to send it.</p></figcaption></figure>
+
+Pulse analyses public posts only. Every trader profile and the Fair rank carry a short note with a **Request removal / correction** button. It opens a form with:
+
+* **Trader** — the @handle (filled in on a profile, typed under the Fair rank);
+* **What should we do?** — **Remove my profile** or **Correct a reading**;
+* a **link to the post** (needed for a correction, optional for a removal);
+* your **email** or **X handle**, so Formion can reply, and a **message**.
+
+The request becomes a Formion support ticket and is checked by hand — usually by asking the trader to confirm from the same X account. No ID documents are needed, and no Formion account is needed to send it. A removed trader **disappears from every Pulse view**: his profile no longer opens, and he is left out of the Fair rank, Following alerts and FORA answers.
 
 ## Trader records and badges
 
@@ -67,7 +81,7 @@ A **counted call** is measured on the trader's own terms, each idea once:
 * **Otherwise, direction on his horizon** — if he gave no exit, the price move in his direction over his own typical holding time (the median of his earlier closed trades; 3 days until he has 5 closed trades), counted from the moment his entry traded.
 * Every number is **after costs** (0.12 % round trip). An idea whose entry never traded is not a trade and is not counted. Only levels the trader wrote or drew are used — Formion never adds an entry, stop or target of its own.
 
-Next to these two, **Beyond the trend** (his move minus the asset's own drift) is shown as a **control** — it answers "did he add anything beyond the market?", never "was he right?". Why the three numbers can differ is explained on the [trader profile](pulse-trader-profile.md#measured-on-his-own-terms-the-three-numbers) page.
+Next to these two, **Beyond the trend** (his move minus the asset's own drift) is shown as a **control** — it answers "did he add anything beyond the market?", never "was he right?". Why the three numbers can differ is explained on the [trader profile](pulse-trader-profile.md) page.
 
 ### Badge rules
 
@@ -85,24 +99,37 @@ A badge is never negative: Pulse never labels a trader as bad. A badge describes
 
 ## Plans
 
-Limits are enforced on the server. FOM Lock levels unlock plans as well: **FORA Agent** includes Pro and **Agent Pro** includes Institutional (see [FOM token](fom-token.md)). A **FOM Holder** gets a little more than the plan, never less.
+Every logged-in account sees Quantum Pulse by its **plan step**. Limits are enforced on the server, and a locked number is never sent to the browser. There are six steps, from lowest to highest:
 
-| Pulse feature | 🆓 Free | 💎 Pro | 🏛️ Institutional | 🪙 FOM Holder (on top of the plan) |
-| --- | --- | --- | --- | --- |
-| **Market Narrative** | ✅ | ✅ | ✅ | — |
-| **Trader profile** | Header, badge and the three numbers | Full profile, segments, charts | Same as Pro | — |
-| **If you follow him** (simulation) | 🔒 | ✅ | ✅ | — |
-| **Following** | 1 trader · daily digest (08:00) | 10 traders · instant alerts (up to 50 / day) | Unlimited | +1 trader |
-| **Pulse Shift history** | 7 days | Full | Full | 30 days on Free |
-| **Crowd Pulse** | Combined index | + per horizon, opinion map, stance timelines | + crowd vs smart money and exchange positioning, regimes, Quantum Crowd indicator, CSV export | — |
-| **Prediction Markets** | Live forecast, accuracy cards, 5 newest posts | All posts + study "Are the markets right?" | Same as Pro | — |
-| **X Lens** | Example account only | Example account only | Full **with FOM** (hold FOM or a FOM Lock) · 5 new accounts / day | — |
-| **My Calls** (open at once) | 3 | 20 | Unlimited | — |
-| **Community Vote** | ✅ | ✅ | ✅ | — |
-| **History** | 30 days | 365 days | Full | — |
-| **FORA Pulse questions** | 3 / day | Unlimited | Unlimited | — |
-| **Strategies built from Pulse traders** (saved) | 0 | 3 | Unlimited | — |
-| **FORA Neurons Pulse tools** | — | — | ✅ | — |
+**🆓 Free** → **🪙 Free + FOM Hold** → **🔒 Free + FOM Lock** → **💎 Pro** → **💎🔒 Pro + FOM Lock** → **🏛️ Institutional**
+
+* **FOM Hold** and **FOM Lock** use the same FOM levels as the rest of the app (thresholds in the [pricing ladder](pricing.md) and on [FOM token](fom-token.md)). **Pro + FOM Hold** counts as **Pro**; on Pro only a FOM Lock adds more. FOM adds nothing on **Institutional**.
+* FOM Lock levels also unlock whole plans: **FORA Agent** includes Pro and **Agent Pro** includes Institutional.
+* Every locked part shows the same animated lock with what the next step adds and two buttons: **Upgrade** and **FOM Lock**.
+
+| Pulse feature | 🆓 Free | 🪙 Free + Hold | 🔒 Free + Lock | 💎 Pro | 💎🔒 Pro + Lock | 🏛️ Institutional |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Market Narrative** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Fair rank** — traders, avatar, status | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **Fair rank** — "His plan" column | First trader only (the rest blurred) | All traders | All traders | All traders | All traders | All traders |
+| **Fair rank** — other columns (direction, beyond trend, CI, best now, to Verified, segments) | 🔒 | 🔒 | ✅ | ✅ | ✅ | ✅ |
+| **Trader profile** | Header (avatar, handle, status) | + the three numbers | Full profile, segments, charts | Full profile | Full profile | Full profile |
+| **If you follow him** (simulation) | 🔒 | 🔒 | 🔒 | ✅ | ✅ | ✅ |
+| **Following** — traders | 1 | 2 | 3 | 10 | 20 | Unlimited |
+| **Following** — alerts | Daily digest at 08:00 | Digest 2× a day (08:00 · 20:00) | Digest 3× a day (08:00 · 14:00 · 20:00) | Instant, up to 50 / day | Instant, up to 100 / day | Instant, unlimited |
+| **Pulse Shift history** | 7 days | 30 days | 90 days | Full | Full | Full |
+| **Crowd Pulse** | Combined index | Combined index | + per horizon | + opinion map, stance timelines | Same as Pro | + regimes, CSV export |
+| **Prediction Markets** | 5 newest posts | 10 posts | All posts | All posts + study "Are the markets right?" | Same as Pro | Same as Pro |
+| **X Lens** — new accounts / day | Example account only | Example account only | Example account only | 1 | 2 | 5 |
+| **Trader Verifier · Accuracy Leaderboard** (rows) | 1 | 3 | All | All | All | All |
+| **My Calls** (open at once) | 3 | 3 | 3 | 20 | 20 | Unlimited |
+| **Community Vote** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| **History** | 30 days | 30 days | 90 days | 365 days | 365 days | Full |
+| **FORA Pulse questions** | 3 / day | 5 / day | 10 / day | Chat budget | Chat budget | Chat budget |
+| **Strategies built from Pulse traders** (saved) | 0 | 0 | 0 | 3 | 6 | Unlimited |
+| **FORA Neurons Pulse tools** | — | — | — | — | — | ✅ |
+
+X Lens on Institutional no longer needs FOM. The Institutional **exchange positioning** and **Quantum Crowd indicator** views in Crowd Pulse are **temporarily unavailable**.
 
 {% hint style="info" %}
 Pulse reads what people *say*. It is a sentiment and research tool, not a signal to act on blindly — pair it with your own analysis before trusting any voice.

@@ -57,6 +57,7 @@
   * [🔐 Security](security.md)
   * [🛠️ Troubleshooting](troubleshooting.md)
   * [📖 Glossary](glossary.md)
+  * [🗓️ Changelog](changelog.md)
 * [🪄 About Formion](about.md)
   * [🪄 Vision](vision.md)
   * [👨‍🔬 Thesis](thesis.md)

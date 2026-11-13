@@ -12,7 +12,7 @@ Every trader that Quantum Pulse follows has a profile at **app.formion.ai/pulse/
 A profile describes **measured past calls**. It is not a recommendation, not a signal and not a promise of future results. Small samples are labelled **Collecting data**. Everything marked **Our strategy** or **our assumption** is Formion's own way of following a trader — **never his result**. Formion does not trade for you.
 {% endhint %}
 
-Quantum Pulse is in **beta** and is opened step by step. On the **Free** plan the profile shows the header, the badge and the three numbers; the rest of the profile, the charts and the simulation need **Pro** or higher (or the matching FOM Lock level). See [plans](pulse.md#plans).
+Quantum Pulse is **public** since 12 November 2026: every logged-in account sees profiles by its plan step. **Free** sees the header (avatar, handle, status) and a lock; **Free + FOM Hold** adds the three numbers; **Free + FOM Lock** sees the full profile (segments, What he gets right, How we'd follow him, Where we would exit, charts) without the simulation; **Pro** and higher also get the **If you follow him** simulation. Every locked part shows the shared lock with **Upgrade** and **FOM Lock** buttons. See [plans](pulse.md).
 
 ## Header and badge
 
@@ -21,7 +21,8 @@ The header shows the account (with a link to his X profile), its status and the 
 * **N measured calls · Badge** — every counted call once: his **plan outcome** where he gave a plan, otherwise **direction on his horizon**, after 0.12 % costs (for example *"33 measured calls = 9 his plan outcome · 24 direction on his horizon"*).
 * **Verified** needs at least **30** counted calls, the lower end of the 95 % confidence interval above zero, a multiple-testing check across all traders, **and** his newest third of calls (never used to decide anything) above zero. Everything else is **Collecting data**. A badge is never negative — Pulse never labels a person as bad.
 * **Live since 2026-11-01** — new ideas are followed from the moment they are posted; earlier ideas (from 2025-10-01) are the measured archive, older posts are history only.
-* **Is this you? Claim your profile** and **Request correction / removal** are on every profile. *Claimed* only proves who owns the X account; it never changes a number.
+* **Is this you? Claim your profile** is on every profile. *Claimed* only proves who owns the X account; it never changes a number.
+* **Request removal / correction** — a note at the bottom of every profile (and under the Fair rank). The button opens a form: trader, **Remove my profile** or **Correct a reading**, a link to the post, your email or X handle, and a message. No account and no ID documents are needed. The request becomes a support ticket that Formion checks by hand (usually by asking for a confirmation from the same X account). A removed trader disappears from every Pulse view. See [Request removal / correction](pulse.md).
 
 ## Measured on his own terms — the three numbers
 
@@ -132,4 +133,4 @@ The simulation builds **10,000 possible futures** only from his own measured tra
 
 ***
 
-**Related:** [Formion Pulse](pulse.md) · [Glossary](glossary.md#quantum-pulse) · [FAQ](faq.md#quantum-pulse)
+**Related:** [Formion Pulse](pulse.md) · [Glossary](glossary.md) · [FAQ](faq.md)
