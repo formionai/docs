@@ -116,6 +116,7 @@ Everything above also works in **[FORA](fora.md)** chat and by voice — she use
 | **Liquidity alerts** | Strong liquidation zones near price, order-book holes and third-party setups — each with our own measured record. |
 | **Liquidation level** | Price near a strong level of our liquidation model, then a confirmed break or a rejection, with the context. Source: **Binance model (measured)** or **All venues in USD** (Formion model for every contract + Hyperliquid real positions, BTC / ETH / SOL / HYPE — its break history is not measured yet, and the messages say so). Context, not a signal. |
 | **Liquidity walls** | Follows the 1–5 strongest resting walls of the **[Liquidity Map](liquidity-map.md)** and tells you in the app and on Telegram: price **approaching**, the wall **pulled** before price got there, price **touching** it, then a **reject / break / inside** on the close of the 1-minute candle 15 min or 1 h after the touch (closed candles only). Each message carries the wall size now vs at the start, its venues, how often it was pulled in 7 days, the last hour's flow by print size and the measured Level accuracy. At most 1 message per wall per stage in 6 h. Context signal — not an entry and not a signal. |
+| **Options regime** (Pro+) | BTC / ETH options: one message when the DVOL premium-selling regime enters High and one when it leaves — see below. |
 | **KOL watch** (Pro+) | Follows the KOLs you choose (or the best measured ones) and proposes, watches or skips each new call — see below. |
 | **Spot scout** (Pro+) | Daily or weekly: which spot coins to buy, short and long term, each source weighted by its measured record. |
 
@@ -187,6 +188,24 @@ Each message is sent exactly once. A plan closes by itself on the stop, the time
 ### Free vs Pro
 
 **Neural (Free)** sees what FORA likes today and why — the token, the reasons and FORA's opinion — **without numbers** (no entry, size or exits). **Pro** and **Institutional** add the entry, the size for your bankroll, OUR exit steps and FORA following every step for you; the same unlock is available with **FOM Lock**. Up to 3 plans at a time on Free, 5 on Pro and 10 on Institutional.
+
+***
+
+## Options regime Neuron
+
+**Options regime** (Pro and Institutional) tells you **once** when the BTC or ETH options market enters the **High** premium-selling regime — and once when it leaves.
+
+<figure><img src=".gitbook/assets/shot-neurons-options-regime.jpg" alt="New Neuron → Options regime: coin choice BTC + ETH, BTC or ETH, and what the Neuron sends"><figcaption><p>New Neuron → Options regime: pick BTC, ETH or both (Docs Demo account).</p></figcaption></figure>
+
+* **Off until you turn it on.** Like every Neuron it is never created for you — only the users who switch it on get its messages.
+* **What it watches** — the DVOL percentile of its own 365 days, read once a day at 08:00 UTC (the same number as the Premium-selling regime card on **Options**). High = above the 66.7th percentile.
+* **Entering High** — DVOL, the percentile, what the study measured in High (with the worst week) and the exact Deribit and Bybit options the frozen paper rules would sell, with credit and a margin estimate.
+* **Leaving High** — the new state and what the study measured there: no measured edge for selling premium now.
+* At most one message per coin, day and direction; a missing or stale reading never counts as a change.
+
+{% hint style="warning" %}
+A filter from a historical study in paper test (**Collecting data**), not a signal and not a promise of profit. FORA never places an order. **Neural (Free)** sees the Neuron with the Pro lock.
+{% endhint %}
 
 ***
 

@@ -91,6 +91,35 @@ The Premium-selling regime, the tail-risk table and the paper test are **open on
 * The **term backwardation / contango rows start from 11 Nov 2026** (22:56 UTC): earlier term readings had the sign inverted and used a same-day daily option as the front, so they were removed.
 * These are volatility / regime tells measured forward — not entries with levels. **Neural** sees a recent-history preview, **Pro** the full study.
 
+## 🧪 Backtest → Options · Premium selling
+
+<figure><img src=".gitbook/assets/shot-backtest-options-premium.jpg" alt="Premium selling trade history — honest header with the Collecting data status, tail-risk box, summary tiles, equity curve and the trade table"><figcaption><p>Backtest → Options → Premium selling: every trade of the historical study for the selected rule (Docs Demo account, Pro).</p></figcaption></figure>
+
+**Backtest → Options → Premium selling** (tab next to *Vol signals*) shows the **trade history** behind the Premium-selling regime card: every simulated trade of Formion's historical study of selling Deribit options (**2021-04 → 2026-11**, sold at 08:00 UTC, 1 contract, after Deribit fees and a half-spread estimate) for the six frozen paper rules and for each weekly hold-to-expiry structure (straddle, strangles, short puts, iron condor, covered call; BTC and ETH).
+
+* **Header** — *Historical study on Deribit data, after fees, not a forecast · Status: Collecting data.* No rule is Verified.
+* **Tail-risk box** (red, always visible) — what the same structure did **outside** the High DVOL regime: average per trade and worst week in % of margin. Short options win small most weeks and can lose more than the whole margin in one week.
+* **Tiles** — trades, average return on margin (RoM) per trade, win rate, P&L sum (1 contract each), max drawdown and worst week.
+* **Filters** — rule / structure, regime (High DVOL = DVOL above the 66.7th percentile of its own 365 days, the default; Other; No history), period (Discovery / Embargo / Holdout), outcome and source.
+* **Equity curve and drawdown** of the cumulative RoM, the **10 worst weeks**, and a table of **every trade** — entry, exit or expiry, legs (study rows show the delta-chosen legs, paper and Bybit demo rows the real instruments), DVOL percentile, credit, exit reason, P&L per contract, RoM, regime and sample. Paper and Bybit demo trades of the frozen rules (from 13 Nov 2026) appear in the same table with their source.
+
+{% hint style="info" %}
+**Neural (Free)** sees a preview: the summary tiles of the High DVOL trades, the tail-risk box and the **10 newest** High DVOL trades; the rest of the table, the filters, the curve and the worst weeks are part of **Pro** and **Institutional** (7-day free trial, no card). This is a historical study, not a forecast and not a promise of profit.
+{% endhint %}
+
+## 🤖 FORA options setups (Pro and Institutional)
+
+Ask FORA *"should I sell options now?"* or *"da li da prodam opcije?"* and she answers **only from the frozen paper rules of the study**:
+
+* **High DVOL and a rule's gate open** — the exact Deribit options that rule would sell at its next decision (expiry 5–9 days, strikes nearest 16Δ), the credit at the best bids, Deribit fees, a margin estimate, breakevens, the maximum loss (the call side of a strangle has none), the matching Bybit USDT options and the study's High record with its worst week. Status **Collecting data**.
+* **Mid or Low** — *no measured edge now*, with what the study measured in that state.
+* **Buying options** is never proposed — no long-volatility variant passed the study.
+* The only actions are **cards you click**: the **Options regime** Neuron and a Strategy Builder link that pre-fills the legs. **FORA never places an options order.**
+
+{% hint style="info" %}
+On **Neural (Free)** FORA explains what the Options panels mean, but gives no live option numbers, instruments, credit or margin and no setup card — options setups and the Options regime Neuron are part of **Pro** and **Institutional**.
+{% endhint %}
+
 ## ⚡ GEX — Dealer Gamma Exposure
 
 <figure><img src=".gitbook/assets/s2-gamma.jpg" alt="Gamma / GEX"><figcaption></figcaption></figure>
