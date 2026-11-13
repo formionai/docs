@@ -1,38 +1,64 @@
-# 📈 Screener
+# 📈 Quantum Screener
 
-<figure><img src=".gitbook/assets/s2-screener.jpg" alt="Formion Screener — ranked, scored market table with timeframe and signal columns"><figcaption>The Screener — every market, ranked by Formion's native scoring.</figcaption></figure>
+<figure><img src=".gitbook/assets/shot-qscreener-sections.jpg" alt="Quantum Screener section cards — Trends, Context, Confluence and Track record — with the note that strength and phase are not an entry signal, and the timeframe, side, market and phase filters"><figcaption><p>The four section cards at the top of the Quantum Screener, with the Trends filters below.</p></figcaption></figure>
 
-<figure><video src=".gitbook/assets/rec-screener-scroll.mp4" title="Live recording: scrolling the Screener — market chips, live feed, the ranked table, then a row's chart opened inline."></video><figcaption><p>Live recording: scrolling the Screener — market chips, live feed, the ranked table, then a row's chart opened inline.</p></figcaption></figure>
+<figure><video src=".gitbook/assets/rec-screener-quantum.mp4" title="Live recording: the Quantum Screener — switching sections, opening a row's Details (trend chart, age ring, score shape) and the Track record."></video><figcaption><p>Live recording: the Quantum Screener — switching sections, opening a row's Details (trend chart, age ring, score shape) and the Track record.</p></figcaption></figure>
 
-The **Screener** is Formion's home view and the engine the rest of the app is built on: a ranked, sortable table of crypto, stock and forex markets, each scored by **native signals** rather than a single indicator.
+The **Quantum Screener** is Formion's home view: it shows **which markets are trending, how strong and how mature each trend is**, across crypto, stocks & ETFs, metals, oil & gas, indices, forex and agriculture. Open it at **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)** — it is the first thing you see (menu: **Find → Quantum Screener**).
 
-Open it at **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs)** — it's the first thing you see.
+The page has four sections. Click a card to switch; the section is kept in the address (for example `app.formion.ai/?view=context`), so you can bookmark or share it.
 
-## How scoring works
+| Section | What it shows |
+|---|---|
+| 📈 **Trends** | The ranked table: who is trending, how strong, which phase — with **Details** for every row |
+| 🧭 **Context** | The state of the market right now: BTC daily regime, breadth, volatility regime, trend phases and unusual volume. Facts, not signals |
+| 🔗 **Confluence** | Combinations of the screener with other data that were tested on history, and the candidates now measured on paper |
+| 📊 **Track record** | How the screener's past trend calls did, measured live, and **Does a higher score do better?** |
 
-<figure><video src=".gitbook/assets/clip-screener.mp4" title="How a setup surfaces in the Screener"></video><figcaption><p>Trend, momentum, volume, volatility and signal tags combine into one score and a bull / bear / neutral bias.</p></figcaption></figure>
+{% hint style="info" %}
+**Strength and phase describe the trend — how strong and how mature it is. They are not an entry signal (Context signal).** On 2022–2026 history a trend call alone did not beat the market after costs. See **What the screener is and isn't** below.
+{% endhint %}
 
-Every symbol gets one composite score:
+## 📈 Trends — the table
 
-* **Trend, momentum, volume and volatility** — live prices are scored on all four, then deduplicated across timeframes into **one number per symbol**
-* **Signal tags** — structure and flow events such as FVG / order-block entries, VWAP reclaims and rejections, break of structure / CHoCH, regime changes, Wyckoff springs and Adaptive-RSI turns
-* **Bias** — each row is classed bull, bear or neutral
+Pick a **timeframe** (5m · scalp, 15m, 1h, 4h, 1D), a side (**Long & short**, **Uptrends**, **Downtrends**), a market class and a phase (**Fresh**, **In trend**, **Pullback**, **Exhausted**); each chip shows how many markets it holds. **More filters · context data** adds the Volume z and Volatility filters (see below). Every row is read on **closed bars only**.
 
-The table shows score, price, 24h change, the strongest signals and a mini sparkline per row. Sort by any column and filter by asset class (crypto, stocks, forex), bias and signal, so you can jump straight to "what's set up *right now*".
+| Column | How to read it |
+|---|---|
+| **Symbol** | Asset logo, symbol and the venue its prices come from (for example Bybit, Binance USD-M, FP Markets (cTrader)), with the age of the last update |
+| **Class** | Crypto, Stocks, Metals, Forex, Indices… |
+| **Price · 24h** | Last price and 24h change |
+| **Trend** | A mini chart of the selected timeframe |
+| **RSI** · **Zone** | RSI on that timeframe and where price sits (for example discount or premium zone) |
+| **Bias · phase** | **Uptrend** or **Downtrend** and the phase of the trend |
+| **Since · typical** | How long the trend has lasted and how long a trend typically lasts on this timeframe |
+| **MFE** · **MAE** | The best and the worst move since the trend start (see **MFE / MAE** below) |
+| **Strength** | 0–100: how strong the trend is now, built from weighted components (shown in Details) |
+| **Reasons** · **Tags** | Short "why" chips, for example momentum rank, ADX + VWAP, strong trend, lower highs + lows |
 
-## Sub-tools
+The line above the table counts the markets and how many are in an uptrend and a downtrend, and shows the BTC daily regime. Markets with no price history at the source right now are counted in a note instead of shown with an empty row.
+
+## More tools in the Quantum Screener hub
+
+The second row of the Quantum Screener holds the other trend and setup tools, in three groups:
 
 ```mermaid
 flowchart LR
-  SC["📈 Screener"] --> BM["🗺️ Bias Map"]
-  SC --> RD["📡 Radar"]
-  SC --> HU["🎯 Hunt"]
-  SC --> CO["🤝 Consensus"]
-  SC --> WL["⭐ Watchlist"]
-  SC --> MO["➕ Patterns · Trend · Arbitrage · Order Book · Heatmaps"]
+  QS["📈 Quantum Screener"] --> T["Trend: Trend · Bias Map · Mechanical"]
+  QS --> S["Setups: Patterns · Radar · Hunt · Divergences · Zone Hunter"]
+  QS --> H["Heat: Heatmaps (VWAP Bubble · RSI · MACD · EMA Cloud)"]
 ```
 
-<figure><video src=".gitbook/assets/rec-screener-subtabs.mp4" title="Live recording: switching between Bias Map, Radar, Hunt, Consensus and Watchlist."></video><figcaption><p>Live recording: switching between Bias Map, Radar, Hunt, Consensus and Watchlist.</p></figcaption></figure>
+**Moved out of the Screener (Nov 2026):**
+
+| Tool | Where it is now |
+|---|---|
+| **Order Book** (Imbalance and Walls) | **Data Hub → Order Book** — views Book · DOM · Imbalance · Walls. See **[Order Flow & Microstructure](order-flow.md)** |
+| **Watchlist** | Your account menu (top right) → **Watchlist** and **Watchlist Builder**. See **[Trading Terminal — The App](the-app.md)** |
+| **Consensus** | **Signals → Consensus** (described below) |
+| **Arbitrage** | **Data Hub → Funding & Arb → Spreads** |
+
+The **Mechanical** board is described in **[Analytics](analytics.md)**.
 
 ### 🗺️ Bias Map
 
@@ -67,7 +93,7 @@ A top-down **US-equities** setup funnel (long-only): market regime (SPY/QQQ vs t
 
 <figure><img src=".gitbook/assets/s3-sc-consensus.jpg" alt="Consensus — multi-signal confluence"><figcaption><p>Consensus: symbols ranked by how many engines agree on the same direction.</p></figcaption></figure>
 
-Multi-signal confluence: symbols ranked by how many of Formion's engine **families** agree on the same direction.
+Now under **Signals → Consensus**. Multi-signal confluence: symbols ranked by how many of Formion's engine **families** agree on the same direction.
 
 * **Status: Context signal · Collecting data.** Engines agreeing is context next to your own levels and trend — our study has not shown that agreement alone trades better, so Consensus is not a buy/sell signal.
 * **Counted by family, not by variant.** Several variants of one engine count as one vote, so one engine with many versions cannot inflate the score. The rows still list every variant.
@@ -77,13 +103,11 @@ Multi-signal confluence: symbols ranked by how many of Formion's engine **famili
 
 ### ⭐ Watchlist
 
-<figure><img src=".gitbook/assets/s3-sc-watchlist.jpg" alt="Watchlist — saved symbols with live scores"><figcaption><p>Watchlist: your saved symbols with live bias, price and volume.</p></figcaption></figure>
-
-Your saved symbols with live scores and signals, plus a workspace to curate the list against a live multi-timeframe bias matrix.
+The Watchlist is no longer part of the Screener: open it from your **account menu → Watchlist** (and **Watchlist Builder**). See **[Trading Terminal — The App](the-app.md)**.
 
 ### ➕ More lenses
 
-**Patterns** (chart-formation detector; **Live chart** on a card opens the Formion chart with the pattern's own levels, see below), **Trend** (trend-strength scan, see below), **Zone Hunter** (rule screener measured on a paper book, see below), **Arbitrage** (cross-exchange price spreads and funding carry), **Order Book** (resting bids vs asks near price and walls, see below), **VWAP Bubble**, **RSI Heat**, **MACD Heat** and **EMA Cloud**.
+**Patterns** (chart-formation detector; **Live chart** on a card opens the Formion chart with the pattern's own levels, see below), **Trend** (trend-strength scan, see below), **Divergences**, **Zone Hunter** (rule screener measured on a paper book, see below) and **Heatmaps** with the views **VWAP Bubble**, **RSI**, **MACD** and **EMA Cloud**.
 
 <figure><img src=".gitbook/assets/s3-sc-heatmap.jpg" alt="RSI heatmap"><figcaption><p>RSI Heatmap — every symbol coloured by RSI.</p></figcaption></figure>
 
@@ -112,34 +136,9 @@ The Trend scanner gives every coin (Binance USD-M perpetuals, top by 24h volume)
 * **Measurement restarted on 2 Nov 2026.** Old rows whose recorded outcome was contradicted by exchange data were removed, so the default view starts from the restart.
 * Free users see the last 7 days, Pro and up the whole book. Until there are at least 30 trades over at least 14 days the status reads **Collecting data**.
 
-### ⚖️ Order Book
+### ⚖️ Order Book → moved to Data Hub
 
-<figure><img src=".gitbook/assets/shot-screener-orderbook.jpg" alt="Order Book — how-to-read cards, band and volume filters, and the table of imbalance, bid and ask depth, walls, spread and 24h volume per coin"><figcaption><p>Order Book: resting bids vs asks near price (5-minute average), walls, spread and volume for the top 80 coins.</p></figcaption></figure>
-
-The Order Book tab shows how the **resting orders near the current price** are split between buyers and sellers, for the top 80 Binance USD-M perpetuals by 24h volume. It is a **Context signal**: it shows the state of the book now, not where price will go, and it never gives an entry, stop or target.
-
-* **Imbalance** = (bid − ask) ÷ (bid + ask) × 100, in dollars of resting orders **within ±0.10 % of the mid price**. Switch to **±0.25 %** with the Band filter. That wider band is shown only when the book actually reaches it; otherwise the cell shows "—". Every coin is measured over the same price distance, so the numbers are comparable.
-* **The main number is a 5-minute average**, not a single snapshot, because the book changes second by second. Until five readings exist, the row says "warming up".
-* **Bid heavy** = +15 % or more (more resting buy orders near price), **Ask heavy** = −15 % or less, **Balanced** in between.
-* **Wall** = one price level at least **6× the median level** within ±0.25 %, seen in **2 readings in a row**. If no level passes, the cell shows "—". The biggest level on its own is not called a wall.
-* **Resting orders can be pulled at any time.** A wall or a heavy side describes the state of the book, not a direction.
-* All users share one snapshot of the book. If it is older than about 2.5 minutes, the tab shows a **stale** warning instead of "Live".
-
-#### 🧱 Walls Bot & Backtesting
-
-The **Backtesting** sub-tab (also opened from **Walls Bot →**) measures what happens when price touches a wall:
-
-* **Walls v2** has been measured from **2 Nov 2026** on Binance USD-M perpetuals with **real fills**. A trade exists only when a real trade print touches a confirmed wall. The entry is the first real print on the taking side, i.e. at the bid or ask, 1–6 s after the touch. The stop is checked on the real trade path and fills at the first real trade after it is hit. The target fills only when price trades through it. Results are **net** of fees, slippage and real funding.
-* The stop and target levels are **Formion's own strategy rules** (based on 1-hour ATR), not levels from the book or from any trader.
-* **v1 is an archive** (an older, simpler measurement). It is shown below v2 and labelled "archive v1, not directly takeable".
-* **Filters** (side, session, days, coin and more) work over the whole book. Every filter shows a status:
-  * **Too few data** — not enough trades or days yet
-  * **Collecting data**
-  * **Past only, fades recently** — positive in the past but not recently
-  * **Holds in both halves** — positive after costs in both halves of the period and recently
-* **The first verdict needs at least 30 trades and at least 14 days.** Until then, v2 reads **Collecting data**.
-* **Who sees what:** you need to be logged in. Free users see the last 7 days, and Pro and up see the whole book.
-
+Order book imbalance, walls and the Walls Bot paper book now live in **Data Hub → Order Book** (views **Imbalance** and **Walls**). The old addresses still open the same pages. See **[Order Flow & Microstructure](order-flow.md)**.
 
 ### 📍 Zone Hunter
 
@@ -255,6 +254,21 @@ The ring shows how old the trend is (for example **3d** in the centre). Below it
 * **Venue** — the price source is named in Details and on the row; forex, metals, oil and index rows read **FP Markets (cTrader)** with the real FP Markets logo.
 * **Not a forecast** — Details shows measured facts about a trend. It never gives an entry, stop or target.
 
+### Move since start and Score shape
+
+<figure><img src=".gitbook/assets/shot-qscreener-details.jpg" alt="Details for BTC on 1h — score components with the Score shape radar, fact lines, the trend chart, the Trend age ring (33h of 12h typical), Move since start (Worst −0.4 %, Now +7.3 %, Best +8.7 %) and Context data"><figcaption><p>Details: Score shape next to the components, the Trend age ring and the Move since start bar on the right.</p></figcaption></figure>
+
+* **Move since start** — a bar from **Worst** (left) through **Start** (0 %) to **Best** (right), with a **Now** marker where price is today. It is the same best and worst move as the MFE / MAE columns, drawn on one line.
+* **Score shape** — a radar of the strength components (market context, structure, ADX, trend, momentum) next to the component bars, so you see at a glance whether a high strength comes from one part or from all of them.
+* **Trend age ring** colours — calm while the trend is younger than typical, warmer above **100 %** and **150 %** of the typical length. Weekends and closed sessions do not age a trend, because age counts closed bars.
+
+### MFE / MAE — what Best and Worst move mean
+
+* **Measured from the trend start** — the close of the **first closed bar of the trend**, on the timeframe you picked.
+* **Closed bars only** — the live, unfinished bar is not counted.
+* **Direction** — for an **uptrend** it is the long view (MFE = highest move up, MAE = deepest move down); for a **downtrend** it is the short view (MFE = deepest move down, MAE = highest move up).
+* **They describe the move, they are not an entry, a stop or a target.** Nobody could have entered exactly at the trend start, and the numbers never tell you where to place an order.
+
 ## Context data — Volume z and Volatility regime
 
 Two extra readings sit next to the strength of every crypto row. They are **context data**: they describe the state of the market right now. They are **not buy or sell signals** and they are **not part of the strength score** — the ranking, phases and counts are exactly the same with or without them.
@@ -282,12 +296,89 @@ Two extra readings sit next to the strength of every crypto row. They are **cont
 * **No stale numbers:** a Volume z older than 3 bars or a regime older than 3 hours is not shown.
 * **Information only:** we measured whether the volatility regime makes signals better when used as a filter — it **does not**. Use it to understand the market you are looking at (a quiet coin vs a coin in an extreme move), not as a reason to enter or skip a trade.
 
+## 🧭 Context — the state of the market
+
+<figure><img src=".gitbook/assets/shot-qscreener-context.jpg" alt="Quantum Screener Context section — BTC daily regime, breadth, volatility regime, trend phases, unusual volume, breadth by market, heatmap links and measured trend facts"><figcaption><p>Context on 1h: BTC daily regime, breadth (uptrend / no trend / downtrend), volatility regime, trend phases, unusual volume, breadth by market and the measured trend facts.</p></figcaption></figure>
+
+**Context** reads the same closed-bar rows as the Trends section and shows only facts — no entries, stops, targets or buy / sell calls. Use it to see whether the market is broad or narrow, calm or wild. Pick the timeframe (15m, 1h, 4h, 1D) at the top.
+
+* **BTC daily regime** — the trend rule on BTC's closed daily bars (Uptrend, Downtrend or No trend).
+* **Breadth** — how many markets are in an uptrend, in no trend and in a downtrend, and the same **by market** (crypto, stocks, forex, indices, metals, oil & gas, agriculture).
+* **Volatility regime** — how many crypto markets are Compressed, Normal, Elevated or Extreme against their own last 30 days.
+* **Trend phases** — how many trends are Fresh, In trend, in a Pullback or Exhausted. Phases describe maturity; on history none of them sorted outcomes on its own.
+* **Unusual volume** — markets whose last closed bar has a **volume z of 2 or more**: unusual activity, not a direction.
+* **Heatmaps** — shortcuts to VWAP Bubble, RSI, MACD and EMA Cloud.
+* **Measured 2022–2026, not a signal** — the facts in the next section.
+
+## 🔗 Confluence — measured combinations
+
+<figure><img src=".gitbook/assets/shot-qscreener-confluence.jpg" alt="Quantum Screener Confluence section — History test 382, Verified 0, next review 23 Nov to 7 Dec 2026, paper candidates with Collecting data status and the Tested on history table"><figcaption><p>Confluence: 382 combinations tested on history, 0 Verified, five paper candidates (Collecting data) and what each tested use means.</p></figcaption></figure>
+
+**Confluence** shows only measured combinations of the screener with other data. **Nothing here is a signal unless it shows Verified — and today none does.**
+
+* **History test** — **382** combinations were written down in advance and tested on **2022–2026** history (611 Binance perpetuals incl. delisted coins, costs and funding included; discovery 2022 – Apr 2025, then a once-only holdout to Oct 2026, corrected for testing many combinations). **0** were Verified.
+* **Paper candidates** — five combinations are now measured on **new days** with frozen rules (weekly long the 10 strongest 1D uptrends / short the 10 strongest 1D downtrends, 4h calls against the BTC daily regime, 4h uptrends on top-20 coins while BTC is in a daily downtrend, 1D downtrends with taker selling, 1D downtrends held until the screener ends the trend). Each reads **Collecting data**; it can become **Verified** only with at least **30 results over 14 days**, a range above zero and a net positive result. The first look is planned for **23 Nov – 7 Dec 2026**; the weekly book needs about 30 weeks.
+* **Tested on history** — what each use of the screener showed:
+
+| What was tested | Status |
+|---|---|
+| A trend call on its own (direction) | Context signal |
+| Strength 0–100 at the trend start | Context signal |
+| Phase (fresh / in trend / pullback / exhausted) | Context signal |
+| Why-chips (structure, ADX + VWAP, higher timeframe, sweep, zone) | Context signal |
+| + funding, open interest, taker flow, top-trader L/S, RSI, VWAP, volume z | Context signal |
+| Our exits (trend end, ATR trail, typical length, fade) | Keep refining |
+| Screener as a filter for Patterns setups | Context signal |
+| Screener as a filter for Pulse plans (1D agrees) | Collecting data (needs at least 100 plans) |
+
+## 📊 Track record — how past calls did
+
+<figure><img src=".gitbook/assets/shot-qscreener-track-record.jpg" alt="Track record of 1h trend calls — uptrend and downtrend cards with calls judged, direction right, beat the market, average vs market, typical length and median best / worst, all Collecting data"><figcaption><p>Track record for 1h calls: uptrend and downtrend calls measured live since 8 Nov 2026, each card reading Collecting data.</p></figcaption></figure>
+
+Every trend call is recorded when it starts on a closed bar and judged after a fixed horizon (for example **1 day** for 1h calls): did price move the called way, and did it **beat the equal-weight market of its class**? Pick the timeframe and side at the top.
+
+* **Cards per side** — **Calls judged**, **Direction right**, **Beat the market**, **Avg vs market / call**, **Typical length** and **Median best / worst**. Results are averages per call with 95 % ranges, never a sum.
+* **By trend phase** and **By side, BTC regime and coin group** — the same measurement split into segments.
+* **Status** — a segment shows **Verified** only with at least **30 calls over 14 days**, a range above the market **and** above the asset's own recent drift, and only if it still holds after correcting for the many segments tested. Until then it reads **Collecting data**. The live measurement started on **8 Nov 2026**.
+* Markets that were closed at the horizon (weekend, session break) are judged at their last close before it.
+
+### Does a higher score do better?
+
+<figure><img src=".gitbook/assets/shot-qscreener-calibration.jpg" alt="Does a higher score do better? — calls grouped by strength at the trend start (under 50, 50–70, 70–85, 85 and up) with calls judged, direction right, average vs market and status Collecting data"><figcaption><p>Calibration: calls grouped by their strength at the trend start, all Collecting data so far.</p></figcaption></figure>
+
+This table groups calls by their **strength at the trend start** (**<50**, **50–70**, **70–85**, **≥85**) and by phase, judged exactly like the calls above, plus the change **per +10 score points**. A higher score counts as better only when it measurably beats the market more, with at least 30 calls over 14 days. **Today it reads Collecting data**: most trends start with a strength below 50. Until it is proven, the score is a **ranking of trend quality, not a better chance of profit**.
+
+## 🧾 What the screener is and isn't
+
+**It is** a clear, live map of which markets trend, how strongly and for how long — measured context you can read in seconds. **It isn't** an entry signal: a trend call, its strength and its phase are a **Context signal**.
+
+Measured on 2022–2026 history (the same trend rule replayed on closed 1h / 4h / 1D bars of 611 Binance perpetuals, delisted coins included):
+
+* **Typical trend length** — **13–16 closed bars on every timeframe** (1h ≈ 13 h, 4h ≈ 60 h, 1D ≈ 16 days).
+* **Time spent in a trend** — about **85 %** of the time. Being in a trend alone does not single a market out; strength, age and phase matter more.
+* **"Exhausted" is not the end** — 12 bars later, **70 %** of 1h trends that turned exhausted were still alive, vs **52 %** after a fresh start. That is a survival statistic (an exhausted trend is already an old trend that survived), **not a reason to enter** and not a "stronger trend".
+* **Median best move from the start** — +2.2 % (1h) · +4.8 % (4h) · +13.5 % (1D). **Median worst move** — −1.8 % (1h) · −3.8 % (4h) · −10.0 % (1D).
+
+## 🟢 Live Feed — the LIVE dot and your exchange
+
+<figure><img src=".gitbook/assets/shot-livefeed-live.jpg" alt="Live Feed strip — seven crypto cards with the green LIVE dot, the Binance logo, price, 24h change, 24h sparkline and 24h low / high"><figcaption><p>The Live Feed strip with the green LIVE pill and a live dot on every card.</p></figcaption></figure>
+
+The **Live Feed** strip on the home page (and above the chart in Chart Pro) streams price, 24h change, the 24h low / high and a 24h hourly sparkline.
+
+| Dot / pill | Meaning |
+|---|---|
+| 🟢 **Live** (glowing, pulsing ring) | The last tick arrived less than **10 s** ago |
+| 🟡 **Delayed** | **10–60 s** without a tick |
+| ⚪ **Offline** | More than **60 s** without a tick, or the connection dropped. When the network is back it turns **Live** again at once |
+
+With reduced motion switched on, the dot glows without pulsing. The header shows the exchange and market (for example **Binance · USDT perp**). Choose the exchange in **Settings → Live Feed exchange** (see **[Trading Terminal — The App](the-app.md)**): Binance (default), Bybit, OKX, Bitget or Hyperliquid. Every number on a card comes from the chosen exchange only — a coin it does not list shows **Not listed on <exchange>**, never another exchange's price.
+
 ## Logos & live data everywhere
 
-Every symbol carries its asset logo, and rows update live. Click any row to open its full chart and analysis in **Chart Pro**.
+Every symbol carries its asset logo, and rows update live. Click a row to open **Details** below it; the **Chart** button opens the full chart in **Chart Pro**.
 
 {% hint style="info" %}
-On the free **Neural** tier the Screener covers crypto as a **3-row preview** (last 7 days of history; signals are delayed 30 minutes). **Pro** and **Institutional** get the full real-time screener on all markets — crypto, stocks, commodities and forex — see **[Pricing & Tiers](pricing.md)**.
+On the free **Neural** tier the Quantum Screener covers **crypto (top 50)** with **3 full rows**; the other rows appear as locked rows with the unlock options. **Pro** and **Institutional** get the full real-time screener on **all markets** — crypto, stocks & ETFs, metals, oil & gas, indices, forex and agriculture — see **[Pricing & Tiers](pricing.md)**.
 {% endhint %}
 
 ## One Formion chart behind every table

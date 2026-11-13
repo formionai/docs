@@ -45,7 +45,8 @@ flowchart LR
 * **Events** — per-candle up/down event series, recurring return patterns and an options-implied probability view for BTC, ETH and SOL
 * **US Stocks** — daily US-equity narrative, market regime and macro indicators
 * **Liquidity Map** — recorded resting liquidity of 11 markets for BTC, ETH, SOL and HYPE (heatmap, Liquidity Tracker, per-venue ladder, pull/stack, persistent walls, CVD per venue and real Hyperliquid liquidation levels); it replaces the old Heatmap and Agg Heatmap pages — see **[Liquidity Map](liquidity-map.md)**
-* **Order flow & depth** — Orderbook, Order Flow, DOM Pro, Liq Map and Walls — see **[Order Flow & Microstructure](order-flow.md)**
+* **Order Book** — one tab with four views: **Book**, **DOM**, **Imbalance** (resting bids vs asks near price, formerly in the Screener) and **Walls** (live walls and the Walls Bot paper book) — see **[Order Flow & Microstructure](order-flow.md)**
+* **Order flow & depth** — Order Flow, Liquidity Map and Liquidation Levels — see **[Order Flow & Microstructure](order-flow.md)**
 * **More** — Listings, Movers, DEX Flow, Trend Shifts, Fundamentals, Setup Scanner, Trading Signals, Lumina Picks, VIP Pulse and HL Perps (Hyperliquid perps, including gold, oil, FX and index perps)
 
 ## 🏛️ US Stocks

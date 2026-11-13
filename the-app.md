@@ -31,18 +31,13 @@ flowchart TD
   APP --> SW["🐝 Swarm"]
 ```
 
-### 📈 Screener
+### 📈 Quantum Screener
 
-<figure><img src=".gitbook/assets/s2-the-app-screener.jpg" alt="Screener"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-qscreener-sections.jpg" alt="Quantum Screener section cards: Trends, Context, Confluence and Track record"><figcaption><p>The Quantum Screener sections.</p></figcaption></figure>
 
-The home view: a ranked, sortable table of crypto, stock and forex symbols, each with one composite score (trend, momentum, volume, volatility) plus signal tags (FVG/OB entries, VWAP reclaims, BoS/CHoCH…). Sub-tools include:
+The home view: which markets are trending, how strong and how mature each trend is, in four sections — **Trends** (the ranked table with Details), **Context** (breadth, volatility, BTC regime, unusual volume), **Confluence** (measured combinations, none Verified yet) and **Track record** (how past calls did, plus *Does a higher score do better?*). Strength and phase describe the trend; they are not an entry signal. The hub's second row holds **Trend**, **Bias Map**, **Mechanical**, **Patterns**, **Radar**, **Hunt**, **Divergences**, **Zone Hunter** and **Heatmaps**.
 
-* **Bias Map** — directional bias heatmap across 5 timeframes (5m → 1d) with a selectable anchor timeframe.
-* **Radar** — 30+ TradingView preset scans as signal cards.
-* **Hunt** — a top-down US-equities setup funnel; **Consensus** — symbols where several engines agree.
-* **Patterns**, **Trend**, **Arbitrage**, **Order Book**, **Watchlist** and the RSI/MACD/EMA/VWAP heatmaps.
-
-**[Full guide → Screener](screener.md)**
+**[Full guide → Quantum Screener](screener.md)**
 
 ### 📊 Chart Pro (Quantum Terminal)
 
@@ -54,7 +49,7 @@ A professional chart: live OHLCV, 12 timeframes (1m → 1W), 100+ indicators (in
 
 <figure><img src=".gitbook/assets/s2-the-app-datahub.jpg" alt="Data Hub"><figcaption></figcaption></figure>
 
-Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding (OKX, Binance, Bybit, Gate and HTX by default). Plus the **[Liquidity Map](liquidity-map.md)** (recorded resting liquidity across 11 markets) and order-flow pages (Order Flow, DOM Pro, Liq Map, Walls) and scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options**, **Gamma/GEX**, **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
+Real-time multi-exchange market data: open interest, long/short ratio, top-trader positioning, taker buy/sell delta and funding (OKX, Binance, Bybit, Gate and HTX by default). Plus the **[Liquidity Map](liquidity-map.md)** (recorded resting liquidity across 11 markets) the **Order Book** tab (Book · DOM · Imbalance · Walls), Order Flow, Liquidation Levels and scanners — **Funding**, **OI Surge**, **Divergences**, **Patterns**, **Volatility**, **Options**, **Gamma/GEX**, **Events** and **US Stocks**. **[Full guide → Data Hub](data-hub.md)**
 
 ### 🪙 Coins Hub
 
@@ -107,6 +102,24 @@ The catalog of Formion bots (crypto, gold/metals, forex, stocks, prediction mark
 ### 📓 Journal
 
 Per-trade journaling with notes, tags, screenshots and full performance review, exchange import, an AI review of your trades and P&L share cards. See **[Trading Journal](journal.md)**.
+
+### ⭐ Watchlist
+
+<figure><img src=".gitbook/assets/shot-usermenu-watchlist.jpg" alt="Account menu with Profile, Journal, Watchlist, Watchlist Builder, Chat and Inbox, Chart and visuals, Trading password and Sign out" width="230"><figcaption><p>Account menu: Journal, Watchlist and Watchlist Builder sit together.</p></figcaption></figure>
+
+The Watchlist is personal, so it moved out of the Screener: open your **account menu** (your name, top right) → **Watchlist** or **Watchlist Builder**. The page has two views, **My list** and **Builder**.
+
+<figure><img src=".gitbook/assets/shot-watchlist.jpg" alt="Watchlist → My list — saved pairs and active alerts counters, an Add to watchlist picker and rows with trend badge, price, 1h / 4h / 24h change, 24h volume, alert and remove buttons"><figcaption><p>Watchlist → My list: your saved pairs with live price, trend badge, 1h / 4h / 24h change and alerts.</p></figcaption></figure>
+
+* **My list** — your saved pairs with live price, a trend badge, 1h / 4h / 24h change and 24h volume; add a pair with **Add to watchlist**, set an alert with the bell, remove it with the bin.
+* **Builder** — curate the list against a live multi-timeframe bias matrix.
+* The number of watchlist symbols depends on your plan — see **[Pricing & Tiers](pricing.md)**.
+
+### ⚙️ Settings → Live Feed exchange
+
+<figure><img src=".gitbook/assets/shot-settings-livefeed-exchange.jpg" alt="Settings → Live Feed exchange with the options Binance, Bybit, OKX and Bitget (USDT perp) and Hyperliquid (USDC perp)" width="560"><figcaption><p>Settings → Live Feed exchange: pick the exchange the Live Feed strip streams from.</p></figcaption></figure>
+
+Open **Settings** (the sliders icon at the top) → **Live Feed exchange** to choose where the Live Feed strip (home page and Chart Pro) takes its data from: **Binance** (default), **Bybit**, **OKX**, **Bitget** (USDT perp) or **Hyperliquid** (USDC perp). Price, 24h change, 24h low / high and the sparkline then come from that exchange only; a coin it does not list shows **Not listed on <exchange>**. The green **LIVE** dot shows Live, Delayed or Offline — see **[Quantum Screener](screener.md)**. Your choice is saved with your other settings.
 
 ### 🐝 Swarm
 

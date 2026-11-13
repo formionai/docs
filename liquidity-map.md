@@ -162,4 +162,4 @@ It never uses the map as a proven entry, stop or target and never as a predictio
 
 * **[Data Hub](data-hub.md)** — the other derivatives and order-flow pages.
 * **[Order Flow & Microstructure](order-flow.md)** — Order Flow, DOM Pro, Liquidation Map and Walls.
-* **[Screener → Order Book](screener.md)** — the book imbalance and walls for the top Binance perpetuals.
+* **Data Hub → Order Book** (Imbalance and Walls, see [Order Flow & Microstructure](order-flow.md)) — the book imbalance and walls for the top Binance perpetuals.

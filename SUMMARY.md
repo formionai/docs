@@ -9,7 +9,7 @@
   * [🧱 Use Case — Build & Publish a Strategy](usecase-build-strategy.md)
   * [📡 Use Case — Follow the Right Voices](usecase-follow-voices.md)
 * [🖥️ Trading Terminal — The App](the-app.md)
-  * [📈 Screener](screener.md)
+  * [📈 Quantum Screener](screener.md)
   * [📊 Chart Pro — Quantum Terminal](chart-pro.md)
   * [🌊 Order Flow & Microstructure](order-flow.md)
   * [🔁 DEX & On-chain Trading](dex-trading.md)

@@ -19,7 +19,7 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 | **DOM Pro** | A depth-of-market ladder with a size heatmap, a trade heatmap and VWAP / POC / VAH / VAL levels |
 | **Liquidity Map** | Recorded resting liquidity over time, summed across 11 markets, with tracker, ladder, pull/stack, walls, CVD and Hyperliquid liquidation levels. It replaces the old Order-Book Heatmap and Agg Heatmap pages — see **[Liquidity Map](liquidity-map.md)** |
 | **Footprint** | Bid/ask volume **inside** each candle by price tick (Constructor panel) |
-| **Walls** | Live wall detector plus a history of confirmed, broken and pulled walls. A wall is resting liquidity that can be pulled at any time, so it is context, not a support or resistance promise. The **Walls Bot** paper book (v2, real fills, measured from 2 Nov 2026) and its Backtesting filters are described under **[Screener → Order Book](screener.md)** |
+| **Walls** | Live wall detector plus a history of confirmed, broken and pulled walls. A wall is resting liquidity that can be pulled at any time, so it is context, not a support or resistance promise. The **Walls Bot** paper book (v2, real fills, measured from 2 Nov 2026) and its Backtesting filters are described under **Order Book — Imbalance and Walls** below |
 | **Liquidation Map** | A model estimate of where leveraged positions would be force-closed — every perpetual contract of Binance, Bybit and OKX in USD, plus Hyperliquid real positions, with its own measured Map accuracy. See **Liquidation Map** (see below) below |
 | **HL Trade Intent** (preview) | A pane under the chart in **Chart Pro**: per bar, how many dollars of **new longs** and **new shorts** were opened on Hyperliquid, and on request how many longs and shorts were closed. See **HL Trade Intent** (see below) below |
 | **Spoof / Iceberg detector** | Flags levels cancelled without being filled and levels that refill after being eaten (Constructor panel) |
@@ -27,6 +27,36 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 <figure><img src=".gitbook/assets/s2-dom-pro.jpg" alt="DOM Pro depth-of-market ladder"><figcaption><p>DOM Pro — depth-of-market ladder with size and trade heatmaps.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/s2-liquidation-map.jpg" alt="Liquidation Map"><figcaption><p>Liquidation Map — clustered liquidation levels over time.</p></figcaption></figure>
+
+## ⚖️ Order Book — Imbalance and Walls
+
+<figure><img src=".gitbook/assets/shot-orderbook-views.jpg" alt="Data Hub → Order Book views: Book, DOM, Imbalance and Walls"><figcaption><p>Data Hub → Order Book: the four views.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-orderbook-imbalance.jpg" alt="Order Book → Imbalance — how-to-read cards, band, minimum volume and sort filters, and the table of imbalance, bid and ask depth, walls, spread and 24h volume per coin"><figcaption><p>Imbalance: resting bids vs asks near price (5-minute average), walls, spread and volume for the top 80 coins.</p></figcaption></figure>
+
+**Data Hub → Order Book** has four views: **Book**, **DOM**, **Imbalance** and **Walls**. The **Imbalance** view (formerly Screener → Order Book; same address) shows how the **resting orders near the current price** are split between buyers and sellers, for the top 80 Binance USD-M perpetuals by 24h volume. It is a **Context signal**: it shows the state of the book now, not where price will go, and it never gives an entry, stop or target.
+
+* **Imbalance** = (bid − ask) ÷ (bid + ask) × 100, in dollars of resting orders **within ±0.10 % of the mid price**. Switch to **±0.25 %** with the Band filter. That wider band is shown only when the book actually reaches it; otherwise the cell shows "—". Every coin is measured over the same price distance, so the numbers are comparable.
+* **The main number is a 5-minute average**, not a single snapshot, because the book changes second by second. Until five readings exist, the row says "warming up".
+* **Bid heavy** = +15 % or more (more resting buy orders near price), **Ask heavy** = −15 % or less, **Balanced** in between.
+* **Wall** = one price level at least **6× the median level** within ±0.25 %, seen in **2 readings in a row**. If no level passes, the cell shows "—". The biggest level on its own is not called a wall.
+* **Resting orders can be pulled at any time.** A wall or a heavy side describes the state of the book, not a direction.
+* All users share one snapshot of the book. If it is older than about 2.5 minutes, the tab shows a **stale** warning instead of "Live".
+
+### 🧱 Walls Bot & Backtesting
+
+In the **Walls** view, the **Backtesting** sub-tab (also opened from **Walls Bot →**) measures what happens when price touches a wall:
+
+* **Walls v2** has been measured from **2 Nov 2026** on Binance USD-M perpetuals with **real fills**. A trade exists only when a real trade print touches a confirmed wall. The entry is the first real print on the taking side, i.e. at the bid or ask, 1–6 s after the touch. The stop is checked on the real trade path and fills at the first real trade after it is hit. The target fills only when price trades through it. Results are **net** of fees, slippage and real funding.
+* The stop and target levels are **Formion's own strategy rules** (based on 1-hour ATR), not levels from the book or from any trader.
+* **v1 is an archive** (an older, simpler measurement). It is shown below v2 and labelled "archive v1, not directly takeable".
+* **Filters** (side, session, days, coin and more) work over the whole book. Every filter shows a status:
+  * **Too few data** — not enough trades or days yet
+  * **Collecting data**
+  * **Past only, fades recently** — positive in the past but not recently
+  * **Holds in both halves** — positive after costs in both halves of the period and recently
+* **The first verdict needs at least 30 trades and at least 14 days.** Until then, v2 reads **Collecting data**.
+* **Who sees what:** you need to be logged in. Free users see the last 7 days, and Pro and up see the whole book.
 
 ## Relative size filter and BLOCK prints
 

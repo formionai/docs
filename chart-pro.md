@@ -177,7 +177,7 @@ Switch on **Order Flow** in the indicator grid to see what happens inside each c
 
 The **OBI history** button in the tools row (off by default) opens a pane under the chart with the **order-book imbalance** of the market over time, on both engines (Swift and Velocity).
 
-* **Imbalance** = (bid − ask) ÷ (bid + ask) of resting USD **within ±0.10 %** and **within ±0.25 %** of the mid price — two lines, the same bands as **[Screener → Order Book](screener.md#order-book)**.
+* **Imbalance** = (bid − ask) ÷ (bid + ask) of resting USD **within ±0.10 %** and **within ±0.25 %** of the mid price — two lines, the same bands as **Data Hub → Order Book → Imbalance** ([Order Flow & Microstructure](order-flow.md)).
 * **Positive** = more resting buy orders near price, **negative** = more resting sell orders.
 * Each point is a **5-minute average** of the order-book snapshot we record on our server (Binance futures book), recorded since early November 2026. Gaps mean nothing was recorded. The pane shows **Recorded since** with the first date.
 * When the recorded book does not reach ±0.25 % of price, that line has no value and the pane says **±0.25% not covered**.
