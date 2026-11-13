@@ -1,8 +1,6 @@
 # 🦾 Bots & Automation
 
-<figure><img src=".gitbook/assets/s5-bots-hub.jpg" alt="Formion catalog in the Bots hub with live all-time results"><figcaption><p>Bots that trade a real account right now — every card shows its account and all-time result, fees included (snapshot 30 Oct 2026).</p></figcaption></figure>
-
-<figure><video src=".gitbook/assets/rec-bots-catalog.mp4" title="Live recording: the whole Formion catalog sorted by Best performance (all-time %) — live results on every card."></video><figcaption><p>Live recording: the whole Formion catalog sorted by Best performance (all-time %) — live results on every card.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-bots-catalog.jpg" alt="Formion catalog in the Bots hub with live all-time results"><figcaption><p>Bots that trade a real account right now — every card shows its account and all-time result, fees included (snapshot 13 Nov 2026).</p></figcaption></figure>
 
 Formion runs a catalog of automated strategies in the **Bots** hub. The public catalog shows only strategies that trade on a **real account** or the **live market** — each card shows that account and its all-time result, wins and losses included. New strategies are validated on **paper** first and only join the catalog once they run for real. Every strategy's trades flow into the unified **Trade History** hub so you can compare them side by side (KPIs, equity curve, win-rate, per-strategy analytics).
 
@@ -47,22 +45,28 @@ TradingView alerts can also place orders on your connected CEX/DEX through **Tra
 
 ## Strategy catalog
 
-The public **Bots** hub shows each bot's pool (**live** or **live market**) on its card, with the real account behind it. Numbers below are the all-time results shown on the cards on **30 October 2026**; the hub updates them continuously, so always check the live card.
+The public **Bots** hub shows each bot's pool (**live** or **live market**) on its card, with the real account behind it. Numbers below are the all-time results shown on the cards on **13 November 2026**; the hub updates them continuously, so always check the live card.
 
 ### Crypto perps
 
 | Bot | Pool | Account | All-time result | What it does |
 |---|---|---|---|---|
-| **Talos · Binance** | live | Binance Futures (real account) | **+85.5%** · 1,475 trades · 91% win rate · max DD −19.5% | Copies a top Binance Futures leader on our own Binance account with its own position sizing and loss limits. |
-| **Talos** | live | Bybit (real account) | **+69.2%** · 944 trades · 83% win rate · max DD −48.2% | Real-time mirror of the same top Binance Futures leader on our Bybit account, each entry/exit sized proportionally by balance ratio. Scalp/grid character: very high win rate with small average wins and rarer, larger losses. |
-| **Formion AI Intelligence** | live | Bybit (real account) | **+12.1%** · 28 trades · 75% win rate · profit factor 6.31 · max DD −3.5% | Semi-automatic: the AI finds and scores the setup, a trader confirms it and the order goes to a real Bybit account. Few trades so far (since September 2026). |
+| **Talos · Binance** | live | Binance Futures (real account) | **+68.3%** · 1,559 trades · 87% win rate · max DD −19.5% | Copies a top Binance Futures leader on our own Binance account with its own position sizing and loss limits. |
+| **Talos** | live | Bybit (real account) | **+30.6%** · 966 trades · 82% win rate · max DD −48.2% | Real-time mirror of the same top Binance Futures leader on our Bybit account, each entry/exit sized proportionally by balance ratio. Scalp/grid character: very high win rate with small average wins and rarer, larger losses. |
+| **Formion AI Intelligence** | live | Bybit (real account) | **+20.2%** · 38 trades · 74% win rate · profit factor 2.39 · max DD −8.8% | Semi-automatic: the AI finds and scores the setup, a trader confirms it and the order goes to a real Bybit account. Few trades so far (since September 2026). |
 | **OMX Trend** | live market | Bybit (OMX engine) | **+2.8%** · 92 trades · profit factor 1.47 · max DD −1.7% | Two OMX engine strategies on 1-hour crypto perps: EMA pullback in trend and break of structure with fair-value-gap entry. Every trade risks 0.1% of the account with an exchange stop. |
 
 ### Prediction markets
 
 | Bot | Pool | Account | All-time result | What it does |
 |---|---|---|---|---|
-| **Polymarket Whale Copy · Beta** | live | Polymarket wallet (real money) | **−12.8%** · 44 trades | Copies the BUY orders of a tracked Polymarket whale at the smallest allowed size (max $3 per trade, $15 per day, automatic stop at −$15). Early beta, shown honestly. |
+| **Polymarket Edge · Live** (Beta) | live | Polymarket wallet (real money) | **+52.3%** on capital staked · 12 resolved trades · 11 wins · max DD −7.9% | Watches Bitcoin and Ethereum "will price reach / dip to X" markets and buys the YES or NO side when our fair value (from options volatility) says that side is priced too cheap, then holds it to resolution. Small real stakes (about $5–10 per trade, hard daily caps). Few trades so far. |
+
+<figure><img src=".gitbook/assets/shot-bots-poly-edge-live.jpg" alt="Polymarket Edge · Live card in the Bots hub"><figcaption><p>The Polymarket Edge · Live card: real-wallet results on resolved markets only, as % of the capital staked (snapshot 13 Nov 2026).</p></figcaption></figure>
+
+* **Follow** (bell on the card) sends you an alert on every new live entry — the market, YES or NO, the price and the stake — and again when that market resolves (won or lost, in $ and %), in the app, on Telegram or by email.
+* **Copy** shows **Polymarket · soon**: copying it would need your own Polymarket wallet, which is not available yet. Formion never places Polymarket orders for you.
+* The earlier **Polymarket Whale Copy** beta was retired in October 2026 after it reached its automatic loss stop, and the first Fair-Value version (June–July 2026) is retired too — neither trades any more.
 
 {% hint style="warning" %}
 Past results are not a promise of future results. Small samples (beta cards, few trades) can change quickly — the card says when a record is still young.
