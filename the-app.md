@@ -124,7 +124,7 @@ The Watchlist is personal, so it moved out of the Screener: open your **account 
 
 <figure><img src=".gitbook/assets/shot-settings-livefeed-exchange.jpg" alt="Settings → Live Feed exchange with the options Binance, Bybit, OKX and Bitget (USDT perp) and Hyperliquid (USDC perp)" width="560"><figcaption><p>Settings → Live Feed exchange: pick the exchange the Live Feed strip streams from.</p></figcaption></figure>
 
-Open **Settings** (the sliders icon at the top) → **Live Feed exchange** to choose where the Live Feed strip (home page and Chart Pro) takes its data from: **Binance** (default), **Bybit**, **OKX**, **Bitget** (USDT perp) or **Hyperliquid** (USDC perp). Price, 24h change, 24h low / high and the sparkline then come from that exchange only; a coin it does not list shows **Not listed on <exchange>**. The green **LIVE** dot shows Live, Delayed or Offline — see **[Quantum Screener](screener.md)**. Your choice is saved with your other settings.
+Open **Settings** (the sliders icon at the top) → **Live Feed exchange** to choose where the Live Feed strip (home page and Chart Pro) takes its data from: **Binance** (default), **Bybit**, **OKX**, **Bitget** (USDT perp) or **Hyperliquid** (USDC perp). Price, 24h change, 24h low / high and the sparkline then come from that exchange only; a coin it does not list shows **Not listed on …** with the exchange name. The green **LIVE** dot shows Live, Delayed or Offline — see **[Quantum Screener](screener.md)**. Your choice is saved with your other settings.
 
 ### 🐝 Swarm
 

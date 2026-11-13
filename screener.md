@@ -371,7 +371,7 @@ The **Live Feed** strip on the home page (and above the chart in Chart Pro) stre
 | 🟡 **Delayed** | **10–60 s** without a tick |
 | ⚪ **Offline** | More than **60 s** without a tick, or the connection dropped. When the network is back it turns **Live** again at once |
 
-With reduced motion switched on, the dot glows without pulsing. The header shows the exchange and market (for example **Binance · USDT perp**). Choose the exchange in **Settings → Live Feed exchange** (see **[Trading Terminal — The App](the-app.md)**): Binance (default), Bybit, OKX, Bitget or Hyperliquid. Every number on a card comes from the chosen exchange only — a coin it does not list shows **Not listed on <exchange>**, never another exchange's price.
+With reduced motion switched on, the dot glows without pulsing. The header shows the exchange and market (for example **Binance · USDT perp**). Choose the exchange in **Settings → Live Feed exchange** (see **[Trading Terminal — The App](the-app.md)**): Binance (default), Bybit, OKX, Bitget or Hyperliquid. Every number on a card comes from the chosen exchange only — a coin it does not list shows **Not listed on …** with the exchange name (for example *Not listed on Hyperliquid*), never another exchange's price.
 
 ## Logos & live data everywhere
 
