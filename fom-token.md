@@ -146,7 +146,8 @@ flowchart LR
 <!-- PLANLADDER-20261112 -->
 **How your boost is counted.** Your FOM value for the boost = **locked value + half of the held value**. **Since 12 November 2026 a hold alone
 reaches at most the F2 step** (Free + FOM Hold); F3 and the Holder step F4 need a **FOM Lock** (Free + FOM Lock), and on Pro only a lock adds
-(Pro + hold = Pro). Nobody lost anything with this change — no account held FOM at the time.
+(Pro + hold = Pro). Nobody lost anything with this change — no account held FOM at the time. The screener and signal rows, delay and history follow
+the [plan ladder](pricing.md#the-plan-ladder--six-steps): F1–F2 give the Free + FOM Hold column, F3–F4 the Free + FOM Lock column.
 Both are measured exactly like the levels above: held FOM = the lowest balance of the last 7 days, value = the lower of the 7-day and 30-day TWAP;
 a lock counts with its period weight (×1 / ×1.25 / ×1.5). **Steps above the Holder step ($250 lock) need a lock of at least 90 days** — a
 shorter lock counts up to $250. During the launch period (until **13 November 2026**) every step needs **half** of the amount shown.
@@ -172,11 +173,11 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Minutes per voice session | 3 | 3 | 4 | 4 | 5 |
 | Active custom alerts | 3 | 5 | 10 | 20 | 25 |
 | Watchlist symbols | 25 | 40 | 60 | 100 | Unlimited |
-| Screener symbols | 50 | 50 | 100 | 200 | Unlimited |
-| Screener full rows (the rest blurred) | 3 | 4 | 5 | 10 | 15 |
-| Signal table rows | 3 | 5 | 10 | 15 | 20 |
-| Signal delay | 30 min | 30 min | 15 min | 15 min | 5 min |
-| Signal table history (days) | 7 | 7 | 14 | 14 | 30 |
+| Screener symbols | 50 | 100 | 100 | Unlimited | Unlimited |
+| Screener full rows (the rest blurred) | 3 | 5 | 5 | 15 | 15 |
+| Signal table rows | 3 | 10 | 10 | 20 | 20 |
+| Signal delay | 30 min | 15 min | 15 min | 5 min | 5 min |
+| Signal table history (days) | 7 | 14 | 14 | 30 | 30 |
 | Live bots | 0 | 0 | 0 | 0 | 1 |
 | cTrader brokers | 1 | 1 | 2 | 2 | 3 |
 | Active FORA Neurons | 2 | 2 | 3 | 4 | 5 |

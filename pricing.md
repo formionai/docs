@@ -78,7 +78,7 @@ Where something is locked, the panel shows what your step includes and a **Next 
 | Quantum Pulse — traders you follow | 1 | 2 | 3 | 10 | 20 | unlimited |
 | Zone Hunter | 3 crypto rows · 7 days | 5 · 14 days | all crypto · 30 days | all markets · full book | + MFE / MAE | + CSV |
 
-The Free + FOM Hold column is the F2 step ($100 hold or $50 lock) and the Free + FOM Lock column the Holder lock ($250); the F1 and F3 steps sit in between (e.g. F3 = a $100 lock: 15 signal rows, 15 min delay, 14 days).
+Every account on a step gets that whole column: Free + FOM Hold starts at the first FOM boost step (a $25 lock or a $50 hold), Free + FOM Lock at a $100 lock (the Holder lock is $250).
 Live views stay open to everyone: Trend, Bias Map, Patterns, Radar, Hunt, the heatmaps, Context, Coins Hub, Chart Pro and Data Hub.
 Daily AI limits (Trade Vision, RAG, FORA, voice, backtests) follow the [FOM Boost tables](fom-token.md#fom-boost--more-on-every-plan).
 
