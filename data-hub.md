@@ -15,6 +15,19 @@ The **Multi-Exchange** view compares venues side by side — **OKX, Binance, Byb
 * **Long/Short ratio** + **top-trader positioning** — what retail vs the big accounts are doing
 * **Taker buy/sell delta** — aggressive order flow
 
+### Chart settings → Series
+
+Each chart in the multi-exchange view (**Open Interest**, **Long/Short**, **Top Trader**, **Taker** and **Funding**) has its own gear with a **Series** section:
+
+* **Draw as** — Page default, **Lines** or **Bars**.
+* **Grid**, **Legend** and **Smooth lines** switches.
+* **Series colours** — a colour per exchange.
+* The **All Lines** / **All Bars** buttons above the charts switch every chart at once.
+
+<figure><img src=".gitbook/assets/shot-datahub-oi-chart.jpg" alt="Open Interest chart — % change from start for OKX, Binance, Bybit, Gate.io and HTX with the Lines / Bars switch and the settings gear"><figcaption><p>Open Interest across five exchanges, with the Lines / Bars switch and the settings gear.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-datahub-series-settings.jpg" alt="Chart settings → Series: Draw as Page default, Lines or Bars, Grid, Legend, Smooth lines and series colours per exchange" width="380"><figcaption><p>Chart settings → Series: draw as lines or bars, grid, legend and a colour per exchange.</p></figcaption></figure>
+
 ## Built-in scanners
 
 ```mermaid
@@ -48,6 +61,13 @@ flowchart LR
 * **Order Book** — one tab with four views: **Book**, **DOM**, **Imbalance** (resting bids vs asks near price, formerly in the Screener) and **Walls** (live walls and the Walls Bot paper book) — see **[Order Flow & Microstructure](order-flow.md)**
 * **Order flow & depth** — Order Flow, Liquidity Map and Liquidation Levels — see **[Order Flow & Microstructure](order-flow.md)**
 * **More** — Listings, Movers, DEX Flow, Trend Shifts, Fundamentals, Setup Scanner, Trading Signals, Lumina Picks, VIP Pulse and HL Perps (Hyperliquid perps, including gold, oil, FX and index perps)
+
+### 🌋 Volatility — new measurement from 13 Nov 2026
+
+* The Volatility scanner's calculation for **short** signals was fixed on **13 Nov 2026**. Before the fix, short signals never passed the scanner's reward-to-risk filter, so it gave long signals only; now it gives both **long and short**.
+* Its **Forward test** started again from zero on 13 Nov 2026 and reads **Collecting data** until it has enough closed trades.
+* The old book is kept as an archive marked **before the fix** in the Backtest sub-tab; it is not used for the status.
+* The Volatility scanner is not open to every account yet while the new measurement collects data.
 
 ## 🏛️ US Stocks
 

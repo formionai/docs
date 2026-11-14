@@ -2,6 +2,47 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 14 November 2026
+
+### Performance — Backtest and Forward test
+
+* Every tool with a measured book has one **Performance** section with two sub-tabs.
+* **Backtest** = history; **Forward test** = only new days after the rules were frozen — the real test.
+* Inside: KPI tiles, equity curve (R, % or $), outcomes, R per trade, heatmap, by coin / side / segment, MFE vs MAE and the journal.
+* **Verified** only from 30 closed forward-test trades; a tool without a measured book shows **Collecting data**.
+* Details: [Quantum Screener](screener.md)
+
+### Trade chart — status strip and Live
+
+* A chart opened from a trade shows its status: Waiting, Active (live R), Won, Lost, Breakeven, Expired, Not filled or Closed.
+* The yellow entry circle sits only on the real fill candle.
+* **Chart settings** has the sections **Trade**, **Chart** and **Visuals**.
+* **Follow live**: every trade chart moves — forming candle, **Last** line, view follows the newest candle.
+* A closed trade's result stays frozen; **Live feed unavailable** when the feed does not answer.
+* Details: [Chart Pro](chart-pro.md)
+
+### Zone Hunter — Missed trades
+
+* New card **Missed trades (not filled)** under Buy the dip.
+* Shows why an order did not fill (for example **Ran away**) and how close price came to the limit.
+* **Would have been** is a control, not the book's result; the rules are unchanged.
+* Control totals on Pro and up.
+* Details: [Quantum Screener](screener.md)
+
+### Volatility scanner — new measurement
+
+* The calculation for short signals was fixed; the scanner now gives long and short signals.
+* Forward test restarted from zero on 13 Nov 2026 (**Collecting data**).
+* The old book is kept as an archive marked **before the fix**.
+* Details: [Data Hub](data-hub.md)
+
+### Data Hub — chart settings
+
+* Open Interest, Long/Short, Top Trader, Taker and Funding charts have **Chart settings → Series**.
+* Draw as lines or bars, grid, legend, smooth lines and a colour per exchange.
+* **All Lines** / **All Bars** switch every chart at once.
+* Details: [Data Hub](data-hub.md)
+
 ## 13 November 2026
 
 ### New menu order

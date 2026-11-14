@@ -210,6 +210,21 @@ Historically the same rule fired about **10 times in ~166 days**; the last signa
 * **No fill labels** — when a limit was never reached, the row reads **No fill · expired** (the deadline passed) or **No fill · cancelled** (a cancel rule hit, e.g. price closed above the impulse high before filling). An expired order is never labelled cancelled.
 * **Below Pro** the paper book shows **Closed** and **Status**, and a lock teaser (unlock with Pro, the 7-day trial or FOM Lock) instead of Win rate, Avg R and Sum R. Locked numbers are never sent to your browser and never shown as fake zeros; on Pro and up a missing value shows as "—".
 
+#### ⏳ Missed trades (not filled)
+
+Below the Buy the dip performance a card **Missed trades (not filled)** shows what happened to limit orders that never filled. They count in the fill rate, not in the book's P&L.
+
+<figure><img src=".gitbook/assets/shot-zone-hunter-missed.jpg" alt="Missed trades (not filled) card — Not filled count, closest approach, control total and average, why not filled, would have been (control), per market and per idea"><figcaption><p>Missed trades (not filled): why each order did not fill, how close price came to the limit, and the control — labelled "Control · not the book result".</p></figcaption></figure>
+
+* **Why not filled** — the reason per idea:
+  * **Ran away** — a 4H candle closed above the cancel level (the first target) before the limit was touched, so the order was cancelled.
+  * **Expired** — 12 4H candles passed without touching the limit.
+* **Closest approach** — how close price came to the limit, in %, R and ATR.
+* **Would have been (control)** — the same idea bought **at market** right after the signal, with its own stop, targets and time exit, net of costs. This is a **control, not the book's result** — the rules are unchanged.
+* **Read the control with care** — "Ran away" means price had already gone past the first target, so a market entry on exactly these ideas looks good almost by construction. Our pre-registered test of a market entry on every signal did not confirm it, which is why the limit rule stays.
+* **Control totals** (total, average and per market) are part of the full book statistics on **Pro** and up.
+* In the Journal, hover a **Not filled** row for its reason and closest distance.
+
 **What each plan sees**
 
 | | Markets | Full rows per section | Sections | Paper book |
@@ -373,6 +388,48 @@ The **Live Feed** strip on the home page (and above the chart in Chart Pro) stre
 
 With reduced motion switched on, the dot glows without pulsing. The header shows the exchange and market (for example **Binance · USDT perp**). Choose the exchange in **Settings → Live Feed exchange** (see **[Trading Terminal — The App](the-app.md)**): Binance (default), Bybit, OKX, Bitget or Hyperliquid. Every number on a card comes from the chosen exchange only — a coin it does not list shows **Not listed on …** with the exchange name (for example *Not listed on Hyperliquid*), never another exchange's price.
 
+## 📊 Performance — Backtest and Forward test
+
+Every tool that keeps a measured book of trades now has the same **Performance** section with two sub-tabs. It shows only trades the tool's own book stored — the entry, stop and targets of each row are the tool's own levels, never numbers we add afterwards.
+
+| Sub-tab | What it holds | How to read it |
+|---|---|---|
+| **Backtest** | History: the pre-registered backtest (where the tool has one) plus every closed paper trade of its book | Background only. It shows how the rule behaved before; it is not the verdict |
+| **Forward test** | **Only new days after the rules were frozen** ("measuring since …"), open and closed trades | The real test. The status word is judged here |
+
+<figure><img src=".gitbook/assets/shot-performance-panel.jpg" alt="Zone Hunter Buy the dip performance — Forward test with KPI tiles, equity curve in R, outcomes donut, R per trade histogram, heatmap, by coin, by side, by segment and the journal"><figcaption><p>Performance → Forward test (Zone Hunter · Buy the dip): KPI tiles, the equity curve, outcomes, R per trade, the heatmap, the breakdowns and the journal.</p></figcaption></figure>
+
+**What is inside each sub-tab**
+
+* **KPI tiles** — Closed, Win rate, Avg R (with its 95 % CI), Profit factor, MFE median, MAE median, Open / skipped, Max drawdown and Period. The line below says how many more closed trades are needed before the first judgement.
+* **Equity curve** — an area curve in **R**, **%** or **$** (the switch in its corner). Books that store no stop show **%** only. **Chart settings → Performance**: chart type (Area, Line, Step), colours above and below zero, grid, drawdown shading, zero line and log scale for $.
+* **Outcomes** — a donut of Won, Lost, Breakeven, Not filled and the other end states.
+* **R per trade** — a histogram of results.
+* **When it worked** — a heatmap **Month × day** or **Hour × day**, as a sum or an average.
+* **By coin**, **By side** and **By segment** — where the result came from.
+* **MFE vs MAE** — how far each trade went for you and against you (shown where your plan includes per-trade MFE / MAE).
+* **Journal** — every trade with the asset and exchange logo, side, status, entry and exit time and price, result and MFE / MAE. Filter **All · Open · Closed · Not taken**. Click **Chart** on a row to open that trade on the Formion chart (see **[Chart Pro → Trade chart](chart-pro.md)**).
+
+**Status words**
+
+* **Verified** — only from **30 closed trades** in the forward test, and only when the measurement holds up. Below 30 closed trades a book never shows Verified.
+* **Collecting data** — not enough new trades yet. A tool without a measured book also shows **Collecting data**, never invented numbers.
+* **Context signal** — useful to understand the market, not shown to work as a trade on its own.
+* **Keep refining** — the rule as it stands has not held up.
+
+**Where you find it**
+
+* **Bias Map → Backtesting** — paper book with its own R curve.
+* **Zone Hunter** — Buy the dip, S/R Flip and Trend Shift (Trend Shift test rule TR1 in %).
+* **Patterns** — the pattern book.
+* **Hunt** — US-equities setups.
+* **Trend → Backtesting** — the trend book, in %.
+* **Divergences**, **OI Surge**, **Funding** and **Arbitrage** scanners in the Data Hub.
+* **Walls** in Data Hub → Order Book.
+* **Signal Desk** — reads **Collecting data** (no frozen book yet).
+
+Plan limits are the same as before: what your plan does not include stays locked and its numbers are never sent to your browser. See **[Pricing & Tiers](pricing.md)**.
+
 ## Logos & live data everywhere
 
 Every symbol carries its asset logo, and rows update live. Click a row to open **Details** below it; the **Chart** button opens the full chart in **Chart Pro**.
@@ -391,6 +448,8 @@ When a table or card opens a chart — **Patterns → Live chart**, **Signals �
 * **Chart settings** — the gear button, the same one as in Chart Pro: candles, wicks, grid and background. A change applies to **all charts** in the app by default; pick **This chart** to change only the chart in front of you.
 * **Entry marker** — a yellow circle sits on the candle where the signal triggered, at that price (the breakout candle on Patterns, the alert candle on Signal Desk).
 * **Levels only from the signal** — the zone, limit, stop and targets drawn on the chart are exactly the ones the row or card states (only those the signal has). The chart never adds levels of its own.
+* **Status strip** — a chart opened from a trade row shows that trade's status (Waiting, Active with the live R, Won, Lost, Breakeven, Expired, Not filled, Closed), its side and its result. The yellow entry circle is drawn only on the real fill candle — never for a trade that did not fill.
+* **Live** — **Chart settings → Trade → Follow live** keeps the chart moving: the forming candle, a **Last** price line and the view follows the newest candle. A closed trade's result stays frozen. See **[Chart Pro → Trade chart](chart-pro.md)**.
 * **No candles for a symbol?** If our feed has no candles for that market, the chart falls back to TradingView and says so in a visible note — you never get an empty chart.
 
 {% hint style="info" %}

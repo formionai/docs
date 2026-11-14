@@ -143,6 +143,44 @@ Every extra layer has its own button in the tools row above the chart — never 
 
 <figure><img src=".gitbook/assets/qt-events.jpg" alt="Chart events menu"><figcaption>Events shows only key US releases — CPI, PPI, PCE, payrolls, unemployment, Fed rate, GDP, retail sales, ISM, JOLTS. No headline noise.</figcaption></figure>
 
+## 🎯 Trade chart — status strip and Live
+
+When you open a trade from a table — the **Chart** button in a Performance journal, Zone Hunter, Patterns or Signal Desk — you get the same Formion chart with that trade's own levels and a **status strip** at the top.
+
+<figure><img src=".gitbook/assets/shot-trade-chart-status.jpg" alt="Trade chart — XTIUSD on FP Markets (cTrader), status strip Won · Long · Held 2d 8h · +1.86 R · exit target, with zone, limit, stop, targets, the yellow entry circle on the fill candle and the exit square"><figcaption><p>A closed paper trade: status strip (Won · Long · time held · result · exit reason), the trade's own zone, limit, stop and targets, the yellow entry circle on the fill candle and the square on the exit.</p></figcaption></figure>
+
+**Status strip**
+
+| Status | Meaning |
+|---|---|
+| **Waiting** | The order is placed (for example a limit) and has not filled yet |
+| **Active** | The trade is open; the strip shows the **unrealised** result in R and % from the trade's own entry and stop, and the time in the trade |
+| **Won** / **Lost** / **Breakeven** | Closed at a target, at the stop, or at the entry price; the final R and % and the exit reason are shown |
+| **Closed** | Closed another way (for example a time exit) |
+| **Expired** | The deadline passed before the order filled |
+| **Not filled** | The limit was never reached (for example cancelled because price ran away first) |
+
+* **Entry circle** — the yellow circle sits on the **real fill candle**, at the fill price. A trade that never filled has no entry circle.
+* **Exit square** — the square marks the exit candle.
+* **Levels** — only the levels the trade stored (zone, limit, stop, targets, cancel level); the chart adds none of its own.
+
+**Chart settings** (the gear) has three sections for a trade chart:
+
+* **Trade** — **Follow live** with a refresh of 5, 10, 15 or 30 s; which levels to draw (Entry / limit, Stop, Targets, Other levels, Zones); markers (Entry candle, Exit candle, Detection / events); time in **UTC** or **Local**; **Reset trade view**.
+* **Chart** — candle colours, wicks, chart background and grid lines; for **All charts** or **This chart** only.
+* **Visuals** — app-wide colours of progress bars, rings, gauges, column and pie charts, sparklines and heat maps, and the Formion watermark.
+
+<figure><img src=".gitbook/assets/shot-chart-settings-trade.jpg" alt="Chart settings → Trade: Follow live with 5s, 10s, 15s, 30s, levels, markers and UTC / Local time" width="380"><figcaption><p>Chart settings → Trade: Follow live, levels, markers and time zone.</p></figcaption></figure>
+
+**Live**
+
+* With **Follow live** on, **every** trade chart moves — open, waiting and closed trades alike.
+* The last candle is **forming**: it is built from the real 1-minute candles of the same feed, and a **Last** line shows the latest price.
+* The view **follows the newest candle**, so new candles never drift off screen.
+* Open and waiting trades also show the unrealised result; a **closed trade's result stays frozen** — Live only moves the chart.
+* If the feed does not answer, the strip says **Live feed unavailable** instead of a false "Live".
+* Forex, gold, oil and index charts follow the market hours of their venue; over the weekend no new candles arrive.
+
 ## Trading from the chart
 
 <figure><img src=".gitbook/assets/qt-trade-strip.jpg" alt="Trade strip on the chart"><figcaption>Click Trade: market or limit, size in USD, % of capital or coins, leverage, SL/TP and an exit plan — without leaving the chart.</figcaption></figure>
