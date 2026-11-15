@@ -43,6 +43,19 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 * **All Lines** / **All Bars** switch every chart at once.
 * Details: [Data Hub](data-hub.md)
 
+## 14 November 2026
+
+### Plan ladder — fixes
+
+* **OI Surge** and the **Volatility** movers now follow the same delay as the other signal scanners:
+  * Free 30 min · Free + FOM Hold 15 min · Free + FOM Lock 5 min · Pro real-time
+* **Listings backtest:** the venue you open first is your venue for the whole UTC day (two on Free + FOM Lock).
+* **Dossier → Our calls → My entries:** logging your entries works from Free + FOM Hold; the tracked price follows your delay.
+* **Liquidity Map:** the Pro panels show the shared lock with the next step.
+* **Wallet:** Whale Tracker, Insights MFE / MAE, the watchlist and FORA limits show the **Next step** line with the plan or FOM amount.
+* **Wallet Insights:** MFE / MAE from Pro + FOM Lock (P3), and more FORA reviews a day with FOM Boost.
+* Details: [Pricing & Tiers](pricing.md)
+
 ## 13 November 2026
 
 ### New menu order

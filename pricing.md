@@ -69,22 +69,28 @@ Where something is locked, the panel shows what your step includes and a **Next 
 |---|---|---|---|---|---|---|
 | Quantum Screener → Trends (full rows, the rest blurred) | 3 · crypto top 50 | 5 · crypto top 100 | 15 · crypto + metals | all markets | all | all |
 | Signal scanners (Setup Scanner, Divergences, OI Surge, Volatility, Market & Spot signals, Gamma, Options) | 3 rows · 30 min delay · 7 days | 10 · 15 min · 14 days | 20 · 5 min · 30 days | all, real-time | all | all |
+| Wallet Insights — FORA reviews a day · MFE / MAE tracking (wallet limits follow your FOM Boost step) | 1 · — | 1–2 · — | 2–3 · — | 5 · — | 6–10 · from the P3 step | 30 · yes |
 | Mechanical board | 10 rows | 12 | 20 | all | all | all |
 | Mechanical Study | — | — | 1 study a day | 50 backtests a day | 150 | unlimited |
 | Pairs scanner / Pairs desk | 2 rows / — | 5 / — | 15 / 1 pair a day | all / full desk | all | all |
 | Liquidity Map | BTC, 1 h | BTC + ETH, up to 6 h | top 10 assets, up to 24 h | every asset, 30 days, every panel | same | same |
-| Listings backtest | 1 venue, 24 h | 1 venue, every horizon | 2 venues, every horizon | all + Best right now | same | + CSV |
+| Listings backtest | 1 venue a day, 24 h | 1 venue a day, every horizon | 2 venues a day, every horizon | all + Best right now | same | + CSV |
 | Patterns book history (Bias Map grid: last 7 days for everyone) | 7 days | 14 days | 30 days + Bias Map segments | all | all | all |
 | Quantum Pulse — traders you follow · alerts · trader profile | 1 · daily digest · header | 2 · digest 2× a day · + three numbers | 3 · digest 3× a day · full profile | 10 · instant 50 / day · + simulation | 20 · instant 100 / day · + simulation | unlimited · unlimited · + simulation |
 | Zone Hunter | 3 crypto rows · 7 days | 5 · 14 days | all crypto · 30 days | all markets · full book | + MFE / MAE | + CSV |
+
+On OI Surge and the Volatility movers every row comes from one market snapshot, so the delay applies to the whole snapshot: you see the
+newest snapshot that is at least as old as your step's delay. On the Listings backtest the venue you open first each UTC day is your venue
+for that day (two on Free + FOM Lock).
 
 Every account on a step gets that whole column: Free + FOM Hold starts at the first FOM boost step (a $25 lock or a $50 hold), Free + FOM Lock at a $100 lock (the Holder lock is $250).
 Live views stay open to everyone: Trend, Bias Map, Patterns, Radar, Hunt, the heatmaps, Context, Coins Hub, Chart Pro and Data Hub.
 Daily AI limits (Trade Vision, RAG, FORA, voice, backtests) follow the [FOM Boost tables](fom-token.md).
 
-> **FORA Dossier** follows the same ladder when it leaves the invite-only beta: research list 3 · 10 · all rows, full token reports
+> **FORA Dossier** follows the same ladder: research list 3 · 10 · all rows, full token reports
 > 1 · 3 · 10 a day then unlimited, PDF reports from Free + FOM Lock, and Our calls as a summary (Free), 24 h late (Hold), 6 h late (Lock),
-> live (Pro) and on Telegram from Pro + FOM Lock. On-demand research, Scout sources and the live wallet stay in the beta.
+> live (Pro) and on Telegram from Pro + FOM Lock. **My entries** (log the price you entered at and follow it) works from Free + FOM Hold;
+> its tracked price follows the same delay as Our calls, live from Pro. On-demand research, Scout sources and the live wallet stay in the beta.
 
 ## 📊 Daily limits
 

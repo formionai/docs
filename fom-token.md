@@ -187,6 +187,7 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Whale Tracker: wallets you follow | 3 | 4 | 5 | 7 | 10 |
 | Whale Tracker: tokens you follow | 3 | 4 | 5 | 7 | 10 |
 | Whale alerts a day | 20 | 30 | 40 | 60 | 100 |
+| Wallet Insights: FORA reviews a day | 1 | 1 | 2 | 2 | 3 |
 | FORA video tutorials | 1 to try | 1 a day | 1 a day | 2 a day | 2 a day |
 | Max video length | 10 s | 15 s | 20 s | 30 s | 45 s |
 | FORA PDF guides | 1 to try | 1 a day | 2 a day | 3 a day | 3 a day |
@@ -213,6 +214,8 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Whale Tracker: wallets you follow | 25 | 30 | 40 | 50 |
 | Whale Tracker: tokens you follow | 25 | 30 | 40 | 50 |
 | Whale alerts a day | 200 | 250 | 300 | 400 |
+| Wallet Insights: FORA reviews a day | 5 | 6 | 8 | 10 |
+| Wallet Insights: MFE / MAE tracking | — | — | — | yes |
 | FORA video tutorials a day | 3 | 4 | 5 | 6 |
 | Max video length | 60 s | 75 s | 90 s | 2 min |
 | FORA PDF guides a day | 5 | 6 | 8 | 10 |
@@ -233,6 +236,7 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Whale Tracker: wallets you follow | 100 | 125 | 150 | 200 |
 | Whale Tracker: tokens you follow | 50 | 60 | 75 | 100 |
 | Whale alerts a day | 1,000 | 1,250 | 1,500 | 2,000 |
+| Wallet Insights: FORA reviews a day | 30 | 35 | 40 | 60 |
 | FORA video tutorials a day | 10 | 12 | 15 | 20 |
 | Max video length | 3 min | 3 min | 4 min | 5 min |
 | FORA PDF guides a day | 20 | 25 | 30 | 40 |
