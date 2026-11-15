@@ -4,6 +4,14 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 15 November 2026
 
+### Developer API — screener endpoint now serves the Formion Screener
+
+* `GET /api/v1/screener` returns the Formion Screener: direction, trend strength 0–100, phase, trend start, typical duration, best and worst move since the start.
+* New filters: `side`, `market`, `phase`, `minStrength` (old `minScore` still works).
+* Removed fields: `score`, `win_probability`, `category`, `rsi_1d`, `tags`.
+* Each response names its contract in `schema` (`formion-screener-2026-11`).
+* Details: [Developer API](developer-api.md)
+
 ### Open tools: Free keeps everything, steps add extras
 
 * Chart Pro, Data Hub, Order Flow, Journal and Coins Hub stay fully open on Free.
