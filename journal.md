@@ -49,11 +49,13 @@ The **Analytics** tab turns your history into charts — no setup needed.
 
 ## By plan
 
-| | Neural (Free) | Pro | Institutional |
-|---|---|---|---|
-| Journal history | 30 days | Unlimited | Unlimited |
-| Image uploads | 10 | Unlimited | Unlimited |
-| Exchange auto-import | — | ✅ | ✅ |
+| | Free | Free + FOM Hold | Free + FOM Lock | Pro | Pro + FOM Lock | Institutional |
+|---|---|---|---|---|---|---|
+| Journal, full history, all accounts, CSV export, weekly PDF digest | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| PDF performance report on demand (**Report** button) | — | 1 a day | 3 a day | 10 a day | 25 a day | unlimited |
+| Trading Audit | 1 in total | 1 a month | 1 a week | 3 a day | 4–6 a day | 10 a day |
+
+The plan steps are explained in [Pricing & Tiers](pricing.md#the-plan-ladder--six-steps).
 
 Open it from **[app.formion.ai](https://app.formion.ai/?utm_source=docs&utm_medium=referral&utm_campaign=docs) → Journal**.
 

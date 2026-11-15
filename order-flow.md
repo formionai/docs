@@ -56,7 +56,7 @@ In the **Walls** view, the **Backtesting** sub-tab (also opened from **Walls Bot
   * **Past only, fades recently** — positive in the past but not recently
   * **Holds in both halves** — positive after costs in both halves of the period and recently
 * **The first verdict needs at least 30 trades and at least 14 days.** Until then, v2 reads **Collecting data**.
-* **Who sees what:** you need to be logged in. Free users see the last 7 days, and Pro and up see the whole book.
+* **Who sees what:** you need to be logged in. Free users see the last 7 days, Free + FOM Hold 14 days, Free + FOM Lock 30 days, and Pro and up the whole book.
 
 ## Relative size filter and BLOCK prints
 

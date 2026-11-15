@@ -110,6 +110,8 @@ Active bounds exclude coins whose value is unavailable. Filters describe the cur
 
 Add a coin with **＋** in the table, with **Watchlist** on a coin's detail page, or from **Settings → Add instruments**. The **My watchlist** tab then shows each instrument with its venue (e.g. BYBIT, BINANCE) and a **live** dot, **Price**, **24h%**, **24h High**, **24h Low**, **Volume (24h)** and a **7D** sparkline. The 🗑️ icon removes an instrument.
 
+Everyone (also without an account) can keep **20 watchlists of 60 coins**. Higher [plan steps](pricing.md#the-plan-ladder--six-steps) hold more: Free + FOM Hold 25 × 100, Free + FOM Lock 30 × 200, Pro 50 × 300, Pro + FOM Lock 75 × 500, Institutional 100 × 1000.
+
 ### 🔎 Coin detail view
 
 Click a coin's name to open its detail view; **Back to coins** returns to the table.

@@ -2,6 +2,20 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 15 November 2026
+
+### Open tools: Free keeps everything, steps add extras
+
+* Chart Pro, Data Hub, Order Flow, Journal and Coins Hub stay fully open on Free.
+* New extras by plan step:
+  * **Chart Pro** — active alerts 3 · 10 · 25 · 100 · 150–500 · unlimited; saved custom indicators 1 · 3 · 5 · unlimited; watermark can be switched off from Free + FOM Lock.
+  * **Data Hub** — **Export CSV** of the current view and saved **Presets** (from Free + FOM Hold: 3 exports a day and 2 presets).
+  * **Order Flow** — Walls book history 7 · 14 · 30 days, Pro the whole book.
+  * **Journal** — **Report** button: PDF performance report on demand (from Free + FOM Hold: 1 a day); Trading Audit 1 a month on Hold, 1 a week on Lock.
+  * **Coins Hub** — watchlists 20 × 60 for everyone, up to 100 × 1000 on Institutional.
+* Every locked extra shows the shared lock with the **Next step**.
+* Details: [Pricing & Tiers](pricing.md#the-plan-ladder--six-steps) · [FOM token](fom-token.md) · [Journal](journal.md)
+
 ## 14 November 2026
 
 ### Performance — Backtest and Forward test

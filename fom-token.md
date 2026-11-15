@@ -153,6 +153,13 @@ a lock counts with its period weight (×1 / ×1.25 / ×1.5). **Steps above the H
 shorter lock counts up to $250. During the launch period (until **13 November 2026**) every step needs **half** of the amount shown.
 The Formion Wallet halving of level thresholds does **not** apply to boost steps.
 
+<!-- PLANLADDER-FREETOOLS-20261115 -->
+**On the open tools (15 November 2026).** Chart Pro, Data Hub, Order Flow, Journal and Coins Hub stay fully open on Free. FOM only adds:
+with **Free + FOM Hold** — 10 active alerts, 3 saved custom indicators, Data Hub CSV export (3 a day) and 2 saved presets, 14 days of the Walls book,
+a Journal PDF report on demand (1 a day), Trading Audit once a month and Coins Hub watchlists of 25 × 100; with **Free + FOM Lock** — 25 alerts, 5 indicators,
+the chart watermark can be switched off, 10 CSV exports a day and 5 presets, 30 days of the Walls book, 3 PDF reports a day, Trading Audit once a week
+and watchlists of 30 × 200. The full table is in [Pricing & Tiers](pricing.md#the-plan-ladder--six-steps).
+
 **What a boost never does:** it never lowers anything your plan already gives you, and it never moves your funds — held FOM stays in your
 wallet and locked FOM stays in the lock contract. Extra AI use above your plan (Trade Vision, RAG reports, FORA answers and voice, Trading Audit)
 is paid from a **monthly boost AI allowance**; when that is used up, your plan limits apply again until the next month.

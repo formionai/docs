@@ -78,6 +78,11 @@ Where something is locked, the panel shows what your step includes and a **Next 
 | Patterns book history (Bias Map grid: last 7 days for everyone) | 7 days | 14 days | 30 days + Bias Map segments | all | all | all |
 | Quantum Pulse — traders you follow · alerts · trader profile | 1 · daily digest · header | 2 · digest 2× a day · + three numbers | 3 · digest 3× a day · full profile | 10 · instant 50 / day · + simulation | 20 · instant 100 / day · + simulation | unlimited · unlimited · + simulation |
 | Zone Hunter | 3 crypto rows · 7 days | 5 · 14 days | all crypto · 30 days | all markets · full book | + MFE / MAE | + CSV |
+| Chart Pro — active alerts · saved custom indicators · chart watermark | 3 · 1 · always on | 10 · 3 · always on | 25 · 5 · can be switched off | 100 · unlimited · off | 150–500 · unlimited | unlimited |
+| Data Hub — CSV export of the view · saved presets | — · — | 3 a day · 2 | 10 a day · 5 | 50 a day · 20 | 200 a day · 50 | unlimited · unlimited |
+| Order Flow — Walls book history | 7 days | 14 days | 30 days | whole book | whole book | whole book |
+| Journal — PDF report on demand · Trading Audit | — · 1 in total | 1 a day · 1 a month | 3 a day · 1 a week | 10 a day · 3 a day | 25 a day · 4–6 a day | unlimited · 10 a day |
+| Coins Hub — watchlists × coins per list | 20 × 60 | 25 × 100 | 30 × 200 | 50 × 300 | 75 × 500 | 100 × 1000 |
 
 On OI Surge and the Volatility movers every row comes from one market snapshot, so the delay applies to the whole snapshot: you see the
 newest snapshot that is at least as old as your step's delay. On the Listings backtest the venue you open first each UTC day is your venue
@@ -85,6 +90,7 @@ for that day (two on Free + FOM Lock).
 
 Every account on a step gets that whole column: Free + FOM Hold starts at the first FOM boost step (a $25 lock or a $50 hold), Free + FOM Lock at a $100 lock (the Holder lock is $250).
 Live views stay open to everyone: Trend, Bias Map, Patterns, Radar, Hunt, the heatmaps, Context, Coins Hub, Chart Pro and Data Hub.
+**Chart Pro, Data Hub, Order Flow, Journal and Coins Hub stay fully open on Free** — every chart, layout, panel, history and export Free has today stays; the steps only **add** the extras in the table above.
 Daily AI limits (Trade Vision, RAG, FORA, voice, backtests) follow the [FOM Boost tables](fom-token.md).
 
 > **FORA Dossier** follows the same ladder: research list 3 · 10 · all rows, full token reports
