@@ -4,6 +4,17 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 15 November 2026
 
+### Plan ladder — every step now gives more
+
+* Whale Tracker: Institutional follows **100 tokens** (was 50, the same as Pro + FOM Lock).
+* Wallet Insights MFE / MAE:
+  * Free + FOM Hold: 1 buy from the last 7 days.
+  * Free + FOM Lock: all tokens, last 30 days.
+  * Pro: last 30 days + CSV export.
+  * Pro + FOM Lock P3 and Institutional: full history.
+* Market Intelligence AI review: Free + FOM Hold 1 a week, Free + FOM Lock 1 a day (Pro and up unchanged).
+* Details: [Pricing](pricing.md) · [FOM token](fom-token.md)
+
 ### Options — Compare with a perp is now in Pro
 
 * New mode in the Strategy Builder: **Compare with a perp**.

@@ -35,7 +35,7 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **KOL watch Neuron** | 1 token of opportunity per 7 days (no numbers) | ✅ 5 proposals / day with OUR plan | ✅ 20 proposals / day with OUR plan |
 | **Saved AI strategies** | 1 | Unlimited | Unlimited |
 | **Trading Audit** | 1 in total (basic) | 3 / day + weekly report (trial: 3 in total) | 10 / day + weekly report |
-| **Wallet Insights MFE/MAE tracking** | — | — | ✅ |
+| **Wallet Insights MFE/MAE tracking** | — (FOM Hold: 1 buy, last 7 days · FOM Lock: all tokens, last 30 days) | Last 30 days, all tokens + CSV export (+ full history with FOM Lock P3) | Full history + CSV export |
 | **Prop-firm simulator** | — | Coming soon | Coming soon |
 | **Backtesting + Strategy Lab** | Builder + 3 backtests/day | ✅ (50 backtests/day) | ✅ (unlimited) |
 | **Trading Journal** | 30 days, 10 image uploads | Unlimited history + uploads + exchange auto-import | Same as Pro |
@@ -69,7 +69,9 @@ Where something is locked, the panel shows what your step includes and a **Next 
 |---|---|---|---|---|---|---|
 | Quantum Screener → Trends (full rows, the rest blurred) | 3 · crypto top 50 | 5 · crypto top 100 | 15 · crypto + metals | all markets | all | all |
 | Signal scanners (Setup Scanner, Divergences, OI Surge, Volatility, Market & Spot signals, Gamma, Options) | 3 rows · 30 min delay · 7 days | 10 · 15 min · 14 days | 20 · 5 min · 30 days | all, real-time | all | all |
-| Wallet Insights — FORA reviews a day · MFE / MAE tracking (wallet limits follow your FOM Boost step) | 1 · — | 1–2 · — | 2–3 · — | 5 · — | 6–10 · from the P3 step | 30 · yes |
+| Wallet Insights — FORA reviews a day · MFE / MAE tracking (wallet limits follow your FOM Boost step) | 1 · — | 1–2 · 1 buy, last 7 days | 2–3 · all tokens, last 30 days | 5 · 30 days + CSV | 6–10 · full history from the P3 step | 30 · full + CSV |
+| Market Intelligence — AI review on demand | — | 1 a week | 1 a day | 10 a day | 12–20 a day | 30–60 a day |
+| Whale Tracker — tokens you follow | 3 | 4–5 | 7–10 | 25 | 30–50 | 100 |
 | Mechanical board | 10 rows | 12 | 20 | all | all | all |
 | Mechanical Study | — | — | 1 study a day | 50 backtests a day | 150 | unlimited |
 | Pairs scanner / Pairs desk | 2 rows / — | 5 / — | 15 / 1 pair a day | all / full desk | all | all |
