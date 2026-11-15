@@ -50,6 +50,7 @@ flowchart LR
 <figure><img src=".gitbook/assets/s4-dh-div.jpg" alt="Divergences scanner"><figcaption><p>Divergences — price vs indicator divergences with the move since the pivot.</p></figcaption></figure>
 
 * **Funding** — Binance USDT perps sorted by funding-rate magnitude (who is paying to hold the position)
+  * **Don't buy the dip right after an extreme negative settlement.** When a coin settles funding at **−0.5 % or lower per interval**, its price usually drops by about the funding amount right away, and over the next **1–4 hours** it tends to keep falling more than after a normal settlement. This is not a short signal (after costs it does not pay) — it is a reason to wait before buying that dip. Measured 21 Aug – 12 Nov 2026, 4,337 settlements on Binance, Bybit, Gate, MEXC, KuCoin and Aster. Status: **Context signal**.
 * **OI Surge** — open-interest buildups and unwinds on Binance USDT perps
 * **Divergences** — RSI-vs-price divergences on Binance USDT perps, with distance to the pivot
 * **Patterns** — geometric chart formations (triangles, wedges, H&S…)

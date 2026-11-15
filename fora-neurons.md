@@ -120,6 +120,8 @@ Everything above also works in **[FORA](fora.md)** chat and by voice — she use
 | **KOL watch** (Pro+) | Follows the KOLs you choose (or the best measured ones) and proposes, watches or skips each new call — see below. |
 | **Spot scout** (Pro+) | Daily or weekly: which spot coins to buy, short and long term, each source weighted by its measured record. |
 
+**Funding note on long ideas.** When a Neuron proposes a **long** on a coin whose last funding settlement (Binance, Bybit, Gate, MEXC, KuCoin or Aster) was **−0.5 % or lower in the last 4 hours**, the card adds a short note: the drop right after such a settlement tends to continue for 1–4 h, so it is better not to buy that dip immediately. The idea itself is not changed. Status: **Context signal** — see [Data Hub](data-hub.md).
+
 ***
 
 ## My plan — the FORA planner

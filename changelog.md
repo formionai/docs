@@ -4,6 +4,22 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 15 November 2026
 
+### Funding — two measured context rules
+
+* After an extreme negative settlement (−0.5 % or lower per interval) the drop tends to continue for 1–4 h.
+* So: don't buy that dip right away. Not a short signal. **Context signal**.
+* Measured 21 Aug – 12 Nov 2026, 4,337 settlements.
+* BTC/ETH cash-and-carry earned roughly nothing after costs when market funding sat at the base rate (≈ 11 % a year), Oct 2024 – Oct 2026.
+* It paid only in high-funding periods (2020–2024). **Collecting data**.
+* Details: [Data Hub](data-hub.md) · [Funding Carry](funding-carry.md)
+
+### FORA Neurons — funding note on long ideas
+
+* A long idea on a coin that settled funding at −0.5 % or lower in the last 4 h gets a short note.
+* The note says the drop right after such a settlement tends to continue for 1–4 h.
+* The idea itself is not changed. **Context signal**.
+* Details: [FORA Neurons](fora-neurons.md)
+
 ### Developer API — screener endpoint now serves the Formion Screener
 
 * `GET /api/v1/screener` returns the Formion Screener: direction, trend strength 0–100, phase, trend start, typical duration, best and worst move since the start.
