@@ -107,12 +107,38 @@ The Premium-selling regime, the tail-risk table and the paper test are **open on
 **Neural (Free)** sees a preview: the summary tiles of the High DVOL trades, the tail-risk box and the **10 newest** High DVOL trades; the rest of the table, the filters, the curve and the worst weeks are part of **Pro** and **Institutional** (7-day free trial, no card). This is a historical study, not a forecast and not a promise of profit.
 {% endhint %}
 
+## ⚖️ Strategy Builder → Compare with a perp (Pro and Institutional)
+
+<figure><img src=".gitbook/assets/shot-options-compare-perp.jpg" alt="Compare with a perp — your BTC idea with your stop and $ risk, side by side as a Bybit perp and as a long option, with the footer and the Keep refining status"><figcaption><p>Compare with a perp: one idea, your own stop and $ risk, as a perp and as a long option on the live chain (Docs Demo account, Pro).</p></figcaption></figure>
+
+Open **Options → Strategy Builder** and pick the mode **Compare with a perp** (link: `/options/builder#compare`). It answers one question: *should I use an option instead of a stop?*
+
+You enter **your own** idea — Formion never suggests a stop or a target:
+
+* **Coin and side** — BTC or ETH, long or short.
+* **Your stop** — % from entry or a price. **Target** (optional), **$ you are willing to lose**, perp **leverage**.
+* **Option expiry** (default: the nearest one 7–30 days out) and **strike** (at the money, or at your target).
+
+Entry is the option venue's current index. Then you see side by side:
+
+* **Perp** (Bybit USDT perpetual) — sized so the loss at **your** stop, incl. both taker fees, equals your $ risk; margin at your leverage; P&L at your target after fees and a funding estimate; the approximate liquidation price, with a warning when it sits before your stop.
+* **Long call** (long idea) or **long put** (short idea) from the live Deribit or Bybit chain, bought at the **ask** plus the venue fee — contracts for the same $ risk, max loss = the premium, breakeven at expiry, value at your target at expiry and before expiry (an estimate), and a warning when your risk buys less than the venue's minimum size.
+* **What happens on the way** — three illustrative paths over the option's life: stop first then target, price never moves, straight to target.
+
+{% hint style="warning" %}
+Most short-dated out-of-the-money options expire worthless; Formion's own 2021–2026 Deribit study found no option-buying rule that paid after fees. Status **Keep refining** — a calculator, not advice, not a signal, never an order.
+{% endhint %}
+
+{% hint style="info" %}
+**Neural (Free)** sees the mode with a lock — what it does and the way to **Pro** (7-day free trial, no card), never prices or instruments. FORA answers *"option instead of a stop?"* with the live numbers on Pro and Institutional; on Free she explains the trade-off in words only.
+{% endhint %}
+
 ## 🤖 FORA options setups (Pro and Institutional)
 
 Ask FORA *"should I sell options now?"* or *"da li da prodam opcije?"* and she answers **only from the frozen paper rules of the study**:
 
 * **High DVOL and a rule's gate open** — the exact Deribit options that rule would sell at its next decision (expiry 5–9 days, strikes nearest 16Δ), the credit at the best bids, Deribit fees, a margin estimate, breakevens, the maximum loss (the call side of a strangle has none), the matching Bybit USDT options and the study's High record with its worst week. Status **Collecting data**.
-* **Mid or Low** — *no measured edge now*, with what the study measured in that state.
+* **Mid or Low** — **Context signal**: no measured advantage now, with what the study measured in that state.
 * **Buying options** is never proposed — no long-volatility variant passed the study.
 * The only actions are **cards you click**: the **Options regime** Neuron and a Strategy Builder link that pre-fills the legs. **FORA never places an options order.**
 

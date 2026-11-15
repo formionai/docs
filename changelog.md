@@ -4,6 +4,21 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 15 November 2026
 
+### Options — Compare with a perp is now in Pro
+
+* New mode in the Strategy Builder: **Compare with a perp**.
+* Your own idea, stop and $ risk — side by side as a Bybit perp and as a long option on the live chain.
+* Shows max loss, breakeven, funding, liquidation and three paths "on the way".
+* Status **Keep refining** — a calculator, not advice.
+* Pro and Institutional; Free sees what it does with a lock.
+* Details: [Options & GEX](options.md)
+
+### Options — clearer wording in setups and the regime Neuron
+
+* When DVOL leaves the High state, the Options regime Neuron and FORA now say **Context signal** — no measured advantage now.
+* Details: [FORA Neurons](fora-neurons.md)
+* Details: [Options & GEX](options.md)
+
 ### Funding — two measured context rules
 
 * After an extreme negative settlement (−0.5 % or lower per interval) the drop tends to continue for 1–4 h.

@@ -202,7 +202,7 @@ Each message is sent exactly once. A plan closes by itself on the stop, the time
 * **Off until you turn it on.** Like every Neuron it is never created for you — only the users who switch it on get its messages.
 * **What it watches** — the DVOL percentile of its own 365 days, read once a day at 08:00 UTC (the same number as the Premium-selling regime card on **Options**). High = above the 66.7th percentile.
 * **Entering High** — DVOL, the percentile, what the study measured in High (with the worst week) and the exact Deribit and Bybit options the frozen paper rules would sell, with credit and a margin estimate.
-* **Leaving High** — the new state and what the study measured there: no measured edge for selling premium now.
+* **Leaving High** — the new state and what the study measured there: **Context signal** — the study measured no advantage for selling premium in that state.
 * At most one message per coin, day and direction; a missing or stale reading never counts as a change.
 
 {% hint style="warning" %}
