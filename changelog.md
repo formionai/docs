@@ -16,8 +16,7 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 ### Options — clearer wording in setups and the regime Neuron
 
 * When DVOL leaves the High state, the Options regime Neuron and FORA now say **Context signal** — no measured advantage now.
-* Details: [FORA Neurons](fora-neurons.md)
-* Details: [Options & GEX](options.md)
+* Details: [Options & GEX](options.md) · [FORA Neurons](fora-neurons.md)
 
 ### Funding — two measured context rules
 
