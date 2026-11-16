@@ -54,7 +54,7 @@ flowchart LR
 * **OI Surge** — open-interest buildups and unwinds on Binance USDT perps
 * **Divergences** — RSI-vs-price divergences on Binance USDT perps, with distance to the pivot
 * **Patterns** — geometric chart formations (triangles, wedges, H&S…)
-* **Volatility** — volatility-scanner signals with a forward-test ledger
+* **Volatility** — volatility-scanner signals with a forward-test ledger; its Performance panel has the shared filter bar (Market, Side, Outcome, Symbol, Period) — see **[Quantum Screener → Filters](screener.md#filters)**
 * **Options / Gamma (GEX)** — BTC/ETH options analytics and dealer gamma on US indices, ETFs and large caps — see **[Options & GEX](options.md)**
 * **Events** — per-candle up/down event series, recurring return patterns and an options-implied probability view for BTC, ETH and SOL
 * **US Stocks** — daily US-equity narrative, market regime and macro indicators

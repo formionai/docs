@@ -209,6 +209,8 @@ Historically the same rule fired about **10 times in ~166 days**; the last signa
 * **FP Markets (cTrader)** — forex, gold, silver, oil and index rows name their venue **FP Markets (cTrader)** with the FP Markets logo; crypto rows show Bybit.
 * **No fill labels** — when a limit was never reached, the row reads **No fill · expired** (the deadline passed) or **No fill · cancelled** (a cancel rule hit, e.g. price closed above the impulse high before filling). An expired order is never labelled cancelled.
 * **Below Pro** the paper book shows **Closed** and **Status**, and a lock teaser (unlock with Pro, the 7-day trial or FOM Lock) instead of Win rate, Avg R and Sum R. Locked numbers are never sent to your browser and never shown as fake zeros; on Pro and up a missing value shows as "—".
+* **Where it works: setup × market** — under Buy the dip, one row per setup (dip-S1, dip-S2) and market (Crypto, Commodities, Forex, Indices & stocks): the paper book's own closed trades, Avg R, 95 % range and status next to the backtest result. Every setup and market stays visible — a weak one is a filter, not hidden. **Best right now** names a segment only when the paper book proves it; until then it names the strongest backtest cell and says it is still collecting data.
+* **Our SL variant (paper): behind liquidity** — our own stop rule, not the setup's result. Every new dip-S1 idea gets a paper twin with the same entry, targets and costs, but the stop just behind the nearest significant swing low under the zone (0.1 ATR below it), where the backtest showed stops often get swept. The card shows closed pairs, the R difference (twin minus live), its 95 % range and days measured. It stays **Collecting data** until 30 closed pairs and 14 days; the live stop does not change.
 
 #### ⏳ Missed trades (not filled)
 
@@ -409,6 +411,31 @@ Every tool that keeps a measured book of trades now has the same **Performance**
 * **By coin**, **By side** and **By segment** — where the result came from.
 * **MFE vs MAE** — how far each trade went for you and against you (shown where your plan includes per-trade MFE / MAE).
 * **Journal** — every trade with the asset and exchange logo, side, status, entry and exit time and price, result and MFE / MAE. Filter **All · Open · Closed · Not taken**. Click **Chart** on a row to open that trade on the Formion chart (see **[Chart Pro → Trade chart](chart-pro.md)**).
+
+### 🔎 Filters
+
+<figure><img src=".gitbook/assets/shot-perf-filter-bar.jpg" alt="The filter bar of the Performance panel on Zone Hunter — Market, Outcome and Period chips with their trade counts, and the Symbol search"><figcaption><p>The filter bar above the Performance panel: each chip shows how many trades it holds with the other filters applied.</p></figcaption></figure>
+
+Every Performance panel has the same filter bar above it. Pick a filter and the tiles, curve, charts and journal show only those trades. **Outcome** and **Period** are always there; **Market**, **Side**, **Setup** and **TF** appear only when the book holds more than one choice (for example **Side** only when it has both longs and shorts).
+
+* **Market** — All, Crypto, Forex, Commodities, Indices, Stocks. Only the markets the book really holds (a market your plan does not include shows a lock).
+* **Side** — All, Long, Short.
+* **Outcome** — All, Won, Lost, Breakeven, Open, Not filled, Skipped: what came in and what did not.
+* **Setup** — when the book has more than one setup or section.
+* **TF** — when the book has more than one timeframe.
+* **Symbol** — type a symbol to see only that asset.
+* **Period** — All time, 7d, 30d, 90d.
+
+How it works:
+
+* **Counts** — each chip shows its number of trades with the other filters already applied, so you see right away whether a filter leaves enough trades. Where your plan does not include the book's numbers, the chips show no counts.
+* **Filtered line** — above the panel: what is filtered and **n** = closed trades left. **Reset** clears all filters.
+* **Shareable link** — the choice is saved in the page address (`?pf=…`) and in your browser, so a link opens the same filtered view.
+* **Status of a filtered view** — a subset was never tested on its own, so it never reads **Verified**. Under 30 closed trades it reads **Collecting data**; with 30+ closed trades and a 95 % range fully below zero it reads **Keep refining**.
+* **One filter per page** — where the page has its own market chips (Zone Hunter), they and the panel's **Market** chips are the same filter: you pick once.
+* **Plans** — on Zone Hunter, Free and the FOM steps below Pro show **crypto only**; forex, metals, oil and indices are part of Pro. Locked trades are never sent to your browser.
+
+Where you find it: Zone Hunter, Bias Map → Backtesting, Patterns, Trend → Backtesting, Hunt and Data Hub → Volatility (and every other tool listed below).
 
 **Status words**
 

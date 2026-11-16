@@ -2,6 +2,24 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 16 November 2026
+
+### Performance panels — Filters explained
+
+* New docs section **Filters** for the bar above every Performance panel.
+* Market, Side, Outcome, Setup, TF, Symbol and Period, each chip with its trade count.
+* A filtered view can be shared as a link and never reads Verified on its own.
+* Zone Hunter on Free and the FOM steps below Pro: crypto only.
+* Details: [Quantum Screener → Filters](screener.md) · [Data Hub](data-hub.md)
+
+### Zone Hunter — segment map and our SL variant
+
+* **Where it works: setup × market** under Buy the dip: paper-book results next to the backtest for every setup and market, plus **Best right now**.
+* Nothing is hidden — a weak segment is a filter.
+* **Our SL variant (paper): behind liquidity** — a paper twin of every new dip-S1 idea with the stop behind the nearest swing low.
+* Status **Collecting data** until 30 closed pairs and 14 days; the live stop does not change.
+* Details: [Quantum Screener → Zone Hunter](screener.md)
+
 ## 15 November 2026
 
 ### Plan ladder — every step now gives more
