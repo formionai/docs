@@ -2,6 +2,17 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 17 November 2026
+
+### Options — SOL, HYPE and Gold for everyone
+
+* SOL, HYPE and Gold (XAUT) options are now on every plan, next to BTC and ETH.
+* Strategy Builder: live chains from Deribit (SOL, HYPE) and Bybit (SOL, HYPE, XAUT), with a Liquidity column per leg.
+* Data Hub → Options: index, ATM IV (own), term structure, 25Δ risk reversal, put / call OI, thin options near the money.
+* **Thin market** warning when a leg has no bid / ask, a spread over 10 % or zero open interest.
+* No setup, alert or trade idea for these assets — the weekly 16Δ rules run on paper only (**Collecting data**).
+* Details: [Options & GEX → SOL, HYPE and Gold options](options.md)
+
 ## 16 November 2026
 
 ### Performance panels — Filters explained

@@ -2,10 +2,10 @@
 
 <figure><img src=".gitbook/assets/s2-options.jpg" alt="Options — IV rank, term structure and scored option structures"><figcaption></figcaption></figure>
 
-An options analytics desk for crypto (**BTC and ETH**, built on Deribit with a multi-source view across Deribit, OKX, Bybit and Binance) and equities (**IBIT** plus dealer gamma on US indices and large caps) — implied volatility, the vol surface, Greeks, dealer gamma, and option structures scored to the current regime. Find it at **Data Hub → Options** and **Data Hub → Gamma**.
+An options analytics desk for crypto (**BTC and ETH**, plus **SOL, HYPE and Gold (XAUT)** — see the section *SOL, HYPE and Gold options* below, built on Deribit with a multi-source view across Deribit, OKX, Bybit and Binance) and equities (**IBIT** plus dealer gamma on US indices and large caps) — implied volatility, the vol surface, Greeks, dealer gamma, and option structures scored to the current regime. Find it at **Data Hub → Options** and **Data Hub → Gamma**.
 
 {% hint style="info" %}
-On the free **Neural** tier options analytics are a **3-row preview** (BTC, basic scorer). **Pro** and **Institutional** add ETH and SOL and the full scorer (strategies, regime, IV) — see **[Pricing & Tiers](pricing.md)**.
+On the free **Neural** tier options analytics are a **3-row preview** (BTC, basic scorer). **Pro** and **Institutional** add ETH and the full scorer (strategies, regime, IV) — see **[Pricing & Tiers](pricing.md)**.
 {% endhint %}
 
 ## What's inside
@@ -106,6 +106,45 @@ The Premium-selling regime, the tail-risk table and the paper test are **open on
 {% hint style="info" %}
 **Neural (Free)** sees a preview: the summary tiles of the High DVOL trades, the tail-risk box and the **10 newest** High DVOL trades; the rest of the table, the filters, the curve and the worst weeks are part of **Pro** and **Institutional** (7-day free trial, no card). This is a historical study, not a forecast and not a promise of profit.
 {% endhint %}
+
+## 🪙 SOL, HYPE and Gold options
+
+Since 17 November 2026 the options pages also cover **SOL**, **HYPE** and **Gold (XAUT)**, next to BTC and ETH, on every plan. Pick the coin in the coin picker at the top of the page.
+
+| Asset | Venues | One contract |
+|---|---|---|
+| **SOL** | Deribit USDC linear options and Bybit USDT options | 1 SOL |
+| **HYPE** | Deribit USDC linear options and Bybit USDT options | 1 HYPE |
+| **Gold (XAUT)** | Bybit USDT options on XAUT (Tether Gold) | 1 XAUT (≈ 1 oz) |
+
+Bybit has no XAU options and Deribit has no gold, so gold options come from Bybit XAUT only.
+
+### Where you see them
+
+* **Options → Strategy Builder** (`/options/builder`) — the same payoff, Greeks and breakevens as for BTC, on the live chain of that venue.
+* **Data Hub → Options** (`/options`) — with SOL, HYPE or Gold selected, a market-state panel: index, **ATM IV (own)** for 7 and 30 days, the ATM IV term structure, 25Δ risk reversal, put / call open interest, the share of thin options near the money and a table per expiry.
+
+<figure><img src=".gitbook/assets/shot-options-alt-builder-legs.jpg" alt="Strategy Builder legs for SOL options with the Liquidity column showing spread % and open interest per leg"><figcaption><p>Strategy Builder with SOL legs: the Liquidity column shows the bid / ask spread and the open interest of every leg (Docs Demo account, Pro).</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-options-alt-builder-payoff.jpg" alt="Payoff chart of a gold (XAUT) call spread at expiry and now"><figcaption><p>Payoff of a gold (XAUT) call spread: at expiry (solid) and now (dashed).</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-options-alt-analytics.jpg" alt="Gold (XAUT) options panel with index, ATM IV (own), 25 delta risk reversal, put/call OI, thin options near the money, term structure, per-expiry table and the paper-only rules"><figcaption><p>Data Hub → Options with Gold (XAUT) selected: market state, the term structure, the table per expiry and the paper rules (Docs Demo account, Pro).</p></figcaption></figure>
+
+### Thinner market — check every leg
+
+These markets are much smaller than BTC and ETH.
+
+* The builder shows a **Liquidity** column for every leg: the bid / ask spread in % and the open interest.
+* A **Thin market** warning appears when a leg has no bid, no ask, a spread wider than 10 % of the mid price, or zero open interest. The mark premium can then be far from a real fill.
+* **ATM IV (own)** is our own reading of the venue's mark IVs at each expiry's forward. It is **not DVOL** — Deribit publishes no DVOL for these assets.
+
+### No setup — measurement only
+
+* There is **no premium-selling setup card, no options alert, no Neuron and no trade idea** for SOL, HYPE or Gold. FORA never offers an option trade on them as a setup.
+* **Compare with a perp** stays BTC and ETH only.
+* The same frozen weekly 16Δ premium-selling rules as for BTC / ETH (short put 16Δ and short strangle 16Δ, entry Friday 08:00 UTC, 5–9 days, held to expiry) run for these assets **on paper only** — no orders, no demo account. First entries: 20 November 2026.
+* Status **Collecting data** until a rule has at least 30 closed trades over at least 14 days.
+* Nothing is ordered from these pages.
 
 ## ⚖️ Strategy Builder → Compare with a perp (Pro and Institutional)
 
