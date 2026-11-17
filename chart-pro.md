@@ -151,6 +151,15 @@ Every extra layer has its own button in the tools row above the chart — never 
 
 <figure><img src=".gitbook/assets/qt-events.jpg" alt="Chart events menu"><figcaption>Events shows only key US releases — CPI, PPI, PCE, payrolls, unemployment, Fed rate, GDP, retail sales, ISM, JOLTS. No headline noise.</figcaption></figure>
 
+### Visual — Live edge and Zone pass
+
+The **Live edge** button in the chart toolbar adds two calm effects on top of your chart:
+
+* **Live edge** — the candle that is forming glows softly, green above its open and red below.
+* **Zone pass** — when the price enters a zone that the **Liquidation pressure** or **Densities** layer already shows, the zone lights up with how much of it was passed (liquidation zones: share of the zone's model strength; walls: how much of the wall was eaten). **Crossed** = price left on the far side, **Turned back at X %** = it left on the entry side.
+
+Zone pass works only while those layers are on; the button follows [Settings → Visual mode](settings.md) (Off hides it, Auto shows it on a desktop and starts off, On starts it on). **Context signal · not a signal** — a glow is a drawing of existing data, never an entry, stop or target.
+
 ## 🎯 Trade chart — status strip and Live
 
 When you open a trade from a table — the **Chart** button in a Performance journal, Zone Hunter, Patterns or Signal Desk — you get the same Formion chart with that trade's own levels and a **status strip** at the top.

@@ -7,6 +7,7 @@ Answers, fixes and definitions. Still stuck? Email **support@formion.ai** or ope
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
 <tr><td><strong>📄 FAQ</strong></td><td>The most common questions about accounts, payments, bots and data.</td><td><a href="faq.md">faq.md</a></td></tr>
 <tr><td><strong>🔐 Security</strong></td><td>How your keys and funds stay safe — non-custodial, trade-only keys, 2FA.</td><td><a href="security.md">security.md</a></td></tr>
+<tr><td><strong>⚙️ Settings</strong></td><td>App-wide choices — Visual mode (Auto / On / Off) and the <code>?visual=1</code> link.</td><td><a href="settings.md">settings.md</a></td></tr>
 <tr><td><strong>🛠️ Troubleshooting</strong></td><td>Quick fixes for connection, balance, bot and Telegram issues.</td><td><a href="troubleshooting.md">troubleshooting.md</a></td></tr>
 <tr><td><strong>📖 Glossary</strong></td><td>Plain-English definitions of the terms used across Formion.</td><td><a href="glossary.md">glossary.md</a></td></tr>
 <tr><td><strong>🗓️ Changelog</strong></td><td>What is new in Formion and in these docs, by date.</td><td><a href="changelog.md">changelog.md</a></td></tr>

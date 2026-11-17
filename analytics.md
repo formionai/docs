@@ -37,6 +37,14 @@ flowchart TD
 
 <figure><img src=".gitbook/assets/s4-an-etf.jpg" alt="ETF Flows"><figcaption><p>ETF Flows — daily spot ETF inflows and outflows with the cumulative line.</p></figcaption></figure>
 
+## 🎛️ Classic · Visual — Cockpit
+
+At the top of the Analytics hub a **Classic · Visual** switch opens the **cockpit**: one glance over four Analytics tabs with the same numbers they show — BTC Fear & Greed gauge with its 30-day line, sentiment, top-trader long/short and funding tiles, Spot vs Perp taker imbalance, Spot ETF net flows (BTC, ETH) and BTC correlation with ETH, HYPE, S&P 500, Gold and Oil. Numbers glide like an odometer when they change; each block links to its tab.
+
+<figure><img src=".gitbook/assets/shot-visual-analytics.jpg" alt="Analytics cockpit in Visual"><figcaption><p>Analytics → Visual: the cockpit — sentiment, Spot vs Perp, ETF flows and BTC correlation in one view.</p></figcaption></figure>
+
+Label: **Context signal · not a signal**. Default and on/off: [Settings → Visual mode](settings.md).
+
 ## Mechanical board
 
 <figure><img src=".gitbook/assets/shot-mechanical-board.jpg" alt="Mechanical board — symbol, total score, bias and the nine inputs per row"><figcaption><p>The Mechanical board (Pro view, 1d): one row per symbol with the total score, the bias pill and the nine inputs. On Free the rows after the first 10 are locked.</p></figcaption></figure>

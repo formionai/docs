@@ -28,6 +28,30 @@ The microstructure tools live both as dedicated pages under **Data Hub** and as 
 
 <figure><img src=".gitbook/assets/s2-liquidation-map.jpg" alt="Liquidation Map"><figcaption><p>Liquidation Map — clustered liquidation levels over time.</p></figcaption></figure>
 
+## 🎛️ Classic · Visual
+
+Every Order Flow and Order Book panel has a **Classic · Visual** switch above it. **Classic** is the panel you know. **Visual** draws the **same data** as motion — no new numbers, no extra request on your plan. Your choice is remembered per panel, and **Settings → Visual mode** sets the default ([Settings](settings.md)). Every Visual view carries the label **Context signal · not a signal**.
+
+<figure><video src=".gitbook/assets/rec-order-flow-visual-liqmap.mp4" title="Liquidation Levels in Visual: the magnet field"></video><figcaption><p>Liquidation Levels → Visual: liquidation levels of every exchange next to the candles; particles drift toward stronger, closer levels and sparks are real liquidations.</p></figcaption></figure>
+
+| Panel | Visual view | What it draws and how to read it |
+| --- | --- | --- |
+| **Liquidation Levels** | Magnet field · Cascade | Last 4 days of 1h candles with the liquidation levels of all exchanges as bars on the right (violet above price = short liquidations, pink below = long liquidations). Particles drift toward stronger, closer levels; sparks are **real** liquidations happening now on Binance and Bybit. **Cascade** stacks liquidations per price by exchange and sweeps −8 % / +8 %, adding up what would be liquidated on the way. |
+| **Order Book** | Book through time | The aggregated book snapshotted every ~1.5 s while the view is open (kept ~6 minutes). Brighter = more resting USD, bids green below and asks red above the mid line; bubbles are aggressive buys and sells per second (≥ $5K). On the right: the book now and its biggest wall. |
+| **DOM Pro** | Breathing ladder | The same Binance USD-M feed as the Classic DOM. Bar length = dollars resting at that price; the Δ 5 s columns compare each row with the book ~5 seconds earlier (green = more resting, red = less — pulled **or** filled, the book cannot tell which). A trade blinks on its row; $30K+ gets a label. |
+| **Walls** | Walls as dams | One card per wall, newest first. The dam sits at the wall's real distance from the price (sell walls above, buy walls below), thicker for a bigger wall; the water is the price. **Broken** = price traded through, **Pulled** = removed before price touched it, **Standing** = confirmed in the last 6 hours and not ended. |
+| **Order Flow (Tape)** | Trade river + CVD · Live footprint | Every public trade from Binance, Bybit, OKX and Coinbase flows in as a bubble (size = USD, green buyer, red seller; the biggest prints get a ring with the exchange logo); below it, buyers − sellers since the view opened. **Live footprint** fills 1-minute Binance-perp candles row by row: sellers left, buyers right, outlined cell = 3× imbalance, boxed row = point of control. |
+
+<figure><img src=".gitbook/assets/shot-visual-walls.jpg" alt="Walls in Visual: walls as dams"><figcaption><p>Walls → Visual: each wall is a dam at its real distance from the price — broken, pulled or standing.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-orderflow.jpg" alt="Order Flow in Visual: trade river and CVD"><figcaption><p>Order Flow → Visual: every public trade flows in as a bubble; below it, buyers − sellers since the view opened.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-orderbook.jpg" alt="Order Book in Visual: book through time"><figcaption><p>Order Book → Visual: resting orders stretch through time; bubbles are aggressive buys and sells.</p></figcaption></figure>
+
+{% hint style="info" %}
+**Context signal · not a signal.** A glowing wall, a spark or a bright band is a drawing of the data. Resting orders can be pulled at any time, so none of it is an entry, a stop or a target. Plan limits are the same as in Classic.
+{% endhint %}
+
 ## ⚖️ Order Book — Imbalance and Walls
 
 <figure><img src=".gitbook/assets/shot-orderbook-views.jpg" alt="Data Hub → Order Book views: Book, DOM, Imbalance and Walls"><figcaption><p>Data Hub → Order Book: the four views.</p></figcaption></figure>

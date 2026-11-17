@@ -24,6 +24,14 @@ A live window into the largest Hyperliquid traders:
 
 Beyond Hyperliquid, **Analytics → SmartMoney** shows a smart-money feed, whale trades and liquidations, and **Coins Hub → Smart Wallets** ranks on-chain wallets by P&L (temporarily unavailable while we fix logic errors) — so you can see where informed capital is rotating across DEX markets.
 
+### Smart Money in Visual — Money rivers
+
+On **Analytics → SmartMoney** a **Classic · Visual** switch sits above the inflow cards. **Visual** replays the latest 120 Smart Feed rows as **money rivers**: labelled wallets on the left, markets on the right, threads sized by USD; a green particle = buy (open long / close short) flows wallet → market, a red one = sell flows back. Below: net opening notional per asset on Hyperliquid (opens only — not capital in / out).
+
+<figure><img src=".gitbook/assets/shot-visual-smartmoney.jpg" alt="Smart Money in Visual: money rivers"><figcaption><p>SmartMoney → Visual: wallets on the left, markets on the right, every buy and sell replayed as a particle.</p></figcaption></figure>
+
+Label: **Context signal · not a signal** — what these wallets do is context, never a recommendation to copy.
+
 ## Copy trading
 
 * ✅ **Today:** **Attach a Formion bot** — in the **Bots** hub / Strategy Lab subscriptions, attach an attachable bot or marketplace strategy to your own connected account (cTrader, Bybit, Binance, Blofin, Bitget, DEX or Polymarket, depending on the bot). Demo attachments are free; live ones count toward your live-bot limit (Pro 5, Institutional unlimited).

@@ -56,6 +56,7 @@
   * [📄 FAQ](faq.md)
   * [🌊 Hyperliquid in Formion Wallet](hyperliquid-faq.md)
   * [🔐 Security](security.md)
+  * [⚙️ Settings](settings.md)
   * [🛠️ Troubleshooting](troubleshooting.md)
   * [📖 Glossary](glossary.md)
   * [🗓️ Changelog](changelog.md)

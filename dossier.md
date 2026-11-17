@@ -35,3 +35,11 @@ At most 25 call messages a day are sent per account. Every first-call message al
 {% hint style="warning" %}
 Small-cap tokens are high risk: liquidity can be pulled, contracts and teams can fail, and you can lose the whole position. Our exit plan is measured on past calls and labelled *Collecting data* while the sample is small.
 {% endhint %}
+
+## 🎛️ Classic · Visual — Scanner
+
+Above **Every dimension** there is a **Classic · Visual** switch. **Visual** replays the dossier as a scan: a beam walks the dimensions in order and each lights up in its status colour (PASS green, CAUTION amber, FAIL red, NOT VERIFIED dashed grey — never filled in). The outer ring fills to the final score, the inner ring takes the risk-class colour, and the closing box shows the risk class, the verdict and coverage. **Scan again** replays it.
+
+<figure><img src=".gitbook/assets/shot-visual-dossier.jpg" alt="Dossier scanner in Visual"><figcaption><p>Dossier → Visual: every dimension lights up in its status colour; the ring fills to the final score.</p></figcaption></figure>
+
+It draws the report you already opened — no extra request and no change to your daily Dossier report limit. Label: **Collecting data · not a signal**.

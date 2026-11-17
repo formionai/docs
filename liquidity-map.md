@@ -136,6 +136,21 @@ Every event says its side: **LIMIT BUY** (green, resting bids) / **LIMIT SELL** 
 * **How to read it:** long and short liquidations are coloured separately (with their totals above the table); large rows show where tracked positions would be forced to close if price got there.
 * **What it is NOT:** not a model or an estimate, and **not the whole market** — only the tracked accounts on Hyperliquid.
 
+## 🎛️ Classic · Visual — Thermal flow
+
+Above the map there is a **Classic · Visual** switch. **Visual** shows the same recorder data as a **thermal flow**:
+
+* Resting limit orders of every venue (spot + perp) are revealed left → right, one column per minute (per 5 minutes on 24h); warmer = more resting USD.
+* A **flash** marks where the price ran through strong liquidity.
+* **Dashed boxes** are walls that were pulled before the price touched them.
+* The right rail lists the biggest sell (ask) and buy (bid) levels now; the tiles count touches and pulled walls.
+
+<figure><video src=".gitbook/assets/rec-liquidity-map-visual.mp4" title="Liquidity Map in Visual: thermal flow"></video><figcaption><p>Liquidity Map → Visual: resting liquidity flows like a thermal camera; flashes are price running through strong levels.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-liquidity.jpg" alt="Liquidity Map in Visual: thermal flow"><figcaption><p>Liquidity Map → Visual: warmer = more resting USD; the right rail shows the biggest sell and buy levels now.</p></figcaption></figure>
+
+Visual keeps the **same plan limits** as Classic: on Free it shows BTC 1h and switches to 1h by itself when a longer range is locked. Label: **Context signal · not a signal**. Default and on/off: [Settings → Visual mode](settings.md).
+
 ## Free vs Pro
 
 | | Free | Free + FOM Hold | Free + FOM Lock | Pro / Institutional |

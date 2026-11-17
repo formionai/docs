@@ -4,6 +4,16 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 17 November 2026
 
+### Visual mode — more panels for everyone
+
+* New **Classic · Visual** switch for every user on every plan on **DOM Pro**, **Walls**, **Dossier**, **Analytics** and **SmartMoney**, plus the **Live edge** button on **Chart Pro**.
+* Visual draws the same data as Classic as motion — no new numbers, no extra limit; plan limits stay as in Classic.
+* **Auto** still starts these panels in Classic; click **Visual** or pick **On** in Settings.
+* New help page: **Settings → Visual mode** (Auto / On / Off) and the `?visual=1` / `?visual=0` link.
+* Every Visual view is labelled **Context signal · not a signal**.
+* Where: [Data Hub](data-hub.md) · [Order Flow](order-flow.md) · [Liquidity Map](liquidity-map.md) · [Chart Pro](chart-pro.md) · [Dossier](dossier.md) · [Analytics](analytics.md) · [Copy Trading & Whale Tracking](copy-trading.md)
+* Details: [Settings](settings.md)
+
 ### Bots — GPTBot AI research bots on the hub
 
 * Three GPTBot bots are now on the public **Bots** hub: **GPTBot**, **GPTBot Fast** (both demo) and **GPTBot Opus Panel** (paper).

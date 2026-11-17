@@ -28,6 +28,18 @@ Each chart in the multi-exchange view (**Open Interest**, **Long/Short**, **Top 
 
 <figure><img src=".gitbook/assets/shot-datahub-series-settings.jpg" alt="Chart settings → Series: Draw as Page default, Lines or Bars, Grid, Legend, Smooth lines and series colours per exchange" width="380"><figcaption><p>Chart settings → Series: draw as lines or bars, grid, legend and a colour per exchange.</p></figcaption></figure>
 
+## 🎛️ Classic · Visual
+
+Data Hub panels can be shown two ways. A **Classic · Visual** switch sits above each supported panel: **Classic** = tables and charts as before, **Visual** = the same data drawn as motion (no new numbers, no extra limit). The choice is remembered per panel; [Settings → Visual mode](settings.md) sets the default (**Auto** turns Visual on only for Liquidation Levels and Liquidity Map on a desktop).
+
+* **Liquidation Levels** — Magnet field and Cascade
+* **Liquidity Map** — Thermal flow ([details](liquidity-map.md))
+* **Order Book**, **DOM Pro**, **Walls**, **Order Flow** — Book through time, Breathing ladder, Walls as dams, Trade river + Live footprint ([details](order-flow.md))
+
+<figure><img src=".gitbook/assets/shot-visual-liqmap.jpg" alt="Liquidation Levels in Visual: magnet field"><figcaption><p>Liquidation Levels → Visual: liquidation levels of every exchange as a magnet field next to the candles; sparks are real liquidations happening now.</p></figcaption></figure>
+
+Every Visual view is labelled **Context signal · not a signal** — it shows where liquidity and liquidations sit, not where price will go.
+
 ## Built-in scanners
 
 ```mermaid
