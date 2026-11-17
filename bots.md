@@ -56,6 +56,27 @@ The public **Bots** hub shows each bot's pool (**live** or **live market**) on i
 | **Formion AI Intelligence** | live | Bybit (real account) | **+20.2%** · 38 trades · 74% win rate · profit factor 2.39 · max DD −8.8% | Semi-automatic: the AI finds and scores the setup, a trader confirms it and the order goes to a real Bybit account. Few trades so far (since September 2026). |
 | **OMX Trend** | live market | Bybit (OMX engine) | **+2.8%** · 92 trades · profit factor 1.47 · max DD −1.7% | Two OMX engine strategies on 1-hour crypto perps: EMA pullback in trend and break of structure with fair-value-gap entry. Every trade risks 0.1% of the account with an exchange stop. |
 
+### AI research bots (GPTBot)
+
+GPTBot reads a fresh web research report and the price structure for one market, then decides **long, short or skip** with its own stop, target and time limit. Three GPTBot bots are on the hub. Numbers as shown on the cards on **17 November 2026**:
+
+| Bot | Pool | Account | Result so far | What it does |
+|---|---|---|---|---|
+| **GPTBot** | demo | Bybit + cTrader demo | +1.6% · 54 closed trades · 48% win rate · avg +0.15R | The research decision is entered only when the **measured** hit rate of that market and side (not the AI's own confidence) says the trade pays after costs. |
+| **GPTBot Fast** | demo | Bybit + cTrader demo | +8.6% · 125 trades · 63% win rate · profit factor 2.08 · max DD −1.5% | Decides every hour from live market structure plus Formion data (liquidations, funding, macro calendar, headlines), no web research. |
+| **GPTBot Opus Panel** | paper | real prices, fees, spread and funding | +18.0% · 367 trades · 53% win rate · profit factor 1.61 · max DD −4.2% | The same research reports decided by Claude Opus as a panel judge — the largest GPTBot sample. |
+
+<figure><img src=".gitbook/assets/shot-bots-gptbot-card.jpg" alt="GPTBot Opus Panel card in the Bots hub"><figcaption><p>A GPTBot card: all-time result, R per trade with its range, period and status (snapshot 16 Nov 2026).</p></figcaption></figure>
+
+* Every card shows the average **R per trade** with its 95 % range, the period and a status. All three are **Collecting data** until a bot has at least 30 closed trades and its whole range is above zero.
+* **Open** shows the equity curve and the full trade history (symbol, side, entry, stop, target, exit, R, reason).
+* **Follow** (bell) sends an alert on every entry (market, side, entry, stop, target, time limit) and every close (exit, R, reason) — in the app or on Telegram.
+* **Copy (demo)** attaches the bot to your own connected **demo** account (cTrader, Bybit, Binance, BloFin, Bitget): same side, stop and target as the bot, your copy closes when the bot closes, only trades opened after you attach. Needs your Telegram linked (Alerts → Telegram).
+* **Live copy is locked** ("Collecting data — live copy unlocks when verified") until a bot is verified on new trades.
+* Markets the bot only tests on paper (some indices, stocks and natural gas) appear in the history but are never copied.
+
+<figure><img src=".gitbook/assets/shot-bots-gptbot-copy.jpg" alt="Attach a GPTBot strategy to a demo account"><figcaption><p>Copy (demo): pick your demo account and size — live copy stays locked.</p></figcaption></figure>
+
 ### Prediction markets
 
 | Bot | Pool | Account | All-time result | What it does |
