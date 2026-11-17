@@ -4,6 +4,14 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 17 November 2026
 
+### Bots — GPTBot AI research bots on the hub
+
+* Three GPTBot bots are now on the public **Bots** hub: **GPTBot**, **GPTBot Fast** (both demo) and **GPTBot Opus Panel** (paper).
+* Cards show the all-time result, R per trade with its range, period and status **Collecting data**.
+* **Follow**: alerts on every entry and close, in the app or on Telegram.
+* **Copy (demo)** to your own demo account — same side, stop and target; live copy stays locked until verified.
+* Details: [Bots & Automation → AI research bots](bots.md)
+
 ### Chart Pro — alerts and bots from any indicator
 
 * New in the ⋯ menu of every indicator: **Create alert** and **Create bot from this indicator**.
