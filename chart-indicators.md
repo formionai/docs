@@ -49,6 +49,14 @@ How to read them:
 * **Order Flow Delta** — who was aggressive, and where that aggression did not move price.
 * **Liquidation Levels** — price reaches these levels more often than random levels at the same distance; whether it bounces or breaks there is still being measured.
 
+<figure><img src=".gitbook/assets/shot-chart-indicators-v2-gallery.jpg" alt="Formion indicators gallery: Liquidity Sweep, Session Levels and Crowding Risk cards with their Context signal status"><figcaption><p>The new cards in the gallery, each with its measured status.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-v2-price.jpg" alt="BTC 1h with Session Levels (daily VWAP, ±1σ band, ±2σ lines, prior-day and prior-week high and low) and Liquidity Sweep markers Low swept and High swept"><figcaption><p>BTC 1h: Session Levels (VWAP with bands, prior-day and prior-week high / low) and Liquidity Sweep markers.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-v2-lower.jpg" alt="ETH 1h with Order Flow Delta and Crowding Risk in two lower panes, dashed ±1.5 levels"><figcaption><p>ETH 1h: Order Flow Delta (aggressive buy minus sell per candle) and Crowding Risk with its ±1.5 levels.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-v2-liq.jpg" alt="SOL 1h with Liquidation Levels: strong level above in red, below in green, and Rejected markers"><figcaption><p>SOL 1h: Liquidation Levels — the nearest strong level above and below, with Rejected and break markers.</p></figcaption></figure>
+
 ### How we measured them
 
 Every ready-made indicator was measured before its status was set (17 November 2026):
