@@ -4,6 +4,24 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 17 November 2026
 
+### Chart Pro — alerts and bots from any indicator
+
+* New in the ⋯ menu of every indicator: **Create alert** and **Create bot from this indicator**.
+* Alerts on any plot: crosses, above / below, sign or colour change, a marker appears, a background turns on, a new value.
+* Judged on the server at candle close (no repaint); channels in-app, Telegram and web push; same alert limit as your plan.
+* Bots: entries and exits from the same conditions; stop, target and size only from you (Pulse Trader uses his own levels); paper first.
+* **Run backtest** with costs and an out-of-sample split; result **Keep refining** or **Collecting data**.
+* Details: [Chart Indicators → Alerts and bots](chart-indicators.md)
+
+### Chart Pro — five more Formion indicators, every indicator measured
+
+* New in the **Formion indicators** gallery: **Liquidity Sweep**, **Session Levels**, **Crowding Risk**, **Order Flow Delta**, **Liquidation Levels**.
+* All ready-made indicators were measured on 20 crypto perps (Oct 2025 → Oct 2026, after costs, on a later period the search never saw).
+* None works as an entry signal on its own — statuses **Context signal** and **Collecting data**.
+* **Pulse Consensus**, **Pulse Levels** and **Pulse Activity** are now **Context signal**.
+* Measurement continues on every new day; a status changes only when new data proves it.
+* Details: [Chart Indicators](chart-indicators.md)
+
 ### Chart indicators — Pine drawings: labels, lines, boxes, tables
 
 * Pine scripts can now draw: `label.new`, `line.new`, `box.new`, `table.new`, `linefill.new`.

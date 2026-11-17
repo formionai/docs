@@ -28,17 +28,36 @@ There are two kinds of cards:
 | Indicator | Where | What it shows | Status |
 | --- | --- | --- | --- |
 | **Volatility Ahead** | Lower pane | The odds (%) that price leaves a band of ±1.5 ATR within the next 12 candles, from our live move model. **It does not predict direction.** Amber line = "Big move expected", teal line = "Quiet expected". BTC 1h and gold (XAU) 15m / 1h / 4h only. | Collecting data |
-| **Pulse Consensus** | Lower pane | Net long vs short of followed traders' **active** calls on this coin, from public posts — green columns while net long, red while net short. Details below. | Collecting data |
+| **Pulse Consensus** | Lower pane | Net long vs short of followed traders' **active** calls on this coin, from public posts — green columns while net long, red while net short. Details below. | Context signal |
 | **Swarm Verified Calls** | On price | Calls posted on [Swarm](swarm.md) by authors with FRS ≥ 300 and at least 10 graded calls — members and **Formion AI** — with the caller's own entry, stop and target while the call is open. | Collecting data |
 | **Smart Money Flow** | Lower pane | Hyperliquid: whales' net position change per candle (purple histogram) and proven directional traders' net over the last 20 candles (amber line). Complete UTC days only — today is empty. Hyperliquid coins, 5m and up. | Context signal |
 | **Rotation Meter** | Lower pane | % change of BTC dominance, TOTAL3 and USDT dominance, plus a **Rotation score**: above 0 = money moving toward alts, below 0 = toward BTC or stablecoins. The same on every symbol. | Context signal |
 | **Positioning Heat** | Lower pane | z-score of funding (columns, amber beyond ±2) and of the open-interest change (line), each against its own last 200 candles. Dashed ±2 levels; the pane tints amber while either is beyond ±2 (crowded). Crypto perps. | Context signal |
+| **Liquidity Sweep** | On price | Candles whose wick goes through a significant swing low or high and closes back inside — the stops beyond that swing were taken. Markers **Low swept** / **High swept**; dotted lines = active swing levels; optional labels show how deep the wick went in ATR. From the chart's own candles; swings are confirmed only after N candles, so nothing repaints. Any market. | Context signal |
+| **Session Levels** | On price | Daily VWAP (from 00:00 UTC) with a ±1σ band and ±2σ lines, prior-day high / low and prior-week high / low. From the chart's own candles and volume. Intraday timeframes. | Context signal |
+| **Crowding Risk** | Lower pane | One score for one-sided positioning: the average z-score of funding, open-interest change and top traders' long %. Red columns at +1.5 and above = crowded long, green at −1.5 and below = crowded short; the pane tints while crowded. Crypto perps. | Context signal |
+| **Order Flow Delta** | Lower pane | Aggressive buy minus sell volume per candle. Amber = **absorption** (very large delta, the candle barely moved), violet = **trapped delta** (strong buying that closed near the low, or the reverse). Crypto. | Context signal |
+| **Liquidation Levels** | On price | The nearest strong level above and below from our recorded liquidation map, with **Broke up / Broke down** and **Rejected** markers. 40 coins, history since August 2026. | Collecting data |
 
 How to read them:
 
 * **Volatility Ahead** — "big move expected" means expect range expansion (breakouts, wider stops); "quiet expected" means expect a range. A value appears only once the hourly model has written it, and it lasts for its 12-candle horizon.
 * **Smart Money Flow** — trader classes are set from the 3 previous days only. It is context, not a copy or entry signal.
 * **Positioning Heat** — above +2 = longs crowded and paying a lot, below −2 = shorts crowded. Extremes can last; it is not a reversal signal on its own.
+* **Liquidity Sweep** and **Session Levels** — show where stops sat and where the session's fair value and yesterday's extremes are. On their own they did not predict the next move.
+* **Crowding Risk** — risk of a squeeze, not a direction. Fading the crowd worked in one period and lost in the next.
+* **Order Flow Delta** — who was aggressive, and where that aggression did not move price.
+* **Liquidation Levels** — price reaches these levels more often than random levels at the same distance; whether it bounces or breaks there is still being measured.
+
+### How we measured them
+
+Every ready-made indicator was measured before its status was set (17 November 2026):
+
+* 20 crypto perpetuals, 1h candles, October 2025 → October 2026 (Pulse indicators: BTC, ETH, SOL, HYPE).
+* The rules were written down before any result, then checked on a first period and once on a later period the search never saw.
+* Results are after trading costs, with confidence intervals, a correction for testing many rules, and split by long / short, market phase and coin group.
+* None passed: the best rules in the first period turned negative in the later one. That is why they say **Context signal** and not **Verified**.
+* The measurement keeps running on every new day; a status changes only when new data proves it.
 
 <figure><img src=".gitbook/assets/shot-chart-indicators-presets.jpg" alt="ETH 4h with Market Bias day bands, Positioning Heat, Pulse Consensus and Rotation Meter in lower panes"><figcaption><p>ETH 4h: Market Bias bands behind the candles, then Positioning Heat (amber columns = crowded funding), Pulse Consensus and Rotation Meter.</p></figcaption></figure>
 
@@ -58,7 +77,7 @@ Status: **Context signal**. It confirms a trend after it started and lags turns 
 
 ## Pulse indicators
 
-The gallery has its own section **Pulse · Followed traders**. These indicators draw what the traders followed in [Formion Pulse](pulse.md) actually called on this coin — and how it ended. All of them are **Collecting data**.
+The gallery has its own section **Pulse · Followed traders**. These indicators draw what the traders followed in [Formion Pulse](pulse.md) actually called on this coin — and how it ended. **Pulse Consensus**, **Pulse Levels** and **Pulse Activity** are **Context signal** (measured on BTC, ETH, SOL and HYPE: they show attention and where traders placed their levels, but did not predict the next move, and price did not reach their zones more often than other levels). **Pulse Trader**, **Pulse Pending Setups** and **Pulse Outcomes** show single traders and stay **Collecting data**.
 
 | Indicator | Where | What it shows |
 | --- | --- | --- |
@@ -125,7 +144,7 @@ Every custom indicator has a chip in the **legend** at the bottom left of the pr
 * **Highlight on price chart…**;
 * **Hide from the chart**.
 
-<figure><img src=".gitbook/assets/shot-chart-indicators-menu.jpg" alt="Legend chip menu: Settings, Move to price chart, Highlight on price chart, Hide from the chart"><figcaption><p>The ⋯ menu on a legend chip.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-chart-indicators-menu.jpg" alt="Legend chip menu: Settings, Create alert, Create bot from this indicator, Move to price chart, Highlight on price chart, Hide from the chart"><figcaption><p>The ⋯ menu on a legend chip.</p></figcaption></figure>
 
 **Settings** opens a window with four tabs. Your choices are saved per indicator on your account.
 
@@ -137,6 +156,39 @@ Every custom indicator has a chip in the **legend** at the bottom left of the pr
 | **Highlight** | **Highlight on price chart**: paint the price chart green while a plot is above X and red while below Y, with a strength — no code. |
 
 <figure><img src=".gitbook/assets/shot-chart-indicators-highlight.jpg" alt="Settings, Highlight tab: Highlight on price chart switch, plot choice, Green above and Red below levels, strength"><figcaption><p>Settings → Highlight: paint the price chart green above a level and red below another, with the strength you choose.</p></figcaption></figure>
+
+## Alerts and bots from an indicator
+
+Every indicator on the chart can send you an alert or run a bot — Formion indicators (Pulse Trader, Pulse Consensus …), your Pine scripts and your TS / FORA indicators. Open the ⋯ menu on its legend chip (or the bell in its Settings).
+
+### Create alert
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-alert.jpg" alt="Create alert on Pulse Consensus: condition Net long − short % turns positive, trigger every time it becomes true, channels in-app, Telegram and web push, and the server preview of how often it would have fired"><figcaption><p>Create alert: a condition on one plot, the trigger, the channels and the server's honest preview.</p></figcaption></figure>
+
+1. **Condition** — pick one of the indicator's plots and what should happen:
+   * crosses up / down / crosses a value or another plot, is above / below;
+   * turns positive / negative, changes sign, changes colour;
+   * a marker appears (for example Pulse Trader **Long (his entry filled)**, **Target hit**, **Stop hit**; Pulse Consensus **Consensus flips long**);
+   * a background turns on or is on;
+   * a new value appears (for example **Any pending setup** = a new pending setup of a followed trader on this coin).
+2. **Trigger** — **Every time it becomes true**, **Once per bar close** or **Only once**.
+3. **Channels** — **In-app** (toast and sound), **Telegram** (@formiontradingbot, your linked chat) and **Web push** (one click enables this browser).
+
+* The alert is judged on the server at every **candle close** — never on a forming candle, so it does not repaint, and it works with the tab closed.
+* Before you save, the server shows how often it **would have fired** on the last closed candles — past behaviour, not a forecast.
+* It counts against your active alerts (Free 3, Pro 100, Institutional unlimited). Pause or delete it in [Alerts](alerts.md).
+* FORA can set it from a sentence: "alert me when Pulse Trader shows a long on BTC 1h".
+
+### Create bot from this indicator
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-bot.jpg" alt="Create bot from Pulse Trader: long and short entries are his fills, exits are his exit, stop and target are his own levels, risk per trade left for the user"><figcaption><p>A bot from Pulse Trader: his fills, his stop, target and exit — the risk per trade is yours to set.</p></figcaption></figure>
+
+* **Entries and exits** use the same conditions as alerts (long entry, short entry, close long, close short).
+* **Stop loss, take profit and size come only from you**: % from entry, × ATR(14), a price from one of the indicator's plots, or none; risk % per trade.
+* **Pulse Trader** is pre-filled with HIS fills and HIS stop, target and exit — never levels of ours.
+* The bot starts on **paper** (no real orders) on the chart's symbol and timeframe.
+* **Run backtest**: up to 5,000 candles, commission and slippage, an in-sample / out-of-sample split and stress tests. The result says **Keep refining** (it loses on the unseen part after costs) or **Collecting data** (too few trades, or positive — the paper bot on new candles decides).
+* Live trading is switched on later on the [Bots](bots.md) page, within your plan's live-bot limit and only after you confirm.
 
 ## Build your own: Indicator Lab, FORA and ctx data
 
