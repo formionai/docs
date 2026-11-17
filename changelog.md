@@ -4,6 +4,17 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 17 November 2026
 
+### Quantum Screener — Indicator scan and Measure this indicator
+
+* New section **Indicator scan**: any indicator from your library (Formion, Pine, TS, FORA) on every coin at once.
+* One condition — the same as indicator alerts — judged on the last closed candle; table with logo, value, since when, last event and a chart link.
+* Refreshes after every candle close; **Create alert for all matches**.
+* **Measure**: your condition as entries on many coins, your own exit, costs, an unseen holdout, segments by side × BTC regime × coin group × timeframe, **Best right now**.
+* A look-ahead check refuses scripts that peek into the future; results say **Keep refining**, **Market-driven** or **Collecting data**.
+* Also in the indicator ⋯ menu on the chart: **Scan all coins**, **Measure this indicator**.
+* Plan limits: Free top 20 coins and 1 scan a day; Pro top 100 and 30 scans, 3 measurements a day.
+* Details: [Quantum Screener → Indicator scan](screener.md)
+
 ### Visual mode — more panels for everyone
 
 * New **Classic · Visual** switch for every user on every plan on **DOM Pro**, **Walls**, **Dossier**, **Analytics** and **SmartMoney**, plus the **Live edge** button on **Chart Pro**.

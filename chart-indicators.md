@@ -198,6 +198,12 @@ Every indicator on the chart can send you an alert or run a bot — Formion indi
 * **Run backtest**: up to 5,000 candles, commission and slippage, an in-sample / out-of-sample split and stress tests. The result says **Keep refining** (it loses on the unseen part after costs) or **Collecting data** (too few trades, or positive — the paper bot on new candles decides).
 * Live trading is switched on later on the [Bots](bots.md) page, within your plan's live-bot limit and only after you confirm.
 
+### Scan all coins and Measure this indicator
+
+* **Scan all coins** (⋯ menu) opens the [Quantum Screener → Indicator scan](screener.md) with this indicator: the same alert conditions, judged on the last closed candle of every coin, with a table of the matches and **Create alert for all matches**.
+* **Measure this indicator** (⋯ menu) tests your condition as entries on many coins and years of candles — your own exit, costs, an unseen holdout, segments by side, BTC regime and coin group, **Best right now**, and a look-ahead check that refuses a repainting script.
+* Details and plan limits: [Quantum Screener → Indicator scan](screener.md).
+
 ## Build your own: Indicator Lab, FORA and ctx data
 
 Indicators you write or FORA builds for you can read the same Formion data as the presets. A TS indicator is a function `indicator(candles, inputs, ctx)` that returns plots; every `ctx` call is aligned to each candle's close (no look-ahead). Test any indicator against random entries in **Indicator Lab** (**app.formion.ai/my-indicators**).

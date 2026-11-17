@@ -365,6 +365,58 @@ Every trend call is recorded when it starts on a closed bar and judged after a f
 
 This table groups calls by their **strength at the trend start** (**<50**, **50–70**, **70–85**, **≥85**) and by phase, judged exactly like the calls above, plus the change **per +10 score points**. A higher score counts as better only when it measurably beats the market more, with at least 30 calls over 14 days. **Today it reads Collecting data**: most trends start with a strength below 50. Until it is proven, the score is a **ranking of trend quality, not a better chance of profit**.
 
+## 🔍 Indicator scan — your indicator on every coin
+
+<figure><img src=".gitbook/assets/shot-qscreener-indicator-scan.jpg" alt="Quantum Screener Indicator scan — an EMA indicator with the condition Fast is above Slow on 1h, the table of matching coins with logo, value, true since, last event and a chart link"><figcaption><p>Indicator scan: one condition of your own indicator, judged on the last closed candle of every coin.</p></figcaption></figure>
+
+**Indicator scan** runs **any indicator from your library** — Formion indicators (Pulse Consensus, Liquidity Sweep …), your Pine scripts and your TS / FORA indicators — over many coins at once. Open it from the section card, or from the ⋯ menu of an indicator on the chart → **Scan all coins**.
+
+1. Pick the **indicator** and the **timeframe** (15m, 1h, 4h, 1D).
+2. Pick **one condition** on one of its plots — the same conditions as [indicator alerts](chart-indicators.md): crosses up / down, is above / below a value or another plot, turns positive / negative, changes colour, a marker appears, a background turns on, a new value appears.
+3. Pick how many **coins** (Binance perpetuals ranked by 24h volume; gold, oil and stocks perpetuals optional) and, for events, how recent they must be (**last candle … last 10 candles**). Press **Scan coins**.
+
+* The condition is judged on the **last closed candle** — never a forming one, so the table does not repaint.
+* **Table**: coin logo and symbol, **Match**, **Value** (the plot on the last closed candle), **True since** (for "is above / is on") or **Event** (when it happened), **Last event** (the last time the condition became true — when an alert would have fired) and **Open** (the chart). Sort by any column; **Matches only** hides the rest.
+* **Refresh on candle close**: the table updates itself after the next candle closes. The same scan again is free.
+* **Create alert for all matches**: one server alert per matching coin, with the same condition (counts against your alert limit).
+* The scan runs in a separate background worker, so the app stays fast; a big list shows its progress.
+
+| Plan | Coins per scan | New scans a day |
+| --- | --- | --- |
+| Free | top 20 | 1 |
+| Free + FOM Hold | top 30 | 2 |
+| Free + FOM Lock | top 50 (+ gold, oil, stocks) | 3 |
+| Pro | top 100 | 30 |
+| Pro + FOM Lock | top 150 | 60 |
+| Institutional | all (up to 300) | unlimited |
+
+### 🧪 Measure this indicator
+
+<figure><img src=".gitbook/assets/shot-qscreener-indicator-measure.jpg" alt="Measure this indicator result — the verdict word, discovery and unseen results after costs and beyond drift, and the segment map by side, BTC regime, coin group and timeframe"><figcaption><p>Measure: your condition as entries on many coins, judged on a part of history it never saw.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-qscreener-indicator-segments.jpg" alt="Where it works — and where not: segments by side, BTC regime, coin group and timeframe with unseen trades, average after costs, beyond drift, 95% range, win rate and status"><figcaption><p>The segment map: where the condition held on the unseen part and where it did not.</p></figcaption></figure>
+
+**Measure** tests **your own condition** on many coins and up to 1,500 closed candles each (switch **Scan coins → Measure**, or ⋯ → **Measure this indicator** on the chart).
+
+* **Entries**: long and / or short when your condition becomes true on a closed candle; filled at the **open of the next candle**. One position per coin and side.
+* **Exits — only yours**: **Hold N candles**, **Stop / target %** (+ close after N candles) or **Exit condition**. Formion never adds a stop or a target. Fixed holds of 1, 6 and 24 candles are shown as a **control**.
+* **Costs**: 7 bps per side by default (fee + slippage), you can change it.
+* **Unseen part**: the last 40 % of the time span is kept aside and judged only at the end.
+* **Beyond drift**: each trade minus the coin's own average move with the same exit (did the condition add anything?).
+* **Where it works — and where not**: segments by **side × BTC regime** (BTC above / below its EMA 200) **× coin group × timeframe**. A segment counts only if the older part chose it and it then held on the unseen part after a correction for testing many segments.
+* **Best right now**: the segments that held up in **today's** BTC regime.
+* **Look-ahead check**: the indicator is recomputed from only the candles that existed at four points in time; if the answer changes, the measurement is **refused** — the script peeks into the future or repaints.
+* **Result word**: **Keep refining** (does not make money on the unseen part after costs), **Market-driven** (only as good as the coins moved on their own) or **Collecting data** (too few trades, not strong enough yet, or segments that held — the next proof is new candles). Never a promise.
+* Every result has its own link; FORA can start a measurement and read the result for you.
+
+| Plan | Measurements a day | Coins | Timeframes |
+| --- | --- | --- | --- |
+| Free, Free + FOM Hold | — | — | — |
+| Free + FOM Lock | 1 | 10 | 1 |
+| Pro | 3 | 30 | 2 |
+| Pro + FOM Lock | 5 | 40 | 3 |
+| Institutional | 10 | 60 | 3 |
+
 ## 🧾 What the screener is and isn't
 
 **It is** a clear, live map of which markets trend, how strongly and for how long — measured context you can read in seconds. **It isn't** an entry signal: a trend call, its strength and its phase are a **Context signal**.
