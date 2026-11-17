@@ -24,6 +24,10 @@ flowchart LR
 * **🧠 AI Agent** — describe what you want in plain language (e.g. "an RSI strategy on BTC 4h") and the agent maps it to a built-in template, backtests it on live candles, charts the BUY/SELL markers with win rate and gives you the equivalent Pine Script. You can send the result to a paper agent or export it to TradingView.
 * **🤖 Strategy Finder** — enter **just a symbol** (crypto from Binance/Bybit, or forex, metals and indices from cTrader). It scans regimes, Wyckoff phases and sessions, then brute-forces a strategy grid (RSI, Z-RSI, EMA cross, Bollinger touch, breakout entries × stop and R:R variants) with a locked holdout and a walk-forward check — net of fees and funding, compared with HODL.
 
+{% hint style="info" %}
+Indicators work the same way: test any indicator against random entries in **Indicator Lab** (app.formion.ai/my-indicators), and let your own TS or Pine indicators read Formion data such as `ctx.swarm`, `ctx.pe` and `ctx.calls` — see **[Chart Indicators → Build your own](chart-indicators.md#build-your-own-indicator-lab-fora-and-ctx-data)**.
+{% endhint %}
+
 ## Test before you trust
 
 Backtests report win rate, profit factor, expectancy, max drawdown and an equity curve, with your fee setting applied. **Compare** puts catalog strategies side by side. The separate Strategy Lab **Backtest** report and **Brute force** sweep tabs are marked **Soon**. Keep the optimisation window separate from validation and forward-test the selected candidate.

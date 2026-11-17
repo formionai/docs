@@ -11,6 +11,7 @@
 * [🖥️ Trading Terminal — The App](the-app.md)
   * [📈 Quantum Screener](screener.md)
   * [📊 Chart Pro — Quantum Terminal](chart-pro.md)
+    * [🎛️ Chart Indicators](chart-indicators.md)
   * [🌊 Order Flow & Microstructure](order-flow.md)
   * [🔁 DEX & On-chain Trading](dex-trading.md)
   * [👛 Formion Wallet](wallet.md)

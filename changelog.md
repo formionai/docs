@@ -15,6 +15,49 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 16 November 2026
 
+### Chart Pro — Formion indicators gallery
+
+* New **Formion indicators** button on the chart: a gallery of cards with an on / off switch, a status and **Customize with FORA**.
+* Ready-made indicators: **Volatility Ahead**, **Pulse Consensus**, **Swarm Verified Calls**, **Smart Money Flow**, **Rotation Meter**, **Positioning Heat**.
+* Market Bias, Liquidation pressure and Events are switched on from the same gallery.
+* No buy / sell signals and no levels of ours; statuses **Collecting data** and **Context signal**.
+* Details: [Chart Indicators](chart-indicators.md)
+
+### Chart Pro — Market Bias on the chart
+
+* The market-wide state as day bands behind the candles: Long bias, Short bias, Transition, Range.
+* The ⓘ card shows the state, how many detectors agree and since when.
+* Optional strip **Alt index vs BTC**; **Stale** tag when data is older than 12 h.
+* Lags turns by about 1–2 weeks, not an entry signal — **Context signal**.
+* Details: [Chart Indicators → Market Bias layer](chart-indicators.md#market-bias-layer)
+
+### Chart Pro — indicator styles and settings
+
+* Plot styles: line, step, area, histogram, columns, circles, cross; a colour per candle.
+* Background per candle (also on the price chart), candle colours, own candles, labels, lines, boxes and a table.
+* Legend chip ⋯ menu: **Settings**, **Move to price chart / own pane**, **Highlight on price chart**, **Hide**.
+* Settings tabs **Inputs**, **Style**, **Placement**, **Highlight** — saved on your account.
+* Details: [Chart Indicators → Indicator styles](chart-indicators.md#indicator-styles)
+
+### Chart Pro — Pulse indicators
+
+* Gallery section **Pulse**: Pulse Consensus, Pulse Trader, Pulse Levels, Pulse Pending Setups, Pulse Activity, Pulse Outcomes.
+* Only the traders' own levels, clock from activation, public posts only.
+* One set of settings for all of them, incl. **Hide levels farther than %** (default 50 %).
+* Pulse Consensus adds a **Top traders line (N)** and **Markers on flip**.
+* Status **Collecting data**.
+* Details: [Chart Indicators → Pulse indicators](chart-indicators.md#pulse-indicators)
+
+### Indicator Lab — ctx.swarm, ctx.pe and Pulse data
+
+* New data sources for your own indicators and strategies:
+  * `ctx.swarm(mode, opts)` — Swarm calls (net, count, top, signal, level), Formion AI included.
+  * `ctx.pe('move' | 'label')` — Volatility Ahead (BTC and gold).
+  * `ctx.calls('*', { field: 'consensus' })` — Pulse Consensus.
+* TS plot styles (`colors`, `bg`, `barColors`, `labels`, `lines`, `boxes`, `table`, `onPrice`, `pane`) and Pine `plot.style_*`, `bgcolor(force_overlay)`, `barcolor`, `plotcandle`.
+* Pine `label.new` / `line.new` / `box.new` / `table.new` are not supported — use TS.
+* Details: [Chart Indicators → Build your own](chart-indicators.md#build-your-own-indicator-lab-fora-and-ctx-data)
+
 ### Performance panels — Filters explained
 
 * New docs section **Filters** for the bar above every Performance panel.

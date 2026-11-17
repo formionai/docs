@@ -135,6 +135,10 @@ X Lens on Institutional no longer needs FOM. The Institutional **exchange positi
 Pulse reads what people *say*. It is a sentiment and research tool, not a signal to act on blindly — pair it with your own analysis before trusting any voice.
 {% endhint %}
 
+## On the chart
+
+Pulse also draws on [Chart Pro](chart-pro.md): the **Formion indicators** gallery has a **Pulse** section with **Pulse Consensus**, **Pulse Trader**, **Pulse Levels**, **Pulse Pending Setups**, **Pulse Activity** and **Pulse Outcomes**. They show only the traders' own levels, count a call from activation, use public posts only and share one set of settings (traders, sources, style, min closed plans…). Status: **Collecting data**. Details: **[Chart Indicators → Pulse indicators](chart-indicators.md#pulse-indicators)**.
+
 ## Use Pulse with the current workspace
 
 Open a [trader profile](pulse-trader-profile.md) for the full record of one trader. Compare narrative context with [News and macro events](news.md), ask [FORA](fora.md) to explain the market context, and review trader calls in [Swarm](swarm.md). Pulse sentiment is an analytical input, not an instruction to execute.

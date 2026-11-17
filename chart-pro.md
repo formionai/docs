@@ -105,6 +105,12 @@ Automatic support and resistance zones with the number of touches, plus your own
 
 More in the grid: Stoch RSI, Williams %R, ATR, ADX, IFVG, Mitigation Blocks, Geo levels, Weekend Gaps, Net Delta, Bid/Ask imbalance, Trades, Liquidations and the **Order Flow Suite**.
 
+### Formion indicators, Pulse and indicator styles
+
+Next to the grid, the **Formion indicators** button opens a gallery of indicators built on Formion's own data — **Volatility Ahead**, **Pulse Consensus**, **Swarm Verified Calls**, **Smart Money Flow**, **Rotation Meter**, **Positioning Heat** and six **Pulse** indicators that draw followed traders' own entries, stops, targets and outcomes. The **Market Bias** layer paints the market-wide state as day bands behind the candles. Every custom indicator can be restyled, moved onto the price chart or highlighted from its legend chip — no code.
+
+Everything about them — what each one measures, its status, the settings and how to build your own — is on **[Chart Indicators](chart-indicators.md)**.
+
 ## Chart tools
 
 Every extra layer has its own button in the tools row above the chart — never on top of the candles — and whatever you open appears **above** the chart.
@@ -121,6 +127,8 @@ Every extra layer has its own button in the tools row above the chart — never 
 | **Voice** | Talk to FORA about the chart you are looking at |
 | **Next event** | Countdown to the next key US release |
 | **Chart settings** | Candle colours, background, watermark, panels under the chart |
+| **Market Bias** | Market-wide long / short / range state as day bands behind the candles (see [Chart Indicators](chart-indicators.md#market-bias-layer)) |
+| **Formion indicators** | Gallery of Formion and Pulse indicators with an on / off switch each (see [Chart Indicators](chart-indicators.md)) |
 | **CVD divergences** | Marks where price and spot/perp CVD disagree |
 | **Liquidation pressure** | Where leveraged positions would be forced out |
 | **Events** | Key US economic releases on the time axis |
@@ -244,7 +252,7 @@ The **Constructor** tab (Chart Pro → Constructor) is a dockable, resizable mul
 
 ## User Indicator Studio
 
-Upload your own **Pine scripts** and render them on the chart — a Pine-subset compiler handles common scripts, with an AI translation fallback for the rest; both run through the same sandboxed pipeline. Your custom indicators appear in **My indicators**.
+Upload your own **Pine scripts** and render them on the chart — a Pine-subset compiler handles common scripts, with an AI translation fallback for the rest; both run through the same sandboxed pipeline. Your custom indicators appear in **My indicators**. Plot styles, colours per candle, backgrounds, drawings, tables and the **Settings** window (Inputs / Style / Placement / Highlight) are explained in **[Chart Indicators](chart-indicators.md#indicator-styles)**.
 
 {% hint style="info" %}
 Open any **[Screener](screener.md)** row straight into Chart Pro to go from "this scored well" to "here's exactly where I'd enter" in one click.

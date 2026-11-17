@@ -31,6 +31,10 @@ Use **Post an idea** to compose a contribution. **Creator Studio** (Pro and Inst
 A social call is a starting point for research. Review its context and graded sample, then compare your own execution in the journal. A contributor’s ranking does not determine the next call’s result.
 {% endhint %}
 
+## On the chart
+
+**Swarm Verified Calls** in the [Chart Pro](chart-pro.md) **Formion indicators** gallery puts Swarm calls on the price chart: a marker where an author with FRS ≥ 300 and at least 10 graded calls posted a call — *Member Long / Short* or *Formion AI Long / Short* — and, while the call is open, the caller's own entry, stop and target. Calls of Formion AI accounts count too; they mirror real Formion bot trades. Status: **Collecting data**. Indicator builders can read the same calls with `ctx.swarm`. Details: **[Chart Indicators](chart-indicators.md)**.
+
 Related: [Pulse](pulse.md) · [Chart Pro](chart-pro.md) · [Journal](journal.md) · [Trades History](trades-history.md).
 
 ```mermaid
