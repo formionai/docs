@@ -4,6 +4,15 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 17 November 2026
 
+### Chart indicators — Pine drawings: labels, lines, boxes, tables
+
+* Pine scripts can now draw: `label.new`, `line.new`, `box.new`, `table.new`, `linefill.new`.
+* Script logic too: `var`, `:=`, `if / else`, `switch`, `for`, your own functions and arrays.
+* `request.security` for the same symbol and a higher timeframe — closed candles only, no look-ahead.
+* Pine limits kept: 50 objects of each kind by default, at most 500; tables up to 12 × 6.
+* Works on both engines, Swift and Velocity.
+* Details: [Chart Indicators → Drawings in Pine](chart-indicators.md)
+
 ### Options — SOL, HYPE and Gold for everyone
 
 * SOL, HYPE and Gold (XAUT) options are now on every plan, next to BTC and ETH.

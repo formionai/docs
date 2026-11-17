@@ -200,8 +200,36 @@ plotcandle(open, high, low, close, "Own candles", color = close > open ? color.t
 
 Also supported: `plot.style_area`, `plot.style_circles`, `plot.style_cross`, `plot.linestyle_dotted`, `color.new(c, transparency)`, `color.rgb(r, g, b, t)`, colour variables, `plotbar`, and `na` as a gap. Pine `input.int` / `input.float` / `input.bool` fields show up in the **Inputs** tab with their titles and min / max / step.
 
+
+### Drawings in Pine — labels, lines, boxes, tables
+
+Pine scripts can now draw on the chart, the same as TS indicators, on both engines:
+
+* `label.new`, `line.new`, `box.new`, `table.new` + `table.cell`, `linefill.new` (a zone between two levels).
+* Change and remove them: `label.set_*`, `line.set_*`, `box.set_*`, `*.delete`, `*.get_*`, `chart.point`.
+* Script logic: `var`, `:=`, `+=`, `if / else if / else`, `switch`, `for` loops, your own functions (`f(x) => …`), arrays (`array.new_line()`, `push`, `shift`, `get`, `size` …).
+* Positions: `xloc.bar_index` or `xloc.bar_time`, `yloc.abovebar` / `belowbar`, text with `str.tostring` / `str.format`.
+* Pine limits are kept: `max_labels_count` / `max_lines_count` / `max_boxes_count` (default 50, at most 500 each — the oldest goes first), a table shows at most 12 rows × 6 columns.
+
+```pine
+//@version=5
+indicator("Pivot labels", overlay=true, max_labels_count=100)
+ph = ta.pivothigh(high, 5, 5)
+var line last = na
+if not na(ph)
+    label.new(bar_index - 5, ph, "PH " + str.tostring(ph, "#.##"), style=label.style_label_down)
+    line.delete(last)
+    last := line.new(bar_index - 5, ph, bar_index, ph, extend=extend.right, style=line.style_dashed)
+var table t = table.new(position.top_right, 2, 1)
+if barstate.islast
+    table.cell(t, 0, 0, "Close")
+    table.cell(t, 1, 0, str.tostring(close, format.mintick))
+```
+
+**Higher timeframe:** `request.security(syminfo.tickerid, "D", close)` works for the same symbol and a higher timeframe (minutes, `D`, `W`, `M`). It uses only **closed** higher-timeframe candles, so a value never comes from the future; the still-forming day / week is not used.
+
 {% hint style="warning" %}
-Not supported in Pine: `label.new`, `line.new`, `box.new` and `table.new`. Use TS for drawings and tables — FORA does this for you when you ask in words.
+Not supported yet: user types (`type`, `method`), `import` of libraries, `while` loops, `matrix` / `map`, and `request.security` on another symbol or a lower timeframe. The editor names the line it cannot read. A very heavy script runs on the most recent candles only, so the chart stays fast.
 {% endhint %}
 
 Related: [Chart Pro](chart-pro.md) · [Formion Pulse](pulse.md) · [Swarm](swarm.md) · [FORA](fora.md) · [Strategy Lab](strategy-lab.md)
