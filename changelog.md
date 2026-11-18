@@ -2,6 +2,16 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 18 November 2026
+
+### Chart Pro — full Pine scripts, other symbols and libraries
+
+* Pine now runs your own types and methods, `while` loops, `map`, `matrix`, `enum` and `runtime.error`.
+* `request.security` reads **other symbols** and **lower timeframes** — only closed candles, from Formion's own feed.
+* `import` of 63 public TradingView libraries from the Formion library catalog.
+* 30 of 30 popular public TradingView drawing scripts now run on both chart engines.
+* Details: [Chart Indicators → Drawings in Pine](chart-indicators.md)
+
 ## 17 November 2026
 
 ### Quantum Screener — Indicator scan and Measure this indicator

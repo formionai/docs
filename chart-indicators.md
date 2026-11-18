@@ -292,10 +292,14 @@ if barstate.islast
     table.cell(t, 1, 0, str.tostring(close, format.mintick))
 ```
 
-**Higher timeframe:** `request.security(syminfo.tickerid, "D", close)` works for the same symbol and a higher timeframe (minutes, `D`, `W`, `M`). It uses only **closed** higher-timeframe candles, so a value never comes from the future; the still-forming day / week is not used.
+**Other timeframes and symbols:** `request.security` works for the chart's own symbol on a higher **or lower** timeframe (minutes, `D`, `W`, `M`) and for **another symbol** (for example `"BINANCE:ETHUSDT"` or `"AMEX:SPY"`). It reads only **closed** candles of that series, so a value never comes from the future. A lower timeframe gives the last closed intrabar; `request.security_lower_tf` gives all intrabars of the candle as an array. The candles come from Formion's own market feed — if the feed has no data for a symbol or period, the value stays empty (`na`), it is never guessed.
 
-{% hint style="warning" %}
-Not supported yet: user types (`type`, `method`), `import` of libraries, `while` loops, `matrix` / `map`, and `request.security` on another symbol or a lower timeframe. The editor names the line it cannot read. A very heavy script runs on the most recent candles only, so the chart stays fast.
+**Full Pine language:** your own types (`type`, fields with defaults, `Type.new()`), `method`, `while` loops, `map` and `matrix`, `enum`, `runtime.error`, `timeframe.*` and time functions are supported too.
+
+**Libraries:** `import Author/Library/Version` works for the libraries in the **Formion library catalog** — 63 popular public TradingView libraries (for example `PineCoders/VisibleChart`, `TradingView/ta`, `HoanGhetti/SimpleTrendlines`, `TradersReality/Traders_Reality_Lib`, `boitoki/Utilities`), each compiled and checked function by function. A script never downloads anything; a library that is not in the catalog is named in the editor.
+
+{% hint style="info" %}
+Not supported yet: `strategy.opentrades` / `strategy.closedtrades`, `request.financial` / `request.economic` / earnings / dividends, and seconds timeframes. Curved `polyline` shapes are drawn with straight segments. The editor names the line it cannot read. A very heavy script runs on the most recent candles only, so the chart stays fast.
 {% endhint %}
 
 Related: [Chart Pro](chart-pro.md) · [Formion Pulse](pulse.md) · [Swarm](swarm.md) · [FORA](fora.md) · [Strategy Lab](strategy-lab.md)
