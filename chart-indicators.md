@@ -152,7 +152,7 @@ Every custom indicator has a chip in the **legend** at the bottom left of the pr
 * **Highlight on price chart…**;
 * **Hide from the chart**.
 
-<figure><img src=".gitbook/assets/shot-chart-indicators-menu.jpg" alt="Legend chip menu: Settings, Create alert, Create bot from this indicator, Move to price chart, Highlight on price chart, Hide from the chart"><figcaption><p>The ⋯ menu on a legend chip.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/shot-chart-indicators-menu.jpg" alt="Legend chip menu: Settings, Create alert, Create bot from this indicator, Ask FORA about this indicator, Scan all coins, Measure this indicator, Move to price chart, Highlight on price chart, Hide from the chart"><figcaption><p>The ⋯ menu on a legend chip.</p></figcaption></figure>
 
 **Settings** opens a window with four tabs. Your choices are saved per indicator on your account.
 
