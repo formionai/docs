@@ -198,6 +198,36 @@ Every indicator on the chart can send you an alert or run a bot — Formion indi
 * **Run backtest**: up to 5,000 candles, commission and slippage, an in-sample / out-of-sample split and stress tests. The result says **Keep refining** (it loses on the unseen part after costs) or **Collecting data** (too few trades, or positive — the paper bot on new candles decides).
 * Live trading is switched on later on the [Bots](bots.md) page, within your plan's live-bot limit and only after you confirm.
 
+### Combine conditions from several indicators
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-combo.jpg" alt="Create alert with two conditions: Pulse Consensus net long − short % turns positive AND Crowding Risk score is below 1.5, within the last 3 candles"><figcaption><p>Two indicators in one alert: All (AND) inside the group, within the last 3 closed candles.</p></figcaption></figure>
+
+An alert or a bot can wait for several things at once — for example "RSI below 30 **and** Pulse Consensus turns positive within 3 candles".
+
+1. In **Create alert…** or **Create bot from this indicator…**, press **Add condition** under the first condition.
+2. Each row = an **indicator on this chart** (up to 4 different ones, same symbol and timeframe) + its plot + a condition.
+3. Inside a group choose **All (AND)** or **Any (OR)**. **Add group** for a second group; between groups again All / Any (up to 4 groups, 12 conditions).
+4. **Within last N candles** (1–50): each condition counts if it was true on any of the last N closed candles. 1 = all on the same candle.
+
+* Judged on the server at every candle close, with the same plots the chart draws. A combination fires exactly when the AND / OR of the single conditions is true.
+* The preview shows how often the **combination** would have fired on the last closed candles, and how often **each condition alone** would have — past behaviour, not a forecast.
+* In a bot, long / short entries and exits can each be a combination. Every indicator runs with its own settings; stop, target and size are still only yours. Bots use TS indicators (ask FORA to convert a Pine script first).
+* FORA can set one from a sentence: "alert me on BTC 1h when RSI is below 30 and Pulse Consensus turns positive within 3 candles".
+* A combination of context indicators is still context — not a verified trade signal.
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-check.jpg" alt="Server preview: how often the combination would have fired on the last 499 closed candles, and how often each condition alone"><figcaption><p>The server preview: the combination, and each condition alone — past behaviour, not a forecast.</p></figcaption></figure>
+
+### Ask FORA about this indicator
+
+<figure><img src=".gitbook/assets/shot-chart-indicators-ask-fora.jpg" alt="FORA explains Pulse Consensus on BTC 1H: value now, one and five candles back, last markers, measured status Context signal"><figcaption><p>Ask FORA: the indicator's own values now and a few candles back, its markers and its measured status — no levels of ours.</p></figcaption></figure>
+
+Open the ⋯ menu on an indicator's legend chip → **Ask FORA about this indicator** (or the FORA button in its Settings).
+
+* FORA opens and explains what the indicator shows **right now**: the server computes it on the chart's closed candles (every value now and a few candles back, the newest markers, backgrounds, levels).
+* For a Formion indicator FORA also gives its **measured status** (Verified / Collecting data / Context signal / Keep refining); your own indicators are "not measured by Formion".
+* FORA uses only those numbers: no made-up level, entry, stop or target, and no promise of profit. For Pulse indicators every level is the followed trader's own.
+* The answer is in your language. Each question is a normal FORA message (it counts toward your plan's daily FORA allowance).
+
 ### Scan all coins and Measure this indicator
 
 * **Scan all coins** (⋯ menu) opens the [Quantum Screener → Indicator scan](screener.md) with this indicator: the same alert conditions, judged on the last closed candle of every coin, with a table of the matches and **Create alert for all matches**.

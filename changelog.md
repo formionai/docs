@@ -4,6 +4,15 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 18 November 2026
 
+### Chart Pro — combined indicator alerts and bots, Ask FORA about an indicator
+
+* **Add condition** in Create alert / Create bot: up to 4 indicators of the chart, groups with **All (AND)** / **Any (OR)**, 12 conditions.
+* **Within last N candles**: each condition counts if it was true on any of the last N closed candles.
+* Judged on the server at candle close; the preview shows how often the combination and each condition alone would have fired.
+* Bots: entries and exits can be combinations; stop, target and size stay yours; paper first.
+* New ⋯ menu item **Ask FORA about this indicator**: FORA explains the indicator's own values right now and its measured status — no made-up levels, uses your FORA allowance.
+* Details: [Chart Indicators → Alerts and bots from an indicator](chart-indicators.md)
+
 ### Chart Pro — full Pine scripts, other symbols and libraries
 
 * Pine now runs your own types and methods, `while` loops, `map`, `matrix`, `enum` and `runtime.error`.
