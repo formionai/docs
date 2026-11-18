@@ -101,6 +101,18 @@ Now under **Signals → Consensus**. Multi-signal confluence: symbols ranked by 
 
 * **Talos is counted once.** The Talos copy trades used to reach Consensus through two readers; they are now one family and one trade.
 
+### 🏁 Strength Rank — Classic · Visual
+
+**Strength Rank** (/screener/strength-rank) ranks every Bybit linear perp by trend strength (percentile, 100 = strongest). In the **Ranking** section a **Classic · Visual** switch sits above the table. **Visual** = **Strength race**: today's top 10 coins replayed day by day over the last 14 days (**Free: last 7 days**, same plan limit as Classic).
+
+* Each coin is a lane with its real logo; bar length = that day's strength percentile; lanes re-order by that day's strength.
+* A coin that climbed turns green with a glowing trail; a coin that fell fades red.
+* Days are marked **snapshot** (taken that day) or **rebuilt** (reconstructed later). The race plays once and rests on the newest day; **Replay** restarts it.
+
+<figure><img src=".gitbook/assets/shot-visual-strengthrace.jpg" alt="Strength Rank in Visual: strength race"><figcaption><p>Strength Rank → Visual: how today's top 10 got there, day by day.</p></figcaption></figure>
+
+Strength describes the trend — it is a **Context signal**, not an entry signal.
+
 ### ⭐ Watchlist
 
 The Watchlist is no longer part of the Screener: open it from your **account menu → Watchlist** (and **Watchlist Builder**). See **[Trading Terminal — The App](the-app.md)**.

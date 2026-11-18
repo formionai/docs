@@ -18,6 +18,17 @@ A live window into the largest Hyperliquid traders:
 * **HL TP/SL** — heatmap of the top whales' take-profit and stop-loss trigger orders per coin
 * **TP/SL Strats** — Formion's Hyperliquid strategy family (stop-hunt, TP-magnet fade and related plays), forward-tested on paper and tracked in **[Trade History](journal.md)**
 
+### 🎛️ HL Whales — Classic · Visual
+
+On **HL Whales** a **Classic · Visual** switch sits above the per-asset panel. **Classic** = the per-asset long/short table as before. **Visual** = **Liquidation radar** of the same answer (same window, same holders; nothing new is loaded):
+
+* Every open position is a dot: sector = coin, size = position value, **green = long**, **red = short**.
+* Distance from the centre = how far the current price is from that position's liquidation price (rings at 5 %, 15 %, 30 % and 300 %; the centre = at liquidation).
+* Positions without a liquidation price (enough margin) or further than 300 % are not drawn and are counted in the note.
+* A sweep beam lights the dots; the list shows the 8 positions closest to liquidation.
+
+<figure><img src=".gitbook/assets/shot-visual-hlradar.jpg" alt="HL Whales in Visual: liquidation radar"><figcaption><p>HL Whales → Visual: whale positions by coin and by distance to their liquidation price.</p></figcaption></figure>
+
 <figure><img src=".gitbook/assets/s2-smartmoney.jpg" alt="On-chain smart money"><figcaption></figcaption></figure>
 
 ## On-chain smart money

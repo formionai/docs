@@ -4,6 +4,17 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 18 November 2026
 
+### Visual mode — HL Whales, Multi-Exchange, Strength Rank and Wallet
+
+* New **Classic · Visual** switch for every user on every plan:
+  * **HL Whales** — Liquidation radar: whale positions by coin and distance to liquidation.
+  * **Data Hub → Multi-Exchange** — Exchange orchestra: OI, long/short, taker share and funding of every venue on one time window.
+  * **Quantum Screener → Strength Rank** — Strength race: today's top 10, day by day (Free: last 7 days).
+  * **Formion Wallet** — Portfolio flow: your holdings as orbs around the total value.
+* Same data as Classic, same plan limits; **Auto** still starts these panels in Classic.
+* Every Visual view is labelled **Context signal · not a signal**.
+* Details: [Settings](settings.md)
+
 ### Chart Pro — combined indicator alerts and bots, Ask FORA about an indicator
 
 * **Add condition** in Create alert / Create bot: up to 4 indicators of the chart, groups with **All (AND)** / **Any (OR)**, 12 conditions.

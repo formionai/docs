@@ -35,8 +35,19 @@ Data Hub panels can be shown two ways. A **Classic · Visual** switch sits above
 * **Liquidation Levels** — Magnet field and Cascade
 * **Liquidity Map** — Thermal flow ([details](liquidity-map.md))
 * **Order Book**, **DOM Pro**, **Walls**, **Order Flow** — Book through time, Breathing ladder, Walls as dams, Trade river + Live footprint ([details](order-flow.md))
+* **Multi-Exchange** — Exchange orchestra (below)
 
 <figure><img src=".gitbook/assets/shot-visual-liqmap.jpg" alt="Liquidation Levels in Visual: magnet field"><figcaption><p>Liquidation Levels → Visual: liquidation levels of every exchange as a magnet field next to the candles; sparks are real liquidations happening now.</p></figcaption></figure>
+
+### Multi-Exchange in Visual — Exchange orchestra
+
+On **Multi-Exchange** the switch sits above the charts. **Visual** draws the same answer for your coin, timeframe and venues as an **exchange orchestra** — four lanes on one time window, one line per exchange with its real logo:
+
+* **Open interest** as % change from the common start (the same start the Classic % view uses), so big and small venues share one scale.
+* **Long/short accounts ratio** (dashed line = 1), **taker buy share** and **funding** (8-hourly on most venues, hourly on Hyperliquid).
+* An exchange whose open interest moves against most of the others gets a ring.
+
+<figure><img src=".gitbook/assets/shot-visual-orchestra.jpg" alt="Multi-Exchange in Visual: exchange orchestra"><figcaption><p>Multi-Exchange → Visual: open interest, long/short, taker share and funding of every venue on one time window.</p></figcaption></figure>
 
 Every Visual view is labelled **Context signal · not a signal** — it shows where liquidity and liquidations sit, not where price will go.
 

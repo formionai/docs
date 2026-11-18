@@ -27,6 +27,10 @@ Above each supported panel there is a **Classic · Visual** switch. Your last cl
 * **Chart Pro** — the **Live edge** toolbar button: Live edge and Zone pass ([Chart Pro](chart-pro.md))
 * **Dossier** — the dimension scanner ([Dossier](dossier.md))
 * **Analytics** — the cockpit ([Analytics](analytics.md)) and SmartMoney money rivers ([Copy Trading & Whale Tracking](copy-trading.md))
+* **Data Hub → Multi-Exchange** — the exchange orchestra ([Data Hub](data-hub.md))
+* **HL Whales** — the liquidation radar ([Copy Trading & Whale Tracking](copy-trading.md))
+* **Quantum Screener → Strength Rank** — the strength race ([Quantum Screener](screener.md))
+* **Formion Wallet** — Portfolio flow on the overview ([Formion Wallet](wallet.md))
 
 ### A direct link
 

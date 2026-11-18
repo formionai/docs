@@ -177,6 +177,17 @@ The same tab also has **price alerts** (a % move, above or below a price), **inc
 * **Discover:** Formion trend and phase signals from Coins Hub, plus trending Solana tokens. Trending is not a recommendation.
 * **History:** your on-chain history with the value on the day of each movement. You can export it to CSV or PDF for bookkeeping.
 
+## Portfolio — Classic · Visual
+
+On the wallet overview a **Classic · Visual** switch sits above the portfolio chart. **Classic** = the portfolio chart as before. **Visual** = **Portfolio flow**, drawn only from what your wallet already shows (nothing new is stored):
+
+* Your total value as a rolling counter, with the 24 h change (today's amounts × the 24 h price move — not realised profit).
+* Each token is an orb with its real logo; size = value, rim green / red = 24 h up / down.
+* Comets = recent transactions sent from this device.
+* Small balances are summed as **Other tokens together**.
+
+<figure><img src=".gitbook/assets/shot-visual-wallet.jpg" alt="Formion Wallet in Visual: portfolio flow"><figcaption><p>Wallet → Visual: your holdings as orbs around the total value.</p></figcaption></figure>
+
 ## Gas in USDC and passkey account
 
 | Feature | What it does |
