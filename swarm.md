@@ -8,6 +8,18 @@
 
 Feed tabs include **Following**, **Global**, **Trending**, **Saved**, **Copied** and **Lists**. Header shortcuts lead to Profile, Chat, Rooms, Explore, Bookmarks, **My signals**, **Studio** and **Leaderboard**, alongside **Get verified** and settings controls. Cashtag and topic views help focus on an instrument or theme.
 
+## 🎛️ Classic · Visual — Swarm hive
+
+Under the page header a **Classic · Visual** switch opens the **Swarm hive**, drawn from the same data as the **Live on Swarm** rail (refreshed every 60 s):
+
+* Each hexagon = one symbol with its logo; green = only long positions, red = only short, amber = bots hold both sides. The mini bars count long and short positions; the corner number = positions on that symbol.
+* Symbols with the most positions sit in the middle; a new position lands with a ring, and a symbol with a position opened in the last 60 minutes breathes.
+* Chips under the hive = positions per bot.
+
+<figure><img src=".gitbook/assets/shot-visual-swarm-hive.jpg" alt="Swarm in Visual: swarm hive"><figcaption><p>Swarm → Visual: open and pending bot positions grouped by symbol.</p></figcaption></figure>
+
+Open or pending positions only — no results, no entry, stop or target — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Research a contributor or call
 
 1. Start in Global or Trending to discover posts, or Following for contributors you already follow.

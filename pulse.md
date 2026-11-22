@@ -54,6 +54,19 @@ Quantum Pulse adds measured records on top of the narrative: what the followed t
 
 Every followed trader also has a **[trader profile](pulse-trader-profile.md)**: the three numbers, what he gets right, how Formion would follow him, where we would exit, and a follower simulation with Spot | Perp, leverage, liquidation and funding.
 
+### 🎛️ Traders (v3) — Classic · Visual
+
+Above the trader board a **Classic · Visual** switch opens the **Trader & idea network**, drawn from the same answer as the board:
+
+* Left: one node per measured trader — green dot = **Verified**, accent = **Collecting data** — with his number of recent ideas.
+* Right: the 12 most named assets of their ideas (the rest as **Other**); the small bar = long vs short ideas.
+* A line joins a trader to each asset he posted about — thicker = more ideas, green = mostly long, red = mostly short.
+* A replay sends the newest 160 ideas in posting order (filled dot = measured idea, hollow = posted but not measured); **Replay** restarts it.
+
+On a plan without the full trader records only the trader nodes are drawn (the same lock as the board). It shows who talks about what — never an entry, stop, target or result; the measured results stay in the board — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
+<figure><img src=".gitbook/assets/shot-visual-pulse-network.jpg" alt="Traders (v3) in Visual: trader & idea network"><figcaption><p>Traders (v3) → Visual: which traders post about which assets; green mostly long, red mostly short.</p></figcaption></figure>
+
 ### Request removal / correction
 
 <figure><img src=".gitbook/assets/shot-pulse-removal.jpg" alt="Request removal or correction form: Trader, What should we do? (Remove my profile / Correct a reading), link to a post, email or X handle, message, Send request"><figcaption><p>The form opens in the page; no account is needed to send it.</p></figcaption></figure>

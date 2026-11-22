@@ -36,6 +36,8 @@ Above each supported panel there is a **Classic · Visual** switch. Your last cl
 * **Options** — Gamma landscape and the Options · Vol signal surface ([Options & GEX](options.md))
 * **Analytics** — Correlation, ETF Flows, Mechanical Recorder and Study ([Analytics](analytics.md)); HL Directory and HL Fills ([Copy Trading & Whale Tracking](copy-trading.md))
 * **Chart tools** — Multi-Chart and Constructor ([Chart Pro](chart-pro.md)), Indicator Lab ([Chart Indicators](chart-indicators.md)), Liquidity Lab → Confluence ([Strategy Lab](strategy-lab.md))
+* **Signals** — Consensus and Screener Radar ([Quantum Screener](screener.md)), Live Signals and My Alerts ([Alerts](alerts.md)), Telegram Signals ([Telegram Signals](telegram-signals.md)), Mechanical Live ([Analytics](analytics.md))
+* **Community and news** — Pulse Traders (v3) ([Formion Pulse](pulse.md)), Economic Calendar ([News 24/7 & Macro](news.md)), Swarm ([Formion Swarm](swarm.md))
 
 ### A direct link
 

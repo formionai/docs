@@ -4,6 +4,18 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 22 November 2026
 
+### Visual mode — signals, Pulse, news and Swarm
+
+* New **Classic · Visual** views for every user on every plan (9 panels):
+  * **Signals** — Consensus source vote, Live Signals comets, Telegram Signals channel → outcome, My Alerts bells.
+  * **Screener** — Radar preset rings, Mechanical Live market pulse strip.
+  * **Quantum Pulse** — Traders (v3) trader & idea network.
+  * **News** — Economic Calendar macro shock timeline.
+  * **Swarm** — Swarm hive of open bot positions.
+* Same data as Classic, same plan limits; **Auto** still starts these panels in Classic.
+* Every view is labelled **Context signal · not a signal** (Live Signals, Telegram Signals and Mechanical: **Collecting data · not a signal**).
+* Details: [Settings](settings.md)
+
 ### Visual mode — market data, derivatives and chart tools
 
 * New **Classic · Visual** views for every user on every plan (34 panels):

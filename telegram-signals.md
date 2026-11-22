@@ -44,6 +44,16 @@ Now you can answer the only question that matters: *is this channel actually pro
 ### 5. Live-track new signals
 Subscribe and Formion listens in real time — every new signal is parsed, de-duplicated and tracked from entry to outcome (won / lost), flowing straight into your unified **[Trades History](trades-history.md)** with the full analytics suite (equity curve, per-symbol, per-side, session and hour breakdowns).
 
+### 🎛️ Classic · Visual — Channel → comet → outcome
+
+Once the listener has loaded (**Refresh listener** or **Listen live**), a **Classic · Visual** switch appears at the top of the listener section. Visual draws the same rows as the **Live signals** list of your own connected groups:
+
+* Each channel is a node; every message flies out as a comet and lands on a time axis at the minute it was posted.
+* New entries (asset logo, triangle up = BUY, down = SELL) wait in **Open / waiting**, then slide to **Target hit**, **Stop hit** or **Expired** exactly as the live book booked them.
+* Rows the book does not count (duplicates, void, no fill) sit dimmed in **Not booked**; status updates are small sparks on the **Updates** strip.
+
+Outcomes are only what the live book measured (1-minute candles, gross, costs not modelled); no level is drawn — **Collecting data · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Manage tracking
 
 Subscribed groups appear in your tracked list. Review recent signal statuses and unsubscribe to stop monitoring.

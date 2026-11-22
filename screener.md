@@ -83,6 +83,16 @@ A market-wide **directional bias heatmap** across 5 timeframes (5m → 1d) with 
 
 30+ TradingView preset scans (movers, breakouts, trend shifts, volume…) rendered as signal cards, across crypto, forex, indices/CFDs and stock markets (US, Canada, UK, Germany, France, Japan, Hong Kong, India, Australia). Subscribe to a preset to be alerted on fresh matches.
 
+**Classic · Visual — Preset rings.** Visual draws exactly the cards of the current preset, market and page (one preset at a time):
+
+* Distance from the centre = RSI(14) — inside the inner ring under 30, middle ring 50, outside the outer ring over 70; cards without RSI sit on the dashed outer track.
+* Angle = rank by 24 h change, strongest gainer at 12 o'clock, then clockwise to the weakest; green = up, red = down, bigger dot = bigger 24 h move.
+* A sweep turns every 6 s and each dot pings as it passes.
+
+<figure><img src=".gitbook/assets/shot-visual-preset-rings.jpg" alt="Radar in Visual: preset rings"><figcaption><p>Radar → Visual: the preset’s cards placed by RSI (distance) and 24 h rank (angle).</p></figcaption></figure>
+
+Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it. A picture of what the preset matches right now — **Context signal · not a signal**.
+
 ### 🎯 Hunt
 
 <figure><img src=".gitbook/assets/s3-sc-hunt.jpg" alt="Hunt — top-down US-equities setup funnel"><figcaption><p>Hunt: market regime → top sectors → top industries → setup candidates.</p></figcaption></figure>
@@ -100,6 +110,16 @@ Now under **Signals → Consensus**. Multi-signal confluence: symbols ranked by 
 <figure><img src=".gitbook/assets/shot-consensus-status.jpg" alt="Consensus status note"><figcaption><p>The status note on the Consensus page: Context signal · Collecting data, votes counted per engine family, Talos counted once.</p></figcaption></figure>
 
 * **Talos is counted once.** The Talos copy trades used to reach Consensus through two readers; they are now one family and one trade.
+
+**Classic · Visual — Source vote.** Visual draws the same clusters as the cards: one half-circle ballot per symbol (desktop the first 12, phones 8), in the same order.
+
+* Each engine family is a vote dot — long votes fill the arc in green from the left, short votes in red from the right; the needle settles on the long share.
+* The label is the card's verdict: Strong long / Long / Mixed / Short / Strong short (Strong = 3+ families on one side, softly glowing).
+* The vote replays only when the family counts change (the page reloads every 90 s or on Refresh).
+
+<figure><img src=".gitbook/assets/shot-visual-consensus-vote.jpg" alt="Consensus in Visual: source vote"><figcaption><p>Consensus → Visual: one ballot per symbol; green long votes, red short votes.</p></figcaption></figure>
+
+Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it. Agreement is not a measured signal and no entry, stop or target is drawn — **Context signal · not a signal**.
 
 ### 🏁 Strength Rank — Classic · Visual
 

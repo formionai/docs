@@ -34,6 +34,15 @@ The **Signals** tab collects every provider's signals into one live feed, and **
 
 
 
+## 🎛️ Classic · Visual — Live Signals and My Alerts
+
+* **Signals → Live Signals** — **Signal comets**: the same rows as the list (same filters, newest 160 entries and exits) on a time axis — long lane on top, short below. Each signal lands at the minute it arrived; height in the lane = the confidence the provider itself reported. Filled dots = entries, rings = exits; a check or cross = the outcome the list paired from the same provider's exit within 14 days, a dash = closed without a win or loss. New signals from the live stream fly in at once. Labelled **Collecting data · not a signal** — not a recommendation or a measured provider result.
+* **Signals → My Alerts** — **Alert bells**: one bell per alert of this device (armed first, then the most recently fired) with the asset logo, type and state (Armed, Paused or Expired). A price alert shows its distance in % from the last checked price; others show how often they fired. The **Fires · last 7 days** strip replays every logged fire — the bell swings and rings as the sweep passes it. With no alert yet, the view says how to create one. Your own conditions, not signals of ours — **Context signal · not a signal**.
+
+<figure><img src=".gitbook/assets/shot-visual-signal-comets.jpg" alt="Live Signals in Visual: signal comets"><figcaption><p>Live Signals → Visual: long and short signals landing on a time axis; height = the provider’s reported confidence.</p></figcaption></figure>
+
+Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Current workflow
 
 Use alerts alongside [News](news.md), [Telegram Signals](telegram-signals.md) and your market views. An alert notification is distinct from an authorised trading action. Check the destination and rule before enabling it.

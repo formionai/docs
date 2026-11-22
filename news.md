@@ -14,6 +14,18 @@ The **News** hub combines scheduled economic releases, AI impact analysis, histo
 * **Crypto Calendar** — coin events when this view is available; the tab is hidden when unavailable.
 * **Crypto News Feed** — crypto headlines with freshness and availability information.
 
+## 🎛️ Economic Calendar — Classic · Visual
+
+Above the calendar list a **Classic · Visual** switch opens the **Macro shock timeline**, drawn from the same events and filters (Impact, Range, Measured):
+
+* One time axis over your Range: left of **Now** = prints already released, right = upcoming.
+* Each measured event is a pin; height = its measured typical 15-minute move of the currency basket vs a normal 15 minutes (1×–5×, since 2021). Red = Strong mover, accent = Moderate, muted = Calm; unmeasured events are small ticks.
+* The sweep sends a shock ring for every released measured print; the next event measured at 1.5× or more gets a countdown.
+
+<figure><img src=".gitbook/assets/shot-visual-news-shock.jpg" alt="Economic Calendar in Visual: macro shock timeline"><figcaption><p>Economic Calendar → Visual: measured reaction size of released and upcoming events.</p></figcaption></figure>
+
+The height is the historical typical size of the reaction — never a forecast of direction or of this print — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Prepare for an event
 
 1. Open Economic Calendar and select the day range and impact level relevant to your trading horizon.
