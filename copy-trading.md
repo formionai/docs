@@ -29,6 +29,15 @@ On **HL Whales** a **Classic · Visual** switch sits above the per-asset panel. 
 
 <figure><img src=".gitbook/assets/shot-visual-hlradar.jpg" alt="HL Whales in Visual: liquidation radar"><figcaption><p>HL Whales → Visual: whale positions by coin and by distance to their liquidation price.</p></figcaption></figure>
 
+### 🎛️ HL Directory and HL Fills — Classic · Visual
+
+* **HL Directory** — **Address galaxy**: one galaxy per role (Traders / KOL, Funds, Exchange / MM, Protocol / Infra, Deployers, Other); every star is one labelled address, bright stars had Hyperliquid leaderboard volume in the last 30 days (size = that volume). The side list links to each address's dossier. A role says who an address is, not whether it trades well.
+* **HL Fills** — **Fills waterfall**: the chosen window replayed in about 10 s; each order of labelled trader and fund wallets falls into its coin's column — green = long side, red = short side, filled drop = opening, ring = closing, size = notional. The pools show long vs short notional. Following these fills was measured and did not beat the round-trip cost.
+
+Same data as Classic, same plan limits; **Auto** starts these panels in Classic. **Context signal · not a signal**.
+
+<figure><img src=".gitbook/assets/shot-visual-hl-address-galaxy.jpg" alt="HL Directory in Visual: address galaxy"><figcaption><p>HL Directory → Visual: labelled Hyperliquid addresses grouped by role.</p></figcaption></figure>
+
 <figure><img src=".gitbook/assets/s2-smartmoney.jpg" alt="On-chain smart money"><figcaption></figcaption></figure>
 
 ## On-chain smart money

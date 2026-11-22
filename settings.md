@@ -31,6 +31,11 @@ Above each supported panel there is a **Classic · Visual** switch. Your last cl
 * **HL Whales** — the liquidation radar ([Copy Trading & Whale Tracking](copy-trading.md))
 * **Quantum Screener → Strength Rank** — the strength race ([Quantum Screener](screener.md))
 * **Formion Wallet** — Portfolio flow on the overview ([Formion Wallet](wallet.md))
+* **Quantum Screener** — Trends, Trend, Regime Detector, Bias Map, RSI / MACD / VWAP / EMA heatmaps, Zone Hunter, Hunt, Divergences, Patterns and Watchlist ([Quantum Screener](screener.md))
+* **Data Hub** — HL Perps, OI Surge, Funding & Arb (Desk and Spreads) and DEX Flow ([Data Hub](data-hub.md)); Order Flow print rain, Order Book depth canyon, Imbalance scales and the Liquidation scanner ([Order Flow](order-flow.md))
+* **Options** — Gamma landscape and the Options · Vol signal surface ([Options & GEX](options.md))
+* **Analytics** — Correlation, ETF Flows, Mechanical Recorder and Study ([Analytics](analytics.md)); HL Directory and HL Fills ([Copy Trading & Whale Tracking](copy-trading.md))
+* **Chart tools** — Multi-Chart and Constructor ([Chart Pro](chart-pro.md)), Indicator Lab ([Chart Indicators](chart-indicators.md)), Liquidity Lab → Confluence ([Strategy Lab](strategy-lab.md))
 
 ### A direct link
 

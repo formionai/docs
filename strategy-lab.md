@@ -34,6 +34,16 @@ Backtests report win rate, profit factor, expectancy, max drawdown and an equity
 
 <figure><img src=".gitbook/assets/s4-sl-backtest.jpg" alt="Backtest — symbol-level results"><figcaption><p>The Backtester — trades, win rate, expectancy and profit factor per symbol, with a whitelist of symbols that passed.</p></figcaption></figure>
 
+## 🎛️ Liquidity Lab → Confluence — Classic · Visual
+
+On **Confluence** (Strategies → Liquidity Lab) a **Classic · Visual** switch sits between the controls and the summary. **Visual** = **Confluence layers**, drawn from the same scan:
+
+* Four stacked layers over your lookback: **Slippage**, **Transfer of Contracts**, **Liquidation** and **Volume Delta** (green buy-side, red sell-side).
+* Each event puts a tick in every layer that broke its percentile threshold in that minute; taller = more times over the threshold. A pillar crosses the layers where every active layer spiked at once.
+* The top strip = price at each event, green when price was higher 60 minutes later, red when lower.
+
+It is an in-sample event study without costs — **Context signal · not a signal**, not a trade rule. Same plan limits as Classic; **Auto** starts it in Classic.
+
 ## Publish, subscribe & run
 
 <figure><video src=".gitbook/assets/clip-strategy-gate.mp4" title="Marketplace publish gate: fresh 365-day backtest and in-sample / out-of-sample checks"></video><figcaption><p>A strategy reaches the marketplace only after passing the publish gate.</p></figcaption></figure>

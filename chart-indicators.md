@@ -238,6 +238,10 @@ Open the ⋯ menu on an indicator's legend chip → **Ask FORA about this indica
 
 Indicators you write or FORA builds for you can read the same Formion data as the presets. A TS indicator is a function `indicator(candles, inputs, ctx)` that returns plots; every `ctx` call is aligned to each candle's close (no look-ahead). Test any indicator against random entries in **Indicator Lab** (**app.formion.ai/my-indicators**).
 
+### Indicator Lab in Visual — Indicator morph
+
+In **Indicator Lab** a **Classic · Visual** switch sits above the results. After you click **Test signals**, **Visual** draws the tested bars: the close and your indicator lines (own pane below when the indicator has one), green triangles = new long signals, red = new short signals. Re-run the same indicator after changing a setting and the old line **morphs** into the new one, so you see what the parameter changed. The real numbers (hit rate, forward returns vs random entries, repaint) stay in the results — the drawing is **Context signal · not a signal**, not a backtest result.
+
 ### Formion data sources
 
 | Call | What it returns |

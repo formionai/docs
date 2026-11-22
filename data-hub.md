@@ -51,6 +51,26 @@ On **Multi-Exchange** the switch sits above the charts. **Visual** draws the sam
 
 Every Visual view is labelled **Context signal · not a signal** — it shows where liquidity and liquidations sit, not where price will go.
 
+### More Visual views — derivatives, funding and DEX flow
+
+Each view below has a **Classic · Visual** switch. Visual draws the **same answer** the page already loaded — nothing new is fetched, and your plan limits are the same as in Classic. **Auto** (the default in [Settings → Visual mode](settings.md)) starts these panels in Classic; one click on **Visual** switches, and the panel remembers it.
+
+* **HL Perps** — **Live market map**: a treemap per Hyperliquid dex (Crypto, Macro & Equities); cell area = open interest, colour = 24 h change. An outline marks a crypto market whose funding runs at least 40 % APR away from its dex's neutral rate (amber = longs pay more, cyan = shorts pay).
+* **Movers → OI Surge** — **OI shockwaves**: the coins with the largest open-interest change as bubbles (size = open interest); green = buildup (more contracts), red = unwind (fewer contracts); rings grow with the change in contracts.
+* **Funding & Arb → Desk** — **Funding clock**: the top 8 pairs of your view on one clock face for the next 8 hours; every tick is a funding settlement of the long or short leg, green when it pays the position at today's rate, red when it costs. Net APR is the page's own number after the measured round trip — today's rates, not a forecast.
+* **Funding & Arb → Spreads** — **Spread bridges**: the six spot exchanges on a circle; bridges run from the exchange where a coin is cheapest to buy to the one where it is dearest to sell (thickness = 24 h volume). A dashed amber bridge = **verify same token**. A price gap is not a profit: fees, transfer time and closed withdrawals sit in between.
+* **DEX Flow** — **DEX rivers**: one river per chain (Solana, Base, Avalanche); every pool is a wave — taller = more 24 h volume, faster = busier last hour, green = more buy swaps, red = more sells. A swap count is not dollar flow.
+
+<figure><img src=".gitbook/assets/shot-visual-hl-perps-map.jpg" alt="HL Perps in Visual: live market map"><figcaption><p>HL Perps → Visual: open interest per market, coloured by the 24 h move.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-oi-shockwaves.jpg" alt="OI Surge in Visual: OI shockwaves"><figcaption><p>OI Surge → Visual: buildups (green) and unwinds (red) by contracts.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-spread-bridges.jpg" alt="Arbitrage in Visual: spread bridges"><figcaption><p>Spreads → Visual: from the cheapest ask to the highest bid between exchanges.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-dex-rivers.jpg" alt="DEX Flow in Visual: DEX rivers"><figcaption><p>DEX Flow → Visual: one river per chain, one wave per pool.</p></figcaption></figure>
+
+Every view is labelled **Context signal · not a signal**.
+
 ## Built-in scanners
 
 ```mermaid

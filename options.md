@@ -198,3 +198,16 @@ Formion runs an **in-house gamma engine** (computed from public option chains, r
 <figure><video src=".gitbook/assets/clip-options-gex.mp4" title="Dealer gamma — call/put walls, flip level, pinned vs trending"></video><figcaption><p>Long dealer gamma pins price near big strikes; short dealer gamma lets moves run. The flip level separates the two.</p></figcaption></figure>
 
 Gamma tells you where dealers are forced to hedge — i.e. where price gets pinned or where a move accelerates.
+
+### 🎛️ Classic · Visual — Gamma landscape and Signal surface
+
+Each view below has a **Classic · Visual** switch. Visual draws the **same answer** the page already loaded — nothing new is fetched, and your plan limits are the same as in Classic. **Auto** (the default in [Settings → Visual mode](settings.md)) starts these panels in Classic; one click on **Visual** switches, and the panel remembers it.
+
+* **Data Hub → Gamma** — **Gamma landscape**: the selected ticker's strike profile (±10 % around spot) as a terrain — hills = positive dealer gamma (tends to dampen moves, green), valleys = negative dealer gamma (tends to amplify moves, red). Flags mark the call wall, put wall and gamma flip; the cyan beacon is spot.
+* **Strategies → Options · Vol** — **Signal surface**: rows = the options signals that fired in your window, columns = 6 h … 3 d after; switch between **Avg return** and **Hit-rate**. Tiles with fewer than 5 samples are faded; the ★ marks the horizon Classic highlights. Samples are small — **Collecting data**, never a verified result.
+
+<figure><img src=".gitbook/assets/shot-visual-gamma-landscape.jpg" alt="Gamma in Visual: gamma landscape"><figcaption><p>Gamma → Visual: dealer gamma by strike as hills and valleys around spot.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-options-surface.jpg" alt="Options · Vol in Visual: signal surface"><figcaption><p>Options · Vol → Visual: average return or hit rate per signal and horizon.</p></figcaption></figure>
+
+Dealer positioning is context, not a direction — **Context signal · not a signal**.

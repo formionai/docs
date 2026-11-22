@@ -4,6 +4,19 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 22 November 2026
 
+### Visual mode — market data, derivatives and chart tools
+
+* New **Classic · Visual** views for every user on every plan (34 panels):
+  * **Quantum Screener** — Trends, Trend, Regime Detector, Bias Map, RSI / MACD / VWAP / EMA heatmaps, Zone Hunter, Hunt, Divergences, Patterns, Watchlist.
+  * **Data Hub** — HL Perps, OI Surge, Funding & Arb (Desk, Spreads), DEX Flow.
+  * **Order Flow** — print rain, depth canyon, Imbalance scales, Liquidation scanner magnet board.
+  * **Options** — Gamma landscape, Options · Vol signal surface.
+  * **Analytics** — Correlation, ETF Flows, Mechanical Recorder and Study, HL Directory, HL Fills.
+  * **Chart tools** — Multi-Chart, Constructor, Indicator Lab, Liquidity Lab → Confluence.
+* Same data as Classic, same plan limits; **Auto** still starts these panels in Classic.
+* Every Visual view is labelled **Context signal · not a signal** (studies still measured: **Collecting data**).
+* Details: [Settings](settings.md)
+
 ### FORA Neurons — you choose every Neuron, clear rules per plan
 
 * You start with no Neurons; nothing is added for you.

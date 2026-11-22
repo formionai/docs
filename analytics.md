@@ -45,6 +45,21 @@ At the top of the Analytics hub a **Classic · Visual** switch opens the **cockp
 
 Label: **Context signal · not a signal**. Default and on/off: [Settings → Visual mode](settings.md).
 
+## 🎛️ Classic · Visual — Correlation, ETF Flows and Mechanical
+
+Each view below has a **Classic · Visual** switch. Visual draws the **same answer** the page already loaded — nothing new is fetched, and your plan limits are the same as in Classic. **Auto** (the default in [Settings → Visual mode](settings.md)) starts these panels in Classic; one click on **Visual** switches, and the panel remembers it.
+
+* **Correlation** — **Correlation constellation**: every market a star; markets that move together sit close. Each pair is a line as thick as |r|, green = move together, red = move opposite; the reference symbol glows cyan. Correlation is not causation and changes with the regime.
+* **ETF Flows** — **Flow river**: official end-of-day spot-ETF net flows (BTC, ETH, SOL, HYPE) as a river — funds that took money in above the axis (green), funds that paid out below (red); the cyan line = running net sum. A day not published yet is a dashed empty slot, never $0.
+* **Mechanical → Recorder** — **Coverage matrix**: 30 days × 24 hours per timeframe; dim green = no gap over 30 minutes, coloured = inside a recorded gap. Pipeline health, not a market signal (same plan gate as Classic).
+* **Mechanical → Study** — **Study fan**: one card per score version × timeframe; the fan opens (**Study open**) only when the series is uniformly sampled — span ≥ 14 days, ≥ 95 % of slots filled, no gap over 2 h — otherwise **Study locked**. A data-readiness check — **Collecting data**, not a return.
+
+<figure><img src=".gitbook/assets/shot-visual-corr-constellation.jpg" alt="Correlation in Visual: correlation constellation"><figcaption><p>Correlation → Visual: markets that move together sit close; line thickness = |r|.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-etf-river.jpg" alt="ETF Flows in Visual: flow river"><figcaption><p>ETF Flows → Visual: daily net flows per fund as a river.</p></figcaption></figure>
+
+Flows and correlations are measured facts; what they mean for price is context — **Context signal · not a signal**.
+
 ## Mechanical board
 
 <figure><img src=".gitbook/assets/shot-mechanical-board.jpg" alt="Mechanical board — symbol, total score, bias and the nine inputs per row"><figcaption><p>The Mechanical board (Pro view, 1d): one row per symbol with the total score, the bias pill and the nine inputs. On Free the rows after the first 10 are locked.</p></figcaption></figure>

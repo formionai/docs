@@ -253,6 +253,43 @@ Below the Buy the dip performance a card **Missed trades (not filled)** shows wh
 The chart opens for every row your plan shows. Rows your plan does not include appear as blurred locked rows with the unlock options; their content is never sent to your browser. See **[Pricing & Tiers](pricing.md)** and **[FOM Hold vs Lock](fom-hold-vs-lock.md)**.
 
 
+## 🎛️ Classic · Visual — screener views
+
+Each view below has a **Classic · Visual** switch. Visual draws the **same answer** the page already loaded — nothing new is fetched, and your plan limits are the same as in Classic. **Auto** (the default in [Settings → Visual mode](settings.md)) starts these panels in Classic; one click on **Visual** switches, and the panel remembers it.
+
+* **Trends** (home page) — **Trend orbit**: the BTC daily regime in the core, every trending market a body with its logo on a ring by trend strength (inner ring 85+, outer under 60). Green = uptrend, red = downtrend; orbit speed = momentum percentile, size = the 24 h move; pulsing halo = fresh trend, dashed outline = exhausted.
+* **Trend** — **Trend pulse wall**: one tile per perp with its trend score (−100…+100, closed bars only); green long from +25, red short from −25, amber neutral. A strong trend pulses fast and deep, a weak one barely moves.
+* **Regime Detector** — **Regime barometer**: one dial per asset class (Crypto, Forex, Metals, Energy, Indices, Stocks & ETFs) from Bear through Distribution, Range and Accumulation to Bull; the needle = average trend bias of the class. Recent regime changes replay as trails. Regimes come from closed candles and arrive late by construction.
+* **Bias Map** — **Bias field**: the most-traded instruments × timeframes (5m … 1d); green long, red short, amber neutral, grey = no current read. Only tiles whose bias changed flip again on a refresh. Side boxes: long/short split per timeframe and the measured direction hit rate before costs (still collecting data).
+* **Heatmaps → RSI / MACD** — **Breathing heatmap**: one cell per market; green above neutral, red below, deeper = further from neutral; a solid ring = RSI ≥ 70 / ≤ 30 or a strong MACD histogram; a ripple = a fresh MACD signal-line cross. Click a cell to open its chart.
+* **Heatmaps → VWAP Bubble** — **Floating bubbles**: left–right = distance from the 24 h VWAP, up–down = 24 h change, size = 24 h volume, colour = funding sign. Dashed lines = ±1σ of all markets in view.
+* **Heatmaps → EMA Cloud** — **Trend cloud**: every perp placed against its own EMA 8/13/21/34/55 cloud (above all five, inside, below all five); colour = ribbon alignment score from +4 green to −4 red.
+* **Zone Hunter** — **Zone magnet**: one lane per setup; the magnet is the study's own zone or limit, the coin is the price at its real distance from it. Closer = stronger field; setups at the level glow. Every setup is an unproven paper study — **Collecting data**.
+* **Hunt** — **Hunt scope**: the stored daily US-stock snapshot as a funnel (market gate Go / Halt from SPY and QQQ, universe, liquid stocks, top sectors and industries, setups), then one card per candidate with its book status. A rule-built watchlist, not a buy signal.
+* **Divergences** — **Divergence draws itself**: for the selected divergence the candles and the detector's own indicator reveal bar by bar, then the price line and the indicator line A→B draw together — the slopes disagree, which is the divergence; the bars after pivot B show the move since.
+* **Patterns** — **Pattern draws itself**: the detector's reading replayed on the card's closed candles — touch points, pattern lines, breakout bar, then the rule's entry zone, stop and targets exactly as the detector returned them. **Ghosts of history**: our forward record of closed setups per pattern type × timeframe — green ghosts rise (closed in profit), red ghosts sink (closed at a loss), the bar = average R after costs. Both are **Collecting data**.
+* **Watchlist** — **Ticker wall**: every pair of your list as a board tile with logo, price, 24 h change, volume, a 24 × 1 h sparkline and the 1 h screener trend; tiles flip green or red when the price changes.
+
+<figure><img src=".gitbook/assets/shot-visual-market-galaxy.jpg" alt="Trends in Visual: trend orbit"><figcaption><p>Trends → Visual: markets orbit the BTC regime by trend strength; green uptrend, red downtrend.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-regime-barometer.jpg" alt="Regime Detector in Visual: regime barometer"><figcaption><p>Regime Detector → Visual: one dial per asset class from Bear to Bull.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-bias-field.jpg" alt="Bias Map in Visual: bias field"><figcaption><p>Bias Map → Visual: closed-bar bias of each instrument on every timeframe.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-heat-breathe-rsi.jpg" alt="RSI Heatmap in Visual: breathing heatmap"><figcaption><p>RSI Heatmap → Visual: the further from neutral, the deeper the colour and the faster the cell breathes.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-vwap-bubbles.jpg" alt="VWAP Bubble in Visual: floating bubbles"><figcaption><p>VWAP Bubble → Visual: distance from the 24 h VWAP against the 24 h change.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-trend-wall.jpg" alt="Trend in Visual: trend pulse wall"><figcaption><p>Trend → Visual: one breathing tile per perp with its trend score.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-hunt-scope.jpg" alt="Hunt in Visual: hunt scope"><figcaption><p>Hunt → Visual: the daily US-stock funnel and its candidates.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-divergence-draw.jpg" alt="Divergences in Visual: divergence draws itself"><figcaption><p>Divergences → Visual: price and indicator lines from pivot A to pivot B.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-patterns-draw.jpg" alt="Patterns in Visual: pattern draws itself"><figcaption><p>Patterns → Visual: the detector’s pattern, breakout and rule levels drawn on the candles.</p></figcaption></figure>
+
+Every view is labelled **Context signal · not a signal** (Zone Hunter and Patterns: **Collecting data · not a signal**) — a drawing of the table, never an entry, stop or target.
+
 ## 🔎 Details — trend chart and the three moments
 
 Click a row in the table, a card, or a phone row to open **Details** right below it. Chart Pro opens only from the chart button, so a click never takes you away from the list.

@@ -52,6 +52,19 @@ Every Order Flow and Order Book panel has a **Classic · Visual** switch above i
 **Context signal · not a signal.** A glowing wall, a spark or a bright band is a drawing of the data. Resting orders can be pulled at any time, so none of it is an entry, a stop or a target. Plan limits are the same as in Classic.
 {% endhint %}
 
+### More Visual views — print rain, depth canyon, imbalance and magnets
+
+* **Order Flow → Tape** — **Print rain**: one column per exchange with its real logo; every print at or above your minimum ($1K … $100K) falls as a drop — bigger = more dollars, green = aggressive buyer, red = aggressive seller. The pool bar at the bottom = buys vs sells of the last 60 seconds. Read in your browser, like the Classic tape.
+* **Order Book** — **Depth canyon**: each row is one snapshot of the multi-exchange book (every 5 s, about 3 minutes kept); wall height = resting dollars, bids green left, asks red right. A big wall that disappears before price reaches it is marked **Pulled**, a new one **New wall**.
+* **Order Book → Imbalance** — **Imbalance scales**: resting buy vs sell dollars inside your band as a balance; the beam swings to the current reading, then settles on the 5-minute average the table shows. A violet brick = a wall by the tab's rule.
+* **Liquidation Levels → Scanner** — **Magnet board** (open it with the **Scanner** button): one dial per coin with a strong liquidation cluster; the needle points up (green) to short liquidations above or down (red) to long liquidations below, longer = closer to price; a pulsing ring = within 2 %. Click a dial to open that coin on the map. Levels are model estimates, not orders.
+
+Same data as Classic, same plan limits; **Auto** starts these panels in Classic.
+
+<figure><img src=".gitbook/assets/shot-visual-imbalance-scales.jpg" alt="Order Book Imbalance in Visual: imbalance scales"><figcaption><p>Imbalance → Visual: bids against asks inside the band, per market.</p></figcaption></figure>
+
+Resting orders can be pulled at any time — **Context signal · not a signal**.
+
 ## ⚖️ Order Book — Imbalance and Walls
 
 <figure><img src=".gitbook/assets/shot-orderbook-views.jpg" alt="Data Hub → Order Book views: Book, DOM, Imbalance and Walls"><figcaption><p>Data Hub → Order Book: the four views.</p></figcaption></figure>

@@ -160,6 +160,15 @@ The **Live edge** button in the chart toolbar adds two calm effects on top of yo
 
 Zone pass works only while those layers are on; the button follows [Settings → Visual mode](settings.md) (Off hides it, Auto shows it on a desktop and starts off, On starts it on). **Context signal · not a signal** — a glow is a drawing of existing data, never an entry, stop or target.
 
+### Visual — Multi-Chart and Constructor
+
+* **Multi-Chart** — **Synchronised crosshair**: an extra panel above the grid with up to 4 symbols of your Multi-Chart panes at one timeframe (15m / 1h / 4h / 1d) and ONE crosshair for all; at the crosshair every chart shows that same bar's move. The biggest bar of the first chart is shaded on every chart. Bars moving together is a coincidence in time, not a cause.
+* **Constructor** — **Workspace snaps together**: your saved workspace drawn as tiles that fly in and snap onto their grid cells; the chart tile paints the last 48 one-hour candles of the workspace symbol. A picture of the layout — the live data runs in the Constructor below.
+
+Both follow [Settings → Visual mode](settings.md) (Auto starts them in Classic) and are labelled **Context signal · not a signal**.
+
+<figure><img src=".gitbook/assets/shot-visual-multichart-sync.jpg" alt="Multi-Chart in Visual: synchronised crosshair"><figcaption><p>Multi-Chart → Visual: one crosshair across every chart.</p></figcaption></figure>
+
 ## 🎯 Trade chart — status strip and Live
 
 When you open a trade from a table — the **Chart** button in a Performance journal, Zone Hunter, Patterns or Signal Desk — you get the same Formion chart with that trade's own levels and a **status strip** at the top.
