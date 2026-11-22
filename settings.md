@@ -38,6 +38,8 @@ Above each supported panel there is a **Classic · Visual** switch. Your last cl
 * **Chart tools** — Multi-Chart and Constructor ([Chart Pro](chart-pro.md)), Indicator Lab ([Chart Indicators](chart-indicators.md)), Liquidity Lab → Confluence ([Strategy Lab](strategy-lab.md))
 * **Signals** — Consensus and Screener Radar ([Quantum Screener](screener.md)), Live Signals and My Alerts ([Alerts](alerts.md)), Telegram Signals ([Telegram Signals](telegram-signals.md)), Mechanical Live ([Analytics](analytics.md))
 * **Community and news** — Pulse Traders (v3) ([Formion Pulse](pulse.md)), Economic Calendar ([News 24/7 & Macro](news.md)), Swarm ([Formion Swarm](swarm.md))
+* **Bots, strategies and backtests** — All Bots ([Bots & Automation](bots.md)); Backtest, My Strategies, Compare, Strategy Forge and DCA Backtest → Stocks ([Strategy Lab](strategy-lab.md)); Expectancy Map ([Analytics](analytics.md)); Zone Hunter → Trend Shift ([Quantum Screener](screener.md))
+* **Journal and trading** — Journal Trades ([Trading Journal](journal.md)), Trade Book ([Trades History](trades-history.md)), the Trade ticket ([The App](the-app.md))
 
 ### A direct link
 

@@ -12,6 +12,18 @@ The source tabs include **All Bots**, **cTrader**, **Research Ledger**, **AI Adv
 
 The workspace provides trade rows and statuses, equity and performance metrics, with available breakdowns by symbol, side, session or hour. Coverage depends on the source and recorded trades. An empty source is not evidence that a trade was placed and lost.
 
+## 🎛️ Trade book as a flow — Classic · Visual
+
+On the public bot tabs a **Classic · Visual** switch under the plan banner draws the same trades as the table (same tab and filters, same plan view). Only closed rows (won, lost, expired) are drawn:
+
+* A river in the order the trades closed (left = earliest — not a clock axis), one lane per source (the 4 busiest + **Other sources**).
+* One drop per trade: green = net result above 0, red = below, grey = flat or no net result; bigger drop = bigger net move in %.
+* Chips highlight one source; below, the running sum of net % per trade for that source (a sum of percentages, not account equity). When aggregate results are hidden for your view, the sum and net tiles are left out, exactly like Classic.
+
+<figure><img src=".gitbook/assets/shot-visual-tradebook-flow.jpg" alt="Trade Book in Visual: trade book as a flow"><figcaption><p>Trade Book → Visual: every closed trade as a drop in its source lane; green net above 0, red below.</p></figcaption></figure>
+
+Paper and demo books stay paper and demo — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Talos — our own account, counted once
 
 **Talos** (copy trading of a Binance Futures leader onto our Bybit account) appears once, under **Talos**. Its rows are the closed trades of **our own Bybit account**, read from the exchange's closed-P&L record: the leader's own Binance trades are never counted as ours, and the old separate "Norix Copy" view of the same trades is gone. The side shown is the side the trade was **opened** with (long or short) — exchanges log the closing order's side, which is the opposite. P&L is the exchange's realised P&L after fees. Trades on the same account that belong to other bots (MUSDT, gold) are not listed under Talos.

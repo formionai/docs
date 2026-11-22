@@ -44,6 +44,24 @@ On **Confluence** (Strategies → Liquidity Lab) a **Classic · Visual** switch 
 
 It is an in-sample event study without costs — **Context signal · not a signal**, not a trade rule. Same plan limits as Classic; **Auto** starts it in Classic.
 
+## 🎛️ Backtests and strategies — Classic · Visual
+
+Each of these Strategies pages has a **Classic · Visual** switch. Visual draws only the result the page already holds — nothing is re-run:
+
+* **Backtest** — **Backtest replay**: the saved nightly run of the screener's standard rule. Every symbol is one faint stepped string of cumulative **net %** after costs (green = ended above break-even, red = below); the replay sweeps the window in about 8 s and each symbol's end dot lands on the **Final net %** strip on the right. The symbol picked in the selector (by default the first in the run's list, not chosen by result) is drawn bold with its logo. **Context signal · not a signal**.
+* **My Strategies** — **Strategy cards**: one card per strategy of your own (desktop 12, phones 6) with the same verdict tag as Classic (**Not run**, **too few** under 10 out-of-sample trades, or **OOS ±x.xR**). The saved equity curve in R draws the in-sample part, then crosses into the shaded **out-of-sample** zone (the last 30 % of bars the optimiser never saw); a red **Repaints** tag marks a repainting run. **Collecting data · not a signal**.
+* **Compare** (My Strategies → Compare and Backtest → Compare, once a comparison has run) — **Equity race**: every curve on one time axis; the heads race forward with a moving date marker, a red shadow under each curve = its distance below its own running peak (drawdown), and the ranking at the side re-orders as they go, ending on the final values. Buy & hold and the out-of-sample zone appear when the run returned them. **Collecting data · not a signal**.
+* **Strategy Forge** (step 3 **Verdict**, after **Test strategy**) — **Forge anvil**: the account curve at your risk per trade is hammered out bar by bar, the walk-forward periods rise one by one (expectancy in R, green above 0, red below), then the six fixed checks are stamped with their measured values — Enough trades (≥ 40), Expectancy ≥ 0.10R, Profit factor ≥ 1.25, Max drawdown ≤ 15 %, Both halves profitable, Longest losing streak ≤ 8 — and the verdict lights up with the same words as Classic (**Verified**, **Collecting data**, **Keep refining**). Decided by fixed rules, not by a model.
+* **DCA Backtest → Stocks** — **DCA ladder**: the upper lane = realized P&L in $ stepping at every closed basket; below, every closed basket is a ladder from its first fill to its exit, as many rungs high as the fills it used (green = closed in profit, red = loss). The basket still open at the last bar is drawn in the warning colour, with a dashed drop to **Incl. open basket** (realized + its unrealized P&L) — DCA without a stop usually ends holding. Gross of fees. The Gold DCA page has no Visual view yet. **Context signal · not a signal**.
+
+<figure><img src=".gitbook/assets/shot-visual-backtest-replay.jpg" alt="Backtest in Visual: backtest replay"><figcaption><p>Backtest → Visual: every symbol’s cumulative net % after costs, with the final results on the right.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-equity-race.jpg" alt="Compare in Visual: equity race"><figcaption><p>Compare → Visual: the compared curves race on one time axis; the red shadow is each curve’s drawdown.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-dca-ladder.jpg" alt="DCA Backtest Stocks in Visual: DCA ladder"><figcaption><p>DCA Backtest → Stocks → Visual: realized P&amp;L above, one ladder per basket below; the open basket in amber.</p></figcaption></figure>
+
+A backtest describes past bars — not a signal and not a promise. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Publish, subscribe & run
 
 <figure><video src=".gitbook/assets/clip-strategy-gate.mp4" title="Marketplace publish gate: fresh 365-day backtest and in-sample / out-of-sample checks"></video><figcaption><p>A strategy reaches the marketplace only after passing the publish gate.</p></figcaption></figure>

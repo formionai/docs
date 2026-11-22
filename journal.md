@@ -21,6 +21,17 @@ The Journal is your own record of trades — from connected exchanges, webhook p
 The screenshots on this page use **sample data**: the closed positions of a public Hyperliquid wallet, loaded into a demo account. Your Journal shows only your own trades.
 {% endhint %}
 
+## 🎛️ Trades — Classic · Visual
+
+Above the Trades table a **Classic · Visual** switch opens the **Journal mirror**, drawn from the same rows and filters (account, status, side, symbol, tag). Only **closed** trades with a realized $ result and a close time are used — the same basis as the **PnL $** tile. They replay once in close order through four boxes:
+
+* A 6-week calendar of realized $ per day (UTC, Monday first) — green = net gain, red = net loss, grey = flat; darker = bigger day.
+* The running sum of realized $ (not account equity).
+* A histogram of P&L % per trade (red below 0, green from 0).
+* Three plain findings of this view: long vs short, median holding time of winners vs losers, best and worst symbol.
+
+The findings are plain averages of the rows shown — not the [Trading Audit](#trading-audit) and not a forecast — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Analytics
 
 The **Analytics** tab turns your history into charts — no setup needed.

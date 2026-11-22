@@ -235,6 +235,16 @@ Historically the same rule fired about **10 times in ~166 days**; the last signa
 * **Status:** every segment reads **Collecting data** until it has **30 rows over 14 days**; the forward book started on the day Trend Shift went live. The history before that was in-sample and **proved nothing** for any timeframe or side, so it is not used for the status.
 * Each row has a chart of the detection with the CHoCH level; click it for a large zoomable chart.
 
+**Classic · Visual — Trend shift replay.** Above **Shifts detected** a **Classic · Visual** switch replays one shift (the latest 12 as chips, with the section's filters) on its closed candles in about 9 s:
+
+* The old trend is shaded, the swing the close broke (**CHoCH** — the rule's only level) is marked, a dotted line marks the bar where the trend flipped and a pulse marks the detection close (with the volume ratio when volume confirmed).
+* An RSI divergence line appears only when the row has a divergence.
+* At the end every horizon shows the measured move after detection against the asset's own drift — the number Classic shows — or how many bars are left.
+
+<figure><img src=".gitbook/assets/shot-visual-tshift-replay.jpg" alt="Trend Shift in Visual: trend shift replay"><figcaption><p>Zone Hunter → Trend Shift → Visual: old trend, the broken swing (CHoCH), the flip and the detection close.</p></figcaption></figure>
+
+No entry, stop or target — **Collecting data · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 #### Reading the rows and the paper book
 
 * **Long / Short pill** — the side of a setup is always shown with the same pill and an icon (one shared pill across the app), never as bare text.

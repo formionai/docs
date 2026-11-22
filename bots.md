@@ -16,6 +16,18 @@ flowchart LR
   AN -.->|"learn & tune"| S
 ```
 
+## 🎛️ All Bots — Classic · Visual
+
+Above the Formion catalog grid a **Classic · Visual** switch opens the **Bot hangar**, drawn from the same cards (same category and pool filters, same order; desktop the first 18, phones 8):
+
+* One bay per bot: venue logos, name, pool tag (**Live** = real account, **Demo** = demo account, **Paper** = simulated fills), the card's all-time ROI (green above 0, red below), all-time P&L in $, closed trades and win rate.
+* The line is the bot's cumulative realised P&L from its card sparkline. It unrolls once (about 10 s) — each new point flashes the bay green when the book rose and red when it fell — then rests on the full curve; **Replay** restarts.
+* GPTBot bots keep their own book in R, so their bays point to the numbers on their cards below.
+
+<figure><img src=".gitbook/assets/shot-visual-bots-hangar.jpg" alt="All Bots in Visual: bot hangar"><figcaption><p>All Bots → Visual: one bay per bot with its all-time ROI and the realised P&amp;L curve of its card.</p></figcaption></figure>
+
+A past book is not a promise of future results — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## Build your own — Strategy Lab → Bots Hub → Marketplace
 
 <figure><video src=".gitbook/assets/clip-bots-lifecycle.mp4" title="Bot lifecycle: paper, demo, live, then Trade History"></video><figcaption><p>Every bot starts on paper, can be attached to a demo account, and goes live on your own account within your plan limit — all results land in Trade History.</p></figcaption></figure>

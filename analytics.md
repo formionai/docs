@@ -138,6 +138,17 @@ Rows with fewer than 10 results at 24h are grey (not enough data). With enough d
 
 **Plans:** Free sees the current 7-day window and the newest 10 rows of the Signal Stream; Pro and Institutional see every window and the whole stream.
 
+**Classic · Visual — Expectancy terrain.** Above the cohort table a **Classic · Visual** switch draws the same rows (same source filter and sort; desktop the first 14, phones 8):
+
+* One ridge per cohort, starting at the signal moment and following the **raw** mean price move at +1h, +4h and +24h — above the row's line = price rose on average (green when the 24h mean is positive), below = fell (red).
+* The tag on the right = the 24h mean; **Up N%** = share of signals with a higher price after 24h. Cohorts with fewer than 10 resolved 24h moves are faded and dashed (**Low n**).
+* The moves are not adjusted for the signal's direction: for a bearish cohort a dip below the line means price fell as called — read it as context, not as a win or loss.
+* When a window is locked on your plan, the Visual is not shown for it.
+
+<figure><img src=".gitbook/assets/shot-visual-expectancy-terrain.jpg" alt="Expectancy Map in Visual: expectancy terrain"><figcaption><p>Expectancy Map → Visual: the raw mean move after each signal cohort at +1h, +4h and +24h.</p></figcaption></figure>
+
+Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it. **Context signal · not a signal**.
+
 ## Pairs
 
 <figure><img src=".gitbook/assets/shot-pairs-scanner.jpg" alt="Pairs scanner — stretched pairs with z-score, setup, correlation, half-life and funding carry"><figcaption><p>The Pairs scanner: each card is a pair with its spread z-score, setup, correlation, half-life and net funding carry.</p></figcaption></figure>

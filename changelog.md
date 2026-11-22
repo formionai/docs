@@ -4,6 +4,19 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 22 November 2026
 
+### Visual mode — bots, strategies, backtests, journal and trade ticket
+
+* New **Classic · Visual** views for every user on every plan (11 panels):
+  * **Bots** — All Bots bot hangar.
+  * **Strategies** — Backtest replay, My Strategies cards, Compare equity race, Strategy Forge anvil, DCA Backtest → Stocks ladder.
+  * **Signals** — Expectancy Map terrain.
+  * **Screener** — Zone Hunter → Trend Shift replay.
+  * **Journal** — Trades journal mirror; **Trade Book** as a flow.
+  * **Trade** — ticket risk preview (display only, never places an order).
+* Same data as Classic, same plan limits; **Auto** still starts these panels in Classic.
+* Every view is labelled **Context signal · not a signal** (My Strategies, Compare, Trend Shift: **Collecting data · not a signal**; Strategy Forge shows its verdict word).
+* Details: [Settings](settings.md)
+
 ### Visual mode — signals, Pulse, news and Swarm
 
 * New **Classic · Visual** views for every user on every plan (9 panels):

@@ -98,6 +98,8 @@ Economic calendar (impact-colored), AI-scored impact news (bullish/bearish/neutr
 
 A live order-entry dock: symbol search, size calculator, entry/stop/TP brackets, real-time P&L and position management.
 
+**Classic · Visual — Ticket risk preview.** A switch under the trade panel draws the numbers your order ticket already shows, as soon as it has an entry price: a price ladder with the red risk zone (entry → stop) and green reward zone (entry → target), loss vs win bars with R/R, risk as % of available equity (marks at 2 % and 5 % — where the ticket warns and blocks) and, for futures, margin as % of available (mark at 80 %) plus the simple liquidation estimate. **Display only:** it never quotes, places or edits an order — orders go only through the ticket's own Buy / Sell buttons. **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ### 🦾 Bots
 
 <figure><img src=".gitbook/assets/s2-the-app-bots.jpg" alt="Bots"><figcaption></figcaption></figure>
