@@ -4,6 +4,17 @@ What is new in Formion and in these docs, newest first. Every entry has a short 
 
 ## 22 November 2026
 
+### Visual mode — listings, Polymarket, US stocks and Wallet
+
+* New **Classic · Visual** views for every user on every plan (8 panels):
+  * **Coins Hub** — Presale Watch countdown dial.
+  * **Data Hub** — Listings launch radar; US Stocks → Themes ring.
+  * **Polymarket** — Markets probability ribbons; Top Traders podium.
+  * **Formion Wallet** — Radar new-pair sonar, FOM Lock level ring, FOM holder map.
+* Same data as Classic, same plan limits; **Auto** still starts these panels in Classic.
+* Every view is labelled **Context signal · not a signal**.
+* Details: [Settings](settings.md)
+
 ### Visual mode — bots, strategies, backtests, journal and trade ticket
 
 * New **Classic · Visual** views for every user on every plan (11 panels):

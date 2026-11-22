@@ -188,6 +188,22 @@ On the wallet overview a **Classic · Visual** switch sits above the portfolio c
 
 <figure><img src=".gitbook/assets/shot-visual-wallet.jpg" alt="Formion Wallet in Visual: portfolio flow"><figcaption><p>Wallet → Visual: your holdings as orbs around the total value.</p></figcaption></figure>
 
+### More Visual views — Radar, FOM Lock and FOM holders
+
+Three more wallet panels have a **Classic · Visual** switch:
+
+* **Radar → Live feed** — **New-pair sonar**: one sector per chain (Ethereum, BNB Chain, Base, Solana; a green dot by the logo = that chain's indexer is live). Every launch is a bubble: distance from the centre = time since its first trade (log scale; the outer rim = the oldest launch in view), size = initial liquidity, colour = the Risk Scan grade (green safe, amber caution, red danger) or its measured status (red cross = honeypot, dim grey = rugged, dashed grey = dead, hollow = not scanned yet). New launches arrive with a ping; tap a bubble for its details. Every number is a simulated measurement — nothing is traded.
+* **Earn → FOM Lock** — **FOM Lock level ring** (when the wallet has a Base address): the outer ring = your counted lock value on the official ladder **Holder $250 · FORA Agent $1,000 · Agent Pro $5,000 · FORA AGI $25,000** (four equal quarters); only the level you actually hold is lit (a lock shorter than 90 days stays at Holder). The middle arc = time from lock start to lock end; an inner amber arc appears only while unbonding (7 days from your unlock request). The ring fills from zero each time you open it — a replay of today's value, not growth. Beta, no yield or profit promise.
+* **Explorer → FOM → Holders** — **Live holder map**: the top FOM holders as bubbles (size = share of supply, colour = cluster of wallets linked by transfers, dashed ring = vesting or lock contract). Each line is FOM moved between two of these wallets (the direction is not recorded); brighter = more FOM. Click a bubble for its balance and **Open wallet**.
+
+<figure><img src=".gitbook/assets/shot-visual-radar-sonar.jpg" alt="Wallet Radar in Visual: new-pair sonar"><figcaption><p>Radar → Visual: every new launch as a bubble — farther out = older, colour = Risk Scan grade or status.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-fomlock-ring.jpg" alt="FOM Lock in Visual: level ring"><figcaption><p>FOM Lock → Visual: counted lock value on the official level ladder, with the lock period arc (test wallet).</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-holder-map.jpg" alt="FOM Holders in Visual: live holder map"><figcaption><p>FOM Holders → Visual: top holders sized by share of supply, linked by recorded transfers.</p></figcaption></figure>
+
+On-chain facts and simulated measurements only — not a buy list and no recommendation. **Context signal · not a signal**. Same data as Classic — nothing new is fetched, stored or signed; **Classic** is the default and one click on **Visual** switches.
+
 ## Gas in USDC and passkey account
 
 | Feature | What it does |

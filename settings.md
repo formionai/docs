@@ -30,7 +30,7 @@ Above each supported panel there is a **Classic · Visual** switch. Your last cl
 * **Data Hub → Multi-Exchange** — the exchange orchestra ([Data Hub](data-hub.md))
 * **HL Whales** — the liquidation radar ([Copy Trading & Whale Tracking](copy-trading.md))
 * **Quantum Screener → Strength Rank** — the strength race ([Quantum Screener](screener.md))
-* **Formion Wallet** — Portfolio flow on the overview ([Formion Wallet](wallet.md))
+* **Formion Wallet** — Portfolio flow on the overview, Radar new-pair sonar, FOM Lock level ring and FOM holder map ([Formion Wallet](wallet.md))
 * **Quantum Screener** — Trends, Trend, Regime Detector, Bias Map, RSI / MACD / VWAP / EMA heatmaps, Zone Hunter, Hunt, Divergences, Patterns and Watchlist ([Quantum Screener](screener.md))
 * **Data Hub** — HL Perps, OI Surge, Funding & Arb (Desk and Spreads) and DEX Flow ([Data Hub](data-hub.md)); Order Flow print rain, Order Book depth canyon, Imbalance scales and the Liquidation scanner ([Order Flow](order-flow.md))
 * **Options** — Gamma landscape and the Options · Vol signal surface ([Options & GEX](options.md))
@@ -40,6 +40,7 @@ Above each supported panel there is a **Classic · Visual** switch. Your last cl
 * **Community and news** — Pulse Traders (v3) ([Formion Pulse](pulse.md)), Economic Calendar ([News 24/7 & Macro](news.md)), Swarm ([Formion Swarm](swarm.md))
 * **Bots, strategies and backtests** — All Bots ([Bots & Automation](bots.md)); Backtest, My Strategies, Compare, Strategy Forge and DCA Backtest → Stocks ([Strategy Lab](strategy-lab.md)); Expectancy Map ([Analytics](analytics.md)); Zone Hunter → Trend Shift ([Quantum Screener](screener.md))
 * **Journal and trading** — Journal Trades ([Trading Journal](journal.md)), Trade Book ([Trades History](trades-history.md)), the Trade ticket ([The App](the-app.md))
+* **Listings, Polymarket and US stocks** — Presale Watch ([Coins Hub](coins-hub.md)), Listings and US Stocks → Themes ([Data Hub](data-hub.md)), Polymarket markets and Top Traders ([Prediction Markets](prediction-markets.md))
 
 ### A direct link
 

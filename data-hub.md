@@ -60,6 +60,7 @@ Each view below has a **Classic · Visual** switch. Visual draws the **same answ
 * **Funding & Arb → Desk** — **Funding clock**: the top 8 pairs of your view on one clock face for the next 8 hours; every tick is a funding settlement of the long or short leg, green when it pays the position at today's rate, red when it costs. Net APR is the page's own number after the measured round trip — today's rates, not a forecast.
 * **Funding & Arb → Spreads** — **Spread bridges**: the six spot exchanges on a circle; bridges run from the exchange where a coin is cheapest to buy to the one where it is dearest to sell (thickness = 24 h volume). A dashed amber bridge = **verify same token**. A price gap is not a profit: fees, transfer time and closed withdrawals sit in between.
 * **DEX Flow** — **DEX rivers**: one river per chain (Solana, Base, Avalanche); every pool is a wave — taller = more 24 h volume, faster = busier last hour, green = more buy swaps, red = more sells. A swap count is not dollar flow.
+* **Listings** — **Launch radar**: one sector per venue (Binance, Bybit, OKX); every listing of a USDT perp is a dot in its venue's sector — the closer to the centre, the more recent the listing. Colour = the coin's 24 h change (green up, red down, grey none), size = 24 h volume; a thin line joins the dots of a coin listed on several venues. When the list hits its 120-row limit the rim is the oldest returned coin (**newest 120 · back to Nd**). A map of where and when coins were listed — not a trade idea.
 
 <figure><img src=".gitbook/assets/shot-visual-hl-perps-map.jpg" alt="HL Perps in Visual: live market map"><figcaption><p>HL Perps → Visual: open interest per market, coloured by the 24 h move.</p></figcaption></figure>
 
@@ -68,6 +69,8 @@ Each view below has a **Classic · Visual** switch. Visual draws the **same answ
 <figure><img src=".gitbook/assets/shot-visual-spread-bridges.jpg" alt="Arbitrage in Visual: spread bridges"><figcaption><p>Spreads → Visual: from the cheapest ask to the highest bid between exchanges.</p></figcaption></figure>
 
 <figure><img src=".gitbook/assets/shot-visual-dex-rivers.jpg" alt="DEX Flow in Visual: DEX rivers"><figcaption><p>DEX Flow → Visual: one river per chain, one wave per pool.</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/shot-visual-listing-radar.jpg" alt="Listings in Visual: launch radar"><figcaption><p>Listings → Visual: new USDT-perp listings per venue; closer to the centre = more recent.</p></figcaption></figure>
 
 Every view is labelled **Context signal · not a signal**.
 
@@ -129,6 +132,16 @@ flowchart LR
 {% hint style="warning" %}
 These are a third-party scanner's setups, all on the long side — not Formion trade recommendations and never a profit promise. Check the chart before acting on any of them.
 {% endhint %}
+
+**Themes — Classic · Visual (Theme ring).** On the **Themes** sub-tab a **Classic · Visual** switch under the filters draws the same themes (only those passing the name, crowding and type filters):
+
+* One slice per theme (Mainstream first, then Tomorrow). A bar grows outward for a positive basket return in the chosen period (green) and inward for a negative one (red); a grey arc = no figure for that period. An amber dot on the rim = the feed marks the theme **crowded**.
+* Period switch **1D · 1W** (default) **· 1M · 3M · 1Y** — every bar morphs to the new return. The centre counts themes up and down.
+* Below: the 3 highest (**Leading**) and 3 lowest (**Lagging**) returns, each coloured by its own sign — on a day when every theme is down, Leading shows red numbers.
+
+<figure><img src=".gitbook/assets/shot-visual-equity-theme-ring.jpg" alt="US Stocks Themes in Visual: theme ring"><figcaption><p>US Stocks → Themes → Visual: one slice per theme; green bars out = up, red bars in = down over the period.</p></figcaption></figure>
+
+Theme basket returns, not stock picks — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
 
 {% hint style="info" %}
 Use the Data Hub to answer *why* a Screener row is moving — and to catch shifts (an OI surge, a funding flip) **before** they show up in price.

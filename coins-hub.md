@@ -140,6 +140,15 @@ Click a coin's name to open its detail view; **Back to coins** returns to the ta
 Listing and voting sites sell promotion slots and many votes are bots. **No trap found** only means none of the checked traps was detected — it is not a recommendation to buy. Not financial advice.
 {% endhint %}
 
+**Classic · Visual — Presale countdown.** Under the four verdict tiles a **Classic · Visual** switch draws the same token list (same chain, safety and site filters) on a 24-hour dial:
+
+* The hand at 12 o'clock is now; time runs back counter-clockwise. Each dot is a token launched (or first seen, when the site gives no launch time) in the last 24 h, on one lane per chain (inside out: Solana, BNB Chain, Ethereum, Base, other chains).
+* Dot colour = the safety label exactly as Classic (red **Danger**, amber **Suspect**, green **No trap found**, grey **Not checked**); bigger dot = more votes; older dots are fainter. A scan line replays the day every 6 s.
+* Upcoming launches (the first 4) sit in countdown rings that empty as the launch gets closer (full ring = 7 days or more left).
+* Tiles: launched in the last 24 h and upcoming (this view), plus the all-sites median 24 h change and **Dead in 24 h** share — gross quote observations, not fills or P&L.
+
+A launch clock, not a buy list — **Context signal · not a signal**. Same data as Classic, same plan limits; **Auto** (the default in [Settings → Visual mode](settings.md)) starts it in Classic — one click on **Visual** switches, and the panel remembers it.
+
 ## 🎯 Sniper and 🔄 DEX Swaps (login needed)
 
 <figure><img src=".gitbook/assets/shot-coins-hub-sniper.jpg" alt="Sniper — New Pairs across chains"><figcaption><p>Sniper → New Pairs — fresh pools across chains with liquidity, pool age, tax and lock fields (sign-in needed).</p></figcaption></figure>
