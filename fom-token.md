@@ -187,7 +187,7 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Signal table history (days) | 7 | 14 | 14 | 30 | 30 |
 | Live bots | 0 | 0 | 0 | 0 | 1 |
 | cTrader brokers | 1 | 1 | 2 | 2 | 3 |
-| Active FORA Neurons | 2 | 2 | 3 | 4 | 5 |
+| Active FORA Neurons | 2 | 2 | 2 | 2 | 5 |
 | Pulse traders you follow | 1 | 2 | 2 | 3 | 3 |
 | Quantum Scout: your X accounts | 0 | 0 | 0 | 1 | 2 |
 | Quantum Scout: your Telegram channels | 0 | 0 | 0 | 1 | 2 |
@@ -216,7 +216,7 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 | Active custom alerts | 100 | 150 | 250 | 500 |
 | Live bots | 5 | 6 | 8 | 10 |
 | cTrader brokers | 5 | 6 | 8 | 10 |
-| Active FORA Neurons | 25 | 30 | 35 | 40 |
+| Active FORA Neurons | 25 | 25 | 25 | 25 |
 | Pulse traders you follow | 10 | 20 | 20 | 20 |
 | Quantum Scout: your X accounts | 5 | 6 | 8 | 10 |
 | Quantum Scout: your Telegram channels | 5 | 6 | 8 | 10 |
@@ -255,7 +255,8 @@ New to FOM? Follow **[How to hold, lock and unlock — step by step](fom-hold-vs
 
 FORA video tutorials and PDF guides also get better production with each step (music, word-by-word captions, narration, voice choice, premium voice and real screen recording) and do not use the boost AI allowance — see **[FORA Video & PDF Tutorials](fora-tutorials.md)**.
 Free accounts also get more Trading Audits with a boost (one a month from F2, two a month at F3, one a week at the Holder step) and
-FORA Neurons trade proposals from F3. Reaching **$1,000 locked for 90+ days** still gives the full **Pro licence** (FORA Agent level), and
+FORA Neurons follow the **FOM Holder** level instead of the steps: $250 locked or $500 held gives 5 Neurons, 30 Telegram messages a day and
+1 trade proposal a day — see **[FORA Neurons](fora-neurons.md#neurons-you-choose--your-plan)**. Reaching **$1,000 locked for 90+ days** still gives the full **Pro licence** (FORA Agent level), and
 $5,000 the **Institutional licence**, as described above — the boost then continues on that plan.
 
 ## Dossier Autopilot — live trading with FOM

@@ -30,7 +30,9 @@ Pay at the **formion.ai checkout** in crypto — **USDT or USDC** on Ethereum, B
 | **AI signals stack** | Trade Vision + RAG Research within daily limits | Full (RAG, Trade Vision, RF, Multi-AI Consensus, all signals) | Same as Pro, priority AI queue |
 | **Signal tables** (screener, setup scanner, volatility, signals, patterns, options, Strategy Finder) | 3-row preview · last 7 days of history · signals delayed 30 min | Full, real-time, full history | Full, real-time, full history |
 | **FORA realtime voice** | ✅ (mini model) | ✅ (mini model) | ✅ (full model) |
-| **FORA Neurons (active)** | 2 | 25 | Unlimited |
+| **FORA Neurons (active)** | 2 (FOM Holder: 5) | 25 | Unlimited |
+| **FORA Neurons: fastest check · Telegram a day** | 15 min · 15 (FOM Holder: 5 min · 30) | 2 min · 60 | 1 min · 150 |
+| **FORA Neurons: trade proposals · trade cards** | — (FOM Holder: 1 proposal / 24 h) | 10 / 24 h · up to 5 cards per Neuron a day | 30 / 24 h (FORA AGI: 60) · up to 10 cards per Neuron a day |
 | **FORA planner (My plan)** | Token, why and FORA's opinion — no numbers (up to 3) | Entry, size for your bankroll, OUR exit steps + FORA follows every step (up to 5) | Same as Pro (up to 10) |
 | **KOL watch Neuron** | 1 token of opportunity per 7 days (no numbers) | ✅ 5 proposals / day with OUR plan | ✅ 20 proposals / day with OUR plan |
 | **Saved AI strategies** | 1 | Unlimited | Unlimited |

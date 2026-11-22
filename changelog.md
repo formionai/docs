@@ -2,6 +2,24 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 22 November 2026
+
+### FORA Neurons — you choose every Neuron, clear rules per plan
+
+* You start with no Neurons; nothing is added for you.
+* FORA in chat (app and dashboard) shows a card **Add this Neuron?** — it is created only when you click it.
+* New **Your plan** card on Neurons: level, Neurons in use, Telegram today, trade proposals, trade cards, DEMO autopilot.
+* Plans:
+  * Free: 2 Neurons, check every 15 min, 15 Telegram messages a day.
+  * FOM Holder ($500 held or $250 locked): 5 Neurons, 5 min, 30 a day, 1 trade proposal a day.
+  * Pro or FORA Agent lock: 25 Neurons, 2 min, 60 a day, 10 proposals, trade cards, DEMO autopilot.
+  * Institutional or Agent Pro lock: unlimited, 1 min, 150 a day, 30 proposals (FORA AGI: 60).
+* Locked types show which level opens them; FOM Holder types offer **Unlock with FOM Holder** first.
+* Trade cards: up to 5 per Neuron a day on Pro (10 on Institutional); the rest come in one message the next day.
+* A lower plan pauses what no longer fits — nothing is deleted.
+* Every message now has the same layout: what happened, what it means, levels, status.
+* Details: [FORA Neurons](fora-neurons.md)
+
 ## 18 November 2026
 
 ### Visual mode — HL Whales, Multi-Exchange, Strength Rank and Wallet

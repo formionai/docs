@@ -6,7 +6,83 @@
 A Neuron never trades by itself — a proposal opens only when you tap it, on a DEMO account (Bybit for crypto, cTrader for gold and FX). Planner and KOL watch plans are never executed for you: you buy in your own wallet and confirm every swap.
 {% endhint %}
 
-Active Neurons per plan: **Neural (Free) 2 · Pro 25 · Institutional unlimited** (a FOM boost adds more — see **[FOM token](fom-token.md)**). Pricing details: **[Pricing & Tiers](pricing.md)**.
+Active Neurons per plan: **Free 2 · FOM Holder 5 · Pro 25 · Institutional and FORA AGI unlimited** — the full table is in **[Neurons you choose — your plan](#neurons-you-choose--your-plan)** below. Pricing details: **[Pricing & Tiers](pricing.md)**.
+
+## Neurons you choose — your plan
+
+You start with **no Neurons**. Nothing is added for you:
+
+* Pick a type under **New Neuron** and press **Create Neuron**, or
+* ask FORA in chat (app.formion.ai or formion.ai/dashboard). She shows a card **Add this Neuron?** — the Neuron is created only when you click it.
+* Templates, the chart button and the Telegram buttons are also your own clicks.
+
+<figure><img src=".gitbook/assets/shot-neurons-your-plan.jpg" alt="Your plan card on Neurons: plan level, Neurons in use, Telegram messages today, trade proposals in the last 24 hours, trade cards and DEMO autopilot, with Compare plans"><figcaption><p><strong>Your plan</strong> at the top of Neurons: what your plan gives and how much of it you use today (Docs Demo account, Pro plan).</p></figcaption></figure>
+
+| | Free | FOM Holder | Pro · FORA Agent lock | Institutional · Agent Pro lock | FORA AGI |
+|---|---:|---:|---:|---:|---:|
+| **Active Neurons** | 2 | 5 | 25 | Unlimited | Unlimited |
+| **Fastest check** | 15 min | 5 min | 2 min | 1 min | 1 min |
+| **Telegram messages a day** | 15 | 30 | 60 | 150 | 150 |
+| **Trade proposals (24 h)** | — | 1 | 10 | 30 | 60 |
+| **Trade cards** | — | — | ✅ up to 5 per Neuron a day | ✅ up to 10 per Neuron a day | ✅ up to 10 per Neuron a day |
+| **DEMO autopilot** | — | — | ✅ | ✅ | ✅ |
+
+How you reach each level:
+
+* **FOM Holder** — hold $500 of FOM (the lowest balance of the last 7 days) or lock $250 of FOM in **[Formion Wallet](wallet.md) → Earn → FOM Lock** (Beta). Your FOM stays yours.
+* **Pro** — the Pro plan (7-day free trial), or a FORA Agent FOM Lock of $1,000 for 90+ days.
+* **Institutional** — the Institutional plan, or an Agent Pro FOM Lock of $5,000 for 90+ days.
+* **FORA AGI** — a FORA AGI FOM Lock of $25,000 for 90+ days.
+
+More about holding and locking: **[FOM token](fom-token.md)**.
+
+### Which Neuron types each plan opens
+
+| Plan | Neuron types |
+|---|---|
+| **Every plan** | Price level · Fast move · Volatility spike · Extreme funding · Open interest · News watch · Daily brief · Price action · Liquidation level · Macro playbook · Setup candidates · Position guard · Goal |
+| **FOM Holder and up** | Social watch · Several conditions · Liquidity alerts · Currency strength · Liquidity walls · Market data feeds · My strategy signal |
+| **Pro and up** | Research watch · Trader coach · KOL watch · Options regime |
+| **Trade cards — Pro and up** | GPTBot trade cards · Verified setups · Spot scout · Futures scout |
+
+* A type above your plan shows a lock with the level that opens it. A FOM Holder type offers **Unlock with FOM Holder** first and the Pro plan as the second way.
+* The fastest check of your plan is applied automatically: a faster value is raised to it.
+* Your Telegram limit can only be lowered by you, never raised above the plan.
+
+<figure><img src=".gitbook/assets/shot-neurons-catalog-lock.jpg" alt="The lock on a FOM Holder Neuron type: Social watch is on the FOM Holder plan, with Unlock with FOM Holder (Beta), Or unlock with Pro, Try Pro free for 7 days and the FOM Holder level line: hold $500 of FOM or lock $250 of FOM in the wallet"><figcaption><p>New Neuron → a locked type: <strong>Unlock with FOM Holder</strong> first, the Pro plan second (Free plan view).</p></figcaption></figure>
+
+### Trade cards
+
+Trade cards carry an entry, a stop and a target — always labelled with whose levels they are (the bot's own, or OUR rule's). FORA never trades for you.
+
+* **From Pro.** GPTBot trade cards, Verified setups, Spot scout and Futures scout.
+* **Only from segments that do not lose.** A card goes out only when that segment's own measured record passes our gate.
+* **Status on every card.** Today: Verified setups (setup B) = **Verified**; the others = **Collecting data**.
+* **Daily limit per Neuron.** 5 by default; you can set a lower number (**Cards per day**). The plan sets the most: Pro 5, Institutional and FORA AGI 10.
+* **Nothing is lost.** Cards over the limit come together in **one message the next day** (daily digest).
+* **One card, not three.** The same coin and side from several GPTBot books within 6 hours is one card ("2 books agree"). A close message goes only for a card you got.
+
+### When your plan changes
+
+* Going to a lower plan (or a FOM Lock ending) **pauses** what no longer fits — it never deletes anything.
+* The newest Neurons above the new limit are paused first; types above the plan are paused; checks are slowed to the plan's fastest; DEMO autopilot is switched off.
+* You get one message in the app (and on Telegram, if you linked it) that names what was paused. On a plan that includes it again, press **Resume**.
+
+### What a Neuron message looks like
+
+Every message uses the same layout, with a blank line between blocks:
+
+* **Title** — the asset and what happened, with one emoji.
+* **What happened** — one or two lines.
+* **What it means** — one or two honest lines.
+* **Levels** — 🧱 resistance · 🛡️ support · 📍 entry zone · ⛔ stop · 🎯 target (only levels that exist).
+* 📊 **A history line only when it is real** (enough cases and stable). Otherwise: *Context signal — no measured advantage in our history*.
+* The status — **Verified**, **Collecting data** or **Context signal** — with the sample size.
+* 🧭 the market state, 🧠 one sentence from FORA and 🕒 the time.
+
+<figure><img src=".gitbook/assets/shot-neurons-message.jpg" alt="A FORA Neuron trade card in the new layout: title, What happened, What it means with the forward record, Levels / plan with entry, stop and target, the Verified status line, market state, FORA sentence and the time"><figcaption><p>A real Verified setups trade card as it arrives on Telegram (22 Nov 2026).</p></figcaption></figure>
+
+The same event on the same asset and side goes out once in 6 hours, and the same news from several sources once in 2 hours.
 
 ## The Neurons dashboard
 
@@ -19,7 +95,7 @@ Open **Neurons** in the main menu of [app.formion.ai/neurons](https://app.formio
 | Tile | What it counts |
 |---|---|
 | **Active** | Neurons running now, with your plan's limit under the number (for example Pro: 4 / 25). |
-| **Paused** | Neurons you paused, or that are paused by your plan limit. |
+| **Paused** | Neurons you paused, or that are paused by your plan (see **When your plan changes**). |
 | **Fired today** | How many times your Neurons fired today. |
 | **Proposals today** | Trade and KOL proposals made today. |
 | **Telegram today** | Messages delivered to your Telegram today. |
@@ -77,7 +153,7 @@ Everything above also works in **[FORA](fora.md)** chat and by voice — she use
 | You say | FORA does |
 |---|---|
 | *"Show me my neurons"* | The dashboard counts and every Neuron with its last and next check. |
-| *"Tell me when BTC goes above 100k"* | Creates a Neuron, within your plan's limits. |
+| *"Tell me when BTC goes above 100k"* | Shows a card **Add this Neuron?** — the Neuron is created when you click it, within your plan. |
 | *"Pause my gold alert"* | Pauses it. |
 | *"Turn ETH funding back on"* | Resumes it. |
 | *"Change the level to 95k for BTC 100k"* | Updates only that value. |
