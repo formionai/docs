@@ -2,6 +2,19 @@
 
 What is new in Formion and in these docs, newest first. Every entry has a short title, the changes in short lines, and a link to the page with the details.
 
+## 23 November 2026
+
+### FORA Neurons — how they decide
+
+* New section **How Neurons decide**: what each source may do (signal, filter, context, shadow).
+* A trade card needs a **Verified** signal, fresh data, its own entry, stop and target, and no blocking filter.
+* Verified setups cards show the **🧠 Brain: N agree, M disagree** line (context only).
+* **At most 10 messages a day** by default; the rest in **one digest at 21:00**.
+* A message built from a stale feed says **⏳ Data from … — feed stale since …**.
+* **Self-learning**: sources move up or down only by a rule fixed in advance; GPTBot today: Collecting data.
+* New explainer clip.
+* Details: [FORA Neurons](fora-neurons.md)
+
 ## 22 November 2026
 
 ### Visual mode — listings, Polymarket, US stocks and Wallet

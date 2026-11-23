@@ -84,6 +84,53 @@ Every message uses the same layout, with a blank line between blocks:
 
 The same event on the same asset and side goes out once in 6 hours, and the same news from several sources once in 2 hours.
 
+## How Neurons decide
+
+Every source a Neuron reads has one **measured role**. The role decides what the source may do — never its popularity.
+
+| Role | What it may do |
+|---|---|
+| **Signal** | May make a trade card — but only when its own record is **Verified**. Today that is **Verified setups** (setup B, OUR rule). |
+| **Filter** | May stop a card. Today: a card whose round-trip cost is more than **0.20 R** of its stop is not sent, and longs on alts are not sent (they lose in our measured segment map). |
+| **Context** | Market state, trend maps, order flow, predictions, other traders' ideas. Never adds a level and never blocks; it can only lower confidence. |
+| **Shadow** | Measured all the time, never sent to you. |
+
+<figure><video src=".gitbook/assets/clip-fora-neurons-decide.mp4" title="How FORA Neurons decide: source roles, a Verified signal with its own levels, the filters, the context votes and the Brain line, then delivery with at most 10 messages a day and the 21:00 digest (DEMO values)."></video><figcaption><p>From the source to your Telegram: roles → own levels → filters → context → delivery (DEMO values).</p></figcaption></figure>
+
+### A trade card needs all four
+
+* The source is a **Verified signal**.
+* Its data is **fresh**.
+* It set its **own entry, stop and target** (we never invent a level).
+* **No filter** blocks it.
+
+Otherwise the idea is skipped, with the reason. **"No good trade now"** is a valid answer.
+
+### The Brain line
+
+A Verified setups card carries one extra line: **🧠 Brain: N source(s) agree, M disagree** (context only, levels unchanged). It says **confidence lower** when the market state disagrees, or when at least 2 more sources disagree than agree.
+
+### At most 10 messages a day
+
+* By default you get **at most 10 Neuron messages a day** on Telegram. You can set your own number up to your plan's limit (Free 15 · FOM Holder 30 · Pro 60 · Institutional and FORA AGI 150).
+* The rest — and a second message about the same coin from another Neuron within 30 minutes — comes in **one digest at 21:00** (anything held after 21:00: the next morning after 07:00).
+* Trade cards and urgent position alerts always go at once. In the app you always see everything.
+
+<figure><img src=".gitbook/assets/shot-neurons-delivery.jpg" alt="Telegram delivery settings on Neurons: quiet hours switch, Telegram messages per day set to 10, sent today 0 and the plan limit of 60, Save"><figcaption><p><strong>Telegram delivery</strong>: 10 messages a day by default, your own number up to the plan limit (Docs Demo account, Pro plan).</p></figcaption></figure>
+
+### When a data feed blinks
+
+A Neuron may use the last good copy of a feed for a short time. Its message then says so: **⏳ Data from HH:MM — feed stale since HH:MM**. Without that line, the data is live.
+
+### Self-learning
+
+* The rule that promotes or demotes a source is **written down before any result is seen**.
+* A source (or one part of it, such as shorts in a downtrend) becomes a signal or a filter only when it holds on **days it never saw**, with **at least 30 closed results over at least 14 days**, a 95 % range on one side of zero, a correction for everything tested at once, and the same sign in both halves of its history.
+* It drops back by itself when its recent record turns.
+* GPTBot is decided by the same rule — today: **Collecting data**.
+* Every change is logged and can be undone by the Formion team.
+
+
 ## The Neurons dashboard
 
 Open **Neurons** in the main menu of [app.formion.ai/neurons](https://app.formion.ai/neurons?utm_source=docs&utm_medium=referral&utm_campaign=docs) — the green number next to it is how many Neurons you have active — or tap the Neurons icon in the FORA chat header. The dashboard answers one question: **what did my Neurons do, exactly when, why, and where did it go?**
